@@ -2,18 +2,23 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
+
+environment: dev # prod
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Fernando Moreira
-tagline: Desenvolvedor Front-end ❤ Wordpress
+title : "Fernando Moreira"
+tagline: "Desenvolvedor Front-end ❤ Wordpress"
+description: "Fernando Moreira - Desenvolvedor Front-end ❤ Wordpress, Responsive Web design, HTML5, CSS3 e JavaScript"
+keywords: "site, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, responsive, design, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
+
 author :
-  name : Fernando Moreira
-  email : hi@nandomoreria.me
-  github : nandomoreriame
+  name    : Fernando Moreira
+  email   : hi@nandomoreria.me
+  github  : nandomoreriame
   twitter : nandomoreriame
   # feedburner : feedname
 
@@ -104,7 +109,7 @@ JB :
     gauges :
         site_id : 'SITE ID'
     google :
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-52446115-1'
     getclicky :
       site_id :
     mixpanel :

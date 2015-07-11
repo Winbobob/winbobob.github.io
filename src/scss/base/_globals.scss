@@ -1,0 +1,53 @@
+//
+// Global styles
+//
+
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+body {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 20px;
+  color: #404040;
+  background-color: #f9f9f9;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+
+a {
+  color: #404040;
+
+  &:hover, &:focus {
+    color: #0085a1;
+  }
+
+  img {
+    &:hover, &:focus {
+      cursor: zoom-in;
+    }
+  }
+}
+
+blockquote {
+  color: #808080;
+  font-style: italic;
+}
+
+hr.small {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: white;
+}

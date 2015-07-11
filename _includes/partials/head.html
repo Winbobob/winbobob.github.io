@@ -1,0 +1,68 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<title>
+  {% if page.title %}
+    {{ page.title }} | {{ site.title }}
+  {% else %}
+    {{ site.title }} | {{ site.tagline }}
+  {% endif %}
+</title>
+
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+{% else %}
+  <meta name="description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.tags %}
+  <meta name="keywords" content="{{ page.tags }}">
+{% else %}
+  <meta name="keywords" content="{{ site.keywords }}">
+{% endif %}
+
+<meta name="author" content="{{ site.author.name }}">
+
+<link href="{{ ASSET_PATH }}/css/main{% if site.environment == 'prod' %}.min{% endif %}.css" rel="stylesheet" type="text/css" media="all">
+
+<link rel="canonical" href="{{ site.production_url }}">
+
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<meta property="og:url" content="{{ site.production_url }}{{ page.permalink }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="article:publisher" content="https://www.facebook.com/fernando.dev">
+<meta property="fb:app_id" content="668905279849616">
+
+{% if page.thumb %}
+<meta property="og:image" content="{{ page.thumb }}">
+{% else %}
+<meta property="og:image" content="/assets/images/facebook.png">
+{% endif %}
+
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="470">
+<meta property="og:image:height" content="246">
+
+<!-- atom & rss feed -->
+<link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+<link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+<!-- Favicons -->
+<!--
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/ico/apple-touch-icon-144.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/ico/apple-touch-icon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/ico/apple-touch-icon-72.png">
+<link rel="apple-touch-icon" href="/assets/images/ico/apple-touch-icon-57.png">
+<link rel="shortcut icon" href="/assets/images/ico/favicon.png">
+-->
+
+<!--[if lt IE 9]>
+  <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
