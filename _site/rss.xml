@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+        <title>Fernando Moreira</title>
+        <description>Fernando Moreira - Fernando Moreira</description>
+        <link>http://nandomoreriame.github.io</link>
+        <atom:link href="http://nandomoreriame.github.io/rss.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 10 Jul 2015 21:59:29 -0300</lastBuildDate>
+        <pubDate>Fri, 10 Jul 2015 21:59:29 -0300</pubDate>
+        <ttl>60</ttl>
+
+
+
+</channel>
+</rss>
