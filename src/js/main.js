@@ -1,4 +1,4 @@
-var app = (function() {
+var application = (function() {
   'use strict';
 
   // Used to run scripts when the HTML is ready
@@ -10,10 +10,13 @@ var app = (function() {
   }
 
   return {
-    init: init
+    init: init,
+    fastInit: fastInit,
   };
 
 }());
+
+var app = application;
 
 $(window).load(function() {
   'use strict';
