@@ -1,0 +1,60 @@
+---
+layout: post
+title: Trabalhando com arquivos .zip no PHP
+date: 2013-01-10 22:51:42.000000000 -02:00
+categories:
+- Dicas
+- PHP
+tags:
+- arquivos .zip
+- dicas
+- php
+- programação
+- tutorial
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _aioseop_title: Trabalhando com arquivos .zip no PHP
+  _aioseop_description: ! 'Hoje vou explicar como trabalhar com arquivos .zip no PHP
+    usando a classe ZipArchive().
+
+    O processo é muito simples e como todo programador sabe precisa criar uma instância
+    da classe, fica assim:'
+  _thumbnail_id: '1189'
+  dsq_thread_id: '2266176529'
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Olá meus queridos!<br />
+Hoje vou explicar como trabalhar com arquivos .zip no PHP usando a classe <code>ZipArchive()</code>.</p>
+<p>O processo é muito simples e como todo programador sabe precisa criar uma instância da classe, fica assim:</p>
+<p><!--more--></p>
+<p>[gist id="08546cf9f9dc115d4eb1"]</p>
+<p>Depois de instanciarmos a classe <code>ZipArchive()</code> precisamos abrir o arquivo <code>.zip</code>.</p>
+<p>Assim:</p>
+<p>[gist id="c93622631e1d4fb803b4"]</p>
+<p>&nbsp;</p>
+<blockquote><p>OBS: Eu estou abrindo um arquivo direto da pasta do projeto, mas os arquivos podem ser enviados via formulário sem problema.</p></blockquote>
+<p>&nbsp;</p>
+<h3>Extraindo os arquivos</h3>
+<p>Para extrair os arquivos que estão dentro de um <code>zip</code> usaremos o método <code>extractTo()</code>.<br />
+[gist id="04b0e53371000f0b2681"]<br />
+No código acima extraímos as imagens do arquivo <code>'zip_imagens.zip'</code> para a pasta <code>"imagens"</code>.</p>
+<h3>Contando o número arquivos de um zip</h3>
+<p>Para retornar a quantidade arquivos de dentro de um zip basta passar <code>$zip-&gt;numFiles</code>.<br />
+[gist id="fb567c61c4561156b367"]</p>
+<p>&nbsp;</p>
+<h3>Recuperando o nome dos arquivos</h3>
+<p>Usando o método <code>getNameIndex($indice)</code> e passando o numero do índice obteremos o nome do arquivo. Usaremos um <code>for()</code> recuperar esse índice e listar o nome de todos os arquivos que estão dentro de nosso <code>'zip_imagens.zip'</code>.<br />
+Fica assim:<br />
+[gist id="78a67f9846203e221a8e"]<br />
+Esse foi um breve passo-a-passo de alguns recursos da nossa classe <code>ZipArchive()</code>, para mais informações sobre acessem: <a href="http://www.php.net/zip" target="_blank">php.net/zip</a>. ;)</p>
+<p>Forte abraço!</p>

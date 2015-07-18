@@ -1,0 +1,44 @@
+---
+layout: post
+title: Diferença entre require(), require_once(), include, include_once()
+date: 2012-04-03 10:50:31.000000000 -03:00
+categories:
+- Dicas
+- PHP
+- Programação
+tags:
+- dicas
+- php
+- programação
+- tutorial
+status: publish
+type: post
+published: true
+meta:
+  superawesome: 'false'
+  _edit_last: '1'
+  jabber_published: '1333461032'
+  _wpas_done_linkedin: '1'
+  email_notification: '1333461033'
+  publicize_results: a:1:{s:7:"twitter";a:1:{i:120261365;a:2:{s:7:"user_id";s:13:"FernandynhoMC";s:7:"post_id";s:18:"187175258204282881";}}}
+  _wpas_done_twitter: '1'
+  _wpas_skip_fb: '1'
+  _wpas_skip_ms: '1'
+  _thumbnail_id: '312'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"12882217";s:7:"blog_id";s:8:"29059232";s:9:"mod_stamp";s:19:"2012-04-05
+    13:21:48";}
+  dsq_thread_id: '2808374347'
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Sabe que eu não sabia disso, e muito tempo utilizo as duas funcões.</p>
+<p><strong>include():</strong> Tenta incluir uma página. Caso de algum erro, o script retorna um warning (aviso) e prossegue com a execução do script. Aceita a passagem de variáveis (GET) na string. Pode ser utilizado em uma estrutura de condicionais que terá seu efeito perpetuado todas as vezes que for chamado.</p>
+<p><strong>Require():</strong> Tenta incluir uma página. Caso de algum erro, o script retorna um fatal error(erro fatal) (Que maravilha!) e aborta a execução do script. Aborta mesmo, já era não roda nada mais dali pra frente. Não aceita a passagem de variáveis (GET) na string. Não recomendo que utilizem nas estruturas condicionais, a menos que se deseje o seu efeito, de ser executada apenas uma vez.</p>
+<p><strong>include_once() e require_once():</strong> Idênticas as suas funções simples, porém se o arquivo referenciado já foi incluso na página anteriormente, a função retorna ‘false’ e o arquivo não é incluido. É bom quando temos muitos includes e já estamos perdidos, sem saber o que está incluindo o que.</p>
+<p>FONTE: <a href="http://webpub.wordpress.com/2007/11/11/diferenca-entre-require-require_once-include-include_once/" target="_blank">http://webpub.wordpress.com/</a></p>

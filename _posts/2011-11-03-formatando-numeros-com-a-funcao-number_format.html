@@ -1,0 +1,56 @@
+---
+layout: post
+title: Formatando números com a função number_format()
+date: 2011-11-03 11:11:58.000000000 -02:00
+categories:
+- Dicas
+- PHP
+- Programação
+tags:
+- dicas
+- php
+- programação
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  jabber_published: '1320329520'
+  _wpas_done_fb: '1'
+  _wpas_done_linkedin: '1'
+  _wpas_skip_twitter: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"12882217";s:7:"blog_id";s:8:"29059232";s:9:"mod_stamp";s:19:"2011-11-03
+    14:17:25";}
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>A <strong>função number_format() do PHP</strong>, além de <strong>trocar ponto(.) por vírgula(,)</strong>, também serve para definir quantas <strong>casas decimais</strong> teremos no valor.</p>
+<p>O número que é em Inglês <em>999.9</em> fica <em>999,90</em> no formato moeda brasileiro.<br />
+Além disso, podemos definir se irá exibir algum caracter a cada grupo de milhar(de mil em mil)</p>
+<p><strong><em>string number_format ( float $number, int $decimals, string $dec_point, string $thousands_sep )</em></strong></p>
+<p>podemos definir por:<br />
+<strong><em>valor texto number_format($valor_decimal, $casas_decimais,$caracter_definicao_decimal, $caracter_definicao_milhar)</em></strong></p>
+<p>Por exemplo, se quisermos que o número <em>1000</em> fique como <em>1.000</em>, utilizamos a função desta maneira:<code><br />
+</code></p>
+<pre lang="php" line="1"><?php $valor = 1000;
+echo number_format($valor,0,",",".");
+?></pre>
+<p>Agora se quisermos que o valor 1,000.9 (em formato inglês) tenha o formato 1.000,90 (real brasileiro), utilize:</p>
+<pre lang="php" line="1"><?php $valor = 1,000.9;
+echo number_format($valor,2,",",".");
+?></pre>
+<p>Se não quiser que tenha o ponto(.) entre as casas de milhar, deixe com o última parâmetro vazio:</p>
+<pre lang="php" line="1"><?php $valor = 1000.9;
+echo number_format($valor,2,",","");
+?></pre>
+<p>Existe uma maneira <del datetime="2008-10-24T18:46:06+00:00">gambiarra</del> para formatar número que eu não aconselho a utilizar. Seria algo do tipo:</p>
+<pre lang="php" line="1"><?php $valor = 100.9;
+echo str_replace(".",",",$valor);
+?></pre>
+<p>Fonte: <a title="Formatar moedas ou números decimais com a função number_format() do PHP" href="http://leocaseiro.com.br/moedas-decimais-funcao-number_format-php/" target="_blank">leocaseiro.com.br</a></p>

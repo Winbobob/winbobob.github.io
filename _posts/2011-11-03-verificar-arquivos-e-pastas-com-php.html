@@ -1,0 +1,55 @@
+---
+layout: post
+title: Verificar arquivos e pastas com PHP
+date: 2011-11-03 05:55:19.000000000 -02:00
+categories:
+- Dicas
+- PHP
+- Programação
+tags:
+- dicas
+- php
+- programação
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  jabber_published: '1320310519'
+  _wpas_done_linkedin: '1'
+  _wpas_done_twitter: '1'
+  _wpas_done_fb: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"12882217";s:7:"blog_id";s:8:"29059232";s:9:"mod_stamp";s:19:"2011-11-03
+    08:55:51";}
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Hoje irei falar sobre algo simples mas de grande importância para programadores PHP.</p>
+<p>Antes de excluirmos quaquer diretório ou arquivo devemos verificar se realmente existem.</p>
+<p>Para fazer essa verificação basta usar as funções existente do PHP a <strong><code>file_exists()</code></strong> e <strong><code>is_dir()</code></strong>.</p>
+<p>"Tá! E como eu faço?" é simples, utilizamos a verificação <strong><code>if()</code></strong> e dentro dela colocamos a função <strong><code>file_exists()</code></strong>.</p>
+<p>Fica assim:</p>
+<pre lang="php" line="1"><?php if(file_exists("diretorio/arquivo.pdf")) {
+    echo 'Arquivo encontrado!';
+}
+else {
+    echo 'Arquivo inexistente!';
+}
+?></pre>
+<p>Para verificar diretórios utilizamos o mesmo método mas com a função <strong><code>is_dir()</code></strong>.</p>
+<p>Veja:</p>
+<pre lang="php" line="1"><?php if(is_dir("diretorio/")) {
+    echo 'Diretório encontrado!';
+}
+else {
+    echo 'Diretório inexistente!';
+}
+?></pre>
+<p>Pronto! Agora é só alegria!</p>
+<p>Fiquem com Deus e até a próxima.</p>

@@ -1,0 +1,59 @@
+---
+layout: post
+title: Fazer encurtador de url com PHP e migre.me (atualizado)
+date: 2012-12-22 14:45:22.000000000 -02:00
+categories:
+- Dicas
+- HTML
+- PHP
+tags:
+- dicas
+- html
+- php
+- programação
+- twitter
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  jabber_published: '1320436885'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"12882217";s:7:"blog_id";s:8:"29059232";s:9:"mod_stamp";s:19:"2011-11-04
+    20:01:22";}
+  _wpas_done_linkedin: '1'
+  _wpas_done_twitter: '1'
+  _wpas_done_fb: '1'
+  superawesome: 'false'
+  _aioseop_keywords: migre.me, função, encurtar, PHP, URL
+  _aioseop_title: Fazer encurtador de url com PHP e migre.me (atualizado)
+  _aioseop_description: ! 'Olá galera!
+
+    Hoje vamos criar uma simples função para encurtar URL''s com o site migre.me'
+  _thumbnail_id: '1189'
+  dsq_thread_id: '2266357417'
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Olá galera!<br />
+Hoje vamos criar uma simples função para encurtar URL's com o site <a href="http://migre.me/" target="_blank">migre.me</a>.</p>
+<p>Crie um arquivo chamado <code>"short-url.php"</code> e coloque o código abaixo:<br />
+<!--more--></p>
+<p>[gist id="55218837a103b2d92797"]</p>
+<p>[alert]<strong>Importante:</strong> toda vez que essa função for chamada ela irá gerar uma URL nova, então para os botões do twitter e do facebook chame apenas 1 (uma) vez a função e armazene o resultado. As redes sociais armazenam a URL para fazer a contagem.[/alert]</p>
+<p>Você precisa fazer o <code>include</code> do arquivo em seu projeto:</p>
+<p>[gist id="e23f84deb720268250c8"]</p>
+<p>No seu botao de twitt onde tem chamada <code>"data-url="</code> basta chamar a funcao passado a url que será encurtada como parâmetro</p>
+<p>Vai ficar assim:<br />
+[gist id="04065263beea89e54f18"]</p>
+<p>Em <code>"data-text"</code> troque onde diz: <code>TITULO DA NOTICIA</code> pelo texto que quer quem aparece no twitt.</p>
+<p>Visualizando o código-fonte no navegador você verá algo como:</p>
+<p>[gist id="152a1da95e82682ecc30"]</p>
+<p>Segue abaixo um link para demonstração e o arquivo para download.<br />
+Fiquem com Deus e até a próxima!</p>
+<p>[button link="http://nandomoreira.me/demo/encurtador-de-url/" type="success"]Demo[/button] [button link="https://www.box.com/s/shckg2la8m9ydmnpr28d" type="primary"]Download[/button]</p>

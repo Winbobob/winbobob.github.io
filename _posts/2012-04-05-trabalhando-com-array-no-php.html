@@ -1,0 +1,103 @@
+---
+layout: post
+title: Trabalhando com Array no PHP
+date: 2012-04-05 10:19:50.000000000 -03:00
+categories:
+- Dicas
+- PHP
+tags:
+- dicas
+- php
+- programação
+- tutorial
+status: publish
+type: post
+published: true
+meta:
+  superawesome: 'false'
+  _edit_last: '1'
+  jabber_published: '1333631991'
+  email_notification: '1333631992'
+  publicize_results: a:2:{s:7:"twitter";a:1:{i:120261365;a:2:{s:7:"user_id";s:13:"FernandynhoMC";s:7:"post_id";s:18:"187892316822978560";}}s:2:"fb";a:1:{i:266336426716503;a:2:{s:7:"user_id";s:15:"266336426716503";s:7:"post_id";s:15:"428200703863407";}}}
+  _wpas_done_twitter: '1'
+  _wpas_done_fb: '1'
+  _wpas_done_linkedin: '1'
+  _wpas_skip_ms: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"12882217";s:7:"blog_id";s:8:"29059232";s:9:"mod_stamp";s:19:"2012-04-05
+    20:54:08";}
+  dsq_thread_id: '2266440878'
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Um array é uma forma de armazenamento de variáveis que podem ser acessadas por índices, sejam eles numéricos ou não.</p>
+<p>No php é muito simples trabalhar com arrays, nesse artigo vamos ver como declarar arrays e como acessar seus valores.</p>
+<p>Você pode declarar um array sem dimensionar ele ou ainda dimensionando ele, veja:</p>
+<h4><strong>Criando um array Sem dimensionar</strong></h4>
+<pre lang="php" line="1">$array_var =  array();</pre>
+<p>No exemplo acima as dimensões do array não foram definidas, esse recurso é muito útil pq muitas vezes você não sabe qual a dimensão que um array vai precisar durante a execução do script.</p>
+<h4><strong>Dimensionando um array</strong></h4>
+<pre lang="php" line="1">$array_1 = array(10);</pre>
+<p>Nesse exemplo estamos dimensionando o array em 10 itens com índices de 0 a 9.</p>
+<p>Também é possível setar os valores do array. Veja o exemplo abaixo:<!--more--></p>
+<pre lang="php" line="1">$nomes = array(
+    "Antonio",
+    "Maria", 
+    "João", 
+    "José", 
+    "Lucas"
+);</pre>
+<p><strong>ou</strong></p>
+<pre lang="php" line="1">$author = array(
+   "Nome"=>"Fernando",
+   "Sobrenome"=>"Moreira",
+   "Idade"=>"23",
+   "Postagens"=>"29"
+);</pre>
+<h4><strong>Imprimindo um array:</strong></h4>
+<p>Existem 2 formas mais utilizadas por programadores para imprimir e verificar um array. E mais um monte para obter resultados mais complexos.</p>
+<pre lang="php" line="1">print_r($author);</pre>
+<p>e</p>
+<pre lang="php" line="1">var_dump($author);</pre>
+<h4><strong>print_r() resultado:</strong></h4>
+<pre>Array
+(
+    [Nome] => Fernando
+    [Sobrenome] => Moreira
+    [Idade] => 23
+    [Postagens] => 29
+)</pre>
+<h4><strong>var_dump() resultado:</strong></h4>
+<pre>
+array(4) {
+  ["Nome"]=>
+  string(8) "Fernando"
+  ["Sobrenome"]=>
+  string(7) "Moreira"
+  ["Idade"]=>
+  string(2) "23"
+  ["Postagens"]=>
+  string(2) "29"
+}
+</pre>
+<p>Vou descrever uma das formas mais complexas de se detalhar um array.</p>
+<p>Através de um loop, ou laço de repetição. Nesse caso eu utilizarei o <code>foreach ();</code></p>
+<h4><strong>Fica assim:</strong></h4>
+<pre>
+foreach ($author as $chave => $valor) {
+    echo $chave.': '.$valor;
+}
+</pre>
+<h4><strong>Resultado:</strong></h4>
+<pre>Nome: Fernando
+Sobrenome: Moreira
+Idade: 23
+Postagens: 29</pre>
+<p>Você pode utilizar outros laços de repetições como <code>for();</code> <code>while();</code> <code>do while();</code> todos funcionam perfeitamente com arrays.</p>
+<p>Espero ter ajudado.</p>
+<p>Um forte abraço e até a próxima!</p>

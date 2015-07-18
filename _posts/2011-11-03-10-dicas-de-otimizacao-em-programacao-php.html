@@ -1,0 +1,50 @@
+---
+layout: post
+title: 10 dicas de otimização em programação PHP
+date: 2011-11-03 12:27:28.000000000 -02:00
+categories:
+- Dicas
+- PHP
+- Programação
+tags:
+- dicas
+- php
+- programação
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  jabber_published: '1320334048'
+  _wpas_done_linkedin: '1'
+  _wpas_done_twitter: '1'
+  _wpas_done_fb: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"12882217";s:7:"blog_id";s:8:"29059232";s:9:"mod_stamp";s:19:"2011-11-03
+    15:31:12";}
+  _thumbnail_id: '1189'
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>1 - Usar <em>echo</em> ao invés de <em>print</em>.<br />
+2 - Usar argumentos no echo ao invés de concatenar. Ex.:</p>
+<pre lang="php">echo 'Meu programa ',$nome,' funciona perfeitamente.'</pre>
+<p>3 - Prefira sempre usar aspas simples (') ao invés de aspas duplas ("), pois quando se usa aspas simples o PHP trata como uma string literal, ou seja, não vai interpretá-la. Portanto, se não precisar, não use aspas duplas. Ex.:</p>
+<pre lang="php" line="1"><!--?php  $registros = 100; echo 'Total de $registros'; // resultado: Total de $registros echo "Total de $registros"; // resultado: Total de 100 ?--></pre>
+<p>4 - Use <em>require</em> ao invés de <em>require_once</em>.<br />
+5 - Evite de usar <em>@</em> antes das variáveis ou outros lugares para suprimir as mensagens de erros.<br />
+6 - Em array, <em>$linha['id']</em> é até 7 vezes mais rápido do que <em>$linha[id]</em>.<br />
+7 - Evite de usar <em>for($i=0; $i &lt; count($_linhas); $i++</em>. Use:</p>
+<pre lang="php" line="1">$total = count($_linhas);
+for($i=0; $i &lt; $total; $i++);</pre>
+<p>Pois o <em>for</em> sempre irá executar a função count, pesando na velocidade do seu programa.</p>
+<p>8 - Habilite o <em>mod_deflate</em> do apache, você poderá ganhar consumo de banda, ou seja, ele vai comprimir os dados para ser enviado para o cliente (navegador). Dependendo da página, poderá ter uma compressão perto dos 90%. Assim sendo, economia de banda, e carregamento mais rápido para o cliente.</p>
+<p>9 - Prefira sempre usar HTML se não tiver nada de dinâmico na sua página, pois scripts PHP podem ser de 2-10 vezes mais lento.</p>
+<p>10 - Com uso de banco de dados, também prefira por usar cache de objetos ou resultados, se está tendo muitas consultas no Banco de Dados, pode ser que uma hora o seu banco de dados não suporte muitas requisições simultâneas, então com cache poderá diminuir em muito estas requisições e assim melhorando a velocidade de respostas. Procure por <em>memcache</em>, este é bom para isso.</p>
+<p>Fonte: <a title="http://www.vivaolinux.com.br/" href="http://www.vivaolinux.com.br/" target="_blank">http://www.vivaolinux.com.br</a></p>
+<p>Publicado por Candido Tominaga em 27/05/2008</p>

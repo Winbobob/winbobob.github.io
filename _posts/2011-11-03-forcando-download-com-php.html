@@ -1,0 +1,49 @@
+---
+layout: post
+title: Forçando download com PHP
+date: 2011-11-03 06:15:46.000000000 -02:00
+categories:
+- Dicas
+- PHP
+- Programação
+tags:
+- dicas
+- php
+- programação
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  jabber_published: '1320311746'
+  _wpas_done_linkedin: '1'
+  _wpas_done_twitter: '1'
+  _wpas_done_fb: '1'
+  _thumbnail_id: '47'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"12882217";s:7:"blog_id";s:8:"29059232";s:9:"mod_stamp";s:19:"2011-11-03
+    14:29:44";}
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Primeiramente precisamos montar o arquivo <em><code>"download.php".</code></em></p>
+<pre lang="php" line="1"><?php $file = $_GET['arquivo'];
+header("Content-Type: application/save");
+header("Content-Length:".filesize($file));
+header('Content-Disposition: attachment; filename="' . $file . '"');
+header("Content-Transfer-Encoding: binary");
+header('Expires: 0');
+header('Pragma: no-cache');
+$fp = fopen("$file", "r");
+fpassthru($fp);
+fclose($fp);
+?></pre>
+<p>Agora precisamos chamar o nosso arquivo em nosso HTML.</p>
+<pre lang="php" line="1"><a href="download.php?arquivo=aula.pdf">Clique aki para fazer o Download</a></pre>
+<p>Espero ter ajudado.</p>
+<p>Um forte abraço e fiquem com Deus!</p>

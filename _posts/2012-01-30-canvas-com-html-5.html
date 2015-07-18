@@ -1,0 +1,80 @@
+---
+layout: post
+title: Canvas com HTML 5
+date: 2012-01-30 12:38:27.000000000 -02:00
+categories:
+- Dicas
+- HTML
+- Programação
+tags:
+- canvas
+- HTML5
+- javascript
+- tutorial
+status: publish
+type: post
+published: true
+meta:
+  superawesome: 'false'
+  _edit_last: '1'
+  jabber_published: '1327937907'
+  _wpas_done_linkedin: '1'
+  email_notification: '1327937909'
+  publicize_results: a:1:{s:7:"twitter";a:1:{i:120261365;a:2:{s:7:"user_id";s:13:"FernandynhoMC";s:7:"post_id";s:18:"164009589061328896";}}}
+  _wpas_done_twitter: '1'
+  _wpas_done_ms: '1'
+  _wpas_skip_fb: '1'
+  _thumbnail_id: '264'
+  dsq_thread_id: '2284681247'
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Olá pessoal, já faz muito tempo que não posto algo para vocês e hoje vou falar sobre o canvas do HTML5. <em></em></p>
+<p><strong>Mas afinal o que é canvas?</strong></p>
+<blockquote><p><em>canvas</em> é um novo e poderoso elemento entre as inúmeras novas funcionalidades do HTML 5.</p>
+<p>Com o <em>canvas</em> você consegue de maneira fácil criar gráficos, composições de fotos e animações usando JavaScript. Pense em um bloco de notas, cada folha é um elemento <em>canvas</em> onde você pode usar um contexto diferente, utilizando ou não API's para fornecer funcionalidades de desenho.<!--more--></p>
+<p>[fonte: <a href="http://imasters.com.br/artigo/16455/desenvolvimento/html-5-na-pratica-canvas-parte-01" target="_blank">imasters.com.br</a>]</p></blockquote>
+<p><strong>Vamos começar:</strong></p>
+<p>Dentro da tag <code>&lt;body&gt;</code> inicie o seu elemento canvas:</p>
+<pre lang="html" line="1"><canvas id="menino" width="150" height="150">
+    O seu navegador não suporta canvas
+</canvas></pre>
+<p>Abra script dentro das tags <code>&lt;head&gt;&lt;/head&gt;</code> (eu optei em usar um arquivo externo e nada te impede de o fazer). Já dentro do seu script insira o código:</p>
+<pre lang="javascript">
+function _menino() {
+    // Obtém o id do canvas quem é "menino"
+    var canvasElem = document.getElementById('menino');
+    if (canvasElem.getContext){
+        var context = canvasElem.getContext('2d');
+        context.strokeStyle = '#9c9c9c';
+        context.lineWidth   = 1;
+        context.beginPath();
+        context.arc(75,75,45,0,Math.PI*2,true);
+        context.moveTo(110,75);
+        context.arc(75,75,35,0,Math.PI,false);
+        context.moveTo(65,65);
+        context.arc(60,65,5,0,Math.PI*2,true);
+        context.moveTo(95,65);
+        context.arc(90,65,5,0,Math.PI*2,true);
+        context.stroke();
+        context.closePath();
+    }
+}
+</pre>
+<p>Agora na tag inicial &lt;body&gt; coloque para inicializar a funcao _menino().</p>
+<p>Fica assim:</p>
+<pre lang="html" line="1">
+<body onload="_menino();">
+</body></pre>
+<p>Pronto! Salve seus arquivos e visualize:</p>
+<p>você verá um desenho como esse:</p>
+<p><img class=" wp-image-261 alignnone" title="canvas-menino" alt="canvas-menino" src="assets/canvas-menino.png" /></p>
+<p>[button link="http://fernandomoreiraweb.com/exemplos/canvas_menino/" type="primary"]Demo[/button] [button link="http://www.box.com/s/lxzhbzbdpts5vbpf6018"]Download[/button]</p>
+<p>Esse é um exemplo simples, espero ter ajudado!</p>
+<p>Abraço e fiquem com Deus!</p>
