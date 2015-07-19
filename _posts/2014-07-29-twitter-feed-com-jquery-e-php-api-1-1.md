@@ -250,9 +250,8 @@ die();
 }
 {% endhighlight %}
 
+E é isso ai, os arquivos estão no repositório do Github e os links logo abaixo para download.
 
-E é isso ai, os arquivos estão logo abaixo para download.
-
-<a href="https://app.box.com/s/i5nqv2fy52rklbf479e0" target="_blank">Download dos Arquivos</a> | <a href="http://nandomoreira.me/demo/twitter-feed-ajax-php/" target="_blank">Veja a demostração</a>
+<a href="https://github.com/nandomoreirame/Twitter-feed-com-jQuery-e-PHP-api-1.1-">Repositório no Github</a> | <a href="https://github.com/nandomoreirame/Twitter-feed-com-jQuery-e-PHP-api-1.1-/archive/master.zip">Download</a>
 
 Boa programação e enjoy!
