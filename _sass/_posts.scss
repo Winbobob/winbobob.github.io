@@ -71,3 +71,33 @@
     }
   }
 }
+
+.share {
+  @extend %clearfix;
+  background-color: #f0f0f0;
+  padding: 15px;
+
+  h3 {
+    margin: 0 10px 0 0;
+    font-weight: 300;
+    float: left;
+  }
+
+  .st_facebook_hcount,
+  .stButton,
+  .stButton .st-twitter-counter,
+  .stButton .st-facebook-counter,
+  .st_facebook_hcount .stArrow,
+  .st_fb_like_hcount .stArrow {
+    height: 25px;
+  }
+  .stButton .stButton_gradient,
+  .st_facebook_hcount .stButton_gradient {
+    height: 22px;
+  }
+  .st_fblike_hcount > span {
+    top: -5px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
