@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Fazer encurtador de url com PHP e migre.me (atualizado)
-date: 2012-12-22 14:45:22.000000000 -02:00
+date: 2012-12-22 14:45:22
+description: Olá galera! Hoje vamos criar uma simples função para encurtar URL's com o site migre.me
+keywords: "Dicas, dicas, HTML, PHP, programação, twitter"
+comments: true
 categories:
 - Dicas
 - HTML
