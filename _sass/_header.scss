@@ -3,6 +3,7 @@
 // Super small header above the content for site name and short description.
 
 .header {
+  border-top: 4px solid #2b2b2b;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
@@ -26,6 +27,7 @@
     margin: 0;
 
     li {
+      font-size: 1rem;
       display: inline-block;
       margin-left: .6em;
 
@@ -36,7 +38,7 @@
     }
 
     a {
-      color: #757575;
+      color: #999;
     }
 
   }
@@ -48,9 +50,6 @@
     ul {
       padding-top: 1.5em;
       text-align: center;
-
-      li {
-      }
     }
   }
 }

@@ -50,5 +50,3 @@ E por fim, para entrar em contato comigo basta enviar um e-mail para **hi[at]nan
 **Twitter:** <a href="http://twitter.com/nandomoreirame" target="_blank">@nandomoreirame</a><br>
 **Facebook:** <a href="http://facebook.com/fernando.dev" target="_blank">fb.com/fernando.dev</a><br>
 **Github:** <a href="http://github.com/nandomoreirame" target="_blank">github.com/nandomoreirame</a><br>
-
-<hr>
