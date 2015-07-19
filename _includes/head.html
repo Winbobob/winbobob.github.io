@@ -31,6 +31,13 @@
   <link rel="apple-touch-icon" href="/assets/images/ico/apple-touch-icon-57.png">
   <link rel="shortcut icon" href="/assets/images/ico/favicon.png">
 
+  {% if paginator.previous_page %}
+    <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
+  {% if paginator.next_page %}
+    <link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
