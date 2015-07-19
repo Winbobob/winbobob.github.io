@@ -1,5 +1,37 @@
 ---
---layout: compress
+layout: compress
 ---
-{% include JB/setup %}
-{% include templates/default.html %}
+<!DOCTYPE html>
+<html lang="pt-br">
+  {% include head.html %}
+  <body class="{{ page.slug }}">
+    <header class="masthead">
+      <div class="container">
+        <h1 class="h3 masthead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h1>
+
+        <nav class="masthead-nav">
+          <ul>
+            <li><a href="/about" title="Sobre">Sobre</a></li>
+            <li><a href="/portfolio" title="Portfolio">Portfolio</a></li>
+            <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Feed" target="_blank">Feed</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container content">
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy;<time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> <a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a>. Todos os direitos reservados ao autor. <a href="{{ site.github.repo }}" target="_blank"><3 Open source</a>
+        </small>
+      </footer>
+    </div>
+  </body>
+</html>

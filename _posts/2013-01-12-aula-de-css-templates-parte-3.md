@@ -1,0 +1,17 @@
+---
+layout: post
+title: Aula de CSS - templates (parte 3)
+date: 2013-01-12 00:41:31.000000000 -02:00
+categories:
+- Vídeo Aulas
+tags:
+- CSS
+- dicas
+- html
+- tutorial
+- Vídeo
+---
+
+<div class="video-responsive">
+  <iframe src="http://www.youtube.com/embed/fB18HZi-hdQ" height="460" width="100%" allowfullscreen="" frameborder="0"></iframe>
+</div>

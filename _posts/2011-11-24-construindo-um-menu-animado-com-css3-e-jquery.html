@@ -13,24 +13,6 @@ tags:
 - html
 - jQuery
 - tutorial
-status: publish
-type: post
-published: true
-meta:
-  _thumbnail_id: '1201'
-  _edit_last: '1'
-  jabber_published: '1322104172'
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:4:{s:58:"http://designshack.net/wp-content/uploads/pseudomenu-4.jpg";a:6:{s:8:"file_url";s:58:"http://designshack.net/wp-content/uploads/pseudomenu-4.jpg";s:5:"width";s:3:"510";s:6:"height";s:3:"108";s:4:"type";s:5:"image";s:4:"area";s:5:"55080";s:9:"file_path";s:0:"";}s:58:"http://designshack.net/wp-content/uploads/pseudomenu-1.jpg";a:6:{s:8:"file_url";s:58:"http://designshack.net/wp-content/uploads/pseudomenu-1.jpg";s:5:"width";s:3:"510";s:6:"height";s:3:"112";s:4:"type";s:5:"image";s:4:"area";s:5:"57120";s:9:"file_path";s:0:"";}s:58:"http://designshack.net/wp-content/uploads/pseudomenu-2.jpg";a:6:{s:8:"file_url";s:58:"http://designshack.net/wp-content/uploads/pseudomenu-2.jpg";s:5:"width";s:3:"510";s:6:"height";s:3:"185";s:4:"type";s:5:"image";s:4:"area";s:5:"94350";s:9:"file_path";s:0:"";}s:58:"http://designshack.net/wp-content/uploads/pseudomenu-3.jpg";a:6:{s:8:"file_url";s:58:"http://designshack.net/wp-content/uploads/pseudomenu-3.jpg";s:5:"width";s:3:"510";s:6:"height";s:3:"180";s:4:"type";s:5:"image";s:4:"area";s:5:"91800";s:9:"file_path";s:0:"";}}s:6:"videos";a:0:{}s:11:"image_count";s:1:"4";s:6:"author";s:8:"12882217";s:7:"blog_id";s:8:"29059232";s:9:"mod_stamp";s:19:"2011-11-24
-    03:12:42";}
-  dsq_thread_id: '2281048641'
-author:
-  login: nandomoreira.me
-  email: nandomoreira.me@gmail.com
-  display_name: Fernando Moreira
-  first_name: Fernando
-  last_name: Moreira
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p>Hoje nós vamos ter todos os tipos de diversão. Primeiro vamos criar um menu animado usando alguns CSS3 nova e brilhante ao mesmo tempo aprender como implementar seletores pseudo de forma prática em um projeto real. Então vamos seguir-se que com a forma de construir a mesma coisa sem pseudo seletores para melhor suporte a navegador. Finalmente, vamos terminar com uma olhada em como sucata todos os CSS que fantasia em favor de alguns jQuery bem antiquada.</p>
 <p>Junte-se a examinamos não um, mas três maneiras de abordar um deslizamento CSS menu de navegação!</p>
@@ -40,7 +22,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>Seletores de pseudo recebo um monte de hype em blogs de design, mas quando chega a hora para comentários eu sempre vejo a mesma pergunta: "Ótimo, mas quando é que eu realmente uso estes?" Às vezes, pego com a utilização de exemplos ridículos e irrealistas apenas para mostrar algum brinquedo novo, enquanto isso os leitores imediatamente marcá-lo como algo "puro", mas não qualquer coisa que nunca vai ser prático.</p>
 <p>Nosso menu de navegação hoje vai atirar em apenas um par de pseudo seletores de uma forma muito rápida, que é exatamente como você estará usando esses caras no futuro.</p>
 <h2>O que estamos construindo?</h2>
-<p><a href="http://designshack.net/tutorialexamples/pseudomenu/pseudo.html"><img alt="screenshot" src="assets/pseudomenu-4.jpg" width="510" /></a></p>
+<p><a href="http://designshack.net/tutorialexamples/pseudomenu/pseudo.html"><img alt="screenshot" src=""/assets/uploads/pseudomenu-4.jpg" width="510" /></a></p>
 <p>O objetivo aqui é criar um simples menu de navegação CSS composto por blocos de retângulo com um fundo vermelho. Quando o usuário passa sobre o item de menu, haverá uma animação de correr e tanto a mensagem quanto a cor de fundo do item de menu irá mudar.</p>
 <p>É quase como um efeito de abertura da porta da garagem aplicadas via CSS animações. É um projeto divertido eo efeito final parece ótimo.</p>
 <h2>Primeiro Passo: O HTML</h2>
@@ -80,9 +62,9 @@ excerpt: !ruby/object:Hpricot::Doc
 	text-decoration: none;
 }</pre>
 <p>Essencialmente nos viramos cada link em um grande bloco vermelho:</p>
-<div><img alt="screenshot" src="assets/pseudomenu-1.jpg" width="510" /></div>
+<div><img alt="screenshot" src=""/assets/uploads/pseudomenu-1.jpg" width="510" /></div>
 <p>Observe que esse estilo tem efetivamente cortado o segundo link em cada set. O que está acontecendo é que o segundo link em cada item da lista é empilhado no âmbito do primeiro e está simplesmente sendo escondido. Se desligar temporariamente "overflow: hidden" isso se torna muito mais fácil de visualizar.</p>
-<div><img alt="screenshot" src="assets/pseudomenu-2.jpg" width="510" /></div>
+<div><img alt="screenshot" src=""/assets/uploads/pseudomenu-2.jpg" width="510" /></div>
 <h2>Etapa 4: Alterar o link secundário Styles</h2>
 <p>Repare na imagem acima que, apesar de terem diferentes do texto, os links superior e inferior são essencialmente idênticas. Vamos mudar isso um pouco para fazer a transição mais perceptível. Para isso, basta alterar a segunda caixa em cada conjunto em preto e branco para o texto.</p>
 <p>A parte complicada é, como é que temos como alvo apenas o link do segundo?Nós não incluir qualquer coisa no HTML para definir os dois separados: não há classes, sem identificações, nada. Este é o lugar onde os oh tão útil seletores pseudo entram em jogo! Usando seletores pseudo, podemos facilmente alvo todos os outro link através do uso de par ou ímpar.</p>
@@ -95,7 +77,7 @@ excerpt: !ruby/object:Hpricot::Doc
 	color: white;
 }</pre>
 <p>Agora, se nós mais uma vez, temporariamente comentar "overflow: hidden" podemos ver que nossas ligações têm diferenciação muito mais.<br />
-<img alt="screenshot" src="assets/pseudomenu-3.jpg" width="510" /></p>
+<img alt="screenshot" src=""/assets/uploads/pseudomenu-3.jpg" width="510" /></p>
 <h2>Passo 5: Passe Ação Deslize</h2>
 <p>Agora é hora de definir a acção que terá lugar em foco. Basicamente queremos que o link vermelho para deslizar para cima e para fora de vista como o elo preta aparece. Parece fácil, mas quando você realmente dar-lhe algum pensamento, esta ação torna-se super-complicado! Queremos o link de cima para deslizar para cima quando passamos o mouse sobre o botão, mas como ele desliza para fora de vista, você não será mais pairando sobre ela, fazendo com que alguma ação realmente buggy. Depois de algum pensamento sério, cheguei à seguinte conclusão. Precisamos visar o item da lista inteira para o evento hover, dessa forma, não importa se o link é superior ou inferior em vista, tudo ainda funciona. No entanto, apesar do fato de que paira sobre o item da lista deve disparar o evento, é realmente outra coisa, o primeiro link, que precisa se mover. Traduzir estas metas a CSS se parece com isso:</p>
 <pre>/* Hover Slide */
@@ -120,7 +102,7 @@ excerpt: !ruby/object:Hpricot::Doc
 }</pre>
 <h2>Acabado! Versão Selector pseudo</h2>
 <p>Com isso, a nossa primeira versão é completa! Nossas animações olhar grande e os seletores de pseudo estão fazendo o trabalho pesado para manter a nossa marcação agradável e limpo.</p>
-<p><a href="http://designshack.net/tutorialexamples/pseudomenu/pseudo.html"><img alt="screenshot" src="assets/pseudomenu-4.jpg" width="510" /></a></p>
+<p><a href="http://designshack.net/tutorialexamples/pseudomenu/pseudo.html"><img alt="screenshot" src=""/assets/uploads/pseudomenu-4.jpg" width="510" /></a></p>
 <p><strong>Demonstração: </strong><a href="http://designshack.net/tutorialexamples/pseudomenu/pseudo.html">Clique aqui</a> para o lançamento.</p>
 <p><strong>Download: </strong><a href="http://designshack.net/tutorialexamples/pseudomenu/DesignShackMenu.zip">Clique aqui</a> para baixar todas as três versões.</p>
 <h2>Demolição do Seletores Pseudo</h2>
