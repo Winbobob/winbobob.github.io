@@ -3,11 +3,12 @@
 // Styles for managing the structural hierarchy of the site.
 
 .container {
-  max-width: 40rem;
+  max-width: 50rem;
   padding-left:  1.5rem;
   padding-right: 1.5rem;
   margin-left:  auto;
   margin-right: auto;
+  @extend %clearfix;
 }
 
 footer {
@@ -15,6 +16,7 @@ footer {
   margin-bottom: 2rem;
   border-top: 1px solid #eee;
   text-align: center;
+  @extend %clearfix;
 
   small {
     color: #999;
@@ -43,6 +45,12 @@ body.about {
   padding: 15px 0;
   border-bottom: 1px solid #eee;
 
+  @media (min-width: 40em) {
+    padding: 15px;
+    width: 50%;
+    float: left;
+  }
+
   a:hover,
   a:focus {
     text-decoration: none;
@@ -59,13 +67,13 @@ body.about {
   }
 
   span {
-    height: 320px;
+    height: 260px;
     display: block;
     overflow: hidden;
     border: 8px solid #fff;
     box-shadow: 0px 0px 3px rgba(#000, .2);
 
-    @media (max-width: 30em) {
+    @media (max-width: 40em) {
       height: 200px;
     }
   }

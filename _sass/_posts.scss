@@ -26,12 +26,16 @@
 }
 
 // Meta data line below post title
-.post-date {
-  display: block;
-  // margin-top: 1rem;
-  margin-bottom: -.2rem;
-  color: #9a9a9a;
-  font-style: italic;
+.post-meta {
+  span {
+    display: block;
+    margin-bottom: -.2rem;
+    color: #9a9a9a;
+    font-style: italic;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+  }
 }
 
 

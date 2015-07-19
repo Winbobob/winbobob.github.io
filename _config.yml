@@ -10,7 +10,7 @@ highlighter : pygments
 
 # Setup
 title:               Nandomoreira
-tagline:             " / Web e tudo mais.."
+tagline:             " / Desenvolvimento Web e tudo mais.."
 description:         Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript.
 keywords:            "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
 url:                 http://nandomoreira.me
@@ -40,6 +40,9 @@ github:
 
 # Portfolio
 portfolio:
+  - title: Remer Terapias
+    url: http://remerterapias.com.br
+    image: remerterapias.jpg
   - title: Abracce
     url: http://abracce.org.br
     image: abracce.jpg

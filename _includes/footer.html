@@ -1,0 +1,19 @@
+
+<footer class="footer">
+  <small>
+    &copy;<time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> <a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a>. Todos os direitos reservados ao autor. <a href="{{ site.github.repo }}" target="_blank"><3 Open source</a>
+  </small>
+</footer>
+
+<script type="text/javascript">
+(function() {
+  var links = document.getElementsByTagName('a');
+  var query = '?';
+  for(var i = 0; i < links.length; i++) {
+    if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+    }
+  }
+  document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/fernandomoreira/get_num_replies.js' + query + '"></' + 'script>');
+})();
+</script>
