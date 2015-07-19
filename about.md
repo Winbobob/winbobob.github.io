@@ -22,7 +22,7 @@ Em 2010 comecei o curso de web design na <a href="http://microcampcuritiba.com.b
 
 Hoje sou especializado em desenvolvimento web usando o <a href="http://br.wordpress.org/" target="_blank">**Wordpress**</a>, focado em front-end eu sempre cuido da usabilidade e performance de um site.
 
-Trabalho atualmente estou cursando <a href="http://www.ctpositivo.edu.br/cursos-de-tecnologia/sistemas-para-internet" target="_blank">Tecnoligia em Sistemas para Internet</a> no <a target="_blank" href="http://www.ctpositivo.edu.br/">CT Positivo</a> na <a href="http://malapronta.com" target="_blank">**MalaPronta.com**</a> como **desenvolvedor front-end**.
+Atualmente estou cursando <a href="http://www.ctpositivo.edu.br/cursos-de-tecnologia/sistemas-para-internet" target="_blank">Tecnoligia em Sistemas para Internet</a> no <a target="_blank" href="http://www.ctpositivo.edu.br/">CT Positivo</a> e trabalho na <a href="http://malapronta.com" target="_blank">**MalaPronta.com**</a> como **desenvolvedor front-end**.
 
 <hr>
 
