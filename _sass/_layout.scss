@@ -42,11 +42,14 @@ body.about {
   margin: 0 0 30px;
   padding: 15px 0;
   border-bottom: 1px solid #eee;
-  opacity: .75;
 
-  &:hover,
-  &:focus {
-    opacity: 1;
+  @media (min-width: 30em) {
+    opacity: .5;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
   }
 
   a:hover,
