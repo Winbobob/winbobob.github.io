@@ -17,6 +17,9 @@
 .page-title,
 .post-title {
   margin-top: 0;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ddd;
 }
 .page-title {
   text-align: center;
@@ -25,8 +28,8 @@
 // Meta data line below post title
 .post-date {
   display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
+  // margin-top: 1rem;
+  margin-bottom: -.2rem;
   color: #9a9a9a;
   font-style: italic;
 }

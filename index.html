@@ -4,49 +4,36 @@ title: Home
 slug: home
 ---
 
-<section class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+{% for post in paginator.posts %}
+<article class="post">
+  <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+  {% assign m = post.date | date: "%-m" %}
+  {{ post.date | date: "%-d" }} de
+  {% case m %}
+    {% when '1' %}Janeiro
+    {% when '2' %}Fevereiro
+    {% when '3' %}Março
+    {% when '4' %}Abril
+    {% when '5' %}Maio
+    {% when '6' %}Junho
+    {% when '7' %}Julho
+    {% when '8' %}Agosto
+    {% when '9' %}Setembro
+    {% when '10' %}Outubro
+    {% when '11' %}Novembro
+    {% when '12' %}Dezembro
+  {% endcase %}
+  de {{ post.date | date: "%Y" }}
+  </time>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
-    {% assign m = post.date | date: "%-m" %}
-    {{ post.date | date: "%-d" }} de
-    {% case m %}
-      {% when '1' %}Janeiro
-      {% when '2' %}Fevereiro
-      {% when '3' %}Março
-      {% when '4' %}Abril
-      {% when '5' %}Maio
-      {% when '6' %}Junho
-      {% when '7' %}Julho
-      {% when '8' %}Agosto
-      {% when '9' %}Setembro
-      {% when '10' %}Outubro
-      {% when '11' %}Novembro
-      {% when '12' %}Dezembro
-    {% endcase %}
-    de {{ post.date | date: "%Y" }}
-    </time>
+  <h1 class="post-title">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </h1>
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
+  {{ post.content }}
+</article>
+{% endfor %}
 
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&laquo; Mais antigo</a>
-    {% else %}
-      <span class="pagination-item older">&laquo; Mais antigo</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Mais novo &raquo;</a>
-    {% else %}
-      <span class="pagination-item newer">Mais novo &raquo;</span>
-    {% endif %}
-  </div>
-</section>
+{% include pagination.html %}

@@ -10,6 +10,7 @@ tags:
 - tutorial
 - Vídeo
 - youtube
+comments: false
 ---
 
 <div class="video-responsive">
@@ -18,7 +19,7 @@ tags:
 
 Instalando um sistema próprio do github.com e enviando arquivos no Windows sem nenhuma linha de comando.
 
-[button link="http://windows.github.com/"]DOWNLOAD[/button]
+<a href="http://windows.github.com/">DOWNLOAD</a>
 
 Abraço!
 

@@ -2,10 +2,23 @@
 //
 // Update the foundational and global aspects of the page.
 
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+%clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
 }
 
 html,
@@ -15,21 +28,21 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  color: #515151;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 
   @media (min-width: 38em) {
     font-size: 18px;
   }
-}
-
-body {
-  color: #515151;
-  // padding-top: 95px;
-  background-color: #f8f8f8;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
@@ -52,7 +65,6 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
 }
 
 table {

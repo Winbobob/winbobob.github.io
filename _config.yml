@@ -3,7 +3,8 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 # permalink:           pretty
 # relative_permalinks: true
-permalink   : :year/:month/:title
+# permalink   : :year/:month/:title
+permalink   : :title
 markdown    : kramdown
 highlighter : pygments
 
@@ -11,6 +12,7 @@ highlighter : pygments
 title:               Nandomoreira
 tagline:             " / Web e tudo mais.."
 description:         Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript.
+keywords:            "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
 url:                 http://nandomoreira.me
 baseurl:             ""
 paginate:            1
@@ -25,9 +27,11 @@ sass:
 
 # About/contact
 author:
-  name  : Fernando Moreira
-  url   : https://twitter.com/nandomoreirame
-  email : hi@nandomoreira.me
+  name     : Fernando Moreira
+  email    : hi@nandomoreira.me
+  url      : http://nandomoreira.me
+  facebook : https://www.facebook.com/fernando.dev
+  twitter  : https://twitter.com/nandomoreirame
 
 # Custom vars
 version: 1.0.0
