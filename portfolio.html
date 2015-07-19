@@ -1,0 +1,22 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+slug: portfolio
+---
+
+<section class="jobs">
+  {% for job in site.portfolio %}
+  <article class="job">
+    <a href="{{ job.url }}" target="_blank">
+      <figure>
+        <span><img src="/assets/portfolio/{{ job.image }}" alt="{{ job.title }}"></span>
+        <figcaption>
+          <h1 class="lead">{{ job.title }}</h1>
+          <small>{{ job.url }}</small>
+        </figcaption>
+      </figure>
+    </a>
+  </article>
+  {% endfor %}
+</section>

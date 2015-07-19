@@ -30,8 +30,45 @@ author:
   email : hi@nandomoreira.me
 
 # Custom vars
-version: 2.0.0
+version: 1.0.0
 github:
-  repo: https://github.com/poole/poole
+  repo: https://github.com/nandomoreirame/nandomoreirame.github.io
+
+# Portfolio
+portfolio:
+  - title: Abracce
+    url: http://abracce.org.br
+    image: abracce.jpg
+  - title: Desafio Abracce
+    url: http://desafio.abracce.org.br
+    image: desafio-abracce.jpg
+  - title: Chocolataria Gramado
+    url: http://chocolatariagramadoctba.com.br
+    image: chocolatariagramado.jpg
+  - title: Poral Macuxi
+    url: http://macuxi.com
+    image: macuxi.com.jpg
+  - title: Pizzaria Detroit
+    url: http://pizzariadetroit.com.br
+    image: pizzariadetroit.jpg
+  - title: Conexão Plastilit
+    url: http://conexaoplastilit.com.br
+    image: conexaoplastilit.jpg
+  - title: Hidrautest
+    url: http://hidrautest.com.br
+    image: hidrautest.com.br.jpg
+  - title: GM3i / Projeto
+    url: http://gm3i.com.br
+    image: gm3i.com.br.jpg
+  - title: Deputada Sheridan
+    url: http://deputadasheridan.com.br
+    image: sheridan.jpg
+  - title: Casas Irmãos Silva
+    url: http://casasirmaossilva.com.br
+    image: casas-irmaos-silva.jpg
+  - title: Divinu's Pães
+    url: "#"
+    # url: http://divinuspaes.com.br
+    image: divinuspaes.jpg
 
 exclude: ["gulp", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

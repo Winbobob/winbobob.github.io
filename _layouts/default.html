@@ -5,6 +5,7 @@ layout: compress
 <html lang="pt-br">
   {% include head.html %}
   <body class="{{ page.slug }}">
+
     <header class="masthead">
       <div class="container">
         <h1 class="h3 masthead-title">
@@ -22,16 +23,15 @@ layout: compress
       </div>
     </header>
 
-    <div class="container content">
-      <main>
-        {{ content }}
-      </main>
+    <main class="main container">
+      {{ content }}
+    </main>
 
-      <footer class="footer">
-        <small>
-          &copy;<time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> <a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a>. Todos os direitos reservados ao autor. <a href="{{ site.github.repo }}" target="_blank"><3 Open source</a>
-        </small>
-      </footer>
-    </div>
+    <footer class="footer">
+      <small>
+        &copy;<time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> <a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a>. Todos os direitos reservados ao autor. <a href="{{ site.github.repo }}" target="_blank"><3 Open source</a>
+      </small>
+    </footer>
+
   </body>
 </html>
