@@ -43,15 +43,6 @@ body.about {
   padding: 15px 0;
   border-bottom: 1px solid #eee;
 
-  @media (min-width: 30em) {
-    opacity: .5;
-
-    &:hover,
-    &:focus {
-      opacity: 1;
-    }
-  }
-
   a:hover,
   a:focus {
     text-decoration: none;

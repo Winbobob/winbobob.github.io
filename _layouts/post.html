@@ -5,7 +5,25 @@ slug: single
 
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%d/%m/%Y" }}</time>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
+  {% assign m = page.date | date: "%-m" %}
+  {{ page.date | date: "%-d" }} de
+  {% case m %}
+    {% when '1' %}Janeiro
+    {% when '2' %}Fevereiro
+    {% when '3' %}Março
+    {% when '4' %}Abril
+    {% when '5' %}Maio
+    {% when '6' %}Junho
+    {% when '7' %}Julho
+    {% when '8' %}Agosto
+    {% when '9' %}Setembro
+    {% when '10' %}Outubro
+    {% when '11' %}Novembro
+    {% when '12' %}Dezembro
+  {% endcase %}
+  de {{ page.date | date: "%Y" }}
+  </time>
   {{ content }}
 </article>
 
@@ -19,7 +37,25 @@ slug: single
           <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
             <small>
-              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+              <time datetime="{{ post.date | date_to_xmlschema }}">
+              {% assign m = post.date | date: "%-m" %}
+              {{ post.date | date: "%-d" }} de
+              {% case m %}
+                {% when '1' %}Janeiro
+                {% when '2' %}Fevereiro
+                {% when '3' %}Março
+                {% when '4' %}Abril
+                {% when '5' %}Maio
+                {% when '6' %}Junho
+                {% when '7' %}Julho
+                {% when '8' %}Agosto
+                {% when '9' %}Setembro
+                {% when '10' %}Outubro
+                {% when '11' %}Novembro
+                {% when '12' %}Dezembro
+              {% endcase %}
+              de {{ post.date | date: "%Y" }}
+              </time>
             </small>
           </a>
         </h3>
