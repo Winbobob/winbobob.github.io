@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Download de 50 apostilas para programadores e designers
-date: 2011-11-10 12:21:45.000000000 -02:00
+title: "Download de 50 apostilas para programadores e designers"
+date: 2011-11-10 12:21
+description: "Download de 50 apostilas para programadores e designers."
+keywords: "Downloads, apostilas, dicas, free, programadores, designers"
+comments: false
 categories:
 - Dicas
 - Downloads
@@ -12,13 +15,8 @@ tags:
 - free
 ---
 
-
-Download de 50 apostilas para programadores e designers.
-
-<a href="http://assuntoslegais.com/50-apostilas-para-programadores-designers-e-blogueiros/" class="btn">Baixar!</a>
+<a href="http://assuntoslegais.com/50-apostilas-para-programadores-designers-e-blogueiros/">Download de 50 apostilas para programadores e designers.</a>
 
 Valeu!
 
 <small>fonte: assuntoslegais.com</small>
-
-<hr />

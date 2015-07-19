@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Trabalhando com Array no PHP
-date: 2012-04-05 10:19:50.000000000 -03:00
+title: "Trabalhando com Array no PHP"
+date: 2012-04-05 10:19
+description: "Um array é uma forma de armazenamento de variáveis que podem ser acessadas por índices, sejam eles numéricos ou não"
+keywords: "Dicas, PHP, programação, tutorial, Array"
+comments: true
 categories:
 - Dicas
 - PHP
@@ -10,7 +13,6 @@ tags:
 - php
 - programação
 - tutorial
-comments: true
 ---
 
 Um array é uma forma de armazenamento de variáveis que podem ser acessadas por índices, sejam eles numéricos ou não.

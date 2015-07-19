@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Programação vs Design
-date: 2012-04-06 21:00:03.000000000 -03:00
+date: 2012-04-06 21:00
+description: "Vídeo Programação vs Design"
+keywords: "Programação, Design, Dicas, Vídeo"
+comments: false
 categories:
 - Design
 - Dicas
@@ -17,4 +20,4 @@ tags:
   <iframe src="http://player.vimeo.com/video/28203446?title=1&amp;byline=1&amp;portrait=1" frameborder="0" width="100%" height="375"></iframe>
 </div>
 
-<p><a href="http://vimeo.com/28203446">programacao vs design</a> from <a href="http://vimeo.com/user6981608">Iparos</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+[programacao vs design](http://vimeo.com/28203446) from [Iparos](http://vimeo.com/user6981608) on [Vimeo](http://vimeo.com).
