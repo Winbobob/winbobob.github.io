@@ -38,6 +38,14 @@ version: 1.0.0
 github:
   repo: https://github.com/nandomoreirame/nandomoreirame.github.io
 
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  ignore:
+    envs: all
+
 # Portfolio
 portfolio:
   - title: Remer Terapias

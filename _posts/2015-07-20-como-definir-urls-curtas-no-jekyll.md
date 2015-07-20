@@ -5,8 +5,8 @@ description: "Neste post, vou descrever como fazer as URLs amigáveis para o seu
 keywords: "blog, url, amigáveis, curtas, jekyll"
 permalink: urls-curtas-no-jekyll
 comments: true
-category:
-tags: []
+category: [Dicas, Jekyll]
+tags: [blog, url, amigáveis, curtas, jekyll]
 ---
 
 Olá!

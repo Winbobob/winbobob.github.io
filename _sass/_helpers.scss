@@ -1,0 +1,35 @@
+//
+// Helpers
+//
+
+.clearfix {@extend %clearfix}
+
+.no-float,
+.pull-none   {float: none !important}
+.pull-right  {float: right !important}
+.pull-left   {float: left !important}
+.clear-both  {clear: both !important}
+.clear-right {clear: right !important}
+.clear-left  {clear: left !important}
+
+// Alignment
+//
+.text-left    {text-align  : left !important}
+.text-right   {text-align  : right !important}
+.text-center  {text-align  : center !important}
+.text-justify {text-align  : justify !important}
+.text-nowrap  {white-space : nowrap !important}
+.text-strike  {text-decoration: line-through !important}
+
+// vertical align
+.va-top    {vertical-align: top !important}
+.va-middle {vertical-align: middle !important}
+.va-bottom {vertical-align: bottom !important}
+.va-top, .va-middle, .va-bottom {display: table-cell !important}
+
+
+// Transformation
+//
+.text-lower {text-transform : lowercase !important}
+.text-upper {text-transform : uppercase !important}
+.text-capit {text-transform : capitalize !important}
