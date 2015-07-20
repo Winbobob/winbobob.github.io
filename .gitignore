@@ -9,6 +9,7 @@ _site
 *.err
 *.orig
 *.log
+*.lock
 *.rej
 *.swo
 *.swp

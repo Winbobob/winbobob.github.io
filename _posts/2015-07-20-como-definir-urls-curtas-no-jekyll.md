@@ -4,6 +4,7 @@ title: "Como definir URLs curtas no Jekyll"
 description: "Neste post, vou descrever como fazer as URLs amigáveis para o seu blog Jekyll"
 keywords: "blog, url, amigáveis, curtas, jekyll"
 permalink: urls-curtas-no-jekyll
+comments: true
 category:
 tags: []
 ---

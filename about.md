@@ -3,7 +3,7 @@ layout: page
 title: Sobre mim
 description: Olá, meu nome é Fernando Moreira Costa sou Desenvolvedor Wordpress em Curitiba - PR
 keywords: "site, Website, loja virtual, lojas virtuais, E-commerce, Curitiba, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
-permalink: /about/
+permalink: /sobre/
 slug: about
 ---
 
@@ -50,3 +50,5 @@ E por fim, para entrar em contato comigo basta enviar um e-mail para **hi[at]nan
 **Twitter:** <a href="http://twitter.com/nandomoreirame" target="_blank">@nandomoreirame</a><br>
 **Facebook:** <a href="http://facebook.com/fernando.dev" target="_blank">fb.com/fernando.dev</a><br>
 **Github:** <a href="http://github.com/nandomoreirame" target="_blank">github.com/nandomoreirame</a><br>
+
+<hr>
