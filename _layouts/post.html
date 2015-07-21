@@ -10,18 +10,13 @@ post_class: post-template
     <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
     <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">RSS</a>
   </nav>
-</header>
-
-<main class="content" role="main">
-
-  <article class="post">
-
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-      <section class="post-meta">
+  <div class="vertical">
+    <div class="main-header-content inner">
+      <h1 class="page-title">{{ page.title }}</h1>
+      <h2 class="page-description">
         <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">
-          {% assign m = post.date | date: "%-m" %}
-          {{ post.date | date: "%-d" }} de
+          {% assign m = page.date | date: "%-m" %}
+          {{ page.date | date: "%-d" }} de
           {% case m %}
             {% when '1' %}Janeiro
             {% when '2' %}Fevereiro
@@ -36,13 +31,19 @@ post_class: post-template
             {% when '11' %}Novembro
             {% when '12' %}Dezembro
           {% endcase %}
-          de {{ post.date | date: "%Y" }}
+          de {{ page.date | date: "%Y" }}
         </time>
         {% if page.categories.size > 0 %}
-        {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
+        {{ page.categories | array_to_sentence_string | prepend: 'em ' }}
         {% endif %}
-      </section>
-    </header>
+      </h2>
+    </div>
+  </div>
+</header>
+
+<main class="content" role="main">
+
+  <article class="post">
 
     <section class="post-content">
       {{content}}
@@ -53,7 +54,25 @@ post_class: post-template
       <h5>Arquivo</h5>
       <ul>
         {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li><span>
+          {% assign m = page.date | date: "%-m" %}
+          {{ page.date | date: "%-d" }} de
+          {% case m %}
+            {% when '1' %}Janeiro
+            {% when '2' %}Fevereiro
+            {% when '3' %}Março
+            {% when '4' %}Abril
+            {% when '5' %}Maio
+            {% when '6' %}Junho
+            {% when '7' %}Julho
+            {% when '8' %}Agosto
+            {% when '9' %}Setembro
+            {% when '10' %}Outubro
+            {% when '11' %}Novembro
+            {% when '12' %}Dezembro
+          {% endcase %}
+          de {{ page.date | date: "%Y" }}
+        </span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
     </section>
