@@ -2,7 +2,7 @@
 // Helpers
 //
 
-.clearfix {@extend %clearfix}
+// .clearfix {@extend %clearfix}
 
 .no-float,
 .pull-none   {float: none !important}
@@ -33,3 +33,5 @@
 .text-lower {text-transform : lowercase !important}
 .text-upper {text-transform : uppercase !important}
 .text-capit {text-transform : capitalize !important}
+
+.dot { border-radius: 50% }

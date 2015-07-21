@@ -1,13 +1,13 @@
-
-<nav class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&laquo; Mais antigo</a>
-  {% else %}
-    <span class="pagination-item older">&laquo; Mais antigo</span>
-  {% endif %}
+<nav class="pagination" role="pagination">
   {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Mais novo &raquo;</a>
+  {% if paginator.previous_page == 1 %}
+  <a class="newer-posts" href="/" title="Previous Page">&laquo; Posts mais recentes</a>
   {% else %}
-    <span class="pagination-item newer">Mais novo &raquo;</span>
+  <a class="newer-posts" href="/page/{{ paginator.previous_page }}/" title="Previous Page">&laquo; Posts mais recentes</a>
+  {% endif %}
+  {% endif %}
+  <span class="page-number">Página {{paginator.page}} de {{paginator.total_pages}}</span>
+  {% if paginator.next_page %}
+  <a class="older-posts" href="/page/{{ paginator.next_page }}/" title="Next Page">Posts mais antigos &raquo;</a>
   {% endif %}
 </nav>

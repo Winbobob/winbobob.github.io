@@ -2,15 +2,12 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="pt-br">
-  {% include head.html %}
-  <body class="{{ page.slug }}">
-    {% include header.html %}
-
-    <main class="main container">
-      {{ content }}
-    </main>
-
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
+    {{ content }}
     {% include footer.html %}
   </body>
 </html>

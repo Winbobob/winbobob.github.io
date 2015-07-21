@@ -1,22 +1,32 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-# permalink:           pretty
-# relative_permalinks: true
-# permalink   : :year/:month/:day/:title
+name: Nandomoreira
+description: " / Desenvolvimento Web e tudo mais.. "
+meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript."
+keywords: "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
+
 permalink   : :title
 markdown    : kramdown
 highlighter : pygments
 
-# Setup
-title:               Nandomoreira
-tagline:             " / Desenvolvimento Web e tudo mais.."
-description:         Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript.
-keywords:            "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
-url:                 "http://nandomoreira.me"
-baseurl:             ""
-paginate:            1
-paginate_path:       "/page/:num"
+logo: false
+
+paginate: 6
+paginate_path: "/page/:num"
+
+baseurl: /
+domain_name: 'nandomoreira.me'
+google_analytics: 'UA-XXXXXXXX-X'
+
+cover: '/assets/images/header-cover.jpg'
+
+# Details for the RSS feed generator
+url: 'nandomoreira.me'
+author:
+  name     : 'Fernando Moreira'
+  image    : '/assets/images/author.jpg'
+  email    : hi@nandomoreira.me
+  url      : http://nandomoreira.me
+  facebook : https://www.facebook.com/fernando.dev
+  twitter  : https://twitter.com/nandomoreirame
 
 # Assets
 #
@@ -25,18 +35,6 @@ sass:
   sass_dir : _sass
   style    : :compressed
 
-# About/contact
-author:
-  name     : Fernando Moreira
-  email    : hi@nandomoreira.me
-  url      : http://nandomoreira.me
-  facebook : https://www.facebook.com/fernando.dev
-  twitter  : https://twitter.com/nandomoreirame
-
-# Custom vars
-version: 1.0.0
-github:
-  repo: https://github.com/nandomoreirame/nandomoreirame.github.io
 
 compress_html:
   clippings: all
@@ -45,45 +43,5 @@ compress_html:
   profile: false
   ignore:
     envs: all
-
-# Portfolio
-portfolio:
-  - title: Remer Terapias
-    url: http://remerterapias.com.br
-    image: remerterapias.jpg
-  - title: Abracce
-    url: http://abracce.org.br
-    image: abracce.jpg
-  - title: Desafio Abracce
-    url: http://desafio.abracce.org.br
-    image: desafio-abracce.jpg
-  - title: Chocolataria Gramado
-    url: http://chocolatariagramadoctba.com.br
-    image: chocolatariagramado.jpg
-  - title: Poral Macuxi
-    url: http://macuxi.com
-    image: macuxi.com.jpg
-  - title: Pizzaria Detroit
-    url: http://pizzariadetroit.com.br
-    image: pizzariadetroit.jpg
-  - title: Conexão Plastilit
-    url: http://conexaoplastilit.com.br
-    image: conexaoplastilit.jpg
-  - title: Hidrautest
-    url: http://hidrautest.com.br
-    image: hidrautest.com.br.jpg
-  - title: GM3i / Projeto
-    url: http://gm3i.com.br
-    image: gm3i.com.br.jpg
-  - title: Deputada Sheridan
-    url: http://deputadasheridan.com.br
-    image: sheridan.jpg
-  - title: Casas Irmãos Silva
-    url: http://casasirmaossilva.com.br
-    image: casas-irmaos-silva.jpg
-  - title: Divinu's Pães
-    url: "#"
-    # url: http://divinuspaes.com.br
-    image: divinuspaes.jpg
 
 exclude: ["gulp", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

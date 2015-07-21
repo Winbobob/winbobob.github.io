@@ -1,20 +1,17 @@
 ---
 layout: page
 title: Sobre mim
-description: Olá, meu nome é Fernando Moreira Costa sou Desenvolvedor Wordpress em Curitiba - PR
-keywords: "site, Website, loja virtual, lojas virtuais, E-commerce, Curitiba, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
-permalink: /sobre/
-slug: about
+permalink: /about/
 ---
 
 <figure>
-  <img src="/assets/images/avatar.jpg" class="dot" title="Fernando Moreira Costa" alt="Fernando Moreira Costa">
+  <img src="{{ site.author.image }}" class="dot" title="{{ site.author.name }}" alt="{{ site.author.name }}">
 </figure>
 
 {% assign year = site.time | date: '%Y' %}
 {% capture myage %}{{ year | minus: 1989 }}{% endcapture %}
 
-Meu nome é **Fernando Moreira Costa**, tenho aproximadamente **{{ myage }} anos**. Nasci e cresci em uma cidadezinha do interior de **Rondônia** chamada **Ariquemes**, sai de lá com 18 anos para me aventurar em **Curitiba** onde moro atualmente. Sou **casado**, tenho um cachorro chamado **Ted**, e não tenho filhos.
+Meu nome é **Fernando Moreira Costa**, tenho **{{ myage }} anos**. Nasci e cresci em uma cidadezinha do interior de **Rondônia** chamada **Ariquemes**, sai de lá com 18 anos para me aventurar em **Curitiba** onde moro atualmente. Sou **casado**, tenho um cachorro chamado **Ted**, e não tenho filhos.
 
 Eu comecei a brincar com códigos em meados de 2009 e trabalhar profissionalmente em 2010 numa agência de criação e desenvolvimento web.
 
