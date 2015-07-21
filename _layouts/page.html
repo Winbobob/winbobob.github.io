@@ -3,14 +3,24 @@ layout: default
 post_class: post-template page-template
 ---
 
-<nav class="main-nav clearfix">
-  <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
-  <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">RSS</a>
-</nav>
+<header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})">
+  <nav class="main-nav {% if page.cover %}overlay{% endif %} clearfix">
+    <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
+    <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">RSS</a>
+  </nav>
+  <div class="vertical">
+    <div class="main-header-content inner">
+      <h1 class="page-title">{{ page.title }}</h1>
+      {% if page.slug == 'about' %}
+        <figure><img src="{{ site.author.image }}" class="dot" title="{{ site.author.name }}" alt="{{ site.author.name }}"></figure>
+      {% endif %}
+    </div>
+  </div>
+</header>
 
 <main class="content" role="main">
   <article class="post">
-    <h1 class="post-title text-center">{{ page.title }}</h1>
+    <!-- <h1 class="post-title text-center">{{ page.title }}</h1> -->
     <section class="post-content">
       {{content}}
     </section>

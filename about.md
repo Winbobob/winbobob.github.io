@@ -2,11 +2,8 @@
 layout: page
 title: Sobre mim
 permalink: /about/
+slug: about
 ---
-
-<figure>
-  <img src="{{ site.author.image }}" class="dot" title="{{ site.author.name }}" alt="{{ site.author.name }}">
-</figure>
 
 {% assign year = site.time | date: '%Y' %}
 {% capture myage %}{{ year | minus: 1989 }}{% endcapture %}
@@ -42,7 +39,7 @@ Atualmente estou cursando <a href="http://www.ctpositivo.edu.br/cursos-de-tecnol
 
 <hr>
 
-E por fim, para entrar em contato comigo basta enviar um e-mail para **hi[at]nandomoreira.me** ou me procurar em uma das minhas redes sociais.
+E por fim, para entrar em contato comigo basta enviar um e-mail para **nandomoreira.me[at]gmail.com** ou me procurar em uma das minhas redes sociais.
 
 **Twitter:** <a href="http://twitter.com/nandomoreirame" target="_blank">@nandomoreirame</a><br>
 **Facebook:** <a href="http://facebook.com/fernando.dev" target="_blank">fb.com/fernando.dev</a><br>

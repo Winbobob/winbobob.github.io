@@ -14,7 +14,7 @@ paginate_path: "/page/:num"
 
 baseurl: /
 domain_name: 'nandomoreira.me'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-52446115-1'
 
 cover: '/assets/images/header-cover.jpg'
 
@@ -27,6 +27,7 @@ author:
   url      : http://nandomoreira.me
   facebook : https://www.facebook.com/fernando.dev
   twitter  : https://twitter.com/nandomoreirame
+  bio      : "Coisas que curto um pouco: Café, Rock'n Roll, café, HTML5, café, animais, design, café, Wordpress, Twitter, café, canecas personalizadas (com café), CSS, JS, café, Gulp, café, programação, café, café, café, café..."
 
 # Assets
 #

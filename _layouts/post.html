@@ -6,7 +6,7 @@ post_class: post-template
 ---
 
 <header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})">
-  <nav class="main-nav overlay clearfix">
+  <nav class="main-nav {% if page.cover %}overlay{% endif %} clearfix">
     <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
     <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">RSS</a>
   </nav>
@@ -33,9 +33,11 @@ post_class: post-template
           {% endcase %}
           de {{ page.date | date: "%Y" }}
         </time>
+        {% comment %}
         {% if page.categories.size > 0 %}
         {{ page.categories | array_to_sentence_string | prepend: 'em ' }}
         {% endif %}
+        {% endcomment %}
       </h2>
     </div>
   </div>
@@ -81,20 +83,18 @@ post_class: post-template
     <footer class="post-footer">
       {% if site.author %}
       <figure class="author-image">
-        <a class="img" href="{{ site.baseurl }}" style="background-image: url({{ site.author.image }})"><span class="hidden">{{site.author}}</span></a>
+        <a class="img" href="{{ site.author.twitter }}" target="_blank" style="background-image: url({{ site.author.image }})"><span class="hidden">{{site.author}}</span></a>
       </figure>
       <section class="author">
-        <h4> {{ site.author.name }} </h4>
-        <p>
-          Here goes the author description. You might want to place some links too in here
-        </p>
+        <h4>Sobre {{ site.author.name }} </h4>
+        <p>{{ site.author.bio }}</p>
       </section>
       {% endif %}
 
       {% include share.html %}
 
       {% if page.disqus %}
-      {% include disqus.html %}
+        {% include disqus.html %}
       {% endif %}
 
     </footer>
