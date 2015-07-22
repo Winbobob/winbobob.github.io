@@ -18,11 +18,11 @@ Hoje sou especializado em desenvolvimento web usando o <a href="http://br.wordpr
 
 Atualmente estou cursando <a href="http://www.ctpositivo.edu.br/cursos-de-tecnologia/sistemas-para-internet" target="_blank">Tecnoligia em Sistemas para Internet</a> no <a target="_blank" href="http://www.ctpositivo.edu.br/">CT Positivo</a> e trabalho na <a href="http://malapronta.com" target="_blank">**MalaPronta.com**</a> como **desenvolvedor front-end**.
 
-<hr>
+***
 
 ### Minhas Habilidades
 
-* HTML - Jekyll/liquid - Jade - Haml - Erb
+* HTML (Jekyll/liquid, Jade, Haml, Erb)
 * CSS (Stylus, Sass, Less)
 * CSS Frameworks (Bootstrap, Foundation, e outros)
 * Design Responsivo (Mobile First)
@@ -31,13 +31,13 @@ Atualmente estou cursando <a href="http://www.ctpositivo.edu.br/cursos-de-tecnol
 * Bower / npm / Ruby gems
 * Git / Github / Gitlab
 * PHP / Frameworks PHP (Codeigniter, laravel, symfony)
-* MySQL - MongoDB (básico)
+* MySQL
 * Scrum e Kanban
 * NodeJS (básico)
 * Ruby (básico)
 * TDD e BDD (básico)
 
-<hr>
+***
 
 E por fim, para entrar em contato comigo basta enviar um e-mail para **nandomoreira.me[at]gmail.com** ou me procurar em uma das minhas redes sociais.
 
@@ -45,4 +45,4 @@ E por fim, para entrar em contato comigo basta enviar um e-mail para **nandomore
 **Facebook:** <a href="http://facebook.com/fernando.dev" target="_blank">fb.com/fernando.dev</a><br>
 **Github:** <a href="http://github.com/nandomoreirame" target="_blank">github.com/nandomoreirame</a><br>
 
-<hr>
+***

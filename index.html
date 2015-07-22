@@ -7,12 +7,7 @@ about: 'about/'
 
 <header class="main-header" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})">
   <nav class="main-nav overlay clearfix">
-    {% if page.logo %}
-    <a class="blog-logo" href="{{ site.baseurl }}">
-      <img src="{{ page.logo }}" alt="Blog Logo" />
-    </a>
-    {% endif %}
-    <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml" target="_blank">RSS</a>
+    <a class="subscribe-button icon-feed" href="{{ "/rss.xml" | prepend: site.baseurl }}" target="_blank">RSS</a>
   </nav>
   <div class="vertical">
     <div class="main-header-content inner">

@@ -1,14 +1,12 @@
-
-name: Nandomoreira
-description: "/ Desenvolvimento Web e tudo mais.. "
-meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript."
-keywords: "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
-
-permalink   : :title
+permalink   : /:title/
 markdown    : kramdown
 highlighter : pygments
 
-logo: false
+# site title, description, meta_description, meta_keywords
+name: 'Fernando Moreira'
+description: "/ Desenvolvimento Web e tudo mais.. "
+meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript."
+meta_keywords: "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
 
 paginate: 10
 paginate_path: "/page/:num"

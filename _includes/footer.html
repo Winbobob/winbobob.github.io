@@ -1,17 +1,14 @@
 
-<!-- <footer class="site-footer clearfix">
-  <section class="copyright">
-    <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy;
-    {{date format="YYYY"}} &bull; All rights reserved.
-  </section>
-  <section class="poweredby">Made with Jekyll using
-    <a href="http://github.com/rosario/kasper">Kasper theme</a>
-  </section>
-</footer> -->
+<footer class="site-footer clearfix">
+  <span>
+    &copy;{{date format="YYYY"}} <a href="{{ site.url }}">{{ site.name }}</a> &bull; All rights reserved.
+    Made with Jekyll &bull; <a href="{{ site.github.repo }}" target="_blank">Open source <3</a>
+  </span>
+</footer>
 
-<script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery-1.11.1.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery.fitvids.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/index.js" | prepend: site.baseurl }}"></script>
 
 <script type="text/javascript">
   var _gaq = _gaq || [];

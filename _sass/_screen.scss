@@ -826,7 +826,8 @@ margin on the iframe, cause it breaks stuff. */
   }
 }
 
-.main-nav.overlay {
+// .main-nav.overlay {
+.main-nav {
   a {
     color: #fff;
   }
@@ -1534,15 +1535,16 @@ body:not(.post-template) .post-title {
 .site-footer {
   position: relative;
   margin: 8rem 0 0 0;
-  padding: 0.5rem 15px;
+  padding: 1rem 0;
   border-top: #EBF2F6 1px solid;
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
   line-height: 1.75em;
-  color: #BBC7CC;
+  color: #acacac;
 
   a {
-    color: #BBC7CC;
+    color: #acacac;
     text-decoration: none;
     font-weight: bold;
 
@@ -1550,19 +1552,6 @@ body:not(.post-template) .post-title {
       color: #50585D;
     }
   }
-}
-
-.poweredby {
-  display: block;
-  width: 45%;
-  float: right;
-  text-align: right;
-}
-
-.copyright {
-  display: block;
-  width: 45%;
-  float: left;
 }
 
 /* ==========================================================================

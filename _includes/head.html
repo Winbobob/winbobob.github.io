@@ -9,21 +9,21 @@
 
 <title>
   {% if page.title == "Home" %}
-    {{ site.title }} &middot; {{ site.description }}
+    {{ site.name }} {{ site.description }}
   {% else %}
-    {{ page.title }} &middot; {{ site.title }}
+    {{ page.title }} &bull; {{ site.name }}
   {% endif %}
 </title>
 
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}">
-<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
 
 <link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
 <meta property="og:locale" content="pt_BR">
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{ site.title }} - {{ site.description }}">
-<meta property="og:description" content="{{ site.title }} - {{ site.meta_description }}">
+<meta property="og:title" content="{{ site.name }} - {{ site.description }}">
+<meta property="og:description" content="{{ site.name }} - {{ site.meta_description }}">
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.author.name }}">
 <meta property="article:publisher" content="{{ site.author.facebook }}">
@@ -44,4 +44,4 @@
 {% endif %}
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
