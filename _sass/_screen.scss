@@ -735,25 +735,6 @@ margin on the iframe, cause it breaks stuff. */
   }
 }
 
-/* Appears in the top right corner of your home page */
-
-.blog-logo {
-  display: block;
-  float: left;
-  background: none !important;
-  border: none !important;
-
-  img {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    height: 38px;
-    padding: 1px 0 5px 0;
-    width: auto;
-  }
-}
-
 .back-button {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -762,7 +743,6 @@ margin on the iframe, cause it breaks stuff. */
   float: left;
   height: 38px;
   padding: 0 15px 0 10px;
-  border: transparent 1px solid;
   color: #9EABB3;
   text-align: center;
   font-size: 12px;
@@ -838,7 +818,6 @@ margin on the iframe, cause it breaks stuff. */
 
   a:hover {
     color: #222;
-    border-color: #fff;
     background: #fff;
     transition: all 0.1s ease;
   }
