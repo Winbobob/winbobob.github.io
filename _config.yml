@@ -1,5 +1,6 @@
+
 name: Nandomoreira
-description: " / Desenvolvimento Web e tudo mais.. "
+description: "/ Desenvolvimento Web e tudo mais.. "
 meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript."
 keywords: "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
 
@@ -12,7 +13,7 @@ logo: false
 paginate: 10
 paginate_path: "/page/:num"
 
-baseurl: /
+baseurl: ""
 domain_name: 'nandomoreira.me'
 google_analytics: 'UA-52446115-1'
 
@@ -36,7 +37,12 @@ sass:
   sass_dir : _sass
   style    : :compressed
 
+# Custom vars
+version: 1.0.0
+github:
+  repo: https://github.com/nandomoreirame/nandomoreirame.github.io
 
+# Compress HTML
 compress_html:
   clippings: all
   comments: all

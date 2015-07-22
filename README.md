@@ -1,6 +1,6 @@
 # [nandomorerame.me](http://nandomorerame.me/)
 
-Our tech blog's source code.
+My tech blog's source code.
 
 ## Setup
 
