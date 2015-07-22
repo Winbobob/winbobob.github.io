@@ -618,6 +618,24 @@ margin on the iframe, cause it breaks stuff. */
   display: none;
 }
 
+
+/* alert */
+.alert {
+  background-color: lighten(#f3e3e7, 5%);
+  border: 1px solid darken(#f3e3e7, 5%);
+  box-shadow: 0px 1px 1px rgba(#000, .2);
+  color: darken(#f7aabf, 20%);
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+
+  @extend .text-center;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
 /* Creates a responsive wrapper that makes our content scale nicely */
 
 .inner {
@@ -951,11 +969,12 @@ body:not(.post-template) .post-title {
 }
 
 .author-thumb {
-  width: 24px;
-  height: 24px;
-  float: left;
-  margin-right: 9px;
-  border-radius: 100%;
+  width: 24px !important;
+  height: 24px !important;
+  float: left !important;
+  margin-right: 9px !important;
+  border-radius: 100% !important;
+  padding: 0 !important;
 }
 
 .post-meta a {

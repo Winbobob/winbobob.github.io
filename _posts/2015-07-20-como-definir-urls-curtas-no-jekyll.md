@@ -9,8 +9,6 @@ category: [Dicas, Jekyll]
 tags: [blog, url, amigáveis, curtas, jekyll]
 ---
 
-Olá!
-
 Neste post, vou descrever como fazer as URLs amigáveis para o seu blog Jekyll. Por exemplo, eu queria que a URL para este post para ser [nandomoreira.me/urls-curtas-no-jekyll](http://nandomoreira.me/urls-curtas-no-jekyll) sem quaisquer tags, datas ou outros personagens extras. Ter uma url é curta, parece bom, e é fácil de compartilhar. Eu também li algumas especulações que URLs menores ajudar com SEO.
 
 A documentação do Jekyll discute a capacidade de setar `permalink` como `none` no `_config.yml`:

@@ -18,7 +18,7 @@ google_analytics: 'UA-52446115-1'
 cover: '/assets/images/header-cover.jpg'
 
 # Details for the RSS feed generator
-url: 'nandomoreira.me'
+url: 'http://nandomoreira.me'
 author:
   name     : 'Fernando Moreira'
   image    : '/assets/images/author.jpg'
