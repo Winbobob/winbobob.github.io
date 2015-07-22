@@ -868,7 +868,6 @@ margin on the iframe, cause it breaks stuff. */
   .main-nav.overlay {
     .back-button, .subscribe-button {
       color: rgba(0, 0, 0, 0.4);
-      border-color: rgba(0, 0, 0, 0.3);
     }
   }
 }
@@ -1177,7 +1176,6 @@ body:not(.post-template) .post-title {
   top: -14px;
   left: 50%;
   margin-left: -15px;
-  border: #EBF2F6 1px solid;
   text-align: center;
   line-height: 2.4rem;
   border-radius: 50px;
@@ -1695,7 +1693,6 @@ body:not(.post-template) .post-title {
   }
 
   .back-button:hover, .subscribe-button:hover {
-    border-color: #ebeef0;
     color: #2e2e2e;
     background: #ebeef0;
   }
@@ -1710,22 +1707,11 @@ body:not(.post-template) .post-title {
 
   .main-nav.overlay a:hover {
     color: #fff;
-    border-color: transparent;
     background: transparent;
   }
 
   .no-cover .main-nav.overlay {
     background: none;
-
-    .back-button, .subscribe-button {
-      border: none;
-    }
-  }
-
-  .main-nav.overlay {
-    .back-button, .subscribe-button {
-      border-color: transparent;
-    }
   }
 
   .blog-logo img {
