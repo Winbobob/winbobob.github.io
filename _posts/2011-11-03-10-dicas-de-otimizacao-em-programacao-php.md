@@ -13,6 +13,7 @@ tags:
 - dicas
 - php
 - programação
+cover: '/assets/uploads/php-default.jpg'
 ---
 
 **1** - Usar `echo` ao invés de `print`.

@@ -14,6 +14,7 @@ tags:
 - Odin
 - php
 - Wordpress
+cover: '/assets/uploads/criando-formulario-de-contato-para-wordpress-com-odin-framework.png'
 ---
 
 Faaaaaaaaala ai pessoas, tudo jóia?

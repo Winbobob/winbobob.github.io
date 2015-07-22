@@ -14,6 +14,7 @@ tags:
 - gerador
 - php
 - programação
+cover: '/assets/uploads/php-default.jpg'
 ---
 
 Salve salve php programmers!

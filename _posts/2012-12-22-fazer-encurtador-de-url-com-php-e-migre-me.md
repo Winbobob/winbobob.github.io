@@ -15,6 +15,7 @@ tags:
 - php
 - programação
 - twitter
+cover: '/assets/uploads/php-default.jpg'
 ---
 
 Olá galera!

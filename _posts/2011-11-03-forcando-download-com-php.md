@@ -11,6 +11,7 @@ tags:
 - php
 - programação
 comments: true
+cover: '/assets/uploads/php-default.jpg'
 ---
 
 

@@ -13,6 +13,7 @@ tags:
 - dicas
 - php
 - programação
+cover: '/assets/uploads/php-default.jpg'
 ---
 
 A função `number_format()` do PHP, além de trocar ponto (.) por vírgula (,), também serve para definir quantas casas decimais teremos no valor.
