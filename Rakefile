@@ -3,9 +3,11 @@ require "bundler/setup"
 
 SOURCE = "."
 CONFIG = {
-  'layouts'  => File.join(SOURCE, "_layouts"),
-  'posts'    => File.join(SOURCE, "_posts"),
-  'post_ext' => "md"
+  'layouts' => File.join(SOURCE, "_layouts"),
+  'posts' => File.join(SOURCE, "_posts"),
+  'post_ext' => "md",
+  'categories' => File.join(SOURCE, "categories"),
+  'tags' => File.join(SOURCE, "tags")
 }
 
 desc "Begin a new post in #{CONFIG['posts']}"
@@ -71,3 +73,49 @@ task :page do
     post.puts "{% include JB/setup %}"
   end
 end # task :page
+
+
+desc "Begin a new category in #{CONFIG['categories']}"
+task :category do
+  abort("rake aborted: '#{CONFIG['categories']}' directory not found.") unless FileTest.directory?(CONFIG['categories'])
+  title = ENV["title"] || "new-category"
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+
+  filename = File.join(CONFIG['categories'], "category-#{slug}.html")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  puts "Creating new category: #{filename}"
+  open(filename, 'w') do |category|
+    category.puts "---"
+    category.puts "layout: category"
+    category.puts "title: \"#{title.gsub(/-/,' ')}\""
+    category.puts "slug: #{slug}"
+    category.puts "permalink: /categoria/#{slug}/"
+    category.puts "---"
+  end
+end # task :category
+
+
+desc "Begin a new tag in #{CONFIG['tags']}"
+task :tag do
+  abort("rake aborted: '#{CONFIG['tags']}' directory not found.") unless FileTest.directory?(CONFIG['tags'])
+  title = ENV["title"] || "new-tag"
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+
+  filename = File.join(CONFIG['tags'], "tag-#{slug}.html")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  puts "Creating new tag: #{filename}"
+  open(filename, 'w') do |tag|
+    tag.puts "---"
+    tag.puts "layout: tag"
+    tag.puts "title: \"#{title.gsub(/-/,' ')}\""
+    tag.puts "slug: #{slug}"
+    tag.puts "permalink: /tag/#{slug}/"
+    tag.puts "---"
+  end
+end # task :tag
