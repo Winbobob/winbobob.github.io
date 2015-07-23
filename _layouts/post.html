@@ -6,10 +6,7 @@ post_class: post-template
 ---
 
 <header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})">
-  <nav class="main-nav {% if page.cover %}overlay{% endif %} clearfix">
-    <a class="back-button icon-arrow-left" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-    <a class="subscribe-button icon-feed" href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">RSS</a>
-  </nav>
+  {% include nav.html %}
   <div class="vertical">
     <div class="main-header-content inner">
       <h1 class="page-title">{{ page.title }}</h1>
@@ -33,6 +30,7 @@ post_class: post-template
           {% endcase %}
           de {{ page.date | date: "%Y" }}
         </time>
+
         {% comment %}
         {% if page.categories.size > 0 %}
         {{ page.categories | array_to_sentence_string | prepend: 'em ' }}
@@ -43,12 +41,34 @@ post_class: post-template
   </div>
 </header>
 
+
 <main class="content" role="main">
 
   <article class="post">
 
     <section class="post-content">
       {{content}}
+
+      <div class="post-meta">
+        {% assign post = page %}
+        {% if post.tags.size > 0 %}
+            {% capture tags_content %}Publicado em: {% endcapture %}
+            {% for post_tag in post.tags %}
+                {% for data_tag in site.data.tags %}
+                    {% if data_tag.slug == post_tag %}
+                        {% assign tag = data_tag %}
+                    {% endif %}
+                {% endfor %}
+                {% if tag %}
+                    {% capture tags_content_temp %}{{ tags_content }}<a href="/tag/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+                    {% assign tags_content = tags_content_temp %}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {% assign tags_content = '' %}
+        {% endif %}
+        <small>{{ tags_content }}</small>
+      </div>
     </section>
 
     {% if page.archive %}

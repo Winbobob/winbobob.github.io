@@ -5,13 +5,13 @@ keywords: "templates, CSS, dicas, HTML, Vídeo"
 date: 2013-01-12 01:09:47.000000000 -02:00
 comments: true
 categories:
-- Vídeos
+- videos
 tags:
-- CSS
+- css
 - dicas
 - front-end
 - tutorial
-- Vídeo
+- video
 ---
 
 <div class="video-responsive">

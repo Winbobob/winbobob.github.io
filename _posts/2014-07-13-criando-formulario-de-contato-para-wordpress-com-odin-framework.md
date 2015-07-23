@@ -7,10 +7,10 @@ comments: true
 categories:
 - Wordpress
 tags:
-- Iniciantes
-- Odin
+- iniciantes
+- odin
 - php
-- Wordpress
+- wordpress
 cover: '/assets/uploads/criando-formulario-de-contato-para-wordpress-com-odin-framework.png'
 ---
 

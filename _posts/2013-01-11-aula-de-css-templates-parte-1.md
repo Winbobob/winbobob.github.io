@@ -4,12 +4,12 @@ title: Aula de CSS - templates (parte 1)
 date: 2013-01-11 23:54:30.000000000 -02:00
 comments: true
 categories:
-- Vídeos
+- videos
 tags:
-- CSS
+- css
 - dicas
 - tutorial
-- Vídeo
+- video
 ---
 
 <div class="video-responsive">

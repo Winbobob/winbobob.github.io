@@ -9,8 +9,8 @@ categories:
 - jQuery
 tags:
 - dicas
-- jQuery
-- programação
+- jquery
+- programacao
 ---
 
 Muitas vezes necessitamos utilizar mais de uma biblioteca **jQuery** em nossos projetos, e quanto mais bibliotecas na em uma página corre-se o risco de ter conflito entre elas, ocorrendo assim um mal funcionamento.

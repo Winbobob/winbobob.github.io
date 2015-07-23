@@ -9,9 +9,9 @@ categories:
 - CSS
 tags:
 - css3
-- Efeitos
+- efeitos
 - html
-- jQuery
+- jquery
 - tutorial
 ---
 

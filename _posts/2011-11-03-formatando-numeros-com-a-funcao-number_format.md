@@ -10,7 +10,7 @@ categories:
 tags:
 - dicas
 - php
-- programação
+- programacao
 cover: '/assets/uploads/php-default.jpg'
 ---
 

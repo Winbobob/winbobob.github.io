@@ -11,7 +11,7 @@ tags:
 - dicas
 - gerador
 - php
-- programação
+- programacao
 cover: '/assets/uploads/php-default.jpg'
 ---
 

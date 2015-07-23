@@ -6,11 +6,10 @@ comments: true
 categories:
 - CSS
 tags:
-- CSS
+- css
 - dicas
 - html
-- jQuery
-- Programmer
+- jquery
 ---
 
 O accordion, também conhecido como "menu sanfona", serve para estruturar conteúdo em tópicos. Ele é bem simples de fazer, a maioria das pessoas que visitam devem saber fazer de olhos vendados. E com a biblioteca jQuery no seu site, é possível fazer um accordion com apenas 5 linhas de código.

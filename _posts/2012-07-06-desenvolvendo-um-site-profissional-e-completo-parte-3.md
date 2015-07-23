@@ -6,15 +6,15 @@ description: "Essa é a 3ª parte do nosso curso Criando um site profissional e 
 keywords: "CSS, jQuery, css3, CSS, Vídeo, youtube"
 comments: true
 categories:
-- Vídeos
+- videos
 tags:
-- CSS
+- css
 - css3
 - html
-- HTML5
+- html5
 - javascript
-- programação
-- Vídeo
+- programacao
+- videos
 - youtube
 ---
 

@@ -7,7 +7,7 @@ categories:
 - Downloads
 tags:
 - dicas
-- Wordpress
+- wordpress
 ---
 
 Saudações galerinha da web!

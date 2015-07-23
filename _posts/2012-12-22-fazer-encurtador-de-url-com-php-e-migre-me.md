@@ -11,7 +11,7 @@ tags:
 - dicas
 - html
 - php
-- programação
+- programacao
 - twitter
 cover: '/assets/uploads/php-default.jpg'
 ---

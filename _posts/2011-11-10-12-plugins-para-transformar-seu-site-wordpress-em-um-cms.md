@@ -11,7 +11,7 @@ tags:
 - cms
 - dicas
 - plugins
-- Wordpress
+- wordpress
 
 ---
 

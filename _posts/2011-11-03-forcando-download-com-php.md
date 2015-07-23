@@ -7,7 +7,7 @@ categories:
 tags:
 - dicas
 - php
-- programação
+- programacao
 comments: true
 cover: '/assets/uploads/php-default.jpg'
 ---

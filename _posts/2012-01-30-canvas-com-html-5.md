@@ -9,7 +9,7 @@ categories:
 - HTML
 tags:
 - canvas
-- HTML5
+- html5
 - javascript
 - tutorial
 ---

@@ -7,7 +7,7 @@ keywords: "Git, GitHub, tutorial, Vídeo, youtube"
 categories:
 - Geral
 tags:
-- Vídeos
+- videos
 comments: false
 ---
 

@@ -10,7 +10,7 @@ categories:
 tags:
 - dicas
 - html
-- HTML5
+- html5
 ---
 
 A Estrutura base para dar o pontapé inicial com HTML5.

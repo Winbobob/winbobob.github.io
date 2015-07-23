@@ -10,7 +10,7 @@ categories:
 tags:
 - dicas
 - php
-- programação
+- programacao
 - tutorial
 ---
 

@@ -7,9 +7,9 @@ comments: true
 categories:
 - Wordpress
 tags:
-- Iniciantes
+- iniciantes
 - php
-- Wordpress
+- wordpress
 cover: '/assets/uploads/porque-preciso-saber-php-para-criar-um-site-com-wordpress.jpg'
 ---
 

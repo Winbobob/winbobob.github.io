@@ -7,7 +7,7 @@ keywords: "design, download, downloads, photoshop, free, temas"
 categories:
 - Downloads
 tags:
-- Design
+- design
 - download
 - downloads
 - free

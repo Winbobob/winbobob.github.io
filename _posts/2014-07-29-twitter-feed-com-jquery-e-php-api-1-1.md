@@ -9,7 +9,7 @@ categories:
 tags:
 - api
 - html
-- jQuery
+- jquery
 - php
 - twitter
 

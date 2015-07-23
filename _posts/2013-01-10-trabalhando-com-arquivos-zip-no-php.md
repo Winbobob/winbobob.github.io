@@ -11,7 +11,7 @@ tags:
 - zip
 - dicas
 - php
-- programação
+- programacao
 - tutorial
 cover: '/assets/uploads/php-default.jpg'
 comments: true

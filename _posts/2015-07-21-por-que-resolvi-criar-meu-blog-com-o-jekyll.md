@@ -5,9 +5,9 @@ permalink: por-que-resolvi-criar-meu-blog-com-o-jekyll
 date: 2015-07-21 19:55:52
 comments: true
 description: "Meu primeiro contato com Jekyll foi em fevereiro de 2015 quando resolvi estudar a documentação do Bootstrap]."
-keywords: "jekyll, blog, wordpress, tecnologia"
+keywords: "jekyll, wordpress"
 category: Jekyll
-tags: [jekyll, blog, wordpress, tecnologia]
+tags: [jekyll, wordpress]
 cover: '/assets/uploads/2015-07-21-por-que-resolvi-criar-meu-blog-com-o-jekyll.jpg'
 ---
 

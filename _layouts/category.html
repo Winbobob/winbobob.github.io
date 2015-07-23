@@ -1,6 +1,5 @@
 ---
 layout: default
-post_class: post-template page-template
 ---
 
 <header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})">
@@ -8,18 +7,20 @@ post_class: post-template page-template
   <div class="vertical">
     <div class="main-header-content inner">
       <h1 class="page-title">{{ page.title }}</h1>
-      {% if page.slug == 'about' %}
-        <br><br>
-        <figure><img src="{{ site.author.image }}" class="dot" title="{{ site.author.name }}" alt="{{ site.author.name }}"></figure>
-      {% endif %}
     </div>
   </div>
 </header>
 
 <main class="content" role="main">
-  <article class="post">
-    <section class="post-content">
-      {{content}}
-    </section>
-  </article>
+  {% if site.categories[page.slug] %}
+    {% for post in site.categories[page.slug] %}
+      {% include post.html %}
+    {% endfor %}
+  {% else %}
+    <article class="post">
+      <section class="post-content">
+        <p>Não há artigos para a categoria: <strong>{{ page.title }}</strong></p>
+      </section>
+    </article>
+  {% endif %}
 </main>

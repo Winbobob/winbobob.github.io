@@ -6,9 +6,9 @@ categories:
 - PHP
 tags:
 - php
-- programação
+- programacao
 - tutorial
-- Vídeo
+- videos
 - youtube
 ---
 

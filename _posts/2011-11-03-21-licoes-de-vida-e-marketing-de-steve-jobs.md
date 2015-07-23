@@ -9,9 +9,6 @@ categories:
 - Dicas
 tags:
 - dicas
-- Steve
-- Jobs
-- Vida
 ---
 
 Steve era um visionário. Tinha a capacidade de ver o que não víamos e de implementar (executar) como poucos, para que a visão se realizasse.

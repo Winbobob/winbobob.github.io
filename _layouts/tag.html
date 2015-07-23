@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})">
+  {% include nav.html %}
+  <div class="vertical">
+    <div class="main-header-content inner">
+      <h1 class="page-title">Artigos por tag: {{ page.title }}</h1>
+    </div>
+  </div>
+</header>
+
+<main class="content" role="main">
+  {% if site.tags[page.slug] %}
+    {% for post in site.tags[page.slug] %}
+      {% include post.html %}
+    {% endfor %}
+  {% else %}
+    <article class="post">
+      <section class="post-content">
+        <p>Não há artigos para a tag: <strong>{{ page.title }}</strong></p>
+      </section>
+    </article>
+  {% endif %}
+</main>
