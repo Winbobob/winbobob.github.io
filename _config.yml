@@ -9,6 +9,7 @@ meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, 
 meta_keywords: "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
 
 paginate: 10
+comments: true
 paginate_path: "/page/:num"
 
 baseurl: ""
