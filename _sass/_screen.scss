@@ -572,6 +572,21 @@ table {
   }
 }
 
+iframe {
+  display: block;
+  margin: 1.75em 0;
+}
+
+// .fluid-width-video-wrapper {
+//   display: block;
+//   margin: 1.75em 0;
+
+//   iframe {
+//     margin: 0;
+//   }
+// }
+
+.fluid-width-video-wrapper,
 .video-responsive {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
