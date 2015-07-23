@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Mais um layout gratuito para download :)
-date: 2012-05-08 20:35:03.000000000 -03:00
+date: 2012-05-08 20:35:03
+description: "Salve galera! Já faz algum tempo que desenhei esse layout para lojas de carros, mas estou com pouco tempo para postar minhas artes no blog."
+keywords: "design, download, downloads, photoshop, free, temas"
 categories:
 - Design
 - Downloads
@@ -17,9 +19,7 @@ tags:
 - temas
 ---
 
-Salve galera!
-
-Já faz algum tempo que desenhei esse layout para lojas de carros, mas estou com pouco tempo para postar minhas artes no blog.
+Salve galera! Já faz algum tempo que desenhei esse layout para lojas de carros, mas estou com pouco tempo para postar minhas artes no blog.
 
 É um layout bonito, confira fazendo o download no botão abaixo.
 

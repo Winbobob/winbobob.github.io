@@ -1,7 +1,9 @@
 ---
 layout: post
 title: GitHub no Windows sem nenhuma linha de comando
-date: 2012-07-07 22:26:17.000000000 -03:00
+date: 2012-07-07 22:26:17
+description: "Instalando um sistema próprio do github.com e enviando arquivos no Windows sem nenhuma linha de comando."
+keywords: "Git, GitHub, tutorial, Vídeo, youtube"
 categories:
 - Geral
 tags:
