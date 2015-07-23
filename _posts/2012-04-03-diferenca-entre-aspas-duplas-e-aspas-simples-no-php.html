@@ -1,0 +1,29 @@
+---
+layout: post
+title: Diferença entre "aspas duplas" e 'aspas simples' no PHP
+date: 2012-04-03 11:03:05.000000000 -03:00
+categories:
+- Dicas
+- PHP
+- Programação
+tags:
+- dicas
+- php
+- programação
+---
+<p><strong>Aspas duplas</strong>: fazem pre-processamento das váriaveis.</p>
+<p>Ex:</p>
+<pre lang="php" line="1"><?php $var = "olá mundo";
+echo  "Resposta: $var"
+?></pre>
+<p>Resultado:</p>
+<pre>Resposta: olá mundo</pre>
+<p><strong>Aspas simples:</strong> não fazem pre-processamento das váriaveis. Entende tudo como uma String completa.</p>
+<p>Ex:</p>
+<pre lang="php" line="1"><?php $var = "olá mundo";
+echo  "Resposta: $var"
+?></pre>
+<p>Resultado:</p>
+<pre>Resposta: $var</pre>
+<p>Então? <strong>Otimize seu código</strong>, quando você estiver certo de que não ira ter váriaveis dentro das aspas use aspas simples, assim o <a href="http://www.php.net/" target="_blank">PHP</a> não irá ficar procurando váriaveis para pre-processar.</p>
+<p>FONTE: <a href="http://webpub.wordpress.com/2007/11/11/qual-a-diferenca-entre-aspas-e-apostrofo-ou-aspas-simples-e-aspas-duplas/" target="_blank">http://webpub.wordpress.com/</a></p>

@@ -1,0 +1,67 @@
+---
+layout: post
+title: ! 'Vídeo: Classe Conexão com PHP5'
+date: 2011-11-03 06:18:48.000000000 -02:00
+categories:
+- PHP
+- Programação
+tags:
+- php
+- programação
+- Vídeo
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  jabber_published: '1320311928'
+  _wpas_done_linkedin: '1'
+  _wpas_done_twitter: '1'
+  _wpas_done_fb: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"12882217";s:7:"blog_id";s:8:"29059232";s:9:"mod_stamp";s:19:"2011-11-04
+    00:02:32";}
+author:
+  login: nandomoreira.me
+  email: nandomoreira.me@gmail.com
+  display_name: Fernando Moreira
+  first_name: Fernando
+  last_name: Moreira
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>[youtube http://www.youtube.com/watch?v=fOW79dy1Y-A]</p>
+<p><strong>Conexao.class.php</strong></p>
+<p><code>class Conexao</code><br />
+<code>{</code><br />
+<code>private $_host = 'localhost';</code><br />
+<code>private $_user = 'root';</code><br />
+<code>private $_pass = '';</code><br />
+<code>private $_database = 'video-aula';</code><br />
+<code>public  $_con;</code><br />
+<code>function __construct()</code><br />
+<code>{</code></p>
+<p><code></code><!--more--><br />
+<code>$this-&gt;conecta();</code><br />
+<code>}</code><br />
+<code>function conecta()</code><br />
+<code>{</code><br />
+<code>$_con = mysql_connect($this-&gt;_host, $this-&gt;_user, $this-&gt;_pass) or die("Erro ao conectar ao servidor &amp;raquo; " . mysql_error());</code><br />
+<code>$_con = mysql_select_db($this-&gt;_database) or die("Erro ao selecionar o Banco de Dados &amp;raquo; " . mysql_error());</code><br />
+<code>return $_con;</code><br />
+<code>}</code><br />
+<code>}</code><br />
+<code>?&gt;</code></p>
+<p><strong>index.php</strong></p>
+<p><code>&lt;!DOCTYPE html&gt;</code><br />
+<code>&lt;html lang="pt-br"&gt;</code><br />
+<code>&lt;head&gt;</code><br />
+<code>&lt;meta charset="ISO-8859-1" /&gt;</code><br />
+<code>&lt;title&gt; Classe Conexão com PHP5 &lt;/title&gt;</code><br />
+<code>&lt;/head&gt;</code><br />
+<code>&lt;body&gt;</code><br />
+<code>&lt;?php</code><br />
+<code>include_once 'classes/Conexao.class.php';</code><br />
+<code>$conecta = new Conexao();</code><br />
+<code>?&gt;</code><br />
+<code>&lt;/body&gt;</code><br />
+<code>&lt;/html&gt;</code></p>

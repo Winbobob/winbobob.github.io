@@ -1,0 +1,51 @@
+---
+layout: post
+title: ie7 = problema com position:absolute e z-index
+date: 2012-04-03 11:37:39.000000000 -03:00
+categories:
+- CSS
+- Dicas
+- HTML
+tags:
+- CSS
+- dicas
+- front-end
+- html
+---
+<p>É de praxe o IE7 incomodar os desenvolvedores <em>font-end</em> com suas formas de posicionar as “caixas” dos sites sem permissão. Faz algum tempo que um problema vem me incomodando e não encontrava uma solução de forma alguma.</p>
+<p>Todo mundo sabe que para fazer um drop down precisamos do <code>position</code> e do <code>z-index </code>e que o <code>z-index</code>não funciona com <code>position:absolute</code> no IE7.</p>
+<p><code></code>Ao desenvolver um menu <em>drop down</em> e posicionar o sub-menu com <code>position:absolute</code> o  IE7 coloca o menu por trás de todas imagens, principalmente de banners com slider.</p>
+<p><a href="http://fernandomoreiraweb.com/wp-content"/assets/uploads/2012/04/ie7-menu-por-tras-do-banner.jpg"><img class="wp-image-299     alignnone" title="ie7 menu por tras do banner" alt="ie7 menu por tras do banner" src=""/assets/uploads/ie7-menu-por-tras-do-banner.jpg" /></a></p>
+<p><strong>O CSS menu ficaria assim:</strong></p>
+<pre lang="css" line="1">ul { 
+    width: 957px; height: 46px; 
+    background: url(../images/menu.png) repeat-x;
+    padding-left: 4px;
+}
+ul li { 
+    position: relative;
+}
+ul li ul {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}</pre>
+<p>Para resolver esse problema é muito simples. Colocamos <code>position:relative;</code> na ul e um z-index:2;</p>
+<pre lang="css" line="1">ul { 
+    width: 957px; height: 46px; 
+    background: url(../images/menu.png) repeat-x;
+    padding-left: 4px; 
+    position: relative;
+    z-index: 2; 
+}
+ul li { 
+    position: relative;
+}
+ul li ul {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}</pre>
+<p><a href="http://fernandomoreiraweb.com/wp-content"/assets/uploads/2012/04/ie7-menu-por-cima-do-banner.jpg"><img class="    alignnone" title="ie7 menu por cima do banner" alt="ie7 menu por cima do banner" src=""/assets/uploads/ie7-menu-por-cima-do-banner.jpg" /></a></p>
