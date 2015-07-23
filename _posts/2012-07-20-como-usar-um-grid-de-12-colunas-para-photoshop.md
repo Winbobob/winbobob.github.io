@@ -24,7 +24,8 @@ tags:
 E ai galera!
 
 Mais uma vídeo aula para nosso portal, mas essa é diferenciada das demais... não tem nada a ver com programação, é simplesmente design... hehe
-O link para download do layout: [button link="https://www.box.com/s/3c7d9760f848ca808125"]DOWNLOAD[/button]
+
+O link para download do layout: <a href="https://www.box.com/s/3c7d9760f848ca808125">DOWNLOAD</a>
 
 <a title="Linha Framework" href="http://linhaframework.org/" target="_blank">http://linhaframework.org/</a>
 
