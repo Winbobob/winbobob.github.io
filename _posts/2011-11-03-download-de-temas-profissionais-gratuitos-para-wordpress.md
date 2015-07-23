@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Download de temas profissionais gratuitos para Wordpress
-date: 2011-11-03 05:57:09.000000000 -02:00
+date: 2011-11-03 05:57:09
+comments: true
 categories:
 - Dicas
 - Downloads

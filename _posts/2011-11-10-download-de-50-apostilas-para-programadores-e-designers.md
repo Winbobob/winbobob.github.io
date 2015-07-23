@@ -4,7 +4,7 @@ title: "Download de 50 apostilas para programadores e designers"
 date: 2011-11-10 12:21
 description: "Download de 50 apostilas para programadores e designers."
 keywords: "Downloads, apostilas, dicas, free, programadores, designers"
-comments: false
+comments: true
 categories:
 - Dicas
 - Downloads

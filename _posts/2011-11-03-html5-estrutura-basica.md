@@ -2,6 +2,7 @@
 layout: post
 title: "HTML5: Estrutura básica"
 date: 2011-11-03 22:27
+comments: true
 description:  "HTML5 | A Estrutura base para dar o pontapé inicial com HTML5."
 keywords: "Dicas, HTML, HTML5, Estrutura"
 categories:
