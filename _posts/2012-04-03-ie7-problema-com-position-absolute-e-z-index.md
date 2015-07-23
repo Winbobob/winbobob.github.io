@@ -4,7 +4,7 @@ title: "ie7 = problema com position:absolute e z-index"
 date: 2012-04-03 11:37
 description: "É de praxe o IE7 incomodar os desenvolvedores fontend com suas formas de posicionar os elementos dos sites sem permissão"
 keywords: "Dicas, PHP, programação, tutorial, Array"
-comments: true
+comments: false
 categories:
 - CSS
 - Dicas

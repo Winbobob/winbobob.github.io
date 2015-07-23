@@ -15,6 +15,7 @@ tags:
 - programação
 - tutorial
 cover: '/assets/uploads/php-default.jpg'
+comments: true
 ---
 
 Olá meus queridos. Hoje vou explicar como trabalhar com arquivos `.zip` no PHP usando a classe `ZipArchive()`.
