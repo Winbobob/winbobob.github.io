@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Porque preciso saber PHP para criar um site com Wordpress?
+description: Porque preciso saber PHP para criar um site com Wordpress?
 keywords: "Wordpress, Dicas, Site, PHP"
 date: 2014-02-14 11:09:57
 comments: true
 categories:
-- Wordpress
+- wordpress
 tags:
 - iniciantes
 - php

@@ -5,8 +5,12 @@ permalink: "comprimindo-o-html-do-seu-blog-no-jekyll"
 comments: true
 description: "Como comprimir o HTML no Jekyll"
 keywords: "HTML, Jekyll, Comprimindo, Blog, Layout, Compress, liquid"
-category: [jekyll]
-tags: [html, jekyll]
+categories:
+- jekyll
+- html
+tags:
+- jekyll
+- html
 ---
 
 A ideia é bem simples.. Nós vamos usar um [layout](https://github.com/penibelst/jekyll-compress-html) Jekyll que faz todo o trabalho para nós.

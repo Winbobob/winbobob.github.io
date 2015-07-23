@@ -4,7 +4,7 @@ title: Como fazer Accordion Simples com jQuery em 5 linhas de código
 date: 2011-11-03 11:44
 comments: true
 categories:
-- CSS
+- css
 tags:
 - css
 - dicas

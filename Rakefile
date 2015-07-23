@@ -14,7 +14,7 @@ desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-post"
-  tags = ENV["tags"] || "[]"
+  tags = ENV["tags"] || ""
   category = ENV["category"] || ""
   category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
@@ -40,8 +40,10 @@ task :post do
     post.puts "comments: true"
     post.puts "description: \"#{title}\""
     post.puts 'keywords: ""'
-    post.puts "category: #{category}"
-    post.puts "tags: #{tags}"
+    post.puts "categories:"
+    post.puts "- #{category}"
+    post.puts "tags:"
+    post.puts "- #{tags}"
     post.puts "---"
   end
 end # task :post
@@ -95,6 +97,14 @@ task :category do
     category.puts "permalink: /categoria/#{slug}/"
     category.puts "---"
   end
+
+  puts "Write in categories.yml file"
+  open('_data/categories.yml', 'ab+') do |category|
+    category.puts ""
+    category.puts "- slug: #{slug}"
+    category.puts "  name: #{title}"
+  end
+  puts "Successfully created!"
 end # task :category
 
 
@@ -118,4 +128,12 @@ task :tag do
     tag.puts "permalink: /tag/#{slug}/"
     tag.puts "---"
   end
+
+  puts "Write in tags.yml file"
+  open('_data/tags.yml', 'ab+') do |tag|
+    tag.puts ""
+    tag.puts "- slug: #{slug}"
+    tag.puts "  name: #{title}"
+  end
+  puts "Successfully created!"
 end # task :tag

@@ -6,7 +6,7 @@ description: "É de praxe o IE7 incomodar os desenvolvedores fontend com suas fo
 keywords: "Dicas, PHP, programação, tutorial, Array"
 comments: false
 categories:
-- CSS
+- css
 tags:
 - CSS
 - dicas

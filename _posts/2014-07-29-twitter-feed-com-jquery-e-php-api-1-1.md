@@ -5,7 +5,8 @@ date: 2014-07-29 16:33
 description: Hoje vamos criar um box com feed do twitter utilizando a nova api 1.1 com jQuery e PHP.
 keywords: "api, jQuery, html, php, twitter"
 categories:
-- PHP
+- php
+- jquery
 tags:
 - api
 - html

@@ -6,7 +6,7 @@ description: Olá galera! Hoje vamos criar uma simples função para encurtar UR
 keywords: "Dicas, dicas, HTML, PHP, programação, twitter"
 comments: true
 categories:
-- HTML
+- html
 tags:
 - dicas
 - html

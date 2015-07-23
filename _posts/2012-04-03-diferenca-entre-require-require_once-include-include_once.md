@@ -6,7 +6,7 @@ description:  "Diferença entre require(), require_once(), include, include_once
 keywords: "Dicas, PHP, Programação, tutorial"
 comments: true
 categories:
-- PHP
+- php
 tags:
 - dicas
 - php

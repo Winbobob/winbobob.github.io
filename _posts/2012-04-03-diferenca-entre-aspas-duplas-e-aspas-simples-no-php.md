@@ -6,7 +6,7 @@ description: "Diferença entre aspas duplas e aspas simples no PHP"
 keywords: "dicas, php, programação, aspas, curiosidades"
 comments: true
 categories:
-- PHP
+- php
 tags:
 - dicas
 - php

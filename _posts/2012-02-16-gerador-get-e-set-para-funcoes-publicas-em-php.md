@@ -6,7 +6,7 @@ description: "Salve salve php programmers! Hoje irei dar uma dica bem útil para
 keywords: "dicas, php, programação, gerador"
 comments: true
 categories:
-- Dicas
+- dicas
 tags:
 - dicas
 - gerador

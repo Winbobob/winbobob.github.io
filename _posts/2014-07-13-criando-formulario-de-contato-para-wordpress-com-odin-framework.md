@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Criando formulário de contato para Wordpress com Odin Framework
+description: Criando formulário de contato para Wordpress com Odin Framework
 keywords: "Wordpress, Dicas, Odin"
-date: 2014-07-13 15:57:09.000000000 -03:00
+date: 2014-07-13 15:57:09
 comments: true
 categories:
-- Wordpress
+- wordpress
 tags:
 - iniciantes
 - odin

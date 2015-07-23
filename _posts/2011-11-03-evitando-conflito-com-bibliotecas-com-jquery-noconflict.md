@@ -6,7 +6,7 @@ description: "Muitas vezes necessitamos utilizar mais de uma biblioteca jQuery e
 keywords: "jQuery, Dicas, Programação, noConflict"
 comments: true
 categories:
-- jQuery
+- jquery
 tags:
 - dicas
 - jquery

@@ -6,7 +6,7 @@ description: "A função number_format() do PHP, além de trocar ponto (.) por v
 keywords: "dicas, php, programação, number_format"
 comments: true
 categories:
-- PHP
+- php
 tags:
 - dicas
 - php

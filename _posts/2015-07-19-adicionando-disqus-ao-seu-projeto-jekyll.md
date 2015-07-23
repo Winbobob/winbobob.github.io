@@ -2,16 +2,16 @@
 layout: post
 title: Adicionando Disqus ao seu projeto Jekyll
 date: 2015-07-19 05:13
-description:
+description: "Gostei da ideia de montar meu blog com o Jekyll como plataforma, ainda mais usando Markdown, entretanto, apesar da simplicidade da ferramenta"
 keywords: "jekyll, disqus, html, dicas, comentarios"
+comments: true
 categories:
-- Jekyll
+- jekyll
 tags:
 - jekyll
 - disqus
 - dicas
 - html
-comments: true
 ---
 
 Gostei da ideia de montar meu blog com o Jekyll como plataforma, ainda mais usando Markdown, entretanto, apesar da simplicidade da ferramenta, uma coisa me tirou um tempinho até conseguir entender como funcionava, era: _Como vou adicionar a plataforma de comentários **<a href="https://disqus.com/">Disqus</a>** em meu blog?_

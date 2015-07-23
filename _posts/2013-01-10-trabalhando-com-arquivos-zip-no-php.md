@@ -5,7 +5,7 @@ date: 2013-01-10 22:51
 description: "Hoje vou explicar como trabalhar com arquivos .zip no PHP usando a classe ZipArchive"
 keywords: "tutorial, arquivos, dicas, PHP, zip, programação"
 categories:
-- PHP
+- php
 tags:
 - arquivos
 - zip

@@ -6,7 +6,7 @@ description: "Criar um menu animado usando alguns CSS3 e jQuery"
 keywords: "CSS, Design, HTML, jQuery"
 comments: false
 categories:
-- CSS
+- css
 tags:
 - css3
 - efeitos

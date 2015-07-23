@@ -6,9 +6,12 @@ date: 2015-07-21 19:55:52
 comments: true
 description: "Meu primeiro contato com Jekyll foi em fevereiro de 2015 quando resolvi estudar a documentação do Bootstrap]."
 keywords: "jekyll, wordpress"
-category: Jekyll
-tags: [jekyll, wordpress]
 cover: '/assets/uploads/2015-07-21-por-que-resolvi-criar-meu-blog-com-o-jekyll.jpg'
+categories:
+- jekyll
+tags:
+- jekyll
+- wordpress
 ---
 
 Meu primeiro contato com [Jekyll](http://jekyllrb.com/) foi em <time datetime="2015-02">fevereiro de 2015</time>, quando resolvi estudar a documentação do [Bootstrap](http://getbootstrap.com/). No começo estava meio confuso e eu achei o Jekyll um pouco simples, mas com o passar do tempo fui entendendo como funcionava e fiquei bem animado.

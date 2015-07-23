@@ -6,7 +6,7 @@ description: "Steve era um visionário. Tinha a capacidade de ver o que não ví
 keywords: "dicas, Steve, Vida, Jobs"
 comments: true
 categories:
-- Dicas
+- dicas
 tags:
 - dicas
 ---

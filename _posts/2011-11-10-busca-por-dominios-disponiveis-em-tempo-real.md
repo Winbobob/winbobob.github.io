@@ -6,7 +6,7 @@ description: "12 plugins para transformar seu site WordPress em um CMS"
 keywords: "dicas, dominios, buscador"
 comments: false
 categories:
-- Dicas
+- dicas
 tags:
 - dicas
 - dominios
