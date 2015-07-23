@@ -8,7 +8,7 @@ post_class: post-template
 <header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})">
   <nav class="main-nav {% if page.cover %}overlay{% endif %} clearfix">
     <a class="back-button icon-arrow-left" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-    <a class="subscribe-button icon-feed" href="{{ "/rss.xml" | prepend: site.baseurl }}" target="_blank">RSS</a>
+    <a class="subscribe-button icon-feed" href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">RSS</a>
   </nav>
   <div class="vertical">
     <div class="main-header-content inner">

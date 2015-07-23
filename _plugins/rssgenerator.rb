@@ -10,7 +10,7 @@
 #   author         - (optional) the author of the site (if not specified will be left blank)
 #   copyright      - (optional) the copyright of the feed (if not specified will be left blank)
 #   rss_path       - (optional) the path to the feed (if not specified "/" will be used)
-#   rss_name       - (optional) the name of the rss file (if not specified "rss.xml" will be used)
+#   rss_name       - (optional) the name of the rss file (if not specified "feed.xml" will be used)
 #   rss_post_limit - (optional) the number of posts in the feed
 #
 # Author: Assaf Gelber <assaf.gelber@gmail.com>
@@ -60,7 +60,7 @@ module Jekyll
 
       # File creation and writing
       rss_path = ensure_slashes(site.config['rss_path'] || "/")
-      rss_name = site.config['rss_name'] || "rss.xml"
+      rss_name = site.config['rss_name'] || "feed.xml"
       full_path = File.join(site.dest, rss_path)
       ensure_dir(full_path)
       File.open("#{full_path}#{rss_name}", "w") { |f| f.write(rss) }
