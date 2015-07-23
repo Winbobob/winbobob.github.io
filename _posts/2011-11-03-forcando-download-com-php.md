@@ -3,9 +3,7 @@ layout: post
 title: Forçando download com PHP
 date: 2011-11-03 06:15:46.000000000 -02:00
 categories:
-- Dicas
 - PHP
-- Programação
 tags:
 - dicas
 - php

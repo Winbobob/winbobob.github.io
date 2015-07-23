@@ -6,9 +6,7 @@ description: "10 dicas de otimização em programação PHP"
 keywords: "Dicas, PHP, Programação"
 comments: true
 categories:
-- Dicas
 - PHP
-- Programação
 tags:
 - dicas
 - php

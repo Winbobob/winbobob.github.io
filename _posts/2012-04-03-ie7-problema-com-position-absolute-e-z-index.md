@@ -7,8 +7,6 @@ keywords: "Dicas, PHP, programação, tutorial, Array"
 comments: false
 categories:
 - CSS
-- Dicas
-- HTML
 tags:
 - CSS
 - dicas

@@ -6,7 +6,7 @@ date: 2013-01-28 16:32:21.000000000 -02:00
 description: Retornando com a parte 6 do nosso curso “Desenvolvendo um site Profissional e Completo” e hoje vamos continuar com o CSS da página inicial criando a boxes serviços.
 comments: true
 categories:
-- Vídeo Aulas
+- Vídeos
 tags:
 - CSS
 - dicas

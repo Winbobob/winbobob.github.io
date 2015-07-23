@@ -6,8 +6,9 @@ description:
 keywords: "jekyll, disqus, html, dicas, comentarios"
 categories:
 - Jekyll
-- Disqus
 tags:
+- jekyll
+- disqus
 - dicas
 - html
 comments: true

@@ -3,8 +3,7 @@ layout: post
 title: Instalação e configuração do WAMP5
 date: 2012-04-15 03:37:55.000000000 -03:00
 categories:
-- PHP
-- Programação
+- Vídeos
 tags:
 - php
 - programação

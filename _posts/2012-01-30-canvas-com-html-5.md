@@ -6,9 +6,7 @@ description: "Olá pessoal, já faz muito tempo que não posto algo para vocês 
 keywords: "dicas, HTML, HTML5, canvas, tutorial"
 comments: true
 categories:
-- Dicas
 - HTML
-- Programação
 tags:
 - canvas
 - HTML5

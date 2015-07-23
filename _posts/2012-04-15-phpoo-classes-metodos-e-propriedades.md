@@ -1,10 +1,9 @@
 ---
 layout: post
-title: ! 'PHPOO: Classes, Métodos e Propriedades'
-date: 2012-04-15 13:56:57.000000000 -03:00
+title:  "PHPOO Classes, Métodos e Propriedades"
+date: 2012-04-15 13:56:57
 categories:
 - PHP
-- Programação
 tags:
 - php
 - programação

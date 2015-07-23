@@ -6,7 +6,6 @@ comments: true
 description:  "HTML5 | A Estrutura base para dar o pontapé inicial com HTML5."
 keywords: "Dicas, HTML, HTML5, Estrutura"
 categories:
-- Dicas
 - HTML
 tags:
 - dicas

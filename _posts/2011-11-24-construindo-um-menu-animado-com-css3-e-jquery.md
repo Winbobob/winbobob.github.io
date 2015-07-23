@@ -7,9 +7,6 @@ keywords: "CSS, Design, HTML, jQuery"
 comments: false
 categories:
 - CSS
-- Design
-- HTML
-- jQuery
 tags:
 - css3
 - Efeitos

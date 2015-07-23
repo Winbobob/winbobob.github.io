@@ -7,8 +7,6 @@ keywords: "dicas, php, programação, gerador"
 comments: true
 categories:
 - Dicas
-- PHP
-- Programação
 tags:
 - dicas
 - gerador

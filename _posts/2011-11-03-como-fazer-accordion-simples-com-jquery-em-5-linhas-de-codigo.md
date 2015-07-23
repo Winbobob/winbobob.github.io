@@ -5,8 +5,6 @@ date: 2011-11-03 11:44
 comments: true
 categories:
 - CSS
-- jQuery
-- Programação
 tags:
 - CSS
 - dicas

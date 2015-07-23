@@ -6,9 +6,7 @@ description: "Hoje irei falar sobre algo simples mas de grande importância para
 keywords: "dicas, PHP, Programação"
 comments: true
 categories:
-- Dicas
 - PHP
-- Programação
 tags:
 - dicas
 - php

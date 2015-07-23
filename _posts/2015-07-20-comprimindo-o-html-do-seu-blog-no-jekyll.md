@@ -5,7 +5,7 @@ permalink: "comprimindo-o-html-do-seu-blog-no-jekyll"
 comments: true
 description: "Como comprimir o HTML no Jekyll"
 keywords: "HTML, Jekyll, Comprimindo, Blog, Layout, Compress, liquid"
-category: [HTML, Jekyll]
+category: [Jekyll]
 tags: [HTML, Jekyll, Compress, liquid]
 ---
 

@@ -5,9 +5,6 @@ keywords: "Wordpress, Dicas, Odin"
 date: 2014-07-13 15:57:09.000000000 -03:00
 comments: true
 categories:
-- Dicas
-- Iniciantes
-- PHP
 - Wordpress
 tags:
 - Iniciantes

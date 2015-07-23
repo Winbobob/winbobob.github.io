@@ -6,7 +6,6 @@ description: "Um array é uma forma de armazenamento de variáveis que podem ser
 keywords: "Dicas, PHP, programação, tutorial, Array"
 comments: true
 categories:
-- Dicas
 - PHP
 tags:
 - dicas

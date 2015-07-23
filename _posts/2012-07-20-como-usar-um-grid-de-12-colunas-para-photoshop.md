@@ -3,10 +3,7 @@ layout: post
 title: Como usar um Grid de 12 colunas para Photoshop
 date: 2012-07-20 00:33:08.000000000 -03:00
 categories:
-- Design
-- Dicas
-- Photoshop
-- PSD
+- Vídeos
 tags:
 - Design
 - dicas

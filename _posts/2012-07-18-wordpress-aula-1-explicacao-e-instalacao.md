@@ -3,8 +3,7 @@ layout: post
 title: ! 'Wordpress - Aula 1: Explicação e Instalação'
 date: 2012-07-18 00:54:41.000000000 -03:00
 categories:
-- PHP
-- Wordpress
+- Vídeos
 tags:
 - php
 - programação
