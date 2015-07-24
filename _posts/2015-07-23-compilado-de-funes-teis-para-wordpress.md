@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Compilado de funções úteis para Wordpress"
-permalink: compilado-de-funes-teis-para-wordpress
+title: "Compilado de funções úteis para seu projeto Wordpress"
+permalink: compilado-de-funcoes-uteis-para-seu-projeto-wordpress
 date: 2015-07-23 22:25:15
 description: "Nesse artigo vou pressupor que você já saiba o que é o Wordpress e saiba pelo menos o básico de PHP"
 keywords: "funções, wordpress, dicas, programação, php, web, desenvolvimento"
