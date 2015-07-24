@@ -5,6 +5,7 @@ permalink: compilado-de-funcoes-uteis-para-seu-projeto-wordpress
 date: 2015-07-23 22:25:15
 description: "Nesse artigo vou pressupor que você já saiba o que é o Wordpress e saiba pelo menos o básico de PHP"
 keywords: "funções, wordpress, dicas, programação, php, web, desenvolvimento"
+cover: "/assets/uploads/cover-compilado-de-funcoes-uteis-para-seu-projeto-wordpress.jpg"
 comments: true
 categories:
 - php
@@ -136,7 +137,7 @@ function add_body_id() {
 ?>
 {% endhighlight %}
 
-Bas chamar ela dentro da sua tag `body`
+Basta chamar ela dentro da sua tag `body`
 
 {% highlight php %}
 <body id="<?php add_body_id() ?>">

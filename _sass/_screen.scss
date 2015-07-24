@@ -805,7 +805,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .post-head.main-header {
   .main-nav.overlay {
-    background: rgba(#000, .75);
+    background: rgba(#000, .7);
   }
 }
 
@@ -1264,9 +1264,9 @@ body:not(.post-template) .post-title {
    6. Author profile
    ========================================================================== */
 
-.main-header {
-  background-attachment: fixed;
-}
+// .main-header {
+//   background-attachment: fixed;
+// }
 .post-head.main-header {
   height: 65%;
   min-height: 180px;

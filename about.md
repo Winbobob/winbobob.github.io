@@ -3,6 +3,7 @@ layout: page
 title: Sobre mim
 permalink: /about/
 slug: about
+cover: "/assets/images/aboutme-cover.jpg"
 ---
 
 {% assign year = site.time | date: '%Y' %}
