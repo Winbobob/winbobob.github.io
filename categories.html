@@ -1,0 +1,16 @@
+---
+layout: page
+title: Categorias
+permalink: /categorias/
+slug: categories
+---
+
+<main id="content" class="content" role="main">
+  {% for category in site.data.categories %}
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title"><a href="/categoria/{{ category.slug }}/">{{ category.name }}</a></h2>
+    </header>
+  </article>
+  {% endfor %}
+</main>
