@@ -41,7 +41,6 @@ function head_cleanup() {
 }
 
 add_action('init', 'head_cleanup');
-?>
 {% endhighlight %}
 
 ***
@@ -56,7 +55,6 @@ Essa pequena linha com a função `add_filter()` do wordpress remove o CSS padr�
  * Remove injected CSS from gallery.
  */
 add_filter('use_default_gallery_style', '__return_false');
-?>
 {% endhighlight %}
 
 ***
@@ -85,7 +83,6 @@ function admin_remove_dashboard_widgets() {
 }
 
 add_action('wp_dashboard_setup', 'admin_remove_dashboard_widgets');
-?>
 {% endhighlight %}
 
 Você também pode remover o painel de "Bem vindo" padrão do Wordpress com as linhas abaixo.
@@ -96,7 +93,6 @@ Você também pode remover o painel de "Bem vindo" padrão do Wordpress com as l
  * Remove Welcome Panel.
  */
 remove_action('welcome_panel', 'wp_welcome_panel');
-?>
 {% endhighlight %}
 
 ***
@@ -134,7 +130,6 @@ function add_body_id() {
     echo 'id="error404"';
   }
 }
-?>
 {% endhighlight %}
 
 Basta chamar ela dentro da sua tag `body`
@@ -160,7 +155,6 @@ function my_custom_get_search_form() {
   return $form;
 }
 add_filter('get_search_form', 'my_custom_get_search_form');
-?>
 {% endhighlight %}
 
 ***
@@ -193,7 +187,6 @@ function add_google_analytics() {
 if (defined('GOOGLE_ANALYTICS_ID')) {
   add_action('wp_footer', 'add_google_analytics', 20);
 }
-?>
 {% endhighlight %}
 
 ***
@@ -236,7 +229,6 @@ function change_post_object_label() {
 
 add_action( 'init', 'change_post_object_label' );
 add_action( 'admin_menu', 'change_post_menu_label' );
-?>
 {% endhighlight %}
 
 
@@ -260,7 +252,6 @@ define('THEME_FX', $the_theme->template);
 define('THEME_PATH', get_stylesheet_directory());
 define('THEME_URL', get_stylesheet_directory_uri());
 define('SITE_URL', get_bloginfo('url' ));
-?>
 {% endhighlight %}
 
 Com essas linhas eu consigo ter:

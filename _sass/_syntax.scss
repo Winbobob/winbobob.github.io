@@ -1,5 +1,5 @@
 .highlight {
-  padding: 15px 20px;
+  padding: 0;
   margin: {
     top: 15px;
     bottom: 25px;
@@ -7,25 +7,34 @@
   @extend %clearfix;
 
   &, .hll, pre {
-    background-color: #323232;
+    background-color: #272822;
     border: none;
-  }
-
-  pre, code {
-    color: #eeffdd;
   }
 
   pre {
     margin: 0;
-    padding: 0;
+    padding: 15px 20px;
+    white-space: pre;
     line-height: 23px;
+    overflow-x: auto;
     // margin-bottom: 30px;
     font-size: .8em;
-    white-space: pre;
-    overflow-x: auto;
     word-break: inherit;
     word-wrap: inherit;
+
+    &, code {
+      color: #eeffdd;
+    }
+
+    code {
+      white-space: pre;
+
+      * {
+        white-space: nowrap; // this sets all children inside to nowrap
+      }
+    }
   }
+
 
   .c { color: #75715e } /* Comment */
   .err { color: #960050; background-color: #1e0010 } /* Error */
