@@ -10,9 +10,11 @@
   background: #222 no-repeat center center;
   background-size: cover;
   overflow: hidden;
+  @extend %clearfix;
 
   .inner {
     width: 80%;
+    @extend %clearfix;
   }
 }
 
@@ -24,12 +26,13 @@
   height: 100%;
   border: none;
   // position: relative;
-  padding: 35px 40px;
+  padding: 0 40px;
   margin: 0 0 30px 0;
 
   a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
   }
 }
 
@@ -406,12 +409,14 @@ body:not(.post-template) .post-title {
 
   .content {
     overflow: hidden;
+    @extend %clearfix;
   }
 
   .post {
     margin-top: 0;
     border-bottom: none;
     padding-bottom: 0;
+    @extend %clearfix;
 
     &:after {
       display: none;
@@ -893,7 +898,11 @@ body:not(.post-template) .post-title {
 
 @media only screen and (max-width: 900px) {
   .main-nav {
-    padding: 15px;
+    padding: 0 15px;
+
+    a {
+      margin-top: 15px;
+    }
   }
 
   blockquote {
