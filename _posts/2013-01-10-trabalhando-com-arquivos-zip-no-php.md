@@ -13,7 +13,7 @@ tags:
 - php
 - programacao
 - tutorial
-cover: '/assets/uploads/php-default.jpg'
+cover: '/assets/images/posts/php-default.jpg'
 comments: true
 ---
 

@@ -20,7 +20,7 @@ Todo mundo sabe que para fazer um drop down precisamos do `position` e do `z-ind
 
 Ao desenvolver um menu _drop down_ e posicionar o sub-menu com `position:absolute` o  IE7 coloca o menu por trás de todas imagens, principalmente de banners com slider.
 
-[![ie7 menu por tras do banner](/assets/uploads/ie7-menu-por-tras-do-banner.jpg "ie7 menu por tras do banner")](/assets/uploads/2012/04/ie7-menu-por-tras-do-banner.jpg)
+[![ie7 menu por tras do banner](/assets/images/posts/ie7-menu-por-tras-do-banner.jpg "ie7 menu por tras do banner")](/assets/images/posts/2012/04/ie7-menu-por-tras-do-banner.jpg)
 
 #### O CSS menu ficaria assim:
 
@@ -62,4 +62,4 @@ ul li ul {
 }
 {% endhighlight %}
 
-[![ie7 menu por cima do banner](/assets/uploads/ie7-menu-por-cima-do-banner.jpg "ie7 menu por cima do banner")](/assets/uploads/2012/04/ie7-menu-por-cima-do-banner.jpg)
+[![ie7 menu por cima do banner](/assets/images/posts/ie7-menu-por-cima-do-banner.jpg "ie7 menu por cima do banner")](/assets/images/posts/2012/04/ie7-menu-por-cima-do-banner.jpg)

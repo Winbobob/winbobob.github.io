@@ -35,3 +35,50 @@
 .text-capit {text-transform : capitalize !important}
 
 .dot { border-radius: 50% }
+
+
+.clearfix {
+  @extend %clearfix;
+}
+
+/* Hides shit */
+
+.hidden {
+  text-indent: -9999px;
+  visibility: hidden;
+  display: none;
+}
+
+
+/* alert */
+.alert {
+  background-color: lighten(#f3e3e7, 5%);
+  border: 1px solid darken(#f3e3e7, 5%);
+  box-shadow: 0px 1px 1px rgba(#000, .2);
+  color: darken(#f7aabf, 20%);
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+
+  @extend .text-center;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+/* Creates a responsive wrapper that makes our content scale nicely */
+
+.inner {
+  position: relative;
+  width: 80%;
+  max-width: 710px;
+  margin: 0 auto;
+}
+
+/* Centres vertically yo. (IE8+) */
+
+.vertical {
+  display: table-cell;
+  vertical-align: middle;
+}

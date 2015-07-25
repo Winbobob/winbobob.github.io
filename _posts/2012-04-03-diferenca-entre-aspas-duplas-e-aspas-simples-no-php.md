@@ -11,7 +11,7 @@ tags:
 - dicas
 - php
 - programacao
-cover: '/assets/uploads/php-default.jpg'
+cover: '/assets/images/posts/php-default.jpg'
 ---
 
 **Aspas duplas**: fazem pre-processamento das váriaveis.

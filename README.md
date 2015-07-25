@@ -18,25 +18,38 @@ $ rake post title="TITLE OF THE POST"
 $ rake page name="about.md"
 ```
 
-## Running the server:
+## Using Jekyll
+
+### Running the server:
 
 ```
 $ jekyll server
 ```
 
-or
-
-```
-$ jekyll build --watch
-```
-
 Access, [localhost:4000](http://localhost:4000/)
+
+## Using Gulp
+
+### install npm packages
+
+```
+$ npm install
+```
+
+### Rum gulp
+
+```
+$ gulp
+```
+
+Access, [localhost:3000](http://localhost:3000/)
+
+---
 
 * [Jekyll](http://jekyllrb.com/);
 * [Jekyll Documentation](http://jekyllrb.com/docs/home/);
 * [Como definir URLs curtas no Jekyll](http://nandomoreira.me/urls-curtas-no-jekyll/);
 * [Adicionando Disqus ao seu projeto Jekyll](http://nandomoreira.me/adicionando-disqus-ao-seu-projeto-jekyll/);
-
 
 Enjoy!
 

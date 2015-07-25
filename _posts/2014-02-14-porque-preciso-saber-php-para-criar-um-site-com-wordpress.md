@@ -11,7 +11,7 @@ tags:
 - iniciantes
 - php
 - wordpress
-cover: '/assets/uploads/porque-preciso-saber-php-para-criar-um-site-com-wordpress.jpg'
+cover: '/assets/images/posts/porque-preciso-saber-php-para-criar-um-site-com-wordpress.jpg'
 ---
 
 Fala ai galera!

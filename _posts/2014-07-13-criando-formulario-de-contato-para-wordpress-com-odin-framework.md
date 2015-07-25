@@ -12,7 +12,7 @@ tags:
 - odin
 - php
 - wordpress
-cover: '/assets/uploads/criando-formulario-de-contato-para-wordpress-com-odin-framework.png'
+cover: '/assets/images/posts/criando-formulario-de-contato-para-wordpress-com-odin-framework.png'
 ---
 
 Faaaaaaaaala ai pessoas, tudo jóia?

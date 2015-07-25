@@ -11,7 +11,7 @@ tags:
 - dicas
 - php
 - programacao
-cover: '/assets/uploads/php-default.jpg'
+cover: '/assets/images/posts/php-default.jpg'
 ---
 
 Hoje irei falar sobre algo simples mas de grande importância para programadores PHP.

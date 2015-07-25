@@ -29,7 +29,7 @@ Nosso menu de navegação hoje vai atirar em apenas um par de pseudo seletores d
 
 ## O que estamos construindo?
 
-[![screenshot](/assets/uploads/pseudomenu-4.jpg)](http://designshack.net/tutorialexamples/pseudomenu/pseudo.html)
+[![screenshot](/assets/images/posts/pseudomenu-4.jpg)](http://designshack.net/tutorialexamples/pseudomenu/pseudo.html)
 
 O objetivo aqui é criar um simples menu de navegação CSS composto por blocos de retângulo com um fundo vermelho. Quando o usuário passa sobre o item de menu, haverá uma animação de correr e tanto a mensagem quanto a cor de fundo do item de menu irá mudar.
 
@@ -91,11 +91,11 @@ Em seguida, nós pregar para baixo a estética dos itens do menu. Nós primeiro
 
 Essencialmente nos viramos cada link em um grande bloco vermelho:
 
-<div>![screenshot](/assets/uploads/pseudomenu-1.jpg)</div>
+<div>![screenshot](/assets/images/posts/pseudomenu-1.jpg)</div>
 
 Observe que esse estilo tem efetivamente cortado o segundo link em cada set. O que está acontecendo é que o segundo link em cada item da lista é empilhado no âmbito do primeiro e está simplesmente sendo escondido. Se desligar temporariamente "overflow: hidden" isso se torna muito mais fácil de visualizar.
 
-<div>![screenshot](/assets/uploads/pseudomenu-2.jpg)</div>
+<div>![screenshot](/assets/images/posts/pseudomenu-2.jpg)</div>
 
 ## Etapa 4: Alterar o link secundário Styles
 
@@ -121,7 +121,7 @@ Agora podemos atirar em alguns estilos para definir estes para além de os bloco
 
 Agora, se nós mais uma vez, temporariamente comentar "overflow: hidden" podemos ver que nossas ligações têm diferenciação muito mais.
 
-![screenshot](/assets/uploads/pseudomenu-3.jpg)
+![screenshot](/assets/images/posts/pseudomenu-3.jpg)
 
 ## Passo 5: Passe Ação Deslize
 
@@ -159,7 +159,7 @@ Para fazer essa transição um liso, revisitamos a Passo 3 código e adicionar e
 
 Com isso, a nossa primeira versão é completa! Nossas animações olhar grande e os seletores de pseudo estão fazendo o trabalho pesado para manter a nossa marcação agradável e limpo.
 
-[![screenshot](/assets/uploads/pseudomenu-4.jpg)](http://designshack.net/tutorialexamples/pseudomenu/pseudo.html)
+[![screenshot](/assets/images/posts/pseudomenu-4.jpg)](http://designshack.net/tutorialexamples/pseudomenu/pseudo.html)
 
 **Demonstração: **[Clique aqui](http://designshack.net/tutorialexamples/pseudomenu/pseudo.html) para o lançamento.
 
