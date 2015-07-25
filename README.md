@@ -55,4 +55,4 @@ Enjoy!
 
 ---
 
-## [MIT](http://opensource.org/licenses/MIT) License
+## [MIT](/LICENSE) License
