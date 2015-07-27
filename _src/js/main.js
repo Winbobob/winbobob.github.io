@@ -32,28 +32,29 @@
 
     var $postContent = $(".post-content");
 
-    function updateImageWidth() {
-      var $this        = $(this);
-      var contentWidth = $postContent.outerWidth();
-      var imageWidth   = this.naturalWidth;
+    // function updateImageWidth() {
+    //   var $this        = $(this);
+    //   var contentWidth = $postContent.outerWidth();
+    //   var imageWidth   = this.naturalWidth;
 
-      if (imageWidth >= contentWidth) {
-        $this.addClass('full-img');
-      } else {
-        $this.removeClass('full-img');
-      }
-    }
+    //   if (imageWidth >= contentWidth) {
+    //     $this.addClass('full-img');
+    //   } else {
+    //     $this.removeClass('full-img');
+    //   }
+    // }
 
-    var $img = $("img").on('load', updateImageWidth);
-    function casperFullImg() {
-      $img.each(updateImageWidth);
-    }
+    // var $img = $("img").on('load', updateImageWidth);
+    // function casperFullImg() {
+    //   $img.each(updateImageWidth);
+    // }
 
-    casperFullImg();
-    $(window).smartresize(casperFullImg);
+    // casperFullImg();
+    // $(window).smartresize(casperFullImg);
 
     $(".scroll-down").arctic_scroll();
 
+    $('.swipebox').swipebox();
   });
 
   jQuery.fn[sr] = function(fn) { return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };

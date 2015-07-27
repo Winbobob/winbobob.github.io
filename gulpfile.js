@@ -47,6 +47,7 @@ gulp.task('default', ['sass'], function (cb) {
 .task('js', function() {
   return gulp.src([
     '_src/js/vendor/jquery.min.js',
+    '_src/js/vendor/jquery.swipebox.js',
     '_src/js/main.js'
   ])
   .pipe($.concat('main.js'))
