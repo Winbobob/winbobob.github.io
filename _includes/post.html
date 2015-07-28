@@ -1,7 +1,9 @@
 <!-- article post loop -->
 <article class="post">
   <header class="post-header">
-    <h2 class="post-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+    <h2 class="post-title">
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </h2>
   </header>
   <section class="post-excerpt">
     <a class="read-more" href="{{ post.url }}" title="{{ post.title }}">{{ post.content | strip_html | truncatewords: 50 }}</a>
@@ -49,5 +51,7 @@
       {% endcase %}
       de {{ post.date | date: "%Y" }}
     </time>
+
+    <span class="post-date"><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a></span>
   </footer>
 </article><!-- /article post loop -->
