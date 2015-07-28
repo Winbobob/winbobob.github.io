@@ -1,6 +1,6 @@
 # [nandomoreira.me](http://nandomoreira.me/)
 
-My tech blog's source code.
+My personal website where I talk about front-end development like HTML5, CSS3, JavaScript and Wordpress, PHP and more.
 
 ## Setup
 
@@ -16,7 +16,10 @@ $ bundle install
 ```
 $ rake post title="TITLE OF THE POST"
 $ rake page name="about.md"
+$ rake category title="Programing"
+$ rake tag title="Jekyll"
 ```
+
 
 ## Using Jekyll
 
