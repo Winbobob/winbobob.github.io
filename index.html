@@ -13,8 +13,9 @@ about: 'about/'
     <div class="main-header-content inner">
       <h1 class="page-title">{{ site.name }}</h1>
       <h2 class="page-description">
-        {% if site.description %}{{ site.description }}{% endif %}
-        {% if page.about %}<br><br><br><br><a href='{{ site.baseurl }}{{ page.about }}'>Sobre mim</a>{% endif %}
+        {% if site.description %}{{ site.description }}{% endif %} <br><br>
+        <span><a href='{{ site.baseurl }}{{ page.about }}'>Sobre mim</a></span>
+        <span><a href='{{ site.baseurl }}projetos'>Projetos</a></span>
       </h2>
     </div>
   </div>

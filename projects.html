@@ -1,0 +1,13 @@
+---
+layout: page
+title: Projetos Open Source
+permalink: /projetos/
+slug: projects
+cover: "/assets/images/aboutme-cover.jpg"
+---
+
+<div class="projects">
+  {% for project in site.data.github-projects %}
+    <div data-repo="{{ project }}" class="github-box-wrap"></div>
+  {% endfor %}
+</div>
