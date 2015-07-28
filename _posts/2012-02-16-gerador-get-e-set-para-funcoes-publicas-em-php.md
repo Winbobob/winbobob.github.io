@@ -21,7 +21,7 @@ Hoje irei dar uma dica bem útil para muitos programadores de plantão.
 
 Vagando pela internet em busca de mais e mais conhecimento encontrei um site, o [icurtain.co.uk](http://www.icurtain.co.uk) é um site simples para programadores, nerds e geeks.
 
-Nesse site existe uma opção bem interessante para curiosos como eu, o ["**PHP Get/Set Generator"**](http://www.icurtain.co.uk/getset.php "http://www.icurtain.co.uk/getset.php") um gerador de métodos GET e SET para PHP.
+Nesse site existe uma opção bem interessante para curiosos como eu, o ["**Get/Set Generator"**](http://www.kjetil-hartveit.com/ "http://www.kjetil-hartveit.com/blog/1/setter-and-getter-generator-for-php-javascript-c%2B%2B-and-csharp") um gerador de métodos GET e SET para PHP e outras linguagens.
 
 Muito bom né!? Gostaram comenta ai!
 
