@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Error encountered while sourcing file ~/.rvm/scripts/rvm no Ubuntu 15.04"
+title: "Reinstalando rvm no Ubuntu 15.04"
 permalink: error-source-scripts-rvm-ubuntu-15-04
 date: 2015-07-31 01:56:12
 comments: true
-description: "Error encountered while sourcing file ~/.rvm/scripts/rvm no Ubuntu 15.04"
+description: "Recentemente atualizei meu Ubuntu 14.04 para 15.04 e atualizei também o Gnome para 13.16.6 e do nada a Gems que estavam instaladas pararam de funcionar"
 keywords: "ruby, rvm, gem, linux, ubuntu"
 categories:
 - ruby
@@ -28,7 +28,36 @@ Tentei rodar `jekyll server` e o seguinte erro apareceu no terminal:
   from /usr/local/bin/bundle:22:in `<main>'
 {% endhighlight %}
 
-Tentei atualizar as gems, remover e instalar de novo e nada.
+Tentei atualizar as gems, tentei remover e instalar cada Gem novamente mas nada revolvia meu problema, e o erro acima continuava a ocorrer.
 
-Uma solução foi remover o `rvm` e instalar novamente, vou explicar como.
+Então a única solução seria remover o Ruby e o RVM da minha máquina e instalar de novo.
 
+Primeiro eu tentei remover o RVM, e funcionou, vou explicar como, vem comigo.
+
+Primeiro eu removi o diretório `.rvm` do meu usuário:
+
+{% highlight bash %}
+$ rm -rf ~/.rvm
+{% endhighlight %}
+
+Depois fiz a instalação do RVM novamente:
+
+{% highlight bash %}
+$ curl -L https://get.rvm.io | bash -s stable
+$ cd ~/.rvm/archives/
+$ tar xvzf rvm-1.26.11.tgz
+$ cd rvm-1.26.11/
+$ ./install
+{% endhighlight %}
+
+O código acima irá instalar o RVM na versão 1.26.11, agora iremos instalar o Ruby 2.2.2:
+
+{% highlight bash %}
+$ rvm install 2.2.2
+{% endhighlight %}
+
+Pronto, agora basta instalar suas gems e tudo funcionará bem.
+
+Se deu sucesso ou algum erro comenta ai, vamos tentar resolver isso juntos.
+
+Abraço!
