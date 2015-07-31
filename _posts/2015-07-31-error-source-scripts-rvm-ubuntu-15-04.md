@@ -21,7 +21,7 @@ Recentemente atualizei meu Ubuntu `14.04` para `15.04` e atualizei também o Gno
 
 Tentei rodar `jekyll server` e o seguinte erro apareceu no terminal:
 
-{% highlight shell %}
+{% highlight bash %}
 /usr/lib/ruby/2.1.0/rubygems/dependency.rb:298:in `to_specs': Could not find 'bundler' (>= 0) among 25 total gem(s) (Gem::LoadError)
   from /usr/lib/ruby/2.1.0/rubygems/dependency.rb:309:in `to_spec'
   from /usr/lib/ruby/2.1.0/rubygems/core_ext/kernel_gem.rb:53:in `gem'
