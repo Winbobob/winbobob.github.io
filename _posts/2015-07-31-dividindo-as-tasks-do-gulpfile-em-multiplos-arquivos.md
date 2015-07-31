@@ -68,4 +68,6 @@ var requireDir = require('require-dir');
 requireDir('./gulp/tasks', { recurse: true });
 {% endhighlight %}
 
+Coloquei os exemploes nesse [repositório](https://github.com/nandomoreirame/exemplos/tree/master/dividindo-tasks-do-gulpfile), fique à vontade para baixar e compartilhar.
+
 Espero ter ajudado, forte abraço.
