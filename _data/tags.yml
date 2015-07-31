@@ -27,3 +27,18 @@
 
 - slug: ajax
   name: Ajax
+
+- slug: ruby
+  name: Ruby
+
+- slug: ubuntu
+  name: Ubuntu
+
+- slug: linux
+  name: Linux
+
+- slug: gem
+  name: Gem
+
+- slug: rvm
+  name: RVM

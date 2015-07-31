@@ -48,3 +48,9 @@
 
 - slug: jekyll
   name: Jekyll
+
+- slug: ruby
+  name: Ruby
+
+- slug: ubuntu
+  name: Ubuntu
