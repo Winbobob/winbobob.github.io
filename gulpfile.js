@@ -6,11 +6,12 @@
 
 'use strict';
 
-var gulp = require('gulp');
-var $ = require('gulp-load-plugins')();
+var gulp        = require('gulp');
+var $           = require('gulp-load-plugins')();
 var runSequence = require('run-sequence');
-var browserSync = require('browser-sync');
-var reload = browserSync.reload;
+var bSync       = require('browser-sync');
+var cp          = require('child_process');
+var reload      = bSync.reload;
 
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
@@ -44,6 +45,12 @@ gulp.task('default', ['sass'], function (cb) {
     .pipe($.size({title: 'fonts'}));
 })
 
+.task('lint', function() {
+  return gulp.src('_src/js/main.js')
+    .pipe($.jshint())
+    .pipe($.jshint.reporter('default', { verbose: true }));
+})
+
 .task('js', function() {
   return gulp.src([
     '_src/js/vendor/jquery.min.js',
@@ -59,13 +66,11 @@ gulp.task('default', ['sass'], function (cb) {
 })
 
 .task('sass', function () {
-  return gulp.src('_src/sass/main.scss')
-    .pipe($.rubySass({
-      'compass'        : true,
-      'noCache'        : true,
-      'style'          : 'compressed', // nested - expanded - compact - compressed
-      'precision'      : 10,
-      'sourcemap=none' : true
+  gulp.src('_src/sass/main.scss')
+    .pipe($.compass({
+      config_file: './config.rb',
+      css: 'assets/css',
+      sass: '_src/sass'
     }))
     .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
     .pipe($.minifyCss())
@@ -74,15 +79,18 @@ gulp.task('default', ['sass'], function (cb) {
     .pipe($.size({title: 'styles'}));
 })
 
-.task('jekyll', function () {
-  return gulp.src('*').pipe($.shell(['jekyll build --watch']));
+.task('jekyll', function (done) {
+  bSync.notify('Compiling Jekyll');
+
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch'])
+  .on('close', done);
 })
 
 .task('serve', ['sass'], function () {
-  browserSync({
+  bSync({
     notify: false,
     open: "external",
-    logPrefix: 'nme',
+    logPrefix: 'browser-sync',
     server: ['_site']
   });
 
