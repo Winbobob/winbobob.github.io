@@ -37,29 +37,29 @@ Primeiro eu tentei remover o RVM, e funcionou, vou explicar como, vem comigo.
 Primeiro eu removi o diretório `.rvm` do meu usuário:
 
 {% highlight bash %}
-$ rm -rf ~/.rvm
+rm -rf ~/.rvm
 {% endhighlight %}
 
 Depois fiz a instalação do RVM novamente:
 
 {% highlight bash %}
-$ curl -L https://get.rvm.io | bash -s stable
-$ cd ~/.rvm/archives/
-$ tar xvzf rvm-1.26.11.tgz
-$ cd rvm-1.26.11/
-$ ./install
+curl -L https://get.rvm.io | bash -s stable
+cd ~/.rvm/archives/
+tar xvzf rvm-1.26.11.tgz
+cd rvm-1.26.11/
+./install
 {% endhighlight %}
 
 O código acima irá instalar o RVM na versão 1.26.11, agora iremos instalar o Ruby 2.2.2:
 
 {% highlight bash %}
-$ rvm install 2.2.2
+rvm install 2.2.2
 {% endhighlight %}
 
 Pronto, agora basta instalar suas gems e tudo funcionará bem.
 
 {% highlight bash %}
-$ gem install bundle sass compass jekyll rails
+gem install bundle sass compass jekyll rails
 {% endhighlight %}
 
 Se deu sucesso ou algum erro comenta ai, vamos tentar resolver isso juntos.
