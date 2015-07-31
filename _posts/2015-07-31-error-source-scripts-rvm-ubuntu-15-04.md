@@ -58,6 +58,10 @@ $ rvm install 2.2.2
 
 Pronto, agora basta instalar suas gems e tudo funcionará bem.
 
+{% highlight bash %}
+$ gem install bundle sass compass jekyll rails
+{% endhighlight %}
+
 Se deu sucesso ou algum erro comenta ai, vamos tentar resolver isso juntos.
 
 Abraço!
