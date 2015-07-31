@@ -42,3 +42,9 @@
 
 - slug: rvm
   name: RVM
+
+- slug: gulp
+  name: Gulp
+
+- slug: tasks
+  name: Tasks

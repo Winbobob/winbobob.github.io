@@ -54,3 +54,6 @@
 
 - slug: ubuntu
   name: Ubuntu
+
+- slug: gulp
+  name: Gulp
