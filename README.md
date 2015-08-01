@@ -45,7 +45,7 @@ $ npm install
 $ gulp
 ```
 
-Access, [localhost:3000](http://localhost:3000/)
+Enjoy!
 
 ---
 
@@ -53,8 +53,6 @@ Access, [localhost:3000](http://localhost:3000/)
 * [Jekyll Documentation](http://jekyllrb.com/docs/home/);
 * [Como definir URLs curtas no Jekyll](http://nandomoreira.me/urls-curtas-no-jekyll/);
 * [Adicionando Disqus ao seu projeto Jekyll](http://nandomoreira.me/adicionando-disqus-ao-seu-projeto-jekyll/);
-
-Enjoy!
 
 ---
 
