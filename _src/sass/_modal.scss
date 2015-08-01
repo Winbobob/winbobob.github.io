@@ -32,15 +32,25 @@ body.modal--open {
   width: 100%;
 
   .close {
-    font-size: 1em;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    font-size: 50px;
   }
 }
 
 .modal__overlay {
   position: absolute;
   z-index: 1;
-  background: rgba(#000, .8);
+  padding: 80px;
   opacity: 0;
+  background-color: #000;
+  background-color: rgba(#000,.9);
   transition: opacity 0.3s;
 }
 
@@ -54,7 +64,7 @@ body.modal--open {
   height: 100%;
   overflow-y: auto;
   min-width: 290px;
-  background: #eee;
+  background: transparent;
   padding: 0;
   text-align: center;
   position: relative;

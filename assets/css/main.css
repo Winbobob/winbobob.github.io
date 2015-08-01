@@ -2482,31 +2482,60 @@ table {
 .search-button {
   margin-right: 15px; }
 
+.search-label {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-family: Century Gothic,sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 26px; }
+
 .search-container {
-  padding: 5em 10em; }
+  padding: 5em 10em;
+  color: #fff; }
   .search-container ul {
     list-style: none;
     padding: 15px 0;
     margin: 10px 0; }
   .search-container li {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 10px 0; }
   .search-container a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #fff;
+    border-top: 1px solid transparent; }
     .search-container a:hover {
-      border-top: 1px solid #222; }
+      border-top-color: #fff; }
   .search-container input[type="text"] {
     text-align: center;
-    width: 60%;
-    padding: 6px 12px;
-    display: block;
-    margin: 0 auto 15px; }
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    padding: 0;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: 0;
+    outline: 0;
+    background-color: transparent; }
+  .search-container ::-webkit-input-placeholder {
+    color: #fff; }
+  .search-container :-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff; }
+  .search-container ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff; }
+  .search-container :-ms-input-placeholder {
+    color: #fff; }
 
 @media only screen and (max-width: 860px) {
   .search-container {
     padding: 3em; }
     .search-container input[type="text"] {
-      width: 100%; } }
+      width: 100%;
+      font-size: 60px; } }
 .post-head.main-header .main-nav.overlay {
   background: rgba(0, 0, 0, 0.7); }
 
@@ -3422,13 +3451,23 @@ body.modal--open {
   z-index: 1001;
   width: 100%; }
   .modal .close {
-    font-size: 1em; }
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    font-size: 50px; }
 
 .modal__overlay {
   position: absolute;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.8);
+  padding: 80px;
   opacity: 0;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.9);
   transition: opacity 0.3s; }
 
 .modal--open .modal__overlay {
@@ -3440,7 +3479,7 @@ body.modal--open {
   height: 100%;
   overflow-y: auto;
   min-width: 290px;
-  background: #eee;
+  background: transparent;
   padding: 0;
   text-align: center;
   position: relative;
