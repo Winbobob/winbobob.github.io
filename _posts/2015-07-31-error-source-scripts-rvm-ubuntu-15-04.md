@@ -62,6 +62,6 @@ Pronto, agora basta instalar suas gems e tudo funcionará bem.
 gem install bundle sass compass jekyll rails
 {% endhighlight %}
 
-Se deu sucesso ou algum erro comenta ai, vamos tentar resolver isso juntos.
+Se obteve sucesso ou algum erro, comenta ai, vamos tentar resolver isso juntos.
 
 Abraço!
