@@ -2486,10 +2486,9 @@ table {
   margin-bottom: 20px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
-  font-family: Century Gothic,sans-serif;
-  color: #fff;
   text-transform: uppercase;
-  font-size: 18px;
+  color: #fff;
+  font-size: 16px;
   margin-top: 26px; }
 
 .search-container {
@@ -2530,12 +2529,17 @@ table {
   .search-container :-ms-input-placeholder {
     color: #fff; }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (min-width: 460px) and (max-width: 860px) {
   .search-container {
-    padding: 3em; }
+    padding: 4em 3px; }
     .search-container input[type="text"] {
       width: 100%;
       font-size: 60px; } }
+@media only screen and (max-width: 480px) {
+  .search-container {
+    padding: 3em; }
+    .search-container input[type="text"] {
+      font-size: 30px; } }
 .post-head.main-header .main-nav.overlay {
   background: rgba(0, 0, 0, 0.7); }
 
@@ -3428,16 +3432,22 @@ body:not(.post-template) .post-title {
   top: 0;
   left: 0; }
 
-.close {
+.modal-close {
   position: absolute;
-  top: 5px;
-  right: 15px;
+  top: 20px;
+  right: 20px;
   border: none;
   padding: 5px 10px;
   margin: 0;
-  font-size: 65%;
   opacity: .8;
-  background-color: transparent; }
+  background-color: transparent;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 26px;
+  border: 1px solid #fff;
+  border-radius: 4px; }
 
 body.modal--open {
   overflow: hidden !important; }
@@ -3450,16 +3460,6 @@ body.modal--open {
   pointer-events: none;
   z-index: 1001;
   width: 100%; }
-  .modal .close {
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    border: 0;
-    margin: 0;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    font-size: 50px; }
 
 .modal__overlay {
   position: absolute;
