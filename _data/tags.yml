@@ -48,3 +48,6 @@
 
 - slug: tasks
   name: Tasks
+
+- slug: rake
+  name: Rake

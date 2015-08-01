@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "rubygems"
 require "bundler/setup"
 
@@ -13,11 +14,22 @@ CONFIG = {
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
-  title = ENV["title"] || "new-post"
-  tags = ENV["tags"] || ""
-  category = ENV["category"] || ""
-  category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
-  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  title = ENV["title"] || "Novo post"
+
+  tags = ""
+  categories = ""
+
+  # tags
+  env_tags = ENV["tags"] || ""
+  tags = strtag(env_tags)
+
+  # categorias
+  env_cat = ENV["category"] || ""
+  categories = strtag(env_cat)
+
+  # slug do post
+  slug = mount_slug(title)
+
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
     time = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%T')
@@ -25,6 +37,7 @@ task :post do
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
   end
+
   filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
@@ -41,9 +54,9 @@ task :post do
     post.puts "description: \"#{title}\""
     post.puts 'keywords: ""'
     post.puts "categories:"
-    post.puts "- #{category}"
+    post.puts "#{categories}"
     post.puts "tags:"
-    post.puts "- #{tags}"
+    post.puts "#{tags}"
     post.puts "---"
   end
 end # task :post
@@ -59,7 +72,7 @@ task :page do
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
 
-  slug = title.downcase
+  slug = mount_slug(title)
 
   mkdir_p File.dirname(filename)
   puts "Creating new page: #{filename}"
@@ -81,7 +94,7 @@ desc "Begin a new category in #{CONFIG['categories']}"
 task :category do
   abort("rake aborted: '#{CONFIG['categories']}' directory not found.") unless FileTest.directory?(CONFIG['categories'])
   title = ENV["title"] || "new-category"
-  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  slug  = mount_slug(title)
 
   filename = File.join(CONFIG['categories'], "category-#{slug}.html")
   if File.exist?(filename)
@@ -112,7 +125,7 @@ desc "Begin a new tag in #{CONFIG['tags']}"
 task :tag do
   abort("rake aborted: '#{CONFIG['tags']}' directory not found.") unless FileTest.directory?(CONFIG['tags'])
   title = ENV["title"] || "new-tag"
-  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  slug  = mount_slug(title)
 
   filename = File.join(CONFIG['tags'], "tag-#{slug}.html")
   if File.exist?(filename)
@@ -137,3 +150,27 @@ task :tag do
   end
   puts "Successfully created!"
 end # task :tag
+
+def mount_slug(title)
+  slug = str_clean(title)
+  slug = slug.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+
+  return slug
+end
+
+def str_clean(title)
+  return title.tr("ÀÁÂÃÄÅàáâãäåĀāĂăĄąÇçĆćĈĉĊċČčÐðĎďĐđÈÉÊËèéêëĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħÌÍÎÏìíîïĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĽľĿŀŁłÑñŃńŅņŇňŉŊŋÒÓÔÕÖØòóôõöøŌōŎŏŐőŔŕŖŗŘřŚśŜŝŞşŠšſŢţŤťŦŧÙÚÛÜùúûüŨũŪūŬŭŮůŰűŲųŴŵÝýÿŶŷŸŹźŻżŽž", "AAAAAAaaaaaaAaAaAaCcCcCcCcCcDdDdDdEEEEeeeeEeEeEeEeEeGgGgGgGgHhHhIIIIiiiiIiIiIiIiIiJjKkkLlLlLlLlLlNnNnNnNnnNnOOOOOOooooooOoOoOoRrRrRrSsSsSsSssTtTtTtUUUUuuuuUuUuUuUuUuUuWwYyyYyYZzZzZz")
+end
+
+def strtag(str_tags)
+  tags = "";
+
+  if !str_tags.nil?
+    arr_tags = str_tags.split(",")
+    arr_tags.each do |t|
+      tags = tags + "- " + t.delete(' ') + "\n"
+    end
+  end
+
+  return tags
+end
