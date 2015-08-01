@@ -53,16 +53,19 @@ gulp.task('default', ['sass'], function (cb) {
 
 .task('js', function() {
   return gulp.src([
+    '_src/js/vendor/classie.js',
     '_src/js/vendor/jquery.min.js',
     '_src/js/vendor/jquery.github.js',
     '_src/js/vendor/jquery.swipebox.js',
+    '_src/js/vendor/jekyll-search.js',
+    '_src/js/modal.js',
     '_src/js/main.js'
   ])
   .pipe($.concat('main.js'))
   .pipe($.uglify())
   .pipe($.rename({ suffix: ".min" }))
-  .pipe(gulp.dest('assets/js'))
-  .pipe($.size({title: 'scripts'}));
+  .pipe($.size({title: 'scripts'}))
+  .pipe(gulp.dest('assets/js'));
 })
 
 .task('sass', function () {
@@ -75,15 +78,13 @@ gulp.task('default', ['sass'], function (cb) {
     .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
     .pipe($.minifyCss())
     .pipe($.rename({ suffix: ".min" }))
-    .pipe(gulp.dest('assets/css'))
-    .pipe($.size({title: 'styles'}));
+    .pipe($.size({title: 'styles'}))
+    .pipe(gulp.dest('assets/css'));
 })
 
 .task('jekyll', function (done) {
   bSync.notify('Compiling Jekyll');
-
-  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch'])
-  .on('close', done);
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch']).on('close', done);
 })
 
 .task('serve', ['sass'], function () {

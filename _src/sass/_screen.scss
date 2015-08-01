@@ -110,7 +110,7 @@
   text-align: center;
   font-size: 12px;
   text-transform: uppercase;
-  line-height: 35px;
+  line-height: 40px;
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.1);
   transition: all ease 0.3s;
@@ -124,7 +124,7 @@
   }
 }
 
-.subscribe-button {
+.subscribe-button, .search-button {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -136,24 +136,57 @@
   text-align: center;
   font-size: 12px;
   text-transform: uppercase;
-  line-height: 35px;
+  line-height: 40px;
   white-space: nowrap;
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.1);
   transition: all ease 0.3s;
+}
 
-  &:before {
-    font-size: 9px;
-    margin-right: 6px;
+.search-button {
+  margin-right: 15px;
+}
+
+.search-container {
+  padding: 5em 10em;
+
+  ul {
+    list-style: none;
+    padding: 15px 0;
+    margin: 10px 0;
+  }
+
+  li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      border-top: 1px solid #222;
+    }
+  }
+
+  input[type="text"] {
+    text-align: center;
+    width: 60%;
+    padding: 6px 12px;
+    display: block;
+    margin: 0 auto 15px;
   }
 }
 
-/* Special styles when overlaid on an image*/
-.main-nav.overlay {
-  // background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
-  // background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0)));
-  // background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
-  // background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+
+@media only screen and (max-width: 860px) {
+  .search-container {
+    padding: 3em;
+
+    input[type="text"] {
+      width: 100%;
+    }
+  }
 }
 
 .post-head.main-header {
@@ -447,7 +480,7 @@ body:not(.post-template) .post-title {
 
 .post-content {
   img {
-    display: block;
+    // display: block;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
@@ -1066,7 +1099,9 @@ body:not(.post-template) .post-title {
     }
   }
 
-  .back-button, .subscribe-button {
+  .back-button,
+  .subscribe-button,
+  .search-button {
     height: 44px;
     line-height: 41px;
     border-radius: 0;
@@ -1074,7 +1109,9 @@ body:not(.post-template) .post-title {
     background: transparent;
   }
 
-  .back-button:hover, .subscribe-button:hover {
+  .back-button:focus,
+  .subscribe-button:focus,
+  .search-button:focus {
     color: #2e2e2e;
     background: #ebeef0;
   }

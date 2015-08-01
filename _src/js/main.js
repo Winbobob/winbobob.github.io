@@ -1,5 +1,10 @@
 /**
 */
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json',
+});
 
 (function ($, sr, undefined) {
   "use strict";
@@ -90,3 +95,10 @@
 
   };
 })(jQuery, 'smartresize');
+
+(function() {
+  var Mdtrigger = document.querySelector( '[data-modal]' ),
+  someModal = document.getElementById( Mdtrigger.getAttribute( 'data-modal' ) ),
+  dlg = new ModalFx( someModal );
+  Mdtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+})();
