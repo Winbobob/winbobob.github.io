@@ -142,8 +142,8 @@ add_action( 'wp_ajax_nopriv_PostAjaxme', 'PostAjaxme_callback' );
 
 ### Conclusão
 
-É muito simples e relamente útil trabalhar com Ajax no Wordpress, se você quiser baixar os exemplos estarão no meu [Github](https://github.com/nandomoreirame/Trabalhando-com-Ajax-usando-jQuery-no-Wordpress) para [download](https://github.com/nandomoreirame/Trabalhando-com-Ajax-usando-jQuery-no-Wordpress/archive/master.zip).
+É muito útil e relativamente simples trabalhar com Ajax no Wordpress, se você quiser baixar os exemplos estarão no meu [Github](https://github.com/nandomoreirame/Trabalhando-com-Ajax-usando-jQuery-no-Wordpress) para [download](https://github.com/nandomoreirame/Trabalhando-com-Ajax-usando-jQuery-no-Wordpress/archive/master.zip).
 
-As funções são exemploes meramente ilustrativos e podem ser alteradas como você bem entender, como eu disse o Céu é o limite, use e abuse da sua criatividade como programador e divirta-se!
+As funções são exemplos meramente ilustrativos e podem ser alteradas como você bem entender, como eu disse o Céu é o limite, use e abuse da sua criatividade como programador e divirta-se!
 
 Esse é o post de hoje. Abraços!
