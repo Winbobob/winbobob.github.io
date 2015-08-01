@@ -2490,6 +2490,10 @@ table {
   color: #fff;
   font-size: 16px;
   margin-top: 26px; }
+  @media only screen and (max-width: 480px) {
+    .search-label {
+      display: none;
+      visibility: hidden; } }
 
 .search-container {
   padding: 5em 10em;
@@ -2513,20 +2517,23 @@ table {
     width: 100%;
     padding: 0;
     font-size: 100px;
-    text-transform: uppercase;
     font-weight: 300;
     border: 0;
     outline: 0;
     background-color: transparent; }
   .search-container ::-webkit-input-placeholder {
+    text-transform: uppercase;
     color: #fff; }
   .search-container :-moz-placeholder {
     /* Firefox 18- */
+    text-transform: uppercase;
     color: #fff; }
   .search-container ::-moz-placeholder {
     /* Firefox 19+ */
+    text-transform: uppercase;
     color: #fff; }
   .search-container :-ms-input-placeholder {
+    text-transform: uppercase;
     color: #fff; }
 
 @media only screen and (min-width: 460px) and (max-width: 860px) {
@@ -3198,7 +3205,6 @@ body:not(.post-template) .post-title {
     padding: 10% 0; }
 
   .main-nav {
-    padding: 0;
     margin-bottom: 2rem;
     border-bottom: #e0e4e7 1px solid; }
 
@@ -3442,12 +3448,14 @@ body:not(.post-template) .post-title {
   opacity: .8;
   background-color: transparent;
   display: inline-block;
-  color: #fff;
   text-align: center;
   margin: 0;
-  font-size: 26px;
-  border: 1px solid #fff;
+  font-size: 42px;
+  border: none;
   border-radius: 4px; }
+  .modal-close, .modal-close:hover, .modal-close:focus {
+    text-decoration: none;
+    color: #fff; }
 
 body.modal--open {
   overflow: hidden !important; }
