@@ -214,11 +214,21 @@
 
 @media only screen and (max-width: 860px) {
   .search-container {
-    padding: 3em;
+    padding: 4em 3px;
 
     input[type="text"] {
       width: 100%;
       font-size: 60px;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .search-container {
+    padding: 3em;
+
+    input[type="text"] {
+      font-size: 42px;
     }
   }
 }
