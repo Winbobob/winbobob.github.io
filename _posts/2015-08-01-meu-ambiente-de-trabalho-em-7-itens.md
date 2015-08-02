@@ -9,7 +9,6 @@ keywords: ""
 categories:
 - meu-trabalho
 tags:
-- trabalho
 - ambiente
 - desenvolvimento
 cover: /assets/images/posts/meu-ambiente-de-trabalho-em-7-itens.png
