@@ -8,6 +8,7 @@
 
 var gulp        = require('gulp');
 var $           = require('gulp-load-plugins')();
+var pngquant    = require('imagemin-pngquant');
 var runSequence = require('run-sequence');
 var bSync       = require('browser-sync');
 var cp          = require('child_process');
@@ -33,7 +34,9 @@ gulp.task('default', ['sass'], function (cb) {
   return gulp.src('_src/images/**/*')
     .pipe($.cache($.imagemin({
       progressive: true,
-      interlaced: true
+      interlaced: true,
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngquant({quality: '65-80', speed: 4})]
     })))
     .pipe(gulp.dest('assets/images'))
     .pipe($.size({title: 'images'}));

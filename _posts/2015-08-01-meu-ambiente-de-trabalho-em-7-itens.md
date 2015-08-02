@@ -4,11 +4,12 @@ title: "Meu ambiente de trabalho em 7 itens"
 permalink: meu-ambiente-de-trabalho-em-7-itens
 date: 2015-08-01 21:29:50
 comments: true
-description: "Meu ambiente de trabalho em 7 itens"
-keywords: ""
+description: "Aderi ao GNU linux como OS padrão no final de 2014, apesar de usá-lo desde 2009."
+keywords: "trabalho, ambiente, desenvolvimento, dicas"
 categories:
 - meu-trabalho
 tags:
+- dicas
 - ambiente
 - desenvolvimento
 cover: /assets/images/posts/meu-ambiente-de-trabalho-em-7-itens.png
@@ -18,11 +19,21 @@ cover: /assets/images/posts/meu-ambiente-de-trabalho-em-7-itens.png
 
 Aderi ao **GNU linux** como OS padrão no final de 2014, apesar de usá-lo desde 2009.  Eu era amarrado ao Windows por causa do pacote Adobe, mas hoje sou livre.
 
-Uso **Ubuntu 15.04** com **Gnome-shell 3.16** pois acho ele muito bonito, elegante e rápido. Uso também uma máquina virtual com o *Windows 8.1* e *Windows 7* para testes em navegadores mais antigos (ie8) e as vezes abrir o Photoshop de vez em quando.
+Uso **Ubuntu 15.04** com **Gnome-shell 3.14** pois acho ele muito bonito, elegante e rápido. Uso também uma máquina virtual com o *Windows 8.1* e *Windows 7* para testes em navegadores mais antigos (ie8) e as vezes abrir o Photoshop de vez em quando.
+
+<a href="/assets/images/posts/meu-ambiente-de-trabalho-detalhes-do-sistema.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/meu-ambiente-de-trabalho-detalhes-do-sistema.png" alt="Detalhes do sistema">
+</a>
+
+***
 
 ### 2. Editor de código
 
 Uso o [Sublime text 3](http://www.sublimetext.com/3) como editor de código padrão, gratuito e indispensável para um desenvolvedor front-end
+
+<a href="/assets/images/posts/meu-ambiente-sublime-text-3.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/meu-ambiente-sublime-text-3.png" alt="Sublime text 3">
+</a>
 
 Eu costumo sempre que instalar meu **Sublime Text**, já sair instalando meus pacotes, segue a lista:
 
@@ -49,6 +60,8 @@ Eu costumo sempre que instalar meu **Sublime Text**, já sair instalando meus pa
   - wakatime
   - Theme - Cobalt2
 
+***
+
 ### 3. Linha de comando
 
 Usei por algums meses o **[Guake Terminal](http://guake.org/)** pelo simples fato de ser *dropdown*, logo migrei para o **[Terminator](http://gnometerminator.blogspot.com.br/p/introduction.html)** porque gostei da ideia de dividir a tela do terminal em múltiplas telinhas menores, mas ele não era *dropdown*, fiquei triste por algum tempo até encontrar o **[Yakuake](http://kde-apps.org/content/show.php?content=29153)**, um terminal que use o *dropdown* com o divisão de múltiplas telas.
@@ -57,11 +70,23 @@ Hoje uso o **Yakuake** com muito prazer, e sou mais feliz por isso.
 
 Ah! Não poderia esquecer do **[Fish shell](http://fishshell.com/)**, com ele tudo fica mais fácil no terminal, sério, tudo.
 
+<a href="/assets/images/posts/meu-ambiente-linha-de-comando-yakuake-fish-shell.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/meu-ambiente-linha-de-comando-yakuake-fish-shell.png" alt="Yakuake e fish shell">
+</a>
+
+***
+
 ### 4. Controle de versão
 
 Mas é claro que é o **Git**, não precisaria nem discutir isso aqui pelo simples fato de que é o melhor controle de versão já desenvolvido.
 
 Uso **[Github](http://github.com/nandomoreirame)** para repositórios públicos e **[Bitbucket](https://bitbucket.org/)** para repositórios privados.
+
+<a href="/assets/images/posts/meu-ambiente-github.jpg" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/meu-ambiente-github.jpg" alt="Github">
+</a>
+
+***
 
 ### 5. Pré-processador
 
@@ -69,11 +94,21 @@ Todo front-end precisa usar um **[pré-processador](https://goo.gl/G79yVN)**, se
 
 Eu uso **[SASS/SCSS](http://sass-lang.com/)**, apesar de ouvir falar muito bem do **Stylus** prefiro ficar com o **SASS**, ele tem tudo que preciso em um pré-processador e muito mais..
 
+<a href="/assets/images/posts/meu-ambiente-sass-compass.jpg" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/meu-ambiente-sass-compass.jpg" alt="SASS e Compass">
+</a>
+
+***
+
 ### 6. Automatizador de tarefas
 
 **Gulp**, mas por que? Porque sim.
 
 O **Gulp** é muito mais rápido que o **Grunt**, pois ele faz uso das streams do node para escrever arquivos diretamente para o disco, dispensando intermediários.
+
+<a href="/assets/images/posts/meu-ambiente-gulpjs.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/meu-ambiente-gulpjs.png" alt="Gulpjs">
+</a>
 
 Junto com ele uso uma série de *packages*, que são indispensáveis em meu arsenal, são eles:
 
@@ -97,8 +132,24 @@ Junto com ele uso uma série de *packages*, que são indispensáveis em meu arse
 
 ### 7. Controle de tarefas
 
+***
+
 Nós usamos o **[Jira](https://www.atlassian.com/software/jira)** lá na **[MalaPronta.com](http://www.malapronta.com.br)** um software incrível da **Atlassian** a mesma empresa que criou o **Bitbucket**.
 
+<a href="/assets/images/posts/meu-ambiente-jira.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/meu-ambiente-jira.png" alt="Jira Atlassian">
+</a>
+
 Pessoalmente eu sou meio desorganizado quanto a isso, preciso me gerenciar melhor. Eu uso o **[Google Keep](https://keep.google.com/)** para anotações rápidas, pelo fato de ter o sincronismo com todos os meus aparelhos rapidamente.
+
+***
+
+### Conclusão
+
+Espero que meu ambiente de trabalho inspire você como desenvolvedor front-end no mercado de trabalho, que vocẽ possa aperfeiçoar seu dia-a-dia como desenvolvedor e que algumas dessas ferramentas que citei aqui sirva para você também.
+
+Eu sempre digo para alguns amigos meus desenvolvedores para se inspirarem em alguém, espero que essas dicas sirvam de inspiração para você algum dia.
+
+E você, o que tem usado? Comenta ai vai.
 
 Obrigado.

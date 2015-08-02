@@ -4,7 +4,7 @@ highlighter : pygments
 
 # site title, description, meta_description, meta_keywords
 name: 'Fernando Moreira'
-description: "/ Desenvolvimento Web e tudo mais.."
+description: "Desenvolvimento Web e tudo mais.."
 meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript."
 meta_keywords: "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
 
@@ -33,9 +33,9 @@ author:
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir : _sass
-  style    : :compressed
+# sass:
+#   sass_dir : _sass
+#   style    : :compressed
 
 # Custom vars
 version: 1.0.0

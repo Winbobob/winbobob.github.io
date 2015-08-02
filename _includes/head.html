@@ -8,13 +8,7 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 
-<title>
-  {% if page.title == "Home" %}
-    {{ site.name }} {{ site.description }}
-  {% else %}
-    {{ page.title }} &bull; {{ site.name }}
-  {% endif %}
-</title>
+<title>{% if page.title == "Home" %}{{ site.name }} {{ site.description }}{% else %}{{ page.title }} &bull; {{ site.name }}{% endif %}</title>
 
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}">
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
@@ -29,13 +23,21 @@
 <meta property="og:site_name" content="{{ site.author.name }}">
 <meta property="article:publisher" content="{{ site.author.facebook }}">
 <meta property="fb:app_id" content="668905279849616">
-<meta property="og:image" content="/assets/images/facebook.png">
+<meta property="og:image" content="{{ site.url }}/assets/images/facebook.png">
 
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/ico/apple-touch-icon-144.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/ico/apple-touch-icon-114.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/ico/apple-touch-icon-72.png">
-<link rel="apple-touch-icon" href="/assets/images/ico/apple-touch-icon-57.png">
-<link rel="shortcut icon" href="/assets/images/ico/favicon.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@nandomoreirame">
+<meta name="twitter:domain" content="{{ site.url }}">
+<meta name="twitter:title" content="{% if page.title == "Home" %}{{ site.name }}{% else %}{{ page.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:creator" content="@nandomoreirame">
+<meta name="twitter:image:src" content="{{ site.url }}/assets/images/author.jpg">
+
+<link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/assets/images/ico/apple-touch-icon-144.png">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/assets/images/ico/apple-touch-icon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/assets/images/ico/apple-touch-icon-72.png">
+<link rel="apple-touch-icon" href="{{ site.url }}/assets/images/ico/apple-touch-icon-57.png">
+<link rel="shortcut icon" href="{{ site.url }}/assets/images/ico/favicon.png">
 
 {% if paginator.previous_page %}
   <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}">
