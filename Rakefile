@@ -20,7 +20,7 @@ task :publish do
   system "git add -A ."
   message = "Site updated at #{Time.now.utc}"
   system "git commit -am #{message.inspect}"
-  system "git push origin master -f"
+  # system "git push origin master -f"
 end
 
 desc "Generate blog files"
