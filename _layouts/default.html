@@ -1,6 +1,4 @@
----
-layout: compress
----
+
 <!DOCTYPE html>
 <html class="no-js" lang="pt-br">
   <head>
@@ -9,5 +7,6 @@ layout: compress
   <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %} {% if page.slug %}{{page.slug}}{% endif %}">
     {{ content }}
     {% include footer.html %}
+    {% javascript main.min %}
   </body>
 </html>

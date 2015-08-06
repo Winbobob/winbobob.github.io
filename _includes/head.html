@@ -14,8 +14,6 @@
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}">
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
 
-<link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
-
 <meta property="og:locale" content="pt_BR">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ site.name }} - {{ site.description }}">
@@ -24,7 +22,7 @@
 <meta property="og:site_name" content="{{ site.author.name }}">
 <meta property="article:publisher" content="{{ site.author.facebook }}">
 <meta property="fb:app_id" content="668905279849616">
-<meta property="og:image" content="{{ site.url }}/assets/images/facebook.png">
+<meta property="og:image" content="{{ 'facebook.png' | asset_path }}">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@nandomoreirame">
@@ -32,13 +30,12 @@
 <meta name="twitter:title" content="{% if page.title == "Home" %}{{ site.name }}{% else %}{{ page.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:creator" content="@nandomoreirame">
-<meta name="twitter:image:src" content="{{ site.url }}/assets/images/author.jpg">
+<meta name="twitter:image:src" content="{{ 'author.jpg' | asset_path }}">
 
-<link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/assets/images/ico/apple-touch-icon-144.png">
-<link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/assets/images/ico/apple-touch-icon-114.png">
-<link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/assets/images/ico/apple-touch-icon-72.png">
-<link rel="apple-touch-icon" href="{{ site.url }}/assets/images/ico/apple-touch-icon-57.png">
-<link rel="shortcut icon" href="{{ site.url }}/assets/images/ico/favicon.png">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ 'ico/apple-touch-icon-114.png' | asset_path }}">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ 'ico/apple-touch-icon-72.png' | asset_path }}">
+<link rel="apple-touch-icon" href="{{ 'ico/apple-touch-icon-57.png' | asset_path }}">
+<link rel="shortcut icon" href="{{ 'ico/favicon.png' | asset_path }}">
 
 {% if paginator.previous_page %}
   <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}">
@@ -50,4 +47,5 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-<script type="text/javascript" src="{{ "/assets/js/modernizr.min.js" | prepend: site.baseurl }}"></script>
+{% stylesheet main.min %}
+{% javascript modernizr.min %}

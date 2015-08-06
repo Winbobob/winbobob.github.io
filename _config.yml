@@ -42,6 +42,17 @@ version: 1.0.0
 github:
   repo: https://github.com/nandomoreirame/nandomoreirame.github.io
 
+# Plugin: jekyll-assets
+assets:
+  dirname: /assets
+  baseurl: /assets/
+  sources:
+    - assets/images
+    - assets/fonts
+    - assets/css
+    - assets/js
+  gzip: [ text/css, application/javascript ]
+
 # Compress HTML
 compress_html:
   clippings: all

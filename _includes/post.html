@@ -10,7 +10,7 @@
   </section>
   <footer class="post-meta">
     {% if site.author %}
-      <img class="author-thumb" src="{{ site.author.image }}" alt="{{ site.author.name }}" nopin="nopin" />
+      {% image author.jpg class="author-thumb" alt="Author thumb" nopin="nopin" [autosize] %}
     {{ site.author.name }}
     {% endif %}
 
