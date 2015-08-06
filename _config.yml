@@ -51,6 +51,7 @@ assets:
     - assets/fonts
     - assets/css
     - assets/js
+  cache: true
   gzip: [ text/css, application/javascript ]
 
 # Compress HTML
