@@ -1,8 +1,10 @@
 # encoding: UTF-8
 require "rubygems"
 require "bundler/setup"
+require "jekyll"
 
 SOURCE = "."
+DEST   = "_site"
 CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
@@ -10,6 +12,22 @@ CONFIG = {
   'categories' => File.join(SOURCE, "categories"),
   'tags' => File.join(SOURCE, "tags")
 }
+
+desc "Generate and publish blog to gh-pages"
+task :default do
+  system "git add -A ."
+  message = "Site updated at #{Time.now.utc}"
+  system "git commit -am #{message.inspect}"
+  system "git push origin master --force"
+end
+
+desc "Generate blog files"
+task :build do
+  Jekyll::Site.new(Jekyll.configuration({
+    "source"      => "#{SOURCE}",
+    "destination" => "#{DEST}"
+  })).process
+end
 
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
