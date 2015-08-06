@@ -13,12 +13,14 @@ CONFIG = {
   'tags' => File.join(SOURCE, "tags")
 }
 
-desc "Generate and publish blog to gh-pages"
-task :default do
+task default: %w[publish]
+
+desc "Generate and publish blog to github"
+task :publish do
   system "git add -A ."
   message = "Site updated at #{Time.now.utc}"
   system "git commit -am #{message.inspect}"
-  system "git push origin master --force"
+  system "git push origin master"
 end
 
 desc "Generate blog files"
