@@ -15,6 +15,8 @@ tags:
 
 **Zetsu** é o meu primeiro tema de muitos que vou fazer para **Jekyll** que estarão disponíveis no Github para download, logo logo. Claro que não é o primeiro que fiz (veja o meu blog aqui).
 
-Ele foi feito para ser clean, simples e direto, quem sabe os próximos terão algo a mais e serão mais completos que esse.
+Ele foi feito para ser clean, simples e direto, para que você possa modificá-lo como quiser.. quem sabe os próximos terão algo a mais e serão mais completos que esse ;)
 
 | [Demo](http://nandomoreira.me/zetsu) | [Repositório](https://github.com/nandomoreirame/zetsu) | [Download](https://github.com/nandomoreirame/zetsu/archive/gh-pages.zip) |
+
+Obrigado, abraço!
