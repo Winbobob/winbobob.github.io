@@ -8,7 +8,13 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 
-<title>{% if page.title == "Home" %}{{ site.name }} {{ site.description }}{% else %}{{ page.title }} &bull; {{ site.name }}{% endif %}</title>
+<title>
+  {% if page.title == "Home" %}
+    {{ site.name }} &bull; {{ site.description }}
+  {% else %}
+    {{ page.title }} &bull; {{ site.name }}
+  {% endif %}
+</title>
 
 <meta name="google-site-verification" content="zS1dSn20XtA4FJYEOQLXqI0boxZdMnJ2g3beje-cl20">
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}">
