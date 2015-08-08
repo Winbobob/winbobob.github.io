@@ -347,7 +347,7 @@ p, ul, ol, dl {
   -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
   -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
   -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-  margin: 0 0 1.75em 0; }
+  margin: 0 0 .75em 0; }
 
 ol, ul {
   padding-left: 3rem; }
@@ -3799,7 +3799,10 @@ html.swipebox-html.swipebox-touch {
     @media screen and (min-width: 460px) {
       .gallery .thumb {
         width: 50%;
-        float: left; } }
+        float: left; }
+        .gallery .thumb a {
+          max-height: 200px;
+          overflow: hidden; } }
 
 /* Github Box */
 .github-box-wrap {

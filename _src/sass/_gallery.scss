@@ -38,6 +38,11 @@
     @media screen and (min-width: 460px) {
       width: 50%;
       float: left;
+
+      a {
+        max-height: 200px;
+        overflow: hidden;
+      }
     }
   }
 }

@@ -15,8 +15,23 @@ tags:
 
 **Zetsu** é o meu primeiro tema de muitos que vou fazer para **Jekyll** que estarão disponíveis no Github para download, logo logo. Claro que não é o primeiro que fiz (veja o meu blog aqui).
 
+| [Demo](http://nandomoreira.me/zetsu) | [Repositório](https://github.com/nandomoreirame/zetsu) | [Download](https://github.com/nandomoreirame/zetsu/archive/gh-pages.zip) |
+
 Ele foi feito para ser clean, simples e direto, para que você possa modificá-lo como quiser.. quem sabe os próximos terão algo a mais e serão mais completos que esse ;)
 
-| [Demo](http://nandomoreira.me/zetsu) | [Repositório](https://github.com/nandomoreirame/zetsu) | [Download](https://github.com/nandomoreirame/zetsu/archive/gh-pages.zip) |
+**Telas**
+
+<div class="gallery">
+  <figure class="thumb">
+    <a href="{{ 'posts/zetsu-chrome.png' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
+      {% image posts/zetsu-chrome.png alt="Zetsu - Chrome" [autosize] %}
+    </a>
+  </figure>
+  <figure class="thumb">
+    <a href="{{ 'posts/zetsu-phone.png' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
+      {% image posts/zetsu-phone.png alt="Zetsu - Smartphone" [autosize] %}
+    </a>
+  </figure>
+</div>
 
 Obrigado, abraço!
