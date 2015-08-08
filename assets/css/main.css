@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700);
-.clearfix, .main-header, .main-header .inner, .post-template .content, .post-template .post, .video-responsive, .gallery, .highlight {
+.clearfix, .main-header, .main-header .inner, .post-thumb, .post-template .content, .post-template .post, .video-responsive, .gallery, .highlight {
   *zoom: 1; }
-  .clearfix:before, .main-header:before, .main-header .inner:before, .post-template .content:before, .post-template .post:before, .video-responsive:before, .gallery:before, .highlight:before {
+  .clearfix:before, .main-header:before, .main-header .inner:before, .post-thumb:before, .post-template .content:before, .post-template .post:before, .video-responsive:before, .gallery:before, .highlight:before {
     content: " ";
     display: table; }
-  .clearfix:after, .main-header:after, .main-header .inner:after, .post-template .content:after, .post-template .post:after, .video-responsive:after, .gallery:after, .highlight:after {
+  .clearfix:after, .main-header:after, .main-header .inner:after, .post-thumb:after, .post-template .content:after, .post-template .post:after, .video-responsive:after, .gallery:after, .highlight:after {
     content: " ";
     display: table;
     clear: both; }
@@ -2391,6 +2391,17 @@ table {
     margin-top: 25px; }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
+.scroll-down,
+.bounce {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-animation: bounce 4s 2s infinite;
+  animation: bounce 4s 2s infinite; }
+  .scroll-down:hover,
+  .bounce:hover {
+    -webkit-animation: none;
+    animation: none; }
+
 .scroll-down {
   display: block;
   position: absolute;
@@ -2403,15 +2414,9 @@ table {
   font-size: 34px;
   text-align: center;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7);
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  -webkit-animation: bounce 4s 2s infinite;
-  animation: bounce 4s 2s infinite; }
+  color: rgba(255, 255, 255, 0.7); }
   .scroll-down:hover {
-    color: #fff;
-    -webkit-animation: none;
-    animation: none; }
+    color: #fff; }
 
 /* Stop it bouncing and increase contrast when hovered */
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
@@ -2604,16 +2609,17 @@ table {
   color: rgba(0, 0, 0, 0.4); }
 
 /* Add subtle load-in animation for content on the home page */
-.home-template .page-title {
-  -webkit-animation: fade-in-down 0.6s;
-  animation: fade-in-down 0.6s;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s; }
-.home-template .page-description {
-  -webkit-animation: fade-in-down 0.9s;
-  animation: fade-in-down 0.9s;
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s; }
+.fade-in-down {
+  -webkit-animation: fade-in-down 1s;
+  animation: fade-in-down 1s;
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s; }
+
+.page-description {
+  -webkit-animation: fade-in-down .8s;
+  animation: fade-in-down .8s;
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s; }
 
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
@@ -2727,6 +2733,33 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
+.post-thumb {
+  padding: 5px;
+  margin: 0 0 15px;
+  border: 1px solid #eee;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff; }
+  .post-thumb img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0; }
+  .post-thumb a {
+    display: inline-block;
+    float: left;
+    line-height: initial;
+    margin: 0;
+    padding: 0;
+    max-height: 260px;
+    overflow: hidden; }
+  .post-thumb:hover, .post-thumb:focus {
+    border-color: #999;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8; }
+
 .post-template .post-header {
   margin-bottom: 3.4rem; }
 .post-template .post-title {
@@ -3395,8 +3428,8 @@ body:not(.post-template) .post-title {
 @-webkit-keyframes fade-in-down {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px); }
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px); }
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -3404,8 +3437,8 @@ body:not(.post-template) .post-title {
 @keyframes fade-in-down {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px); }
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px); }
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -3758,7 +3791,7 @@ html.swipebox-html.swipebox-touch {
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
       .gallery .thumb a:hover, .gallery .thumb a:focus {
-        border-color: #ccc;
+        border-color: #999;
         filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
         opacity: 0.8; }
     @media screen and (min-width: 460px) {

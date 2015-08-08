@@ -1,9 +1,16 @@
 <!-- article post loop -->
 <article class="post">
   <header class="post-header">
-    <h2 class="post-title">
+    <h1 class="post-title">
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </h2>
+    </h1>
+    {% if post.cover %}
+    <figure class="post-thumb">
+      <a href="{{ post.url }}" title="{{ post.title }}">
+        <img src="{{ post.cover }}" alt="Thumb de: {{ post.title }}">
+      </a>
+    </figure>
+    {% endif %}
   </header>
   <section class="post-excerpt">
     <a class="read-more" href="{{ post.url }}" title="{{ post.title }}">{{ post.content | strip_html | truncatewords: 50 }}</a>

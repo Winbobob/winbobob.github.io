@@ -12,7 +12,8 @@ about: 'about/'
   </nav>
   <div class="vertical">
     <div class="main-header-content inner">
-      <h1 class="page-title">{{ site.name }}</h1>
+      {% image author.jpg class="fade-in-down dot" alt="Author thumb" nopin="nopin" [autosize] %}
+      <h1 class="page-title fade-in-down">{{ site.name }}</h1>
       <h2 class="page-description">
         {% if site.description %}{{ site.description }}{% endif %} <br><br>
         <span><a href='{{ site.baseurl }}{{ page.about }}'>Sobre mim</a></span>
