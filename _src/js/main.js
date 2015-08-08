@@ -34,31 +34,8 @@ SimpleJekyllSearch({
   };
 
   $document.ready(function () {
-
     var $postContent = $(".post-content");
-
-    // function updateImageWidth() {
-    //   var $this        = $(this);
-    //   var contentWidth = $postContent.outerWidth();
-    //   var imageWidth   = this.naturalWidth;
-
-    //   if (imageWidth >= contentWidth) {
-    //     $this.addClass('full-img');
-    //   } else {
-    //     $this.removeClass('full-img');
-    //   }
-    // }
-
-    // var $img = $("img").on('load', updateImageWidth);
-    // function casperFullImg() {
-    //   $img.each(updateImageWidth);
-    // }
-
-    // casperFullImg();
-    // $(window).smartresize(casperFullImg);
-
     $(".scroll-down").arctic_scroll();
-
     $('.swipebox').swipebox();
     $("[data-repo]").github();
   });

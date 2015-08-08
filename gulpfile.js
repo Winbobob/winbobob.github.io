@@ -98,6 +98,7 @@ gulp.task('default', ['serve'])
   });
 
   gulp.watch(['_src/sass/**/*.scss'], ['sass']);
+  gulp.watch(['_src/js/*.js'], ['js']);
   // gulp.watch(['_site/assets/js/**/*.js'], ['js', bSync.reload]);
   // gulp.watch(['_site/assets/css/**/*.css'], [bSync.reload]);
   // gulp.watch(['_site/assets/images/**/*'], [bSync.reload]);

@@ -80,6 +80,10 @@
       classie.add( document.body, 'modal--open' );
       classie.add( this.el, 'modal--open' );
 
+      /* Search input focus */
+      document.getElementById("search-input").focus();
+      /* Search input focus */
+
       // callback on open
       this.options.onOpenModal( this );
     }
