@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700);
-.clearfix, .main-header, .main-header .inner, .post-template .content, .post-template .post, .video-responsive, .highlight {
+.clearfix, .main-header, .main-header .inner, .post-template .content, .post-template .post, .video-responsive, .gallery, .highlight {
   *zoom: 1; }
-  .clearfix:before, .main-header:before, .main-header .inner:before, .post-template .content:before, .post-template .post:before, .video-responsive:before, .highlight:before {
+  .clearfix:before, .main-header:before, .main-header .inner:before, .post-template .content:before, .post-template .post:before, .video-responsive:before, .gallery:before, .highlight:before {
     content: " ";
     display: table; }
-  .clearfix:after, .main-header:after, .main-header .inner:after, .post-template .content:after, .post-template .post:after, .video-responsive:after, .highlight:after {
+  .clearfix:after, .main-header:after, .main-header .inner:after, .post-template .content:after, .post-template .post:after, .video-responsive:after, .gallery:after, .highlight:after {
     content: " ";
     display: table;
     clear: both; }
@@ -3733,6 +3733,38 @@ html.swipebox-html.swipebox-touch {
   font-size: 15px;
   line-height: 43px;
   font-family: Helvetica, Arial, sans-serif; }
+
+.gallery {
+  margin-left: -5px;
+  margin-right: -5px; }
+  .gallery .thumb {
+    padding: 5px;
+    margin: 0 0 10px;
+    display: block;
+    width: 100%; }
+    .gallery .thumb img {
+      padding: 0;
+      margin: 0;
+      display: block;
+      width: 100%; }
+    .gallery .thumb a {
+      display: inline-block;
+      line-height: initial;
+      margin: 0;
+      padding: 5px;
+      border: 1px solid #eee;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+      .gallery .thumb a:hover, .gallery .thumb a:focus {
+        border-color: #ccc;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+        opacity: 0.8; }
+    @media screen and (min-width: 460px) {
+      .gallery .thumb {
+        width: 50%;
+        float: left; } }
 
 /* Github Box */
 .github-box-wrap {

@@ -40,11 +40,23 @@ task :publish => [:generate] do
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
-    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    # system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    # git remote add origin https://github.com/nandomoreirame/nandomoreirame.github.io.git
+    system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
     system "git push origin master --force"
 
     Dir.chdir pwd
   end
+end
+
+desc "Set github remote url to SSH"
+task :ssh => [:generate] do
+  system "git remote set-url origin git@github.com:#{GITHUB_REPONAME}.git"
+end
+
+desc "Set github remote url to HTTPS"
+task :https => [:generate] do
+  system "git remote set-url origin https://github.com/#{GITHUB_REPONAME}.git"
 end
 
 desc "Begin a new post in #{CONFIG['posts']}"

@@ -1,7 +1,5 @@
 /**
- *
  *  Gulp nandomoreira.me
- *
  */
 
 'use strict';
@@ -11,8 +9,7 @@ var $           = require('gulp-load-plugins')();
 var pngquant    = require('imagemin-pngquant');
 var runSequence = require('run-sequence');
 var bSync       = require('browser-sync');
-var cp          = require('child_process');
-var reload      = bSync.reload;
+// var cp          = require('child_process');
 
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
@@ -26,8 +23,10 @@ var AUTOPREFIXER_BROWSERS = [
   'bb >= 10'
 ];
 
-gulp.task('default', ['sass'], function (cb) {
-  runSequence('js', ['images', 'fonts', 'serve', 'jekyll'], cb);
+gulp.task('default', ['serve'])
+
+.task('build', function (cb) {
+  runSequence(['sass', 'js', 'images', 'fonts', 'serve' ], cb);
 })
 
 .task('images', function () {
@@ -85,22 +84,22 @@ gulp.task('default', ['sass'], function (cb) {
     .pipe(gulp.dest('assets/css'));
 })
 
-.task('jekyll', function (done) {
-  bSync.notify('Compiling Jekyll');
-  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch']).on('close', done);
-})
+// .task('jekyll', function (done) {
+//   bSync.notify('Compiling Jekyll');
+//   return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch']).on('close', done);
+// })
 
 .task('serve', ['sass'], function () {
   bSync({
     notify: false,
     open: "external",
     logPrefix: 'browser-sync',
-    server: ['_site']
+    server: '_site'
   });
 
   gulp.watch(['_src/sass/**/*.scss'], ['sass']);
-  gulp.watch(['_site/assets/js/**/*.js'], ['js', reload]);
-  gulp.watch(['_site/assets/css/**/*.css'], [reload]);
-  gulp.watch(['_site/assets/images/**/*'], reload);
+  // gulp.watch(['_site/assets/js/**/*.js'], ['js', bSync.reload]);
+  // gulp.watch(['_site/assets/css/**/*.css'], [bSync.reload]);
+  // gulp.watch(['_site/assets/images/**/*'], [bSync.reload]);
 })
 ;
