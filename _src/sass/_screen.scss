@@ -578,6 +578,12 @@ body:not(.post-template) .post-title {
     max-width: none;
     margin: 0 -13%;
   }
+
+  table {
+    td {
+      text-align: center;
+    }
+  }
 }
 
 /* Break out larger images to be wider than the main text column

@@ -2793,6 +2793,8 @@ body:not(.post-template) .post-title {
   width: 126%;
   max-width: none;
   margin: 0 -13%; }
+.post-content table td {
+  text-align: center; }
 
 /* Break out larger images to be wider than the main text column
    the class is applied with jQuery */
