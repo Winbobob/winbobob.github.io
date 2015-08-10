@@ -11,8 +11,9 @@ categories:
 - ubuntu
 tags:
 - nodejs
-- ubuntu
 - node
+- ubuntu
+- linux
 ---
 
 Salve galera! Hoje vou explicar como instalar o **[NojeJS](https://nodejs.org/)** no **Ubuntu** via **apt-get**..
