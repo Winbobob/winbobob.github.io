@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Instalando NojeJS 0.12 no Ubuntu via apt-get"
-permalink: instalando-nojejs-021-no-ubuntu-via-apt-get
+permalink: instalando-nojejs-012-no-ubuntu-via-apt-get
 date: 2015-08-10 00:10:30
 comments: true
-description: "Instalando NojeJS 0.12 no Ubuntu via apt-get"
+description: "Salve galera! Hoje vou explicar como instalar o NojeJS no Ubuntu via apt-get"
 cover: /assets/images/posts/instalando-nojejs-no-ubuntu.jpg
 keywords: "nodejs, ubuntu, node"
 categories:
