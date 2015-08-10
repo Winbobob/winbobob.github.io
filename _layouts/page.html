@@ -17,9 +17,13 @@ post_class: post-template page-template
 </header>
 
 <main class="content" role="main">
+
+  {% include breadcrumb.html %}
+
   <article class="post">
     <section class="post-content">
       {{content}}
     </section>
   </article>
+
 </main>

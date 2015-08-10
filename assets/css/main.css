@@ -2622,7 +2622,7 @@ table {
   animation-delay: .1s; }
 
 /* Every post, on every page, gets this style on its <article> tag */
-.post {
+.post, .container {
   position: relative;
   width: 80%;
   max-width: 710px;
@@ -2631,7 +2631,7 @@ table {
   border-bottom: #EBF2F6 1px solid;
   word-break: break-word;
   hyphens: auto; }
-  .post:after {
+  .post:after, .container:after {
     display: block;
     content: "";
     width: 7px;
@@ -3466,6 +3466,25 @@ body:not(.post-template) .post-title {
   60% {
     -webkit-transform: translateY(-5px) rotate(-90deg);
     transform: translateY(-5px) rotate(-90deg); } }
+.breadcrumb {
+  list-style: none;
+  margin: 15px 0;
+  padding: 0; }
+  .breadcrumb li {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 1.5rem; }
+    .breadcrumb li a {
+      text-decoration: none;
+      color: #777; }
+      .breadcrumb li a:hover {
+        text-decoration: underline; }
+    .breadcrumb li .divider {
+      color: #cecece;
+      padding: 0 5px; }
+    .breadcrumb li.active {
+      color: #333; }
+
 .modal,
 .modal__overlay {
   width: 100%;

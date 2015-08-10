@@ -1,0 +1,14 @@
+
+  <nav class="container">
+    <ul class="breadcrumb">
+
+      {% if page.title != "Home" %}
+      <li><a href="/">Home</a> <span class="divider">/</span></li>
+      {% endif %}
+
+      {% for path in page.parent_paths %}
+      <li><a href="{{ path }}">{{ page.parents[forloop.index0] }}</a> <span class="divider">/</span></li>
+      {% endfor %}
+      <li class="active">{{ page.title }}</li>
+    </ul>
+  </nav>

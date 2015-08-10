@@ -354,7 +354,7 @@
 
 /* Every post, on every page, gets this style on its <article> tag */
 
-.post {
+.post, .container {
   position: relative;
   width: 80%;
   max-width: 710px;

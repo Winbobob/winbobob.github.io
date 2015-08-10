@@ -12,15 +12,21 @@ layout: default
 </header>
 
 <main class="content" role="main">
+
+  {% include breadcrumb.html %}
+
   {% if site.tags[page.slug] %}
     {% for post in site.tags[page.slug] %}
       {% include post.html %}
     {% endfor %}
   {% else %}
+
     <article class="post">
       <section class="post-content">
         <p>Não há artigos para a tag: <strong>{{ page.title }}</strong></p>
       </section>
     </article>
+
   {% endif %}
+
 </main>
