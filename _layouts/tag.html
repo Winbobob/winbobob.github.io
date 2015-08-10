@@ -13,8 +13,6 @@ layout: default
 
 <main class="content" role="main">
 
-  {% include breadcrumb.html %}
-
   {% if site.tags[page.slug] %}
     {% for post in site.tags[page.slug] %}
       {% include post.html %}
