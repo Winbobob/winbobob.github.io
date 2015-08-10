@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Instalando NojeJS 0.12 no Ubuntu via apt-get"
-permalink: instalando-nojejs-012-no-ubuntu-via-apt-get
+title: "Instalando NodeJS 0.12 no Ubuntu via apt-get"
+permalink: instalando-nodejs-012-no-ubuntu-via-apt-get
 date: 2015-08-10 00:10:30
 comments: true
-description: "Salve galera! Hoje vou explicar como instalar o NojeJS no Ubuntu via apt-get"
-cover: /assets/images/posts/instalando-nojejs-no-ubuntu.jpg
+description: "Salve galera! Hoje vou explicar como instalar o NodeJS no Ubuntu via apt-get"
+cover: /assets/images/posts/instalando-nodejs-no-ubuntu.jpg
 keywords: "nodejs, ubuntu, node"
 categories:
 - ubuntu
@@ -16,9 +16,9 @@ tags:
 - linux
 ---
 
-Salve galera! Hoje vou explicar como instalar o **[NojeJS](https://nodejs.org/)** no **Ubuntu** via **apt-get**..
+Salve galera! Hoje vou explicar como instalar o **[NodeJS](https://nodejs.org/)** no **Ubuntu** via **apt-get**..
 
-É bem simples, precisamos apenas desse um link `(https://deb.nodesource.com/setup_0.12)` para o pacote do **NojeJS**.
+É bem simples, precisamos apenas desse um link `(https://deb.nodesource.com/setup_0.12)` para o pacote do **NodeJS**.
 
 Antes de tudo instale o `curl` no seu Ubuntu:
 
@@ -26,7 +26,7 @@ Antes de tudo instale o `curl` no seu Ubuntu:
 sudo apt-get install curl -y
 {% endhighlight %}
 
-Pronto, agora vamos instalar o **NojeJS**.
+Pronto, agora vamos instalar o **NodeJS**.
 
 {% highlight bash %}
 cd
@@ -34,7 +34,7 @@ curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 sudo apt-get install nodejs -y
 {% endhighlight %}
 
-Prontinho, agora você tem o **NojeJS** e o **NPM** instalados e funcionandos..
+Prontinho, agora você tem o **NodeJS** e o **NPM** instalados e funcionandos..
 
 Para verificar se tudo ocorreu bem, basta executar os comandos abaixo:
 
@@ -47,7 +47,7 @@ npm -v
 
 Bom, é isso.. Bem simples e fácil de instalar.
 
-Agora só instalar seus pacotes favoritos de **NojeJS** e correr pro abraço!
+Agora só instalar seus pacotes favoritos de **NodeJS** e correr pro abraço!
 
 
 {% highlight bash %}
