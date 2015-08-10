@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sobre mim
+description: "Desenvolvedor front-end, entusiasta de performance e usabilidade, sempre em busca do melhor projeto e de um bom café"
 permalink: /about/
 slug: about
 cover: "/assets/images/aboutme-cover.jpg"
