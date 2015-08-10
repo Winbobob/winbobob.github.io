@@ -39,10 +39,11 @@ Access, [localhost:4000](http://localhost:4000/)
 $ npm install
 ```
 
-### Rum gulp
+### Rum gulp and Jekyll
 
 ```
 $ gulp
+$ jekyll build -w
 ```
 
 Enjoy!
