@@ -1,0 +1,1 @@
+While @font-face is excellent for fonts that are hosted on our own servers, there may be situations where a hosted font solution is better. Google Fonts offers this as a way to use their fonts. The following is an example of using @import to load the Open Sans font from Google Fonts:
