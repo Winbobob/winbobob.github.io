@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Zetsu - Um lindo tema feito para jekyll e com o <3"
+title: "Zetsu - Um tema bacanudo para jekyll"
 permalink: zetsu-tema-jekyll
 date: 2015-08-08 04:40:30
 comments: true
