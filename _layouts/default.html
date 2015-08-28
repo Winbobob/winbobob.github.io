@@ -10,5 +10,8 @@ layout: compress
     {{ content }}
     {% include footer.html %}
     {% javascript main.min %}
+    {% if page.slug == 'projects' %}
+        {% javascript jquery.github.min %}
+    {% endif %}
   </body>
 </html>
