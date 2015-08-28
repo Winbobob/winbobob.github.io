@@ -7,9 +7,7 @@ var $ = require('gulp-load-plugins')();
 var gulp = require('gulp');
 
 gulp.task('fonts', function () {
-  return gulp.src([config.fonts + '**'])
-    .pipe(gulp.dest(config.dest.fonts))
-    .pipe($.size({
-      title: 'fonts'
-    }));
+  return gulp.src([config.fonts + '**/*'])
+    .pipe($.size({ title: 'fonts', gzip: false, showFiles: true }))
+    .pipe(gulp.dest(config.dest.fonts));
 });

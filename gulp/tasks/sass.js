@@ -20,14 +20,8 @@ gulp.task('sass', function () {
     .pipe($.combineMediaQueries())
     .pipe(gulp.dest(config.dest.css))
     .pipe($.minifyCss())
-    .pipe($.rename({
-      suffix: '.min'
-    }))
-    .pipe($.size({
-      title: 'Styles',
-      gzip: false,
-      showFiles: true
-    }))
+    .pipe($.rename({suffix: '.min'}))
+    .pipe($.size({ title: 'Styles', gzip: false, showFiles: true }))
     .pipe(gulp.dest(config.dest.css))
     .pipe($.plumber.stop());
 });

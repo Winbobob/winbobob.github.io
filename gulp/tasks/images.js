@@ -12,16 +12,9 @@ gulp.task('images', function () {
     .pipe($.cache($.imagemin({
       progressive: true,
       interlaced: true,
-      svgoPlugins: [{
-        removeViewBox: false
-      }],
-      use: [quant({
-        quality: '65-80',
-        speed: 4
-      })]
+      svgoPlugins: [{ removeViewBox: false }],
+      use: [quant({ quality: '65-80',speed: 4 })]
     })))
-    .pipe(gulp.dest(config.dest.img))
-    .pipe($.size({
-      title: 'images'
-    }));
+    .pipe($.size({ title: 'images', gzip: false, showFiles: true }))
+    .pipe(gulp.dest(config.dest.img));
 })

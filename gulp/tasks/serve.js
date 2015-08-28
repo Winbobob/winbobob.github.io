@@ -11,7 +11,7 @@ gulp.task('serve', function () {
   gulp.watch(config.sass + '**/*.scss', ['sass']);
 
   // watch js files
-  gulp.watch(config.js + '**/*.js', ['js']);
+  gulp.watch(config.js + '**/*.js', ['lint', 'js']);
 
   bSync.init({
     notify: false,
