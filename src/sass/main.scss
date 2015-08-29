@@ -1,20 +1,20 @@
-// ---
-// # Lets add a comment to make this file sass-y.
-// # Change this file for any custom CSS.
-// ---
+/*!
+ * by nandomoreira.me | https://github.com/nandomoreirame
+ */
 
-@import
-  "compass/css3",
-  "placeholders",
-  "normalize",
-  "helpers",
-  "general",
-  "icons",
-  "screen",
-  "breadcrumb",
-  "modal",
-  "swipebox",
-  "gallery",
-  "github-box",
-	"syntax"
-;
+@import "compass/css3";
+
+@import "variables";
+@import "placeholders";
+
+@import "normalize";
+@import "helpers";
+@import "general";
+@import "icons";
+@import "screen";
+@import "breadcrumb";
+@import "modal";
+@import "swipebox";
+@import "gallery";
+@import "github-box";
+@import "syntax";

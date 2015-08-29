@@ -30,13 +30,6 @@ author:
   twitter  : https://twitter.com/nandomoreirame
   bio      : "Desenvolvedor front-end na <a href='http://twitter.com/malapronta' target='_blank'>@MalaPronta</a>, entusiasta de performance e usabilidade, sempre em busca do melhor projeto e de um bom café."
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-# sass:
-#   sass_dir : _sass
-#   style    : :compressed
-
 # Custom vars
 version: 1.0.0
 github:

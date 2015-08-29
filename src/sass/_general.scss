@@ -136,10 +136,11 @@ li {
 
 hr {
   display: block;
-  height: 1px;
+  height: 0;
   border: 0;
-  border-top: #EFEFEF 1px solid;
-  margin: 3.2em 0;
+  border-top: #ddd 4px solid;
+  width: 100px;
+  margin: 1.4em auto;
   padding: 0;
 }
 

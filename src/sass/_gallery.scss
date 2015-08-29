@@ -1,48 +1,33 @@
 //
-// Gallery
+// Breadcrumbs
 //
 
-.gallery {
-  margin-left: -5px;
-  margin-right: -5px;
-  @extend %clearfix;
+.breadcrumb {
+  list-style: none;
+  margin: 15px 0;
+  padding: 0;
 
-  .thumb {
-    padding: 5px;
-    margin: 0 0 10px;
-    display: block;
-    width: 100%;
-
-    img {
-      padding: 0;
-      margin: 0;
-      display: block;
-      width: 100%;
-    }
+  li {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 1.5rem;
 
     a {
-      display: inline-block;
-      line-height: initial;
-      margin: 0;
-      padding: 5px;
-      border: 1px solid #eee;
-      @include transition(all .2s ease-in-out);
+      text-decoration: none;
+      color: #777;
 
-      &:hover,
-      &:focus {
-        border-color: #999;
-        @include opacity(.8);
+      &:hover {
+        text-decoration: underline;
       }
     }
 
-    @media screen and (min-width: 460px) {
-      width: 50%;
-      float: left;
+    .divider {
+      color: #cecece;
+      padding: 0 5px;
+    }
 
-      a {
-        max-height: 200px;
-        overflow: hidden;
-      }
+    &.active {
+      color: #333;
     }
   }
 }

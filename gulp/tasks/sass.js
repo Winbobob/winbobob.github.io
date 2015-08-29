@@ -7,13 +7,13 @@ var $ = require('gulp-load-plugins')();
 var gulp = require('gulp');
 
 gulp.task('sass', function () {
-  gulp.src(config.sass + '*.scss')
+  return $.rubySass(config.sass + 'main.scss', {
+      compass: true,
+      precision: 6,
+      stopOnError: true
+    })
+    .on('error', $.rubySass.logError)
     .pipe($.plumber())
-    .pipe($.compass({
-      config_file: config.compass,
-      css: config.dest.css,
-      sass: config.sass
-    }))
     .pipe($.autoprefixer({
       browsers: config.autoprefixer_browsers
     }))

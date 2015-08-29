@@ -46,14 +46,16 @@ body.modal--open {
   position: absolute;
   z-index: 1;
   padding: 80px;
-  opacity: 0;
+  @include opacity(0);
+  visibility: hidden;
   background-color: #000;
   background-color: rgba(#000,.9);
   transition: opacity 0.3s;
 }
 
 .modal--open .modal__overlay {
-  opacity: 1;
+  @include opacity(1);
+  visibility: visible;
   pointer-events: auto;
 }
 
