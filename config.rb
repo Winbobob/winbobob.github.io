@@ -6,7 +6,7 @@ require 'compass/import-once/activate'
 css_dir         = "assets/css/"
 images_dir      = "assets/images/"
 javascripts_dir = "assets/js/"
-sass_dir        = "_src/sass/"
+sass_dir        = "src/sass/"
 
 output_style    = :nested #:expanded or :nested or :compact or :compressed
 color_output    = true

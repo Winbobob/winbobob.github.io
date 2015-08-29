@@ -1,10 +1,10 @@
 {
   "compass": "config.rb",
   "site": "_site/",
-  "sass": "_src/sass/",
-  "js": "_src/js/",
-  "img": "_src/images/",
-  "fonts": "_src/fonts/",
+  "sass": "src/sass/",
+  "js": "src/js/",
+  "img": "src/images/",
+  "fonts": "src/fonts/",
   "bower": "bower/",
   "dest": {
     "css": "assets/css/",
