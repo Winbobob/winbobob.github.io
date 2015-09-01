@@ -72,3 +72,12 @@
 
 - slug: nodejs
   name: NodeJS
+
+- slug: css
+  name: CSS
+
+- slug: sass
+  name: SASS
+
+- slug: pre-processador
+  name: Pré-processador

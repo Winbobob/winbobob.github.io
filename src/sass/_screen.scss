@@ -330,13 +330,31 @@
 }
 
 /* post, container */
-.post, .container {
+.post,
+.container {
   position: relative;
   width: 80%;
   max-width: 710px;
   margin: 2.6em auto;
   word-break: break-word;
   hyphens: auto;
+}
+
+.post {
+  background-color: #fff;
+  padding: 2em !important;
+  @include box-shadow(0px 1px 2px rgba(#000, .2));
+  overflow: hidden;
+
+  .highlight {
+    margin-left: -40px;
+    margin-right: -40px;
+
+    pre {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -503,7 +521,6 @@ body:not(.post-template) .post-title {
   .post {
     margin-top: 0;
     border-bottom: none;
-    padding-bottom: 0;
     @extend %clearfix;
 
     &:after {
@@ -1045,7 +1062,7 @@ body:not(.post-template) .post-title {
   }
 
   hr {
-    margin: 2.4em 0;
+    margin: 2.4em auto;
   }
 
   ol, ul {
@@ -1193,11 +1210,7 @@ body:not(.post-template) .post-title {
 
   .post {
     width: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 16px;
-    margin-right: 16px;
-    padding-bottom: 2rem;
+    margin: 2rem 16px;
     line-height: 1.65em;
   }
 
@@ -1216,7 +1229,7 @@ body:not(.post-template) .post-title {
   }
 
   hr {
-    margin: 1.75em 0;
+    margin: 1.75em auto;
   }
 
   p, ul, ol, dl {
@@ -1268,7 +1281,6 @@ body:not(.post-template) .post-title {
 
   .post-template {
     .post {
-      padding-bottom: 0;
       margin-bottom: 0;
     }
 

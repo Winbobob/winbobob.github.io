@@ -407,6 +407,7 @@ body {
 	font-size: 1.8rem;
 	line-height: 1.75em;
 	color: #3A4145;
+	background-color: #f2f3f4;
 	-webkit-font-feature-settings: 'kern' 1;
 	-moz-font-feature-settings: 'kern' 1;
 	-o-font-feature-settings: 'kern' 1;
@@ -431,10 +432,10 @@ h6 {
 	-webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	-moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	-o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+	font-family: "Merriweather Sans", sans-serif;
 	color: #2E2E2E;
 	line-height: 1.15em;
-	margin: 0 0 0.4em 0;
-	font-family: "Merriweather Sans", sans-serif;
+	margin: 1em 0;
 }
 
 h1 {
@@ -550,9 +551,10 @@ blockquote p {
 
 blockquote small {
 	display: inline-block;
-	margin: 0.8em 0 0.8em 1.5em;
+	margin: 0.8em;
 	font-size: 0.9em;
 	color: #CCC;
+	display: block;
 }
 
 blockquote small:before {
@@ -1086,6 +1088,23 @@ table.plain tbody > tr:nth-child(odd) > th {
 	hyphens: auto;
 }
 
+.post {
+	background-color: #fff;
+	padding: 2em !important;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+}
+
+.post .highlight {
+	margin-left: -40px;
+	margin-right: -40px;
+}
+
+.post .highlight pre {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
 
@@ -1236,7 +1255,6 @@ body:not(.post-template) .post-title {
 .post-template .post {
 	margin-top: 0;
 	border-bottom: none;
-	padding-bottom: 0;
 }
 
 .post-template .post:after {
@@ -2376,8 +2394,7 @@ html.swipebox-html.swipebox-touch {
 }
 
 .highlight .err {
-	color: #960050;
-	background-color: #1e0010;
+	color: #f2f1f2;
 }
 
 .highlight .k {
@@ -2697,7 +2714,7 @@ body:not(.post-template) .post-title {
 }
 
 hr {
-	margin: 2.4em 0;
+	margin: 2.4em auto;
 }
 
 ol,
@@ -2853,11 +2870,7 @@ h6 {
 
 .post {
 	width: auto;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	margin-left: 16px;
-	margin-right: 16px;
-	padding-bottom: 2rem;
+	margin: 2rem 16px;
 	line-height: 1.65em;
 }
 
@@ -2874,7 +2887,7 @@ h6 {
 }
 
 hr {
-	margin: 1.75em 0;
+	margin: 1.75em auto;
 }
 
 p,
@@ -2934,7 +2947,6 @@ body:not(.post-template) .post-title {
 }
 
 .post-template .post {
-	padding-bottom: 0;
 	margin-bottom: 0;
 }
 
