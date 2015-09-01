@@ -342,7 +342,7 @@
 
 .post {
   background-color: #fff;
-  padding: 2em 2em 0 !important;
+  padding: 2em 2em 0;
   @include box-shadow(0px 1px 2px rgba(#000, .2));
   overflow: hidden;
 
@@ -370,7 +370,7 @@
 }
 
 body:not(.post-template) .post {
-  padding-bottom: 2em !important;
+  padding-bottom: 2em;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -407,16 +407,6 @@ body:not(.post-template) .post-title {
   line-height: 2.2rem;
   color: #9EABB3;
 }
-
-// .author-thumb {
-//   width: 24px !important;
-//   height: 24px !important;
-//   float: left !important;
-//   margin-right: 9px !important;
-//   border-radius: 100% !important;
-//   padding: 0 !important;
-// }
-
 .post-meta a {
   color: #9EABB3;
   text-decoration: none;
@@ -1235,6 +1225,7 @@ body:not(.post-template) .post-title {
   }
   .post,
   .container {
+    padding: 1.2em;
     width: 100%;
   }
 
