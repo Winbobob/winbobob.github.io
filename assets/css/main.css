@@ -531,7 +531,7 @@ hr {
 	display: block;
 	height: 0;
 	border: 0;
-	border-top: #ddd 4px solid;
+	border-top: #e3e3e3 4px solid;
 	width: 100px;
 	margin: 1.4em auto;
 	padding: 0;
@@ -1079,7 +1079,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 .container {
 	position: relative;
 	width: 80%;
-	max-width: 710px;
+	max-width: 700px;
 	margin: 2.6em auto;
 	word-break: break-word;
 	-webkit-hyphens: auto;
@@ -1096,20 +1096,24 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 
 .post .highlight {
-	margin-left: -40px;
-	margin-right: -40px;
+	margin-left: -2em;
+	margin-right: -2em;
 }
 
 .post .highlight pre {
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
 
 body:not(.post-template) .post-title {
-	font-size: 3.6rem;
+	font-size: 3.2rem;
+}
+
+.post-title {
+	margin-top: 0;
 }
 
 .post-title a {
@@ -1294,8 +1298,8 @@ body:not(.post-template) .post-title {
 
 .post-footer {
 	position: relative;
-	margin: 6rem 0 0 0;
-	padding: 6rem 0 0 0;
+	margin: 5rem 0 0;
+	padding: 4rem 0 0;
 	border-top: #EBF2F6 1px solid;
 }
 
@@ -1501,44 +1505,6 @@ body:not(.post-template) .post-title {
 }
 
 /* Add a little circle in the middle of the border-bottom */
-
-.author-image {
-	box-sizing: border-box;
-	display: block;
-	position: absolute;
-	top: -40px;
-	left: 50%;
-	margin-left: -40px;
-	width: 80px;
-	height: 80px;
-	border-radius: 100%;
-	overflow: hidden;
-	padding: 6px;
-	background: #fff;
-	z-index: 2;
-	box-shadow: #E7EEF2 0 0 0 1px;
-}
-
-.author-image .img {
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-position: center center;
-	border-radius: 100%;
-}
-
-.author-profile .author-image {
-	position: relative;
-	left: auto;
-	top: auto;
-	width: 120px;
-	height: 120px;
-	padding: 3px;
-	margin: -100px auto 0 auto;
-	box-shadow: none;
-}
 
 .author-title {
 	margin: 1.5rem 0 1rem;
@@ -2870,7 +2836,7 @@ h6 {
 
 .post {
 	width: auto;
-	margin: 2rem 16px;
+	margin: 0;
 	line-height: 1.65em;
 }
 

@@ -126,9 +126,11 @@ post_class: post-template
 
     <footer class="post-footer">
       {% if site.author %}
+      {% comment %}
       <figure class="author-image">
         <a class="img" href="{{ site.author.twitter }}" target="_blank" style="background-image: url({{ site.author.image }})"><span class="hidden">{{site.author}}</span></a>
       </figure>
+      {% endcomment %}
       <section class="author">
         <h4>Sobre {{ site.author.name }} </h4>
         <p>{{ site.author.bio }}</p>
