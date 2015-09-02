@@ -1,0 +1,12 @@
+//
+// Mixins
+//
+
+//
+// mixin font-size
+@mixin font-size($px) {
+  $pxValue: strip-unit($px);
+  $remValue: $pxValue / 16;
+  // font-size: $pxValue + px;
+  font-size: $remValue + rem;
+}
