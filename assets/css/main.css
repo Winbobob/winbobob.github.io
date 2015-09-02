@@ -395,7 +395,6 @@ th {
 html {
 	height: 100%;
 	max-height: 100%;
-	font-size: 62.5%;
 	-webkit-tap-highlight-color: transparent;
 }
 
@@ -404,7 +403,7 @@ body {
 	max-height: 100%;
 	font-family: "Merriweather", serif;
 	letter-spacing: 0.01rem;
-	font-size: 1.8rem;
+	font-size: 1rem;
 	line-height: 1.75em;
 	color: #3A4145;
 	background-color: #f5f6f7;
@@ -439,27 +438,27 @@ h6 {
 }
 
 h1 {
-	font-size: 5rem;
+	font-size: 1.625rem;
 	letter-spacing: -2px;
 	text-indent: -3px;
 }
 
 h2 {
-	font-size: 3.6rem;
+	font-size: 1.5rem;
 	letter-spacing: -1px;
 }
 
 h3 {
-	font-size: 3rem;
+	font-size: 1.375rem;
 }
 
 h4 {
-	font-size: 2.5rem;
+	font-size: 1.25rem;
 }
 
 h5,
 h6 {
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 a {
@@ -552,7 +551,7 @@ blockquote p {
 blockquote small {
 	display: inline-block;
 	margin: 0.8em;
-	font-size: 0.9em;
+	font-size: 0.875rem;
 	color: #CCC;
 	display: block;
 }
@@ -577,7 +576,7 @@ code,
 tt {
 	padding: 1px 3px;
 	font-family: Inconsolata, monospace, sans-serif;
-	font-size: 0.85em;
+	font-size: 1rem;
 	white-space: pre-wrap;
 	border: #E3EDF3 1px solid;
 	background: #F7FAFB;
@@ -591,7 +590,7 @@ pre {
 	width: 100%;
 	padding: 10px;
 	font-family: Inconsolata, monospace, sans-serif;
-	font-size: 0.9em;
+	font-size: 1rem;
 	white-space: pre;
 	overflow: auto;
 	background: #F7FAFB;
@@ -623,7 +622,7 @@ kbd {
 	border: #CCC 1px solid;
 	color: #666;
 	text-shadow: #FFF 0 1px 0;
-	font-size: 0.9em;
+	font-size: 1rem;
 	font-weight: 700;
 	background: #F4F4F4;
 	border-radius: 4px;
@@ -798,6 +797,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 
 .main-header .inner {
 	width: 80%;
+	max-width: 860px;
 }
 
 .main-nav {
@@ -828,7 +828,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 	margin-left: -16px;
 	width: 34px;
 	height: 34px;
-	font-size: 34px;
+	font-size: 2.125rem;
 	text-align: center;
 	text-decoration: none;
 	color: rgba(255, 255, 255, 0.7);
@@ -882,7 +882,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 	padding: 0 15px 0 10px;
 	color: #9EABB3;
 	text-align: center;
-	font-size: 12px;
+	font-size: 0.75rem;
 	text-transform: uppercase;
 	line-height: 40px;
 	border-radius: 3px;
@@ -893,7 +893,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 .back-button:before {
 	position: relative;
 	bottom: -2px;
-	font-size: 13px;
+	font-size: 0.8125rem;
 	line-height: 0;
 	margin-right: 8px;
 }
@@ -907,7 +907,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 	padding: 0 20px;
 	color: #9EABB3;
 	text-align: center;
-	font-size: 12px;
+	font-size: 0.75rem;
 	text-transform: uppercase;
 	line-height: 40px;
 	white-space: nowrap;
@@ -926,7 +926,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 16px;
+	font-size: 1rem;
 	margin-top: 26px;
 }
 
@@ -961,7 +961,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 	font-family: "Open Sans", sans-serif;
 	width: 100%;
 	padding: 0;
-	font-size: 100px;
+	font-size: 6.25rem;
 	font-weight: 300;
 	border: 0;
 	outline: 0;
@@ -1021,7 +1021,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 .page-title {
 	border: none;
 	margin: 10px 0 10px 0;
-	font-size: 5rem;
+	font-size: 3.75rem;
 	letter-spacing: -1px;
 	font-weight: 700;
 	font-family: "Open Sans", sans-serif;
@@ -1030,7 +1030,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 
 .page-description {
 	margin: 0;
-	font-size: 2rem;
+	font-size: 1.25rem;
 	line-height: 1.5em;
 	font-weight: 400;
 	font-family: "Merriweather", serif;
@@ -1122,11 +1122,15 @@ body:not(.post-template) .post {
 	padding-bottom: 2em;
 }
 
+.disqus h3 {
+	font-weight: 300;
+}
+
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
 
 body:not(.post-template) .post-title {
-	font-size: 3.2rem;
+	font-size: 1.875rem;
 }
 
 .post-title {
@@ -1139,7 +1143,7 @@ body:not(.post-template) .post-title {
 
 .post-excerpt p {
 	margin: 0;
-	font-size: 0.9em;
+	font-size: 1.125rem;
 	line-height: 1.7em;
 	display: inline;
 }
@@ -1152,7 +1156,7 @@ body:not(.post-template) .post-title {
 	display: block;
 	margin: 1.75rem 0 0 0;
 	font-family: "Open Sans", sans-serif;
-	font-size: 1.5rem;
+	font-size: 0.875rem;
 	line-height: 2.2rem;
 	color: #9EABB3;
 }
@@ -1175,7 +1179,7 @@ body:not(.post-template) .post-title {
 .post-date {
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 1.3rem;
+	font-size: 0.875rem;
 }
 
 .user-image {
@@ -1192,7 +1196,7 @@ body:not(.post-template) .post-title {
 .user-bio {
 	display: block;
 	max-width: 440px;
-	font-size: 1.4rem;
+	font-size: 1rem;
 	line-height: 1.5em;
 }
 
@@ -1211,7 +1215,7 @@ body:not(.post-template) .post-title {
 
 .publish-date {
 	display: block;
-	font-size: 1.4rem;
+	font-size: 0.875rem;
 	line-height: 1.5em;
 }
 
@@ -1587,7 +1591,7 @@ body:not(.post-template) .post-title {
 .pagination {
 	position: relative;
 	width: 80%;
-	max-width: 710px;
+	max-width: 700px;
 	margin: 4rem auto;
 	font-family: "Open Sans", sans-serif;
 	font-size: 1.3rem;
@@ -1676,7 +1680,7 @@ body:not(.post-template) .post-title {
 .site-footer {
 	position: relative;
 	margin: 1rem 0 0 0;
-	padding: 1rem 0;
+	padding: 1rem .5rem;
 	font-family: "Open Sans", sans-serif;
 	text-align: center;
 	font-size: 1.2rem;
@@ -2619,7 +2623,7 @@ html.swipebox-html.swipebox-touch {
 
 .search-container input[type="text"] {
 	width: 100%;
-	font-size: 60px;
+	font-size: 3.75rem;
 }
 
 }
@@ -2674,7 +2678,7 @@ blockquote {
 }
 
 .page-title {
-	font-size: 4rem;
+	font-size: 3.5rem;
 	letter-spacing: -1px;
 }
 
@@ -2695,7 +2699,7 @@ blockquote {
 }
 
 body:not(.post-template) .post-title {
-	font-size: 3.2rem;
+	font-size: 1.75rem;
 }
 
 hr {
@@ -2708,28 +2712,7 @@ ul {
 }
 
 h1 {
-	font-size: 4.5rem;
 	text-indent: -2px;
-}
-
-h2 {
-	font-size: 3.6rem;
-}
-
-h3 {
-	font-size: 3.1rem;
-}
-
-h4 {
-	font-size: 2.5rem;
-}
-
-h5 {
-	font-size: 2.2rem;
-}
-
-h6 {
-	font-size: 1.8rem;
 }
 
 .author-profile {
@@ -2791,7 +2774,7 @@ h6 {
 }
 
 .search-container input[type="text"] {
-	font-size: 30px;
+	font-size: 1.875rem;
 }
 
 .main-header {
@@ -2890,64 +2873,20 @@ h6 {
 	display: inline-block;
 }
 
-hr {
-	margin: 1.75em auto;
-}
-
-p,
-ul,
-ol,
-dl {
-	font-size: 0.95em;
-	margin: 0 0 2.5rem 0;
-}
-
 .page-title {
-	font-size: 3rem;
+	font-size: 2.125rem;
 }
 
 .post-excerpt p {
-	font-size: 0.85em;
+	font-size: 0.875rem;
 }
 
 .page-description {
-	font-size: 1.6rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-bottom: .3em;
-}
-
-h1 {
-	font-size: 2.8rem;
-	letter-spacing: -1px;
-}
-
-h2 {
-	font-size: 2.4rem;
-	letter-spacing: 0;
-}
-
-h3 {
-	font-size: 2.1rem;
-}
-
-h4 {
-	font-size: 1.9rem;
-}
-
-h5,
-h6 {
-	font-size: 1.8rem;
+	font-size: 1rem;
 }
 
 body:not(.post-template) .post-title {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 }
 
 .post-template .post {
@@ -2964,15 +2903,14 @@ body:not(.post-template) .post-title {
 
 .post-content .full-img {
 	width: auto;
-	width: calc(100% + 32px); /* expand with to image + margins */
-	margin: 0 -16px; /* get rid of margins */
+	width: calc(100% + 32px);
+	margin: 0 -em(16px);
 	min-width: 0;
-	max-width: 112%; /* fallback when calc doesn't work */
+	max-width: 112%;
 }
 
 .post-meta {
-	font-size: 1.3rem;
-	margin-top: 1rem;
+	margin-top: 0.9375em;
 }
 
 .post-footer {
@@ -3036,7 +2974,7 @@ body:not(.post-template) .post-title {
 }
 
 .author-profile .author-meta span {
-	font-size: 1.4rem;
+	font-size: 0.875rem;
 }
 
 .archive-template .main-header .page-description {

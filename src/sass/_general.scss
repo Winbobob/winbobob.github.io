@@ -16,7 +16,6 @@
 html {
   height: 100%;
   max-height: 100%;
-  font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -25,7 +24,7 @@ body {
   max-height: 100%;
   font-family: "Merriweather", serif;
   letter-spacing: 0.01rem;
-  font-size: 1.8rem;
+  @include font-size(16px);
   line-height: 1.75em;
   color: #3A4145;
   background-color: #f5f6f7;
@@ -49,26 +48,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 5rem;
+  @include font-size(26px);
   letter-spacing: -2px;
   text-indent: -3px;
 }
 
 h2 {
-  font-size: 3.6rem;
+  @include font-size(24px);
   letter-spacing: -1px;
 }
 
 h3 {
-  font-size: 3rem;
+  @include font-size(22px);
 }
 
 h4 {
-  font-size: 2.5rem;
+  @include font-size(20px);
 }
 
 h5, h6 {
-  font-size: 2rem;
+  @include font-size(16px);
 }
 
 a {
@@ -160,7 +159,7 @@ blockquote {
   small {
     display: inline-block;
     margin: 0.8em;
-    font-size: 0.9em;
+    @include font-size(14px);
     color: #CCC;
     display: block;
 
@@ -185,7 +184,7 @@ mark {
 code, tt {
   padding: 1px 3px;
   font-family: Inconsolata, monospace, sans-serif;
-  font-size: 0.85em;
+  @include font-size(16px);
   white-space: pre-wrap;
   border: #E3EDF3 1px solid;
   background: #F7FAFB;
@@ -200,7 +199,7 @@ pre {
   width: 100%;
   padding: 10px;
   font-family: Inconsolata, monospace, sans-serif;
-  font-size: 0.9em;
+  @include font-size(16px);
   white-space: pre;
   overflow: auto;
   background: #F7FAFB;
@@ -232,7 +231,7 @@ kbd {
   border: #CCC 1px solid;
   color: #666;
   text-shadow: #FFF 0 1px 0;
-  font-size: 0.9em;
+  @include font-size(16px);
   font-weight: 700;
   background: #F4F4F4;
   border-radius: 4px;

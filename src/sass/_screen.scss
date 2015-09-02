@@ -15,6 +15,7 @@
   .inner {
     width: 80%;
     @extend %clearfix;
+    max-width: 860px;
   }
 }
 
@@ -46,7 +47,7 @@
   margin-left: -16px;
   width: 34px;
   height: 34px;
-  font-size: 34px;
+  @include font-size(34px);
   text-align: center;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
@@ -107,7 +108,7 @@
   padding: 0 15px 0 10px;
   color: #9EABB3;
   text-align: center;
-  font-size: 12px;
+  @include font-size(12px);
   text-transform: uppercase;
   line-height: 40px;
   border-radius: 3px;
@@ -117,7 +118,7 @@
   &:before {
     position: relative;
     bottom: -2px;
-    font-size: 13px;
+    @include font-size(13px);
     line-height: 0;
     margin-right: 8px;
   }
@@ -133,7 +134,7 @@
   padding: 0 20px;
   color: #9EABB3;
   text-align: center;
-  font-size: 12px;
+  @include font-size(12px);
   text-transform: uppercase;
   line-height: 40px;
   white-space: nowrap;
@@ -152,7 +153,7 @@
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  font-size: 16px;
+  @include font-size(16px);
   margin-top: 26px;
 
   @media only screen and (max-width: 480px) {
@@ -191,7 +192,7 @@
     font-family: "Open Sans", sans-serif;
     width: 100%;
     padding: 0;
-    font-size: 100px;
+    @include font-size(100px);
     font-weight: 300;
     border: 0;
     outline: 0;
@@ -222,7 +223,7 @@
 
     input[type="text"] {
       width: 100%;
-      font-size: 60px;
+      @include font-size(60px);
     }
   }
 }
@@ -232,7 +233,7 @@
     padding: 3em;
 
     input[type="text"] {
-      font-size: 30px;
+      @include font-size(30px);
     }
   }
 }
@@ -274,7 +275,7 @@
 .page-title {
   border: none;
   margin: 10px 0 10px 0;
-  font-size: 5rem;
+  @include font-size(60px);
   letter-spacing: -1px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
@@ -283,7 +284,7 @@
 
 .page-description {
   margin: 0;
-  font-size: 2rem;
+  @include font-size(20px);
   line-height: 1.5em;
   font-weight: 400;
   font-family: "Merriweather", serif;
@@ -334,7 +335,7 @@
 .container {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: $max-width;
   margin: 2.6em auto;
   word-break: break-word;
   hyphens: auto;
@@ -373,11 +374,18 @@ body:not(.post-template) .post {
   padding-bottom: 2em;
 }
 
+.disqus {
+  h3 {
+    font-weight: 300;
+  }
+}
+
+
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
 
 body:not(.post-template) .post-title {
-  font-size: 3.2rem;
+  @include font-size(30px);
 }
 
 .post-title {
@@ -390,7 +398,7 @@ body:not(.post-template) .post-title {
 
 .post-excerpt p {
   margin: 0;
-  font-size: 0.9em;
+  @include font-size(18px);
   line-height: 1.7em;
   display: inline;
 }
@@ -403,7 +411,7 @@ body:not(.post-template) .post-title {
   display: block;
   margin: 1.75rem 0 0 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+  @include font-size(14px);
   line-height: 2.2rem;
   color: #9EABB3;
 }
@@ -428,7 +436,7 @@ body:not(.post-template) .post-title {
   // padding-left: 12px;
   // border-left: #d5dbde 1px solid;
   text-transform: uppercase;
-  font-size: 1.3rem;
+  @include font-size(14px);
 }
 
 .user-image {
@@ -445,7 +453,7 @@ body:not(.post-template) .post-title {
 .user-bio {
   display: block;
   max-width: 440px;
-  font-size: 1.4rem;
+  @include font-size(16px);
   line-height: 1.5em;
 }
 
@@ -464,7 +472,7 @@ body:not(.post-template) .post-title {
 
 .publish-date {
   display: block;
-  font-size: 1.4rem;
+  @include font-size(14px);
   line-height: 1.5em;
 }
 
@@ -896,7 +904,7 @@ body:not(.post-template) .post-title {
 .pagination {
   position: relative;
   width: 80%;
-  max-width: 710px;
+  max-width: $max-width;
   margin: 4rem auto;
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
@@ -987,7 +995,7 @@ body:not(.post-template) .post-title {
 .site-footer {
   position: relative;
   margin: 1rem 0 0 0;
-  padding: 1rem 0;
+  padding: 1rem .5rem;
   // border-top: #EBF2F6 1px solid;
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -1047,7 +1055,7 @@ body:not(.post-template) .post-title {
   }
 
   .page-title {
-    font-size: 4rem;
+    @include font-size(56px);
     letter-spacing: -1px;
   }
 
@@ -1068,7 +1076,7 @@ body:not(.post-template) .post-title {
   }
 
   body:not(.post-template) .post-title {
-    font-size: 3.2rem;
+    @include font-size(28px);
   }
 
   hr {
@@ -1080,28 +1088,7 @@ body:not(.post-template) .post-title {
   }
 
   h1 {
-    font-size: 4.5rem;
     text-indent: -2px;
-  }
-
-  h2 {
-    font-size: 3.6rem;
-  }
-
-  h3 {
-    font-size: 3.1rem;
-  }
-
-  h4 {
-    font-size: 2.5rem;
-  }
-
-  h5 {
-    font-size: 2.2rem;
-  }
-
-  h6 {
-    font-size: 1.8rem;
   }
 
   .author-profile {
@@ -1243,55 +1230,20 @@ body:not(.post-template) .post-title {
     }
   }
 
-  hr {
-    margin: 1.75em auto;
-  }
-
-  p, ul, ol, dl {
-    font-size: 0.95em;
-    margin: 0 0 2.5rem 0;
-  }
-
   .page-title {
-    font-size: 3rem;
+    @include font-size(34px);
   }
 
   .post-excerpt p {
-    font-size: 0.85em;
+    @include font-size(14px);
   }
 
   .page-description {
-    font-size: 1.6rem;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    margin-bottom: .3em;
-  }
-
-  h1 {
-    font-size: 2.8rem;
-    letter-spacing: -1px;
-  }
-
-  h2 {
-    font-size: 2.4rem;
-    letter-spacing: 0;
-  }
-
-  h3 {
-    font-size: 2.1rem;
-  }
-
-  h4 {
-    font-size: 1.9rem;
-  }
-
-  h5, h6 {
-    font-size: 1.8rem;
+    @include font-size(16px);
   }
 
   body:not(.post-template) .post-title {
-    font-size: 2.5rem;
+    @include font-size(24px);
   }
 
   .post-template {
@@ -1312,21 +1264,14 @@ body:not(.post-template) .post-title {
     .full-img {
       width: auto;
       width: calc(100% + 32px);
-
-      /* expand with to image + margins */
-      margin: 0 -16px;
-
-      /* get rid of margins */
+      margin: 0 -em(16px);
       min-width: 0;
       max-width: 112%;
-
-      /* fallback when calc doesn't work */
     }
   }
 
   .post-meta {
-    font-size: 1.3rem;
-    margin-top: 1rem;
+    margin-top: em(15px);
   }
 
   .post-footer {
@@ -1390,7 +1335,7 @@ body:not(.post-template) .post-title {
     }
 
     .author-meta span {
-      font-size: 1.4rem;
+      @include font-size(14px);
     }
   }
 

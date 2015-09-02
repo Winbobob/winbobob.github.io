@@ -4,8 +4,10 @@
 
 @import "compass/css3";
 
-@import "variables";
-@import "placeholders";
+@import "core/variables";
+@import "core/functions";
+@import "core/placeholders";
+@import "core/mixins";
 
 @import "normalize";
 @import "helpers";
