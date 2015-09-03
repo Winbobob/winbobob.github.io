@@ -1,0 +1,140 @@
+//
+// Posts
+//
+
+.post {
+  background-color: #fff;
+  padding: em(15px) em(15px) 0;
+  @include box-shadow(0px 1px 2px rgba(#000, .2));
+  margin: em(25px) 0;
+  overflow: hidden;
+
+  .highlight,
+  .disqus,
+  blockquote {
+    margin-left: -(em(25px));
+    margin-right: -(em(25px));
+  }
+
+  .disqus {
+    background-color: #f7f8f9;
+    border-top: 1px solid #E3E3E3;
+    padding-bottom: em(25px);
+  }
+
+  .disqus,
+  .highlight pre {
+    padding-left: em(25px);
+    padding-right: em(25px);
+  }
+  .highlight pre {
+    padding-top: em(25px);
+    padding-bottom: em(25px);
+  }
+
+  @include media($screen-tablet) {
+    padding: em(25px) em(25px) 0;
+  }
+}
+
+body:not(.post-template) .post {
+  padding-bottom: em(25px);
+}
+
+body:not(.post-template) .post-title {
+  @include font-size(22px);
+  line-height: 1.1;
+
+  @include media($screen-tablet) {
+    @include font-size(30px);
+    line-height: $line-height;
+  }
+}
+
+.post-title {
+  margin-top: 0;
+  a { border: none; }
+}
+
+.post-excerpt p {
+  margin: 0;
+  @include font-size(15px);
+
+  a { border: none; }
+
+  @include media($screen-tablet) {
+    @include font-size(18px);
+  }
+}
+
+.post-meta {
+  display: block;
+  margin: em(25px) 0 0 0;
+  @include font-size(12px);
+  font-style: italic;
+  color: #9EABB3;
+
+  a {
+    color: #9EABB3;
+  }
+
+  time,
+  span {
+    display: inline-block;
+    @include font-size(14px);
+    margin-bottom: em(10px);
+  }
+
+  @include media($screen-tablet) {
+    span {
+      border-left: 1px solid $border-color;
+      padding-left: em(15px);
+      margin-left: em(15px);
+    }
+    time,
+    span {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.user-meta {
+  position: relative;
+  padding: em(3px) em(40px) 0 em(100px);
+  min-height: em(77px);
+}
+
+.user-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.user-name {
+  display: block;
+  font-weight: 700;
+}
+
+.user-bio {
+  display: block;
+  max-width: em(440px);
+  @include font-size(16px);
+}
+
+.publish-meta {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: em(43px) 0 em(40px);
+  text-align: right;
+}
+
+.publish-heading {
+  display: block;
+  font-weight: 700;
+}
+
+.publish-date {
+  display: block;
+  @include font-size(14px);
+}

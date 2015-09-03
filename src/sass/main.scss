@@ -4,19 +4,28 @@
 
 @import "compass/css3";
 
-@import "core/variables";
-@import "core/functions";
-@import "core/placeholders";
-@import "core/mixins";
+@import "settings/variables";
+@import "settings/functions";
+@import "settings/placeholders";
+@import "settings/mixins";
 
+@import "components/icons";
 @import "normalize";
-@import "helpers";
-@import "general";
-@import "icons";
-@import "screen";
-@import "breadcrumb";
-@import "modal";
-@import "swipebox";
-@import "gallery";
-@import "github-box";
 @import "syntax";
+
+@import "base/helpers";
+@import "base/general";
+@import "base/buttons";
+@import "base/grid";
+@import "base/header";
+@import "base/footer";
+
+@import "components/search";
+@import "components/posts";
+@import "components/breadcrumb";
+@import "components/modal";
+@import "components/swipebox";
+@import "components/gallery";
+@import "components/github-box";
+@import "components/pagination";
+@import "components/post-single";

@@ -7,16 +7,22 @@ post_class: post-template page-template
   {% include nav.html %}
   <div class="vertical">
     <div class="main-header-content inner">
-      <h1 class="page-title fade-in-down">{{ page.title }}</h1>
+      <h1 class="page-title">{{ page.title }}</h1>
       {% if page.slug == 'about' %}
-        <br><br>
+        <br>
         <figure class="fade-in-down"><img src="{{ site.author.image }}" class="dot" title="{{ site.author.name }}" alt="{{ site.author.name }}"></figure>
+
+        <div class="page-description">
+          <nav>
+            <a href='{{ "/projetos" | prepend: site.baseurl }}'>Projetos</a>
+          </nav>
+        </div>
       {% endif %}
     </div>
   </div>
 </header>
 
-<main class="content" role="main">
+<main class="container" role="main">
 
   <article class="post">
     <section class="post-content">

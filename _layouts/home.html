@@ -9,19 +9,21 @@ layout: default
   </nav>
   <div class="vertical">
     <div class="main-header-content inner">
-      <h1 class="page-title fade-in-down">{{ site.name }}</h1>
-      <h2 class="page-description">
-        {% if site.description %}{{ site.description }}{% endif %} <br><br>
-        <span><a href='{{ site.baseurl }}about'>Sobre mim</a></span>
-        <span><a href='{{ site.baseurl }}projetos'>Projetos</a></span>
-      </h2>
+      <h1 class="page-title">{{ site.name }}</h1>
+      <div class="page-description">
+        {% if site.description %}{{ site.description }}{% endif %}
+        <nav>
+          <a href='{{ "/about" | prepend: site.baseurl }}'>Sobre mim</a>
+          <a href='{{ "/projetos" | prepend: site.baseurl }}'>Projetos</a>
+        </nav>
+      </div>
     </div>
   </div>
 
-  <a class="scroll-down icon icon-chevron-down" href="#content" data-offset="-45"><span class="hidden"></span></a>
+  <a class="scroll-down icon icon-chevron-down" href="#content" data-offset="-45"></a>
 </header>
 
-<main id="content" class="content" role="main">
+<main id="content" class="container" role="main">
 
   <div class="extra-pagination inner">
     {% include pagination.html %}

@@ -6,10 +6,11 @@
     </h1>
   </header>
   <section class="post-excerpt">
-    <a class="read-more" href="{{ post.url }}" title="{{ post.title }}">{{ post.content | strip_html | truncatewords: 50 }}</a>
+    <p><a class="read-more" href="{{ post.url }}" title="{{ post.title }}">{{ post.content | strip_html | truncatewords: 50 }}</a></p>
   </section>
   <footer class="post-meta">
-    <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+      <i class="icon icon-comments"></i>
       {% assign m = post.date | date: "%-m" %}
       {{ post.date | date: "%-d" }} de
       {% case m %}
@@ -29,7 +30,9 @@
       de {{ post.date | date: "%Y" }}
     </time>
 
-    <span class="post-date"><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a></span>
+    <span>
+      <i class="icon icon-calendar-o"></i> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a>
+    </span>
   </footer>
 </article><!-- /article post loop -->
 

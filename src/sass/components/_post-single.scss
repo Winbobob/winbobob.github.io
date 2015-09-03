@@ -1,0 +1,272 @@
+//
+// Post single
+//
+
+.post-thumb {
+ padding: em(5px);
+ margin: 0 0 em(15px);
+ border: 1px solid #eee;
+ @include transition(all .2s ease-in-out);
+ background-color: #fff;
+ @extend %clearfix;
+
+ img {
+   width: 100%;
+   display: block;
+   margin: 0;
+   padding: 0;
+ }
+
+ a {
+   display: inline-block;
+   float: left;
+   margin: 0;
+   padding: 0;
+   max-height: em(260px);
+   overflow: hidden;
+ }
+
+ &:hover,
+ &:focus {
+   border-color: #999;
+   @include opacity(.8);
+ }
+}
+
+.post-template {
+  .post-header {
+    margin-bottom: em(34px);
+  }
+
+  .post-title {
+    margin-bottom: 0;
+  }
+
+  .post-meta {
+    margin: 0;
+  }
+
+  .post-date {
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+
+  .content {
+    overflow: hidden;
+    @extend %clearfix;
+  }
+
+  .post {
+    margin-top: 0;
+    border-bottom: none;
+    @extend %clearfix;
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.post-content {
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: em(6px) 0;
+  }
+
+  .full-img {
+    width: 126%;
+    max-width: none;
+    margin: 0 -13%;
+  }
+
+  table {
+    td {
+      text-align: center;
+    }
+  }
+}
+
+.post-footer {
+  position: relative;
+  margin: em(50px) 0 0;
+  padding: em(40px) 0 0;
+  border-top: #EBF2F6 1px solid;
+
+  h4 {
+    @include font-size(18px);
+    margin: 0;
+  }
+
+  p {
+    margin: em(10px) 0;
+    @include font-size(14px);
+  }
+
+  .author {
+    margin-right: 180px;
+  }
+
+  h4 a {
+    color: #2e2e2e;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .share {
+    position: absolute;
+    top: em(60px);
+    right: 0;
+    width: 140px;
+
+    a {
+      @include font-size(18px);
+      display: inline-block;
+      margin: em(10px) em(16px) em(16px) 0;
+      color: #BBC7CC;
+      text-decoration: none;
+
+      &:hover {
+        color: #50585D;
+      }
+    }
+  }
+
+  @include media(max-width $screen-phone) {
+    .author,
+    .share {
+      float: none;
+      width: 100%;
+      position: relative;
+      margin: 0;
+      text-align: center;
+      clear: both;
+    }
+
+    .share {
+      top: auto;
+      margin-top: em(40px);
+    }
+  }
+}
+
+.author-meta {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  @include font-size(14px);
+  font-style: italic;
+  color: #9EABB3;
+
+  a {
+    color: #9EABB3;
+
+    &:hover {
+      color: #111;
+    }
+  }
+}
+
+.post-head.main-header {
+  height: 85%;
+  min-height: 180px;
+}
+
+.no-cover.post-head.main-header {
+  height: 85px;
+  min-height: 0;
+  margin-bottom: 0;
+  background: transparent;
+}
+
+.tag-head.main-header, .author-head.main-header {
+  height: 40%;
+  min-height: 180px;
+}
+
+.no-cover.author-head.main-header {
+  height: 10%;
+  min-height: 100px;
+  background: transparent;
+}
+
+.author-profile {
+  padding: 0 15px 5rem 15px;
+  border-bottom: #EBF2F6 1px solid;
+  text-align: center;
+
+  &:after {
+    display: block;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: #E7EEF2 1px solid;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    background: #FFF;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    box-shadow: #FFF 0 0 0 5px;
+  }
+}
+
+.author-title {
+  margin: em(15px) 0 em(10px);
+}
+
+.author-bio {
+  @include font-size(18px);
+  font-weight: 200;
+  color: #50585D;
+  letter-spacing: 0;
+  text-indent: 0;
+}
+
+.author-meta {
+  margin: 1.6rem 0;
+}
+
+/* Location, website, and link */
+
+.author-profile .author-meta {
+  margin: 2rem 0;
+  letter-spacing: 0.0em(10px);
+  @include font-size(17px);
+}
+
+.author-meta {
+  span {
+    display: inline-block;
+    margin: 0 2rem em(10px) 0;
+    word-wrap: break-word;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+/* Turn off meta for page2+ to make room for extra
+   pagination prev/next links */
+
+.archive-template .author-profile .author-meta {
+  display: none;
+}
+
+.archive-template {
+  .main-header {
+    max-height: 30%;
+  }
+
+  .extra-pagination {
+    display: block;
+  }
+}

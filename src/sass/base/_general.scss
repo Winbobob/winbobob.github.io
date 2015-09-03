@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,700);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 /* ==========================================================================
    2. General - Setting up some base styles
@@ -24,18 +25,16 @@ html {
 }
 
 body {
-  font-family: "Merriweather", serif;
-  letter-spacing: 0.01rem;
-  @include font-size(16px);
-  background-color: #f5f6f7;
-  line-height: 1.75em;
-  color: #3A4145;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  @include font-size($font-size-base);
+  background-color: $bg-color;
+  line-height: $line-height;
+  color: $txt-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweather Sans", sans-serif;
   color: #2E2E2E;
-  line-height: 1.15em;
+  // line-height: 1.15em;
   margin: em(10px) 0 em(15px);
 }
 
@@ -63,12 +62,21 @@ h5, h6 {
 }
 
 a {
-  color: #5c5c5c;
-  transition: color ease 0.3s;
+  color: $link-color;
+  @include transition(color linear .3s);
+  text-decoration: none;
+  border-top: 1px dashed $silver-color;
 
-  &:hover {
-    color: #202020;
+  &:hover,
+  &:focus {
+    border-top-color: $link-hover-color;
+    color: $link-hover-color;
+    text-decoration: none;
   }
+}
+
+p {
+  @include font-size($font-size-base);
 }
 
 p, ul, ol, dl {
@@ -99,7 +107,7 @@ dl {
 }
 
 li {
-  margin: 0.4em 0;
+  margin: em(4px) 0;
 
   li {
     margin: 0;
@@ -112,16 +120,21 @@ hr {
   border: 0;
   border-top: #f1f2f3 3px solid;
   width: 100px;
-  margin: 1.4em auto;
+  margin: em(14px) auto;
   padding: 0;
 }
+
+figure {
+  margin: 0;
+}
+
 
 blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 1.75em 0 1.75em -2.2em;
-  padding: 0 0 0 1.75em;
-  border-left: #4A4A4A 0.4em solid;
+  margin: em(17px) 0 em(17px) -2.2em;
+  padding: 0 0 0 em(17px);
+  border-left: #4A4A4A em(4px) solid;
 
   p {
     margin: 0.8em 0;
@@ -166,7 +179,7 @@ code, tt {
 pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0 0 1.75em 0;
+  margin: 0 0 em(17px);
   border: #E3EDF3 1px solid;
   width: 100%;
   padding: 10px;
@@ -198,7 +211,7 @@ tt {
 
 kbd {
   display: inline-block;
-  margin-bottom: 0.4em;
+  margin-bottom: em(4px);
   padding: 1px 8px;
   border: #CCC 1px solid;
   color: #666;
@@ -213,7 +226,7 @@ kbd {
 table {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 1.75em 0;
+  margin: em(17px) 0;
   width: 100%;
   max-width: 100%;
   background-color: transparent;

@@ -9,7 +9,7 @@ post_class: post-template
   {% include nav.html %}
   <div class="vertical">
     <div class="main-header-content inner">
-      <h1 class="page-title fade-in-down">{{ page.title }}</h1>
+      <h1 class="page-title">{{ page.title }}</h1>
       <h2 class="page-description">
         <span class="post-date">
           Publicado <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
@@ -58,7 +58,7 @@ post_class: post-template
 </header>
 
 
-<main class="content" role="main">
+<main class="container" role="main">
 
   <article class="post">
 
