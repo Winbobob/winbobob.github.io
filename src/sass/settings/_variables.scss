@@ -21,8 +21,9 @@ $screen-desktop : 56em !default;
 $primary-color: #a81b0a !default;
 
 $white-color: #fff !default;
-$silver-color: #ececec !default;
+$silver-color: darken($white-color, 22%) !default; // ~ #ccc
 $black-color: #000 !default;
+$gray-color: darken($white-color, 42%) !default; // ~ #999
 
 $bg-color: #f5f6f7 !default;
 $txt-color: #606060 !default;

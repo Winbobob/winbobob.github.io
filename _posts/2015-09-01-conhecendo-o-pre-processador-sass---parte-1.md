@@ -20,7 +20,7 @@ Na minha opinião todo desenvolvedor web deveria conhecer algum pré-processador
 
 Hoje vou começar uma série de artigos com algumas dicas sobre o pré-processador **SASS**... sei que existem muitos tutoriais e artigos bacanas por ai, mas eu vou explicar o meu ponto de vista sobre essa forma de escrever CSS.
 
-#### O que é um pré-processador?
+## O que é um pré-processador?
 
 > Um pré-processador é um programa que recebe texto e efectua conversões léxicas nele. As conversões podem incluir substituição de macros, inclusão condicional e inclusão de outros ficheiros.
   > <small>Google.com (<a href="https://goo.gl/OeWJWB">https://goo.gl/OeWJWB</a>)</small>
@@ -29,12 +29,12 @@ Pense num pré-processador como uma nova linguam para escrever CSS.
 
 Chame de tradutor de linguagem, ou de compilador.. não tem problema, tudo vira CSS no final.
 
-#### Mas o que é esse tal de SASS?
+## Mas o que é esse tal de SASS?
 
 > Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
   > <small>sass-lang.com</small>
 
-**SASS** é um pré-processador de CSS. Com ele você tem vários recursos que não existem nativamente no CSS, como:
+Resumidamente, **SASS** é um pré-processador de CSS. Com ele você tem vários recursos que não existem nativamente no CSS, como:
 
   * *variáveis*
   * *funções*
@@ -50,7 +50,7 @@ Usando **herança** e **variáveis** você esquece o famoso `Ctrl+C` e `Ctrl+V`.
 
 **Cara isso é magnífico, mesmo!**
 
-#### Ok, entendi, agora como eu uso o SASS?
+## Ok, entendi, agora como eu uso o SASS?
 
 Nosso amigo **SASS** é uma **RubyGem** então você precisa ter o Ruby instalado em seu computador.
 
@@ -62,7 +62,7 @@ sudo gem install sass
 
 Se nada falhar você já tem o SASS instalado em sua máquina, rode `sass -v` do seu terminal para certificar que tudo ocorreu bem.
 
-#### 123 testando..
+## 123 testando..
 
 Vamos criar um arquivo SASS pata teste.
 

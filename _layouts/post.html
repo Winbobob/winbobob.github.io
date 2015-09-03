@@ -65,10 +65,12 @@ post_class: post-template
     <section class="post-content">
       {{content}}
 
+      <div class="clearfix"></div>
+
       <div class="post-meta">
         {% assign post = page %}
         {% if post.tags.size > 0 %}
-          {% capture tags_content %}Publicado em: {% endcapture %}
+          {% capture tags_content %}<i class="icon icon-tags"></i> {% endcapture %}
           {% for post_tag in post.tags %}
             {% for data_tag in site.data.tags %}
               {% if data_tag.slug == post_tag %}
@@ -116,21 +118,8 @@ post_class: post-template
     </section>
     {% endif %}
 
-    {% comment %}
-    <hr>
-    <div class="alert">
-      <small><strong>Moçada, gostaria muito da ajuda de vocês com revisões nos meus textos.
-      Se por acaso você esta lendo esse artigo e encontrou algum erro, não fique acanhado, reporte a <a href="mailto:nandomoreira.me@gmail.com">mim</a> e ficaremos todos felizes.</strong></small>
-    </div>
-    {% endcomment %}
-
     <footer class="post-footer">
       {% if site.author %}
-      {% comment %}
-      <figure class="author-image">
-        <a class="img" href="{{ site.author.twitter }}" target="_blank" style="background-image: url({{ site.author.image }})"><span class="hidden">{{site.author}}</span></a>
-      </figure>
-      {% endcomment %}
       <section class="author">
         <h4>Sobre {{ site.author.name }} </h4>
         <p>{{ site.author.bio }}</p>

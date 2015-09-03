@@ -16,9 +16,9 @@ tags:
  - pre-processador
 ---
 
-Vamos continuar nossa série de **SASS**, mas agora falando de **Variáveis**.
+Vamos continuar nossa série **"Conhecendo o pré-processador SASS"**, mas agora falando de **Variáveis**.
 
-#### Mas afinal, o que são Variáveis?
+## O que são Variáveis?
 
 Se você está começando agora no mundo do desenvolvimento você precisa ter uma base de como funciona variáveis.
 
@@ -51,7 +51,7 @@ Fácil não?!
 
 ***
 
-#### Tipos de variáveis no SASS
+## Tipos de variáveis no SASS
 
 Pra quem "manja dos parauês" de programação sabe que existem tipos de variáveis.
 
@@ -77,4 +77,22 @@ body {
 
 Se você processar o código acima verá que o valor de `width` é de `100%`, o SASS pegou automaticamente o valor setado na ultima linha.
 
+{% highlight sass %}
+body {
+  width: 100%;
+}
+{% endhighlight %}
+
 **Pra falar a verdade o SASS aceita qualquer valor que não vai gerar erro nenhum** ^.^
+
+***
+
+## Conclusão
+
+Variável é algo muito útil no desenvolvimento com SASS, eu particularmente uso bastante esse recurso.
+
+Eu sempre crio um arquivo chamado **[variables.scss](https://github.com/nandomoreirame/nandomoreirame.github.io/blob/source/src/sass/settings/_variables.scss)** para agrupar as variáveis globais do meu projeto.
+
+Se você for usar um determinado valor em vários lugares e/ou arquivos não exite em momento algum, crie uma variável e armazene esse valor, você vai me agradecer mais tarde.
+
+Abraço!

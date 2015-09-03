@@ -11,7 +11,8 @@
 .main-header .inner,
 .post-thumb,
 .post-template .content,
-.post-template .post {
+.post-template .post,
+.post-content {
 	*zoom: 1;
 }
 
@@ -22,7 +23,8 @@
 .main-header .inner:before,
 .post-thumb:before,
 .post-template .content:before,
-.post-template .post:before {
+.post-template .post:before,
+.post-content:before {
 	content: " ";
 	display: table;
 }
@@ -34,7 +36,8 @@
 .main-header .inner:after,
 .post-thumb:after,
 .post-template .content:after,
-.post-template .post:after {
+.post-template .post:after,
+.post-content:after {
 	content: " ";
 	display: table;
 	clear: both;
@@ -70,6 +73,10 @@
 
 .icon-search:before {
 	content: "";
+}
+
+.icon-tags:before {
+	content: "";
 }
 
 .icon-chevron-left:before {
@@ -840,13 +847,13 @@ h6 {
 }
 
 h1 {
-	font-size: 1.625rem;
+	font-size: 2rem;
 	letter-spacing: -2px;
 	text-indent: -3px;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 1.625rem;
 	letter-spacing: -1px;
 }
 
@@ -867,7 +874,7 @@ a {
 	color: #5c5c5c;
 	transition: color 0.3s linear;
 	text-decoration: none;
-	border-top: 1px dashed #ececec;
+	border-top: 1px dashed #c7c7c7;
 }
 
 a:hover,
@@ -933,10 +940,10 @@ figure {
 }
 
 blockquote {
-	box-sizing: border-box;
 	margin: 0.944444em 0 0.944444em -2.2em;
 	padding: 0 0 0 0.944444em;
-	border-left: #4A4A4A 0.222222em solid;
+	border-left: 4px solid #a81b0a;
+	font-weight: 700;
 }
 
 blockquote p {
@@ -948,7 +955,7 @@ blockquote small {
 	display: inline-block;
 	margin: 0.8em;
 	font-size: 0.875rem;
-	color: #CCC;
+	color: #c7c7c7;
 	display: block;
 }
 
@@ -964,10 +971,6 @@ blockquote cite a {
 	font-weight: normal;
 }
 
-mark {
-	background-color: #FFC336;
-}
-
 code,
 tt {
 	padding: 1px 3px;
@@ -980,7 +983,6 @@ tt {
 }
 
 pre {
-	box-sizing: border-box;
 	margin: 0 0 0.944444em;
 	border: #E3EDF3 1px solid;
 	width: 100%;
@@ -1026,7 +1028,6 @@ kbd {
 }
 
 table {
-	box-sizing: border-box;
 	margin: 0.944444em 0;
 	width: 100%;
 	max-width: 100%;
@@ -1337,10 +1338,13 @@ a.newer-posts {
 }
 
 .post .highlight,
-.post .disqus,
-.post blockquote {
+.post .disqus {
 	margin-left: -1.388889em;
 	margin-right: -1.388889em;
+}
+
+.post blockquote {
+	margin-left: -1.388889em;
 }
 
 .post .disqus {
@@ -2157,7 +2161,8 @@ html.swipebox-html.swipebox-touch {
 }
 
 .post-template .post-meta {
-	margin: 0;
+	margin: 1.944444em 0 0;
+	float: right;
 }
 
 .post-template .post-date {
@@ -2198,13 +2203,14 @@ html.swipebox-html.swipebox-touch {
 
 .post-footer {
 	position: relative;
-	margin: 2.777778em 0 0;
+	margin: 1.666667em 0 0;
 	padding: 2.222222em 0 0;
 	border-top: #EBF2F6 1px solid;
 }
 
 .post-footer h4 {
 	font-size: 1.125rem;
+	font-weight: 300;
 	margin: 0;
 }
 
@@ -2228,21 +2234,23 @@ html.swipebox-html.swipebox-touch {
 
 .post-footer .share {
 	position: absolute;
+	width: 7.777778em;
 	top: 3.333333em;
 	right: 0;
-	width: 140px;
+	text-align: center;
 }
 
 .post-footer .share a {
 	font-size: 1.125rem;
 	display: inline-block;
 	margin: 0.555556em 0.888889em 0.888889em 0;
-	color: #BBC7CC;
+	color: #949494;
 	text-decoration: none;
+	border: none;
 }
 
 .post-footer .share a:hover {
-	color: #50585D;
+	color: #606060;
 }
 
 .author-meta {

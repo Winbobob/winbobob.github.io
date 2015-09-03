@@ -2,38 +2,44 @@
 // Posts
 //
 
+$post-spacing: em(25px);
+$post-small-spacing: em(15px);
+
 .post {
   background-color: #fff;
-  padding: em(15px) em(15px) 0;
+  padding: $post-small-spacing $post-small-spacing 0;
   @include box-shadow(0px 1px 2px rgba(#000, .2));
   margin: em(25px) 0;
   overflow: hidden;
 
   .highlight,
-  .disqus,
+  .disqus {
+    margin-left: -($post-spacing);
+    margin-right: -($post-spacing);
+  }
+
   blockquote {
-    margin-left: -(em(25px));
-    margin-right: -(em(25px));
+    margin-left: -($post-spacing);
   }
 
   .disqus {
     background-color: #f7f8f9;
     border-top: 1px solid #E3E3E3;
-    padding-bottom: em(25px);
+    padding-bottom: $post-spacing;
   }
 
   .disqus,
   .highlight pre {
-    padding-left: em(25px);
-    padding-right: em(25px);
+    padding-left: $post-spacing;
+    padding-right: $post-spacing;
   }
   .highlight pre {
-    padding-top: em(25px);
-    padding-bottom: em(25px);
+    padding-top: $post-spacing;
+    padding-bottom: $post-spacing;
   }
 
   @include media($screen-tablet) {
-    padding: em(25px) em(25px) 0;
+    padding: $post-spacing $post-spacing 0;
   }
 }
 
@@ -88,8 +94,8 @@ body:not(.post-template) .post-title {
   @include media($screen-tablet) {
     span {
       border-left: 1px solid $border-color;
-      padding-left: em(15px);
-      margin-left: em(15px);
+      padding-left: $post-small-spacing;
+      margin-left: $post-small-spacing;
     }
     time,
     span {
