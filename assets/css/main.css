@@ -145,6 +145,10 @@
 	content: "";
 }
 
+.icon-linkedin:before {
+	content: "";
+}
+
 .icon-github-alt:before {
 	content: "";
 }
@@ -815,6 +819,18 @@ th {
 
 .disqus h3 {
 	font-weight: 300;
+}
+
+.social {
+	list-style: none;
+	padding: 0;
+	margin: 1.388889em 0 2.777778em;
+	text-align: center;
+}
+
+.social li {
+	display: inline-block;
+	margin-right: 1.388889em;
 }
 
 .gist table {

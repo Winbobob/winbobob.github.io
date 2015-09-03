@@ -124,6 +124,20 @@
   }
 }
 
+// social
+.social {
+  list-style: none;
+  padding: 0;
+  margin: em(25px) 0 em(50px);
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin-right: em(25px);
+  }
+}
+
+
 //
 
 .gist {

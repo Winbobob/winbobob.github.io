@@ -43,8 +43,19 @@ Atualmente estou cursando <a href="http://www.ctpositivo.edu.br/cursos-de-tecnol
 
 E por fim, para entrar em contato comigo basta enviar um e-mail para **nandomoreira.me[at]gmail.com** ou me procurar em uma das minhas redes sociais.
 
-**Twitter:** <a href="http://twitter.com/nandomoreirame" target="_blank">@nandomoreirame</a><br>
-**Facebook:** <a href="http://facebook.com/fernando.dev" target="_blank">fb.com/fernando.dev</a><br>
-**Github:** <a href="http://github.com/nandomoreirame" target="_blank">github.com/nandomoreirame</a><br>
+<ul class="social">
+  <li>
+    <i class="icon icon-twitter"></i> <a href="http://twitter.com/nandomoreirame" target="_blank">Twitter</a>
+  </li>
+  <li>
+    <i class="icon icon-facebook-official"></i> <a href="http://facebook.com/fernando.dev" target="_blank">Facebook</a>
+  </li>
+  <li>
+    <i class="icon icon-github"></i> <a href="http://github.com/nandomoreirame" target="_blank">GitHub</a>
+  </li>
+  <li>
+    <i class="icon icon-linkedin"></i> <a href="https://linkedin.com/pub/fernando-moreira/33/a10/912" target="_blank">LinkedIn</a>
+  </li>
+</ul>
 
-***
+<div class="clearfix"></div>
