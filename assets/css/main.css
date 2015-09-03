@@ -87,6 +87,10 @@
 	content: "";
 }
 
+.icon-info-circle:before {
+	content: "";
+}
+
 .icon-chevron-up:before {
 	content: "";
 }
@@ -683,8 +687,7 @@ th {
 	text-align: right !important;
 }
 
-.text-center,
-.alert {
+.text-center {
 	text-align: center !important;
 }
 
@@ -745,17 +748,33 @@ th {
 /* alert */
 
 .alert {
-	background-color: #fbf5f6;
-	border: 1px solid #ebd1d8;
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-	color: #ee4d79;
-	padding: 2rem;
-	margin-top: 3rem;
-	margin-bottom: 5rem;
+	background-color: #f5f6f7;
+	border: 1px #f1f2f3 solid;
+	color: #606060;
+	padding: 0.833333em 1.388889em;
+	margin-top: 0.833333em;
+	margin-bottom: 0.833333em;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
 }
 
 .alert p {
+	color: #016BA9;
 	margin-bottom: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.alert .icon {
+	top: -15px;
+	right: -20px;
+	position: absolute;
+	font-size: 7.5rem;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
+	opacity: 0.1;
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg);
 }
 
 /* Creates a responsive wrapper that makes our content scale nicely */

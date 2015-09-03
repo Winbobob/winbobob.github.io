@@ -18,6 +18,11 @@ tags:
 
 Vamos continuar nossa série **"Conhecendo o pré-processador SASS"**, mas agora falando de **Variáveis**.
 
+<div class="alert">
+  <span class="icon icon-info-circle"></span>
+  <p>Se você quer saber o que é o <strong>SASS</strong> e como instalar, por favor leia a <strong>parte 1</strong> desse artigo <strong><a href="/conhecendo-o-pre-processador-sass-parte-1/">aqui</a></strong></p>
+</div>
+
 ## O que são Variáveis?
 
 Se você está começando agora no mundo do desenvolvimento você precisa ter uma base de como funciona variáveis.

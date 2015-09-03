@@ -52,18 +52,31 @@
 
 /* alert */
 .alert {
-  background-color: lighten(#f3e3e7, 5%);
-  border: 1px solid darken(#f3e3e7, 5%);
-  box-shadow: 0px 1px 1px rgba(#000, .2);
-  color: darken(#f7aabf, 20%);
-  padding: 2rem;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-
-  @extend .text-center;
+  background-color: $bg-color;
+  border: 1px $border-color solid;
+  color: $txt-color;
+  padding: em(15px) em(25px);
+  margin-top: em(15px);
+  margin-bottom: em(15px);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  // @include box-shadow(0px 1px 2px rgba($black-color, .2));
 
   p {
+    color: $blue-color;
     margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .icon {
+    top: -15px;
+    right: -20px;
+    position: absolute;
+    @include font-size(120px);
+    @include opacity(.1);
+    @include rotate(5deg);
   }
 }
 
