@@ -30,6 +30,9 @@ body {
   background-color: $bg-color;
   line-height: $line-height;
   color: $txt-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: .01em;
 }
 
 h1, h2, h3, h4, h5, h6 {

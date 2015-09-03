@@ -2,7 +2,7 @@
 layout: post
 title: "Conhecendo o pré-processador SASS - Variáveis"
 permalink: sass-variaveis-parte-2
-date: 2015-09-01 17:57:12
+date: 2015-09-02 17:57:12
 comments: true
 description: "Conhecendo o pré-processador SASS - Variáveis"
 cover: /assets/images/posts/conhecendo-o-pre-processador-sass.jpg
