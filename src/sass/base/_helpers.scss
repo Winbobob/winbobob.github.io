@@ -49,6 +49,11 @@
   display: none;
 }
 
+// bounce animation
+//
+.bounce {
+  @include animation(bounce 2s infinite);
+}
 
 /* alert */
 .alert {

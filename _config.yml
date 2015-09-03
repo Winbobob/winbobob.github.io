@@ -8,7 +8,7 @@ description: "Desenvolvimento Web e tudo mais.."
 meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript."
 meta_keywords: "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
 
-paginate: 12
+paginate: 6
 comments: true
 paginate_path: "/page/:num"
 
