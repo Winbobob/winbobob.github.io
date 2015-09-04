@@ -4,7 +4,7 @@
 
 .site-footer {
   margin-top: em(25px);
-  padding: em(25px);
+  padding: em(25px) em(10px);
   border-top: 1px solid #EBF2F6;
   text-align: center;
   @include font-size(12px);

@@ -1297,7 +1297,7 @@ a.newer-posts {
 
 .site-footer {
 	margin-top: 1.388889em;
-	padding: 1.388889em;
+	padding: 1.388889em 0.555556em;
 	border-top: 1px solid #EBF2F6;
 	text-align: center;
 	font-size: 0.75rem;
@@ -1374,7 +1374,7 @@ a.newer-posts {
 
 .post {
 	background-color: #fff;
-	padding: 0.833333em 0.833333em 0;
+	padding: 15px 15px 0;
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
 	margin: 1.388889em 0;
 	overflow: hidden;
@@ -1382,29 +1382,29 @@ a.newer-posts {
 
 .post .highlight,
 .post .disqus {
-	margin-left: -1.388889em;
-	margin-right: -1.388889em;
+	margin-left: -25px;
+	margin-right: -25px;
 }
 
 .post blockquote {
-	margin-left: -1.388889em;
+	margin-left: -25px;
 }
 
 .post .disqus {
 	background-color: #f7f8f9;
 	border-top: 1px solid #E3E3E3;
-	padding-bottom: 1.388889em;
+	padding-bottom: 25px;
 }
 
 .post .disqus,
 .post .highlight pre {
-	padding-left: 1.388889em;
-	padding-right: 1.388889em;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .post .highlight pre {
-	padding-top: 1.388889em;
-	padding-bottom: 1.388889em;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 body:not(.post-template) .post {
@@ -2422,7 +2422,7 @@ html.swipebox-html.swipebox-touch {
 }
 
 .post {
-	padding: 1.388889em 1.388889em 0;
+	padding: 25px 25px 0;
 }
 
 body:not(.post-template) .post-title {
@@ -2436,8 +2436,8 @@ body:not(.post-template) .post-title {
 
 .post-meta span {
 	border-left: 1px solid #f1f2f3;
-	padding-left: 0.833333em;
-	margin-left: 0.833333em;
+	padding-left: 15px;
+	margin-left: 15px;
 }
 
 .post-meta time,
