@@ -7,6 +7,7 @@
 //= include ../../bower/classie/classie.js
 //= include ../../bower/simple-jekyll-search/dest/jekyll-search.js
 //= include ../../bower/swipebox/src/js/jquery.swipebox.min.js
+//= include ../../bower/wow/dist/wow.min.js
 
 //= include scripts/_modal.js
 //= include scripts/_simple-jekyll-search.js

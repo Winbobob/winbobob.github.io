@@ -1,3 +1,6 @@
+
+new WOW().init();
+
 (function ($, sr, undefined) {
 
   var $document = $(document);
