@@ -9,8 +9,8 @@ layout: default
   </nav>
   <div class="vertical">
     <div class="main-header-content inner">
-      <h1 class="page-title">{{ site.name }}</h1>
-      <div class="page-description">
+      <h1 class="page-title animated hinge fadeInDown">{{ site.name }}</h1>
+      <div class="page-description animated hinge fadeIn">
         {% if site.description %}{{ site.description }}{% endif %}
         <nav>
           <a href='{{ "/about" | prepend: site.baseurl }}'>Sobre mim</a>
@@ -23,7 +23,7 @@ layout: default
   <a class="scroll-down icon icon-chevron-down bounce" href="#content" data-offset="-45"></a>
 </header>
 
-<main id="content" class="container" role="main">
+<main id="<content></content>" class="container" role="main">
 
   <div class="extra-pagination inner">
     {% include pagination.html %}

@@ -33,6 +33,10 @@
 }
 
 .older-posts {
+  left: 0;
+}
+
+.newer-posts {
   right: 0;
 }
 
@@ -42,10 +46,6 @@
   padding: 8px 0;
   min-width: 100px;
   @include font-size(14px);
-}
-
-.newer-posts {
-  left: 0;
 }
 
 .older-posts:hover, .newer-posts:hover {
