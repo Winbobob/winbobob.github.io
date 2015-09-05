@@ -70,12 +70,33 @@
   color: rgba($white-color, .7);
   border: none;
 
-  &:hover {
+  &, &:hover, &:focus {
     color: $white-color;
-    text-decoration: none;
-    border: none;
+  }
+}
+
+.scroll-up {
+  position: fixed;
+  right: 15px;
+  bottom: -80px;
+  @include font-size(36px);
+  @include transition(all .2s linear);
+
+  &, &:hover, &:focus {
+    color: $txt-color;
+  }
+}
+
+.scroll-down,
+.scroll-up {
+  &:hover {
     -webkit-animation: none;
     animation: none;
+  }
+
+  &, &:hover, &:focus {
+    text-decoration: none;
+    border: none;
   }
 }
 

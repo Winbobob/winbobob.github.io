@@ -7,6 +7,7 @@
 .highlight,
 .clearfix,
 .video-responsive,
+.card,
 .main-header,
 .main-header .inner,
 .post-thumb,
@@ -19,6 +20,7 @@
 .highlight:before,
 .clearfix:before,
 .video-responsive:before,
+.card:before,
 .main-header:before,
 .main-header .inner:before,
 .post-thumb:before,
@@ -32,6 +34,7 @@
 .highlight:after,
 .clearfix:after,
 .video-responsive:after,
+.card:after,
 .main-header:after,
 .main-header .inner:after,
 .post-thumb:after,
@@ -878,6 +881,13 @@ th {
 	font-size: 0.6875rem;
 }
 
+.card {
+	background-color: #fff;
+	padding: 1.388889em;
+	margin: 1.388889em 0;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
 /* ==========================================================================
    2. General - Setting up some base styles
    ========================================================================== */
@@ -944,7 +954,7 @@ h6 {
 }
 
 a {
-	color: #5c5c5c;
+	color: #bdb76b;
 	transition: color 0.3s linear;
 	text-decoration: none;
 	border-top: 1px dashed #c7c7c7;
@@ -952,8 +962,8 @@ a {
 
 a:hover,
 a:focus {
-	border-top-color: #a81b0a;
-	color: #a81b0a;
+	border-top-color: #a9a34c;
+	color: #a9a34c;
 	text-decoration: none;
 }
 
@@ -1015,7 +1025,7 @@ figure {
 blockquote {
 	margin: 0.944444em 0 0.944444em -2.2em;
 	padding: 0 0 0 0.944444em;
-	border-left: 4px solid #a81b0a;
+	border-left: 4px solid #bdb76b;
 	font-weight: 700;
 }
 
@@ -1263,12 +1273,40 @@ a.newer-posts {
 	border: none;
 }
 
-.scroll-down:hover {
+.scroll-down,
+.scroll-down:hover,
+.scroll-down:focus {
 	color: #fff;
-	text-decoration: none;
-	border: none;
+}
+
+.scroll-up {
+	position: fixed;
+	right: 15px;
+	bottom: -80px;
+	font-size: 2.25rem;
+	transition: all 0.2s linear;
+}
+
+.scroll-up,
+.scroll-up:hover,
+.scroll-up:focus {
+	color: #606060;
+}
+
+.scroll-down:hover,
+.scroll-up:hover {
 	-webkit-animation: none;
 	animation: none;
+}
+
+.scroll-down,
+.scroll-down:hover,
+.scroll-down:focus,
+.scroll-up,
+.scroll-up:hover,
+.scroll-up:focus {
+	text-decoration: none;
+	border: none;
 }
 
 .no-cover .scroll-down,
@@ -1403,10 +1441,7 @@ a.newer-posts {
 }
 
 .post {
-	background-color: #fff;
-	padding: 15px 15px 0;
-	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
-	margin: 1.388889em 0;
+	padding-bottom: 0;
 	overflow: hidden;
 }
 
@@ -1450,17 +1485,22 @@ body:not(.post-template) .post-title {
 	margin-top: 0;
 }
 
-.post-title a {
-	border: none;
-}
-
 .post-excerpt p {
 	margin: 0;
 	font-size: 0.9375rem;
 }
 
-.post-excerpt p a {
+.post-title a,
+.post-excerpt a {
 	border: none;
+	color: #606060;
+}
+
+.post-title a:hover,
+.post-title a:focus,
+.post-excerpt a:hover,
+.post-excerpt a:focus {
+	color: #bdb76b;
 }
 
 .post-meta {
@@ -1480,47 +1520,6 @@ body:not(.post-template) .post-title {
 	display: inline-block;
 	font-size: 0.875rem;
 	margin-bottom: 0.555556em;
-}
-
-.user-meta {
-	position: relative;
-	padding: 0.166667em 2.222222em 0 5.555556em;
-	min-height: 4.277778em;
-}
-
-.user-image {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.user-name {
-	display: block;
-	font-weight: 700;
-}
-
-.user-bio {
-	display: block;
-	max-width: 24.444444em;
-	font-size: 1rem;
-}
-
-.publish-meta {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 2.388889em 0 2.222222em;
-	text-align: right;
-}
-
-.publish-heading {
-	display: block;
-	font-weight: 700;
-}
-
-.publish-date {
-	display: block;
-	font-size: 0.875rem;
 }
 
 .breadcrumb {
@@ -2343,13 +2342,7 @@ html.swipebox-html.swipebox-touch {
 	color: #111;
 }
 
-.post-head.main-header {
-	height: 85%;
-	min-height: 180px;
-}
-
 .no-cover.post-head.main-header {
-	height: 85px;
 	min-height: 0;
 	margin-bottom: 0;
 	background: transparent;

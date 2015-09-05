@@ -9,9 +9,11 @@ layout: default
       <h1 class="page-title">Artigos por tag: {{ page.title }}</h1>
     </div>
   </div>
+
+  <a class="scroll-down icon icon-chevron-down bounce" href="#content" data-offset="-45"></a>
 </header>
 
-<main class="container" role="main">
+<main id="content" class="container" role="main">
 
   {% if site.tags[page.slug] %}
     {% for post in site.tags[page.slug] %}

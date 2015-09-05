@@ -18,7 +18,7 @@ $screen-desktop : 56em !default;
 //
 // Colors
 
-$primary-color: #a81b0a !default;
+$primary-color: #bdb76b !default; // #a81b0a
 
 $white-color: #fff !default;
 $silver-color: darken($white-color, 22%) !default; // ~ #ccc
@@ -33,5 +33,5 @@ $blue-color: #016BA9 !default;
 $border-color: #f1f2f3 !default;
 
 // link
-$link-color: #5c5c5c !default;
-$link-hover-color: $primary-color !default;
+$link-color: $primary-color !default;
+$link-hover-color: darken($link-color, 10%) !default;

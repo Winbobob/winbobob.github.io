@@ -1,74 +1,65 @@
+;(function ($, undefined) {
+  var mainHeader = $('.main-header'),
+      scrollDown = $('.scroll-down'),
+      scrollUp   = $('.scroll-up');
 
-new WOW().init();
-
-(function ($, sr, undefined) {
-
-  var $document = $(document);
-  var debounce = function (func, threshold, execAsap) {
-    var timeout;
-
-    return function debounced() {
-      var obj = this,
-        args = arguments;
-
-      function delayed() {
-        if (!execAsap) {
-          func.apply(obj, args);
-        }
-        timeout = null;
-      }
-
-      if (timeout) {
-        clearTimeout(timeout);
-      } else if (execAsap) {
-        func.apply(obj, args);
-      }
-
-      timeout = setTimeout(delayed, threshold || 100);
-    };
-  };
-
-  $document.ready(function () {
-    $('.scroll-down').arctic_scroll();
+  $(document).ready(function () {
     $('.swipebox').swipebox();
+    scrollDown.scrolltoo();
+    scrollUp.scrolltoo();
   });
 
-  jQuery.fn[sr] = function (fn) {
-    return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr);
-  };
+  $(window).scroll(function () {
+    var headerHeight = mainHeader.height();
 
-  $.fn.arctic_scroll = function (options) {
+    if ($(this).scrollTop() > headerHeight) {
+      scrollUp.css({ 'bottom' : '15px' });
+    } else {
+      scrollUp.css({ 'bottom' : '-80px' });
+    }
+  });
+
+  $.fn.scrolltoo = function (options) {
 
     var defaults = {
-        elem: $(this),
-        speed: 500
-      },
+      elem: $(this),
+      speed: 800
+    },
 
-      allOptions = $.extend(defaults, options);
+    settings = $.extend(defaults, options);
 
-    allOptions.elem.click(function (event) {
-      event.preventDefault();
-      var $this = $(this),
-        $htmlBody = $('html, body'),
-        offset = ($this.attr('data-offset')) ? $this.attr('data-offset') : false,
-        position = ($this.attr('data-position')) ? $this.attr('data-position') : false,
-        toMove;
+    settings.elem.click(function (e) {
+      e.preventDefault();
+
+      var $this     = $(this),
+          $htmlBody = $('html, body'),
+          offset    = ($this.attr('data-offset')) ? $this.attr('data-offset') : false,
+          position  = ($this.attr('data-position')) ? $this.attr('data-position') : false,
+          toMove;
 
       if (offset) {
+
         toMove = parseInt(offset, 10);
         $htmlBody.stop(true, false).animate({
           scrollTop: ($(this.hash).offset().top + toMove)
-        }, allOptions.speed);
+        }, settings.speed);
+
       } else if (position) {
+
         toMove = parseInt(position, 10);
         $htmlBody.stop(true, false).animate({
           scrollTop: toMove
-        }, allOptions.speed);
+        }, settings.speed);
+
       } else {
+
         $htmlBody.stop(true, false).animate({
           scrollTop: ($(this.hash).offset().top)
-        }, allOptions.speed);
+        }, settings.speed);
+
       }
     });
   };
-})(jQuery, 'smartresize');
+})(jQuery);
+
+new WOW().init();
