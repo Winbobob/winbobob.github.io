@@ -12,6 +12,6 @@
   }
 
   @include media($screen-desktop) {
-    width: em($container-desktop-width);
+    width: $container-desktop-width;
   }
 }

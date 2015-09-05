@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conhecendo o pré-processador SASS - Variáveis"
+title: "#2 - Conhecendo o pré-processador SASS | Variáveis"
 permalink: sass-variaveis-parte-2
 date: 2015-09-02 17:57:12
 comments: true
@@ -9,7 +9,6 @@ cover: /assets/images/posts/conhecendo-o-pre-processador-sass.jpg
 keywords: "sass, css, scss, pre-processador, pre-processadores, variáveis"
 categories:
  - sass
- - css
 tags:
  - sass
  - css
@@ -101,3 +100,9 @@ Eu sempre crio um arquivo chamado **[variables.scss](https://github.com/nandomor
 Se você for usar um determinado valor em vários lugares e/ou arquivos não exite em momento algum, crie uma variável e armazene esse valor, você vai me agradecer mais tarde.
 
 Abraço!
+
+***
+
+ 1. [Conhecendo o pré-processador SASS - Instalação](/conhecendo-o-pre-processador-sass-parte-1)
+ 2. Conhecendo o pré-processador SASS - Variáveis
+ 3. [Conhecendo o pré processador SASS - Mixins](/sass-parte-3-mixins)

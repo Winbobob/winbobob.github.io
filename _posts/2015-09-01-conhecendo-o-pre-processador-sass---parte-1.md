@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conhecendo o pré-processador SASS - Instalação"
+title: "#1 - Conhecendo o pré-processador SASS | Instalação"
 permalink: conhecendo-o-pre-processador-sass-parte-1
 date: 2015-09-01 11:01:02
 comments: true
@@ -9,7 +9,6 @@ keywords: "sass, css, scss, pre-processador, pre-processadores"
 cover: /assets/images/posts/conhecendo-o-pre-processador-sass.jpg
 categories:
  - sass
- - css
 tags:
  - sass
  - css
@@ -125,3 +124,9 @@ Incrível não?!
 Esse é só o começo de uma longa jornada com o **Pré-processador SASS**, logo vou explicar detalhes do código acima e muito mais.
 
 Aguardem..
+
+***
+
+ 1. Conhecendo o pré-processador SASS - Instalação
+ 2. [Conhecendo o pré-processador SASS - Variáveis](/sass-variaveis-parte-2)
+ 3. [Conhecendo o pré processador SASS - Mixins](/sass-parte-3-mixins)

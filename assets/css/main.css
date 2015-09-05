@@ -2483,7 +2483,7 @@ body:not(.post-template) .post-title {
 @media (min-width: 56em) {
 
 .container {
-	width: 38.888889em;
+	width: 40em;
 }
 
 .page-title {
