@@ -8,7 +8,7 @@
   text-align: center;
 
   a {
-    color: #9EABB3;
+    color: $txt-color;
     @include transition(all .2s linear);
   }
 }
@@ -23,12 +23,19 @@
   @extend .btn;
   text-decoration: none;
   @include font-size(14px);
-  border: 1px solid #bfc8cd !important;
+  border: 1px solid $gray-color !important;
 
   @include media($screen-tablet) {
     position: absolute;
     width: auto;
     display: inline-block;
+  }
+
+  &:hover,
+  &:focus {
+    color: $txt-color;
+    border-color: $primary-color !important;
+    background-color: $white-color;
   }
 }
 
@@ -41,40 +48,10 @@
 }
 
 .page-number {
-  color: #9EABB3;
+  color: $txt-color;
   display: inline-block;
   padding: 8px 0;
   min-width: 100px;
   @include font-size(14px);
 }
 
-.older-posts:hover, .newer-posts:hover {
-  color: #889093;
-  border-color: #98a0a4 !important;
-}
-
-.extra-pagination {
-  display: none;
-  border-bottom: #EBF2F6 1px solid;
-
-  &:after {
-    display: block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    border: #E7EEF2 1px solid;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -5px;
-    background: #FFF;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    box-shadow: #FFF 0 0 0 5px;
-  }
-
-  .pagination {
-    width: auto;
-  }
-}

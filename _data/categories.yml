@@ -11,7 +11,7 @@
   name: PHP
 
 - slug: wordpress
-  name: Wordpress
+  name: WordPress
 
 - slug: videos
   name: Vídeos
@@ -63,6 +63,3 @@
 
 - slug: sass
   name: SASS
-
-- slug: new-category
-  name: new-category

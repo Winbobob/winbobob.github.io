@@ -925,8 +925,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #2E2E2E;
-	margin: 0.555556em 0 0.833333em;
+	margin: 1.388889em 0 0.833333em;
 }
 
 h1 {
@@ -944,12 +943,10 @@ h3 {
 	font-size: 1.375rem;
 }
 
-h4 {
-	font-size: 1.25rem;
-}
-
+h4,
 h5,
 h6 {
+	font-size: 1.25rem;
 	font-size: 1rem;
 }
 
@@ -2132,7 +2129,7 @@ html.swipebox-html.swipebox-touch {
 }
 
 .pagination a {
-	color: #9EABB3;
+	color: #606060;
 	transition: all 0.2s linear;
 }
 
@@ -2145,7 +2142,16 @@ html.swipebox-html.swipebox-touch {
 	display: block;
 	text-decoration: none;
 	font-size: 0.875rem;
-	border: 1px solid #bfc8cd !important;
+	border: 1px solid #949494 !important;
+}
+
+.older-posts:hover,
+.older-posts:focus,
+.newer-posts:hover,
+.newer-posts:focus {
+	color: #606060;
+	border-color: #bdb76b !important;
+	background-color: #fff;
 }
 
 .older-posts {
@@ -2157,41 +2163,11 @@ html.swipebox-html.swipebox-touch {
 }
 
 .page-number {
-	color: #9EABB3;
+	color: #606060;
 	display: inline-block;
 	padding: 8px 0;
 	min-width: 100px;
 	font-size: 0.875rem;
-}
-
-.older-posts:hover,
-.newer-posts:hover {
-	color: #889093;
-	border-color: #98a0a4 !important;
-}
-
-.extra-pagination {
-	display: none;
-	border-bottom: #EBF2F6 1px solid;
-}
-
-.extra-pagination:after {
-	display: block;
-	content: "";
-	width: 7px;
-	height: 7px;
-	border: #E7EEF2 1px solid;
-	position: absolute;
-	bottom: -5px;
-	left: 50%;
-	margin-left: -5px;
-	background: #FFF;
-	border-radius: 100%;
-	box-shadow: #FFF 0 0 0 5px;
-}
-
-.extra-pagination .pagination {
-	width: auto;
 }
 
 .post-thumb {

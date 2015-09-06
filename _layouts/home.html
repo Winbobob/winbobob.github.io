@@ -25,10 +25,6 @@ layout: default
 
 <main id="content" class="container" role="main">
 
-  <div class="extra-pagination inner">
-    {% include pagination.html %}
-  </div>
-
   {% for post in paginator.posts %}
     {% include post.html %}
   {% endfor %}

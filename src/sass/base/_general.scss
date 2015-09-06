@@ -36,8 +36,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #2E2E2E;
-  margin: em(10px) 0 em(15px);
+  margin: em(25px) 0 em(15px);
 }
 
 h1 {
@@ -55,11 +54,8 @@ h3 {
   @include font-size(22px);
 }
 
-h4 {
+h4, h5, h6 {
   @include font-size(20px);
-}
-
-h5, h6 {
   @include font-size(16px);
 }
 
