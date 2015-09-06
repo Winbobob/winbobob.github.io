@@ -15,7 +15,7 @@ tags:
  - pre-processador
 ---
 
-**Mixin** foi definitivamente algo novo pra mim, você consegue passar valores por parâmetros assim como funções, a diferença é que uma função retorna apenas 1 único valor e mixin retorna um bloco inteiro de CSS.
+**Mixin** foi definitivamente algo novo para mim, você consegue passar valores por parâmetros assim como funções, a diferença é que uma função retorna apenas 1 único valor e mixin retorna um bloco inteiro de CSS.
 
 O principal objetivo do Mixin é você poder reutilizar um determinado bloco de código por todo seu projeto.
 

@@ -63,7 +63,7 @@ Se levarmos em consideração que **SASS** também "pode" ser considerada uma li
 
 Uma variável pode ser do tipo inteiro e no meio do caminho se tornar uma string, e vise-versa.
 
-Mas no SASS a coisa é um pouco diferente. Tempos tipos próprios de CSS, que não precisam de "aspas" como string.
+Mas no SASS a coisa é um pouco diferente. Temos tipos próprios de CSS, que não precisam de "aspas" como string.
 
 {% highlight sass %}
 $mutable-var: '->'; // variavel do tipo string

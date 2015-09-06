@@ -16,7 +16,9 @@ $post-small-spacing: 15px;
   }
 
   blockquote {
+    margin-right: -($post-spacing);
     margin-left: -($post-spacing);
+    background-color: #f9f9f9;
   }
 
   .disqus {

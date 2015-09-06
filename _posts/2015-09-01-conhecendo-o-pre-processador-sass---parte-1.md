@@ -63,7 +63,7 @@ Se nada falhar você já tem o SASS instalado em sua máquina, rode `sass -v` do
 
 ## 123 testando..
 
-Vamos criar um arquivo SASS pata teste.
+Vamos criar um arquivo SASS para teste.
 
 Abra o seu editor favorito, crie um novo arquivo com o seguinte código:
 
