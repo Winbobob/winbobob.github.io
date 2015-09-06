@@ -37,6 +37,10 @@ $post-small-spacing: 15px;
     padding-bottom: $post-spacing;
   }
 
+  em {
+    text-decoration: underline;
+  }
+
   @include media($screen-tablet) {
     padding: $post-spacing $post-spacing 0;
   }

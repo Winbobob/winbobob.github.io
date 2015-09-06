@@ -4,7 +4,7 @@ title: "#3 - Conhecendo o pré processador SASS | Mixins"
 permalink: sass-parte-3-mixins
 date: 2015-09-05 18:34:50
 comments: true
-description: "Conhecendo o pré processador SASS - parte 3 | Mixins"
+description: "Mixin foi definitivamente algo novo para mim, você consegue passar valores por parâmetros assim como funções"
 cover: /assets/images/posts/conhecendo-o-pre-processador-sass.jpg
 keywords: "sass, css, scss, pre-processador, pre-processadores"
 categories:
@@ -63,3 +63,4 @@ Por enquanto é isso, obrigado.
  1. [Conhecendo o pré-processador SASS - Instalação](/conhecendo-o-pre-processador-sass-parte-1)
  2. [Conhecendo o pré-processador SASS - Variáveis](/sass-variaveis-parte-2)
  3. Conhecendo o pré processador SASS - Mixins
+ 4. [Conhecendo o pré processador SASS - Funções](/sass-parte-4-funcoes)

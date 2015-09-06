@@ -1470,6 +1470,10 @@ a.newer-posts {
 	padding-bottom: 25px;
 }
 
+.post em {
+	text-decoration: underline;
+}
+
 body:not(.post-template) .post {
 	padding-bottom: 1.388889em;
 }

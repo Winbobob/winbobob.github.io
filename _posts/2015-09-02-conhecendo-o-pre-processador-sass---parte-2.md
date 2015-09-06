@@ -106,3 +106,4 @@ Abraço!
  1. [Conhecendo o pré-processador SASS - Instalação](/conhecendo-o-pre-processador-sass-parte-1)
  2. Conhecendo o pré-processador SASS - Variáveis
  3. [Conhecendo o pré processador SASS - Mixins](/sass-parte-3-mixins)
+ 4. [Conhecendo o pré processador SASS - Funções](/sass-parte-4-funcoes)
