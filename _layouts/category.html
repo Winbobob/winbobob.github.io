@@ -13,13 +13,13 @@ layout: default
   <a class="scroll-down icon icon-chevron-down bounce" href="#content" data-offset="-45"></a>
 </header>
 
-<main id="content" class="container" role="main">
+<main id="content" class="container" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
   {% if site.categories[page.slug] %}
     {% for post in site.categories[page.slug] %}
       {% include post.html %}
     {% endfor %}
   {% else %}
-    <article class="post wow fadeInUp" data-wow-duration="1s" data-wow-delay="0">
+    <article role="article" class="post wow fadeInUp" data-wow-duration="1s" data-wow-delay="0">
       <section class="post-content">
         <p>Não há artigos para a categoria: <strong>{{ page.title }}</strong></p>
       </section>
