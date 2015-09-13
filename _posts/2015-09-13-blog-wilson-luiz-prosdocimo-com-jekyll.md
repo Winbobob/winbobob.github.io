@@ -18,6 +18,8 @@ Meu amigo Wilson gostou muito da ideia de poder publicar o blog dele no github u
 
 Bom, ele usou por algum tempo o tema default gerado pelo [jekyll](http://jekyllrb.com/), é até _"bonitinho"_ mas convenhamos, sempre pode melhorar né.
 
+O link do projeto é: [wprosdocimo.com.br](http://wprosdocimo.com.br/)
+
 O resultado foi bem bacana, veja logo abaixo.
 
 <figure class="thumb">
@@ -31,3 +33,5 @@ O resultado foi bem bacana, veja logo abaixo.
     {% image posts/blog-wprosdocimo-single.png alt="Blog Wilson Luiz Prosdocimo - um blog com um pouco de tudo.." [autosize] %}
   </a>
 </figure>
+
+/end
