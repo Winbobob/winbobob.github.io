@@ -77,6 +77,10 @@ p {
   @include font-size($font-size-base);
 }
 
+p, li, span, label {
+  font-weight: 300;
+}
+
 p, ul, ol, dl {
   margin: 0 0 .75em 0;
 }

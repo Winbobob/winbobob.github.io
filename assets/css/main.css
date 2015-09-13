@@ -912,7 +912,7 @@ body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 1.125rem;
 	background-color: #f5f6f7;
-	line-height: 1.6;
+	line-height: 1.8;
 	color: #606060;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -966,6 +966,13 @@ a:focus {
 
 p {
 	font-size: 1.125rem;
+}
+
+p,
+li,
+span,
+label {
+	font-weight: 300;
 }
 
 p,
@@ -1481,6 +1488,7 @@ body:not(.post-template) .post {
 body:not(.post-template) .post-title {
 	font-size: 1.375rem;
 	line-height: 1.1;
+	margin-bottom: 10px;
 }
 
 .post-title {
@@ -2435,7 +2443,7 @@ html.swipebox-html.swipebox-touch {
 
 body:not(.post-template) .post-title {
 	font-size: 1.875rem;
-	line-height: 1.6;
+	line-height: 1.8;
 }
 
 .post-excerpt p {

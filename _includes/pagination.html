@@ -1,7 +1,8 @@
-{% if paginator.next_page %}
 <nav class="pagination" role="pagination">
 
-  <a class="older-posts" href="/page/{{ paginator.next_page }}/" title="Artigos antigos">&laquo; Antigos</a>
+  {% if paginator.next_page %}
+    <a class="older-posts" href="/page/{{ paginator.next_page }}/" title="Artigos antigos">&laquo; Antigos</a>
+  {% endif %}
 
   <span class="page-number">Página {{paginator.page}} de {{paginator.total_pages}}</span>
 
@@ -14,4 +15,3 @@
   {% endif %}
 
 </nav>
-{% endif %}

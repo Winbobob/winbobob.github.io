@@ -53,6 +53,7 @@ body:not(.post-template) .post {
 body:not(.post-template) .post-title {
   @include font-size(22px);
   line-height: 1.1;
+  margin-bottom: 10px;
 
   @include media($screen-tablet) {
     @include font-size(30px);

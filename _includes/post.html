@@ -1,5 +1,5 @@
 <!-- article post loop -->
-<article role="article" class="post card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+<article role="article" class="post card" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
   <header class="post-header">
     <h1 class="post-title">
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
@@ -10,7 +10,7 @@
   </section>
   <footer class="post-meta">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
-      <i class="icon icon-comments"></i>
+      <i class="icon icon-calendar-o"></i>
       {% assign m = post.date | date: "%-m" %}
       {{ post.date | date: "%-d" }} de
       {% case m %}
@@ -31,7 +31,7 @@
     </time>
 
     <span>
-      <i class="icon icon-calendar-o"></i> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a>
+      <i class="icon icon-comment"></i> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a>
     </span>
   </footer>
 </article><!-- /article post loop -->
