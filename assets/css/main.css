@@ -2475,7 +2475,7 @@ body:not(.post-template) .post-title {
 @media (min-width: 56em) {
 
 .container {
-	width: 40em;
+	width: 48em;
 }
 
 .main-header {
