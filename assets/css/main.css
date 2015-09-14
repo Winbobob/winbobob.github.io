@@ -1367,6 +1367,10 @@ a.newer-posts {
 	color: #fff;
 }
 
+body.error404 .main-header {
+	height: 17.777778em;
+}
+
 .site-footer {
 	margin-top: 1.388889em;
 	padding: 1.388889em 0.555556em;

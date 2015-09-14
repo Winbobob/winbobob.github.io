@@ -5,16 +5,6 @@ slug: error404
 permalink: 404.html
 ---
 
-<main id="content" class="content" role="main">
-
-  <div class="alert">
-    <p>Desculpe, parece que essa URL está apontando para uma página que não existe. Tente voltar para a <a href="{{ site.baseurl }}/">Home</a> e tentar novamente. <br> <strong>Ou você pode ler os meus últimos posts listados logo abaixo :)</strong></p>
-  </div>
-
-  <hr>
-
-  {% for post in site.posts limit:6 %}
-    {% include post.html %}
-  {% endfor %}
-
-</main>
+<div class="alert">
+  <p>Desculpe, parece que essa URL está apontando para uma página que não existe. Tente voltar para a <a href="{{ site.baseurl }}/">Home</a> e tentar novamente. <br> <strong>Ou você pode ler os meus últimos posts listados logo abaixo :)</strong></p>
+</div>

@@ -189,3 +189,10 @@
     @include font-size(22px);
   }
 }
+
+
+body.error404 {
+  .main-header {
+    height: em(320px);
+  }
+}
