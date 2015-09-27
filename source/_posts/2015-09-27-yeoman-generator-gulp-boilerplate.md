@@ -104,7 +104,7 @@ Calma jovem, vou listar abaixo todos os pacotes e as tasks do Gulp Boilerplate p
 
   * `gulp default` ou apenas `gulp`: executa a task `gulp serve`
   * `gulp serve`: executa o **watch** do projeto para os arquivos de `.jade`, `.sass` e `.js` e executa também um servidor usando o `browser-sync` e toda a vez que um arquivo HTML, CSS ou JS é alterado ele dá o _reload_ nos navegadores.
-  * `gulp jade`: usando os pacotes [jade](https://www.npmjs.com/package/jade) e [gulp-jade](https://www.npmjs.com/package/gulp-jade) essa tarefa processa arquivos [.jade](http://jade-lang.com/)
+  * `gulp html`: usando os pacotes [jade](https://www.npmjs.com/package/jade) e [gulp-jade](https://www.npmjs.com/package/gulp-jade) essa tarefa processa arquivos [.jade](http://jade-lang.com/)
   * `gulp sass`: tarefa para executar o pré-processador [SASS](http://sass-lang.com/), aqui usamos o pacote [gulp-compass](https://www.npmjs.com/package/gulp-compass).
   * `gulp lint`: aqui executamos o `lint` para aquivos que estão em `js/components/` que são os arquinos js de produção.
   * `gulp js`: essa tarefa usa o pacote [gulp-include](https://www.npmjs.com/package/gulp-include) para incluir arquivos JS como é feito em **SASS** e emseguida minificar e salvar em dois aquivos `FILE.js` e `FILE.min.js`.
