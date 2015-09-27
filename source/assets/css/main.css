@@ -1020,7 +1020,7 @@ hr {
 	border: 0;
 	border-top: #f1f2f3 3px solid;
 	width: 100px;
-	margin: 0.777778em auto;
+	margin: 2.777778em auto;
 	padding: 0;
 }
 
@@ -1457,31 +1457,31 @@ body.error404 .main-header {
 
 .post .highlight,
 .post .disqus {
-	margin-left: -25px;
-	margin-right: -25px;
+	margin-left: -50px;
+	margin-right: -50px;
 }
 
 .post blockquote {
-	margin-right: -25px;
-	margin-left: -25px;
+	margin-right: -50px;
+	margin-left: -50px;
 	background-color: #f9f9f9;
 }
 
 .post .disqus {
 	background-color: #f7f8f9;
 	border-top: 1px solid #E3E3E3;
-	padding-bottom: 25px;
+	padding-bottom: 40px;
 }
 
 .post .disqus,
 .post .highlight pre {
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .post .highlight pre {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .post em {
@@ -2446,7 +2446,7 @@ html.swipebox-html.swipebox-touch {
 }
 
 .post {
-	padding: 25px 25px 0;
+	padding: 40px 50px;
 }
 
 body:not(.post-template) .post-title {

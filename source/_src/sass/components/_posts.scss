@@ -2,7 +2,8 @@
 // Posts
 //
 
-$post-spacing: 25px;
+$post-spacing-y: 40px;
+$post-spacing-x: 50px;
 $post-small-spacing: 15px;
 
 .post {
@@ -11,30 +12,31 @@ $post-small-spacing: 15px;
 
   .highlight,
   .disqus {
-    margin-left: -($post-spacing);
-    margin-right: -($post-spacing);
+    margin-left: -($post-spacing-x);
+    margin-right: -($post-spacing-x);
   }
 
   blockquote {
-    margin-right: -($post-spacing);
-    margin-left: -($post-spacing);
+    margin-right: -($post-spacing-x);
+    margin-left: -($post-spacing-x);
     background-color: #f9f9f9;
   }
 
   .disqus {
     background-color: #f7f8f9;
     border-top: 1px solid #E3E3E3;
-    padding-bottom: $post-spacing;
+    padding-bottom: $post-spacing-y;
   }
 
   .disqus,
   .highlight pre {
-    padding-left: $post-spacing;
-    padding-right: $post-spacing;
+    padding-left: $post-spacing-x;
+    padding-right: $post-spacing-x;
   }
+
   .highlight pre {
-    padding-top: $post-spacing;
-    padding-bottom: $post-spacing;
+    padding-top: $post-spacing-y;
+    padding-bottom: $post-spacing-y;
   }
 
   em {
@@ -42,7 +44,7 @@ $post-small-spacing: 15px;
   }
 
   @include media($screen-tablet) {
-    padding: $post-spacing $post-spacing 0;
+    padding: $post-spacing-y $post-spacing-x;
   }
 }
 
