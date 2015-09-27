@@ -84,3 +84,9 @@
 
 - slug: blog
   name: Blog
+
+- slug: generator
+  name: Generator
+
+- slug: yeoman
+  name: Yeoman
