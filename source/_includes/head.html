@@ -8,10 +8,10 @@
 <meta name="MobileOptimized" content="320">
 <meta name="theme-color" content="#212121">
 
-<title>{% if page.title == "Home" %}{{ site.name }} &bull; {{ site.description }}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}{% else %}{{ page.title }} &bull; {{ site.name }}{% endif %}</title>
+<title>{% if page.title == "Home" %}{{ site.name }} &bull; {{ site.description }}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %} {% else %}{%if page.slug == 'category' %}Categoria: {% endif %}{%if page.slug == 'tag' %}Tag: {% endif %} {{ page.title }} &bull; {{ site.name }}{% endif %}</title>
 
 <meta name="google-site-verification" content="zS1dSn20XtA4FJYEOQLXqI0boxZdMnJ2g3beje-cl20">
-<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}">
+<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }} {% endif %}{%if page.slug == 'category' %} Categoria: {{ page.title }}{% endif %}{%if page.slug == 'tag' %} Tag: {{ page.title }}{% endif %}">
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
 
 <meta property="og:locale" content="pt_BR">
