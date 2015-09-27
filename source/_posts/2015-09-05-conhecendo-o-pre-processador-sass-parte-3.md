@@ -64,3 +64,4 @@ Por enquanto é isso, obrigado.
  2. [Conhecendo o pré-processador SASS - Variáveis](/sass-variaveis-parte-2)
  3. Conhecendo o pré processador SASS - Mixins
  4. [Conhecendo o pré processador SASS - Funções](/sass-parte-4-funcoes)
+ 5. [Conhecendo o pré-processador SASS - Placeholder](/sass-parte-5-placeholder/)
