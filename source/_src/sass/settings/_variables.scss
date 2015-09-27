@@ -2,6 +2,8 @@
 // Variables
 //
 
+$family-base: "Droid Sans", Helvetica, Arial, sans-serif !default;
+$family-serif: "Droid Serif", sans-serif !default;
 $line-height: 1.8 !default;
 $font-size-base: 18px !default;
 
@@ -25,7 +27,7 @@ $black-color: #000 !default;
 $gray-color: darken($white-color, 42%) !default; // ~ #999
 
 $bg-color: #f5f6f7 !default;
-$txt-color: #606060 !default;
+$txt-color: rgba(lighten($black-color, 5%), .65) !default;
 
 $blue-color: #016BA9 !default;
 

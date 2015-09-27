@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(//fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+@import url(//fonts.googleapis.com/css?family=Droid+Serif:400,700);
 
 /*!
  * by nandomoreira.me | https://github.com/nandomoreirame
@@ -792,7 +794,7 @@ th {
 .alert {
 	background-color: #f5f6f7;
 	border: 1px #f1f2f3 solid;
-	color: #606060;
+	color: rgba(13, 13, 13, 0.65);
 	padding: 0.833333em 1.388889em;
 	margin-top: 0.833333em;
 	margin-bottom: 0.833333em;
@@ -909,11 +911,11 @@ html {
 }
 
 body {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
 	font-size: 1.125rem;
 	background-color: #f5f6f7;
 	line-height: 1.8;
-	color: #606060;
+	color: rgba(13, 13, 13, 0.65);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	letter-spacing: .01em;
@@ -925,6 +927,7 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: "Droid Serif", sans-serif;
 	margin: 1.388889em 0 0.833333em;
 }
 
@@ -947,7 +950,6 @@ h4,
 h5,
 h6 {
 	font-size: 1.25rem;
-	font-size: 1rem;
 }
 
 a {
@@ -1249,7 +1251,7 @@ a.newer-posts {
 	position: relative;
 	z-index: 100;
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
 	margin-top: 1.388889em;
 	color: #fff;
 	transition: all 0.1s linear;
@@ -1294,7 +1296,7 @@ a.newer-posts {
 .scroll-up,
 .scroll-up:hover,
 .scroll-up:focus {
-	color: #606060;
+	color: rgba(13, 13, 13, 0.65);
 }
 
 .scroll-down:hover,
@@ -1383,7 +1385,7 @@ body.error404 .main-header {
 .search-label {
 	margin-bottom: 20px;
 	font-weight: 700;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 1rem;
@@ -1391,7 +1393,7 @@ body.error404 .main-header {
 }
 
 .search-container {
-	padding: 5em 10em;
+	padding: 10em 10em 0;
 	color: #fff;
 }
 
@@ -1418,7 +1420,7 @@ body.error404 .main-header {
 
 .search-container input[type="text"] {
 	text-align: center;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
 	width: 100%;
 	padding: 0;
 	font-size: 6.25rem;
@@ -1508,7 +1510,7 @@ body:not(.post-template) .post-title {
 .post-title a,
 .post-excerpt a {
 	border: none;
-	color: #606060;
+	color: rgba(13, 13, 13, 0.65);
 }
 
 .post-title a:hover,
@@ -2146,7 +2148,7 @@ html.swipebox-html.swipebox-touch {
 }
 
 .pagination a {
-	color: #606060;
+	color: rgba(13, 13, 13, 0.65);
 	transition: all 0.2s linear;
 }
 
@@ -2166,7 +2168,7 @@ html.swipebox-html.swipebox-touch {
 .older-posts:focus,
 .newer-posts:hover,
 .newer-posts:focus {
-	color: #606060;
+	color: rgba(13, 13, 13, 0.65);
 	border-color: #bdb76b !important;
 	background-color: #fff;
 }
@@ -2180,7 +2182,7 @@ html.swipebox-html.swipebox-touch {
 }
 
 .page-number {
-	color: #606060;
+	color: rgba(13, 13, 13, 0.65);
 	display: inline-block;
 	padding: 8px 0;
 	min-width: 100px;
@@ -2316,7 +2318,7 @@ html.swipebox-html.swipebox-touch {
 }
 
 .post-footer .share a:hover {
-	color: #606060;
+	color: rgba(13, 13, 13, 0.65);
 }
 
 .author-meta {

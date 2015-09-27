@@ -5,7 +5,7 @@
 .search-label {
   margin-bottom: 20px;
   font-weight: 700;
-  font-family: "Open Sans", sans-serif;
+  font-family: $family-base;
   text-transform: uppercase;
   color: $white-color;
   @include font-size(16px);
@@ -18,7 +18,7 @@
 }
 
 .search-container {
-  padding: 5em 10em;
+  padding: 10em 10em 0;
   color: $white-color;
 
   ul {
@@ -44,7 +44,7 @@
 
   input[type="text"] {
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: $family-base;
     width: 100%;
     padding: 0;
     @include font-size(100px);

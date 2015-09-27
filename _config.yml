@@ -2,28 +2,31 @@ permalink   : /:title/
 markdown    : kramdown
 highlighter : pygments
 
-# site title, description, meta_description, meta_keywords
-name: 'Fernando Moreira'
-description: "Desenvolvimento Web e tudo mais.."
-meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript."
-meta_keywords: "site, Curitiba, PR, Website, loja virtual, lojas virtuais, E-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimização, performance"
-
 paginate: 6
 comments: true
 paginate_path: "/page/:num"
 
 baseurl: ""
-domain_name: 'nandomoreira.me'
-google_analytics: 'UA-52446115-1'
+domain_name: nandomoreira.me
+google_analytics: UA-52446115-1
 
-cover: '/assets/images/header-cover.jpg'
+source:      source
+destination: _site
 
+cover: /assets/images/header-cover.jpg
+
+# site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
-url: 'http://nandomoreira.me'
-production_url: 'http://nandomoreira.me'
+name: Fernando Moreira
+description: Desenvolvimento Web e tudo mais..
+meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript."
+meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
+url: http://nandomoreira.me
+production_url: http://nandomoreira.me
+rss_path: source/
 author:
-  name     : 'Fernando Moreira'
-  image    : '/assets/images/author.jpg'
+  name     : Fernando Moreira
+  image    : /assets/images/author.jpg
   email    : hi@nandomoreira.me
   url      : http://nandomoreira.me
   facebook : https://www.facebook.com/fernando.dev
