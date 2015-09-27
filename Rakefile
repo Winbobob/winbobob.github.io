@@ -4,6 +4,8 @@ require "tmpdir"
 require "bundler/setup"
 require "jekyll"
 
+# git remote set-url origin git@github.com:nandomoreirame/nandomoreirame.github.io.git
+# git remote set-url origin https://github.com/nandomoreirame/nandomoreirame.github.io.git
 # Change your GitHub reponame
 GITHUB_REPONAME = "nandomoreirame/nandomoreirame.github.io"
 
@@ -41,9 +43,8 @@ task :publish => [:generate] do
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
-    # git remote add origin https://github.com/nandomoreirame/nandomoreirame.github.io.git
-    system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
-    # system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    # system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
+    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
     system "git push origin master --force"
 
     Dir.chdir pwd
