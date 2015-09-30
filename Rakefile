@@ -162,7 +162,7 @@ task :category do
   end
 
   puts "Write in categories.yml file"
-  open('_data/categories.yml', 'ab+') do |category|
+  open("#{SOURCE}_data/categories.yml", 'ab+') do |category|
     category.puts ""
     category.puts "- slug: #{slug}"
     category.puts "  name: #{title}"
@@ -193,7 +193,7 @@ task :tag do
   end
 
   puts "Write in tags.yml file"
-  open('_data/tags.yml', 'ab+') do |tag|
+  open("#{SOURCE}_data/tags.yml", 'ab+') do |tag|
     tag.puts ""
     tag.puts "- slug: #{slug}"
     tag.puts "  name: #{title}"

@@ -792,7 +792,7 @@ th {
 /* alert */
 
 .alert {
-	background-color: #f5f6f7;
+	background-color: #e8e8e8;
 	border: 1px #f1f2f3 solid;
 	color: rgba(13, 13, 13, 0.65);
 	padding: 0.833333em 1.388889em;
@@ -887,7 +887,7 @@ th {
 	background-color: #fff;
 	padding: 1.388889em;
 	margin: 0;
-	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 0 0, 0 6px 12px rgba(34, 34, 34, 0.1);
 }
 
 /* ==========================================================================
@@ -913,7 +913,7 @@ html {
 body {
 	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
 	font-size: 1.125rem;
-	background-color: #f5f6f7;
+	background-color: #e8e8e8;
 	line-height: 1.8;
 	color: rgba(13, 13, 13, 0.65);
 	-webkit-font-smoothing: antialiased;
@@ -1029,8 +1029,9 @@ figure {
 }
 
 blockquote {
-	margin: 0.944444em 0 0.944444em -2.2em;
-	padding: 5px 20px;
+	background-color: #f9f9f9;
+	margin: 0.944444em -50px 0.944444em;
+	padding: 5px 45px;
 	border-left: 5px solid #bdb76b;
 	font-weight: 700;
 }
@@ -1359,9 +1360,9 @@ a.newer-posts {
 }
 
 .page-description nav a {
-	margin-top: 15px;
 	display: block;
 	border: none;
+	margin: 0;
 }
 
 .page-description a:hover,
@@ -1459,12 +1460,6 @@ body.error404 .main-header {
 .post .disqus {
 	margin-left: -50px;
 	margin-right: -50px;
-}
-
-.post blockquote {
-	margin-right: -50px;
-	margin-left: -50px;
-	background-color: #f9f9f9;
 }
 
 .post .disqus {

@@ -19,7 +19,7 @@ cover: /assets/images/header-cover.png
 # Details for the RSS feed generator
 name: Fernando Moreira
 description: Desenvolvimento Web e tudo mais..
-meta_description: "Desenvolvedor Front-end/Wordpress, Design responsivo, HTML5, CSS3 e JavaScript."
+meta_description: "Desenvolvedor Front-end/Wordpress, design responsivo, HTML5, CSS3 e JavaScript."
 meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
 url: http://nandomoreira.me
 production_url: http://nandomoreira.me
@@ -31,7 +31,7 @@ author:
   url      : http://nandomoreira.me
   facebook : https://www.facebook.com/fernando.dev
   twitter  : https://twitter.com/nandomoreirame
-  bio      : "Desenvolvedor front-end na <a href='http://twitter.com/malapronta' target='_blank'>@MalaPronta</a>, entusiasta de performance e usabilidade, sempre em busca do melhor projeto e de um bom café."
+  bio      : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
 
 # Custom vars
 version: 1.0.0

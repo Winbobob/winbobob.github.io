@@ -31,6 +31,9 @@
 - slug: ruby
   name: Ruby
 
+- slug: geral
+  name: Geral
+
 - slug: ubuntu
   name: Ubuntu
 
@@ -90,3 +93,6 @@
 
 - slug: yeoman
   name: Yeoman
+
+- slug: trabalho
+  name: Trabalho

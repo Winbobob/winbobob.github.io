@@ -7,6 +7,7 @@ var $ = require('gulp-load-plugins')();
 var gulp = require('gulp');
 
 gulp.task('sass', function () {
+  console.log(config.dest.css);
   return $.rubySass(config.sass + 'main.scss', {
       "compass": true,
       "precision": 6,
