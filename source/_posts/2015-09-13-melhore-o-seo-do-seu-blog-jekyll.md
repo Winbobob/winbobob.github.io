@@ -20,7 +20,7 @@ A principal funcionalidade do Jekyll é gerar HTML estático através do Ruby e 
 
 Nesse artigo vou citar algumas dicas de como não falhar no **SEO** na hora de criar o seu blog com **Jekyll**.
 
-## Não repitir title nem description
+## Não repetir title nem description
 
 Segundo o nosso "endeuzado" **Google**, o seu site não pode conter páginas com o mesmo título nem a mesma descrição, no Jekyll isso ocorre com frequência quando você cria a paginação dos seus artigos.
 
