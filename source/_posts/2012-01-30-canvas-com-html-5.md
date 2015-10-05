@@ -70,7 +70,7 @@ Pronto! Salve seus arquivos e visualize:
 
 você verá um desenho como esse:
 
-![canvas-menino](/assets/images/posts/canvas-menino.png)
+![canvas-menino](/assets/images/posts/2012/01/canvas-menino.png)
 
 <a href="https://github.com/nandomoreirame/canvas_menino">Repositório</a> | <a href="https://github.com/nandomoreirame/canvas_menino/archive/master.zip">Download</a>
 

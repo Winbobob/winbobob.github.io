@@ -1,5 +1,3 @@
-
-var disqus_shortname = 'fernandomoreira';
 (function () {
   var s = document.createElement('script');
   s.async = true;

@@ -5,7 +5,7 @@ permalink: 8-meses-de-malapronta
 date: 2015-09-30 08:49:56
 comments: true
 description: "Eu queria poder dizer que to feliz com tudo isso, mas não to. Eu amava trabalhar lá, apesar de muitas intrigas e desavenças, eu amava meu emprego."
-cover: /assets/images/posts/galera-do-porao-malapronta-original.jpg
+cover: /assets/images/posts/2015/09/galera-do-porao-malapronta-original.jpg
 keywords: ""
 categories:
 - geral
@@ -82,9 +82,9 @@ Sempre vou sentir saudades das pessoas do porão da MalaPronta, vulgo **3° anda
 
 <div class="gallery">
   <figure class="thumb">
-    <a href="{{ 'posts/galera-do-porao-malapronta.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
+    <a href="{{ 'posts/2015/09/galera-do-porao-malapronta.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
 
-      {% image posts/galera-do-porao-malapronta.jpg alt="Galera do Porão da MalaPronta" [autosize] %}
+      {% image posts/2015/09/galera-do-porao-malapronta.jpg alt="Galera do Porão da MalaPronta" [autosize] %}
 
     </a>
   </figure>

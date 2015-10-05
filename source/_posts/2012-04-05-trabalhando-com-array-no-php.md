@@ -12,7 +12,7 @@ tags:
 - php
 - programacao
 - tutorial
-cover: '/assets/images/posts/php-default.jpg'
+cover: '/assets/images/posts/2011/11/php-default.jpg'
 ---
 
 Um array é uma forma de armazenamento de variáveis que podem ser acessadas por índices, sejam eles numéricos ou não.

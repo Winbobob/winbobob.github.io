@@ -6,7 +6,7 @@ date: 2015-09-01 11:01:02
 comments: true
 description: "Todo desenvolvedor web deveria conhecer algum pré-processador CSS, seja ele Less, SASS, Stylus ou qualquer outro"
 keywords: "sass, css, scss, pre-processador, pre-processadores"
-cover: /assets/images/posts/conhecendo-o-pre-processador-sass.jpg
+cover: /assets/images/posts/2015/09/conhecendo-o-pre-processador-sass.jpg
 categories:
  - sass
 tags:

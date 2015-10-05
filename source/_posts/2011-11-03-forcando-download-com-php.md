@@ -9,7 +9,7 @@ tags:
 - php
 - programacao
 comments: true
-cover: '/assets/images/posts/php-default.jpg'
+cover: '/assets/images/posts/2011/11/php-default.jpg'
 ---
 
 

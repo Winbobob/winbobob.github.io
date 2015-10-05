@@ -5,7 +5,7 @@ permalink: sass-variaveis-parte-2
 date: 2015-09-02 17:57:12
 comments: true
 description: "Conhecendo o pré-processador SASS - Variáveis"
-cover: /assets/images/posts/conhecendo-o-pre-processador-sass.jpg
+cover: /assets/images/posts/2015/09/conhecendo-o-pre-processador-sass.jpg
 keywords: "sass, css, scss, pre-processador, pre-processadores, variáveis"
 categories:
  - sass

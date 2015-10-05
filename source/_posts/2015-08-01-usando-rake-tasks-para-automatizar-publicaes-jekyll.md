@@ -40,8 +40,8 @@ end
 
 Se você rodar no seu terminal o comando `rake hello` aparecerá na tela, bem bonitão, o nosso famoso "Hello World".
 
-<a href="/assets/images/posts/rake-hello-world.png" class="swipebox" rel="gallery" title="{{ page.title }}">
-  <img src="/assets/images/posts/rake-hello-world.png" alt="{{ page.title }}">
+<a href="/assets/images/posts/2015/08/rake-hello-world.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/2015/08/rake-hello-world.png" alt="{{ page.title }}">
 </a>
 
 Pronto, agora você aprendeu a criar uma Rake task, se você for criativo e souber o básico de Ruby você fará coisas incríveis com elas.
@@ -92,8 +92,8 @@ end
 
 Fácil não? Basta passar o título do post como parâmentro pelo terminal assim: `rake post title="Rake é bem legal"`, note que se você deixar vazio ele automaticamente coloca `Novo post` como valor padrão para o título.
 
-<a href="/assets/images/posts/rake-post-title.png" class="swipebox" rel="gallery" title="{{ page.title }}">
-  <img src="/assets/images/posts/rake-post-title.png" alt="rake post title">
+<a href="/assets/images/posts/2015/08/rake-post-title.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/2015/08/rake-post-title.png" alt="rake post title">
 </a>
 
 Agora que você aprendeu a passar parâmetros para sua rake task, use a criatividade e adicione os parâmetros de *tags* e *categorias* para o seu post.
@@ -125,8 +125,8 @@ task :post do
 end
 {% endhighlight %}
 
-<a href="/assets/images/posts/rake-e-bem-legal.png" class="swipebox" rel="gallery" title="{{ page.title }}">
-  <img src="/assets/images/posts/rake-e-bem-legal.png" alt="rake e bem legal">
+<a href="/assets/images/posts/2015/08/rake-e-bem-legal.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/2015/08/rake-e-bem-legal.png" alt="rake e bem legal">
 </a>
 
 É uma solução bem bizarra, mas funciona :)
@@ -156,8 +156,8 @@ task :post do
 end
 {% endhighlight %}
 
-<a href="/assets/images/posts/rake-post-date-time.png" class="swipebox" rel="gallery" title="{{ page.title }}">
-  <img src="/assets/images/posts/rake-post-date-time.png" alt="rake - date time">
+<a href="/assets/images/posts/2015/08/rake-post-date-time.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/2015/08/rake-post-date-time.png" alt="rake - date time">
 </a>
 
 Usando método `File.join()` vamos concatenar a data, o slug e a extensão do arquivo armazenando na variável `filename`:
@@ -182,8 +182,8 @@ task :post do
 end
 {% endhighlight %}
 
-<a href="/assets/images/posts/rake-post-filename.png" class="swipebox" rel="gallery" title="{{ page.title }}">
-  <img src="/assets/images/posts/rake-post-filename.png" alt="rake - post filename">
+<a href="/assets/images/posts/2015/08/rake-post-filename.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/2015/08/rake-post-filename.png" alt="rake - post filename">
 </a>
 
 ### Salvando o arquivo do post

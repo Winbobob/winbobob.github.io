@@ -6,7 +6,7 @@ date: 2015-09-27 00:57:16
 comments: true
 description: "Eu criei um repositório no Github onde mantenho atualizado com um boilerplate para Gulp, o repositório era pra ser pessoal mas eu resolvi compartilhar."
 keywords: "gulp, gulpjs, yeoman, npm, generator"
-cover: /assets/images/posts/yeoman.jpg
+cover: /assets/images/posts/2015/09/yeoman.jpg
 categories:
 - gulp
 tags:
@@ -15,7 +15,7 @@ tags:
 - yeoman
 ---
 
-{% image posts/yeoman.jpg alt="Yeoman" [autosize] %}
+{% image posts/2015/09/yeoman.jpg alt="Yeoman" [autosize] %}
 
 Eu criei um [repositório](https://github.com/nandomoreirame/gulp-boilerplate) no [Github](https://github.com/) onde mantenho atualizado com um **boilerplate** para Gulp, o repositório era pra ser pessoal mas eu resolvi compartilhar.
 
@@ -70,7 +70,7 @@ yo gulp-boilerplate
 
 O generator vai criar todo o _"start"_ do projeto pra você, sem reclamar ;)
 
-{% image posts/yeoman-generator-gulp-boilerplate.png alt="Yeoman Generator Gulp Boilerplate" [autosize] %}
+{% image posts/2015/09/yeoman-generator-gulp-boilerplate.png alt="Yeoman Generator Gulp Boilerplate" [autosize] %}
 
 ## Raio-x do Gulp Boilerplate
 

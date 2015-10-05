@@ -22,7 +22,7 @@ Segue alguns logo abaixo:
 
 **Quade**
 
-<img alt="" src="/assets/images/posts/quagal.jpg">
+<img alt="" src="/assets/images/posts/2011/11/quagal.jpg">
 
 <a href="http://jinsonathemes.com/tumblog/?themedemo=Quade" target="_blank">Preview</a> | <a title="download Quade" href="http://www.web2feel.com/download/Quade.zip" target="_blank">Download</a>
 
@@ -30,25 +30,25 @@ Segue alguns logo abaixo:
 
 **Preta**
 
-<img alt="" src="/assets/images/posts/petrgal.jpg">
+<img alt="" src="/assets/images/posts/2011/11/petrgal.jpg">
 
 <a href="http://jinsonathemes.com/fabs/?themedemo=Petra" target="_blank">Preview</a> | <a href="http://www.web2feel.com/download/Petra.zip" target="_blank">Download</a>
 
 **Geleria**
 
-<img alt="" src="/assets/images/posts/galgal.jpg">
+<img alt="" src="/assets/images/posts/2011/11/galgal.jpg">
 
 <a href="http://jinsonathemes.com/galleria/" target="_blank">Preview</a> | <a href="http://www.web2feel.com/download/Galleria.zip" target="_blank">Downloa**d**</a>
 
 **Womack**
 
-<img alt="" src="/assets/images/posts/womagal.jpg">
+<img alt="" src="/assets/images/posts/2011/11/womagal.jpg">
 
 <a href="http://www.jinsonathemes.com/fabs/?themedemo=Womack" target="_blank">Preview</a> | <a href="http://www.web2feel.com/download/Womack.zip" target="_blank">Download</a>
 
 **Rhea**
 
-<img alt="" src="/assets/images/posts/rheagal.jpg">
+<img alt="" src="/assets/images/posts/2011/11/rheagal.jpg">
 
 <a href="http://www.jinsonathemes.com/fabs/?themedemo=Rhea" target="_blank">Preview</a> | <a href="http://www.web2feel.com/download/Rhea.zip" target="_blank">Download</a>
 

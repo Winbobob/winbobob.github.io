@@ -15,7 +15,7 @@ tags:
 - twitter
 
 comments: true
-cover: '/assets/images/posts/witter-feed-com-jquery-e-php-api-1-1.jpg'
+cover: '/assets/images/posts/2014/07/twitter-feed-com-jquery-e-php-api-1-1.jpg'
 ---
 
 Hoje vamos criar um box com feed do twitter utilizando a nova <a href="https://dev.twitter.com/docs/platform-objects" target="_blank">api 1.1</a> com jQuery e PHP.

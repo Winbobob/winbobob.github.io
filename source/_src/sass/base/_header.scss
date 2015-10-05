@@ -6,7 +6,7 @@
   position: relative;
   display: table;
   width: 100%;
-  height: 360px;
+  height: em(360px);
   // margin-bottom: em(20px);
   margin-bottom: 0;
   text-align: center;
@@ -22,7 +22,7 @@
   }
 
   @include media($screen-tablet) {
-    height: 460px;
+    height: em(460px);
     margin-bottom: em(50px);
   }
 

@@ -6,7 +6,7 @@ date: 2015-09-13 02:59:27
 comments: true
 description: "Fazer um blog usando Jekyll é bem fácil e rápido, sem contar que é incrível poder hospedar no Github"
 keywords: "jekyll, blog, seo, dicas"
-cover: '/assets/images/posts/2015-07-21-por-que-resolvi-criar-meu-blog-com-o-jekyll.jpg'
+cover: '/assets/images/posts/2015/07/por-que-resolvi-criar-meu-blog-com-o-jekyll.jpg'
 categories:
  - jekyll
 tags:

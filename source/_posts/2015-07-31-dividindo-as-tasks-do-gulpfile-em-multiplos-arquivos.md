@@ -40,8 +40,8 @@ Feito isso, crie suas tarefas dentro do retório `tasks` que todas serão inclus
 
 Aqui eu criei e ficou mais ou menos [assim]():
 
-<a href="/assets/images/posts/tasks-do-gulpfile-em-multiplos-arquivos.png" class="swipebox" rel="gallery" title="{{ page.title }}">
-  <img src="/assets/images/posts/tasks-do-gulpfile-em-multiplos-arquivos.png" alt="{{ page.title }}">
+<a href="/assets/images/posts/2015/07/tasks-do-gulpfile-em-multiplos-arquivos.png" class="swipebox" rel="gallery" title="{{ page.title }}">
+  <img src="/assets/images/posts/2015/07/tasks-do-gulpfile-em-multiplos-arquivos.png" alt="{{ page.title }}">
 </a>
 
 o meu arquivo `gulpfile.js` ficou assim:

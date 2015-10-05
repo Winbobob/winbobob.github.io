@@ -5,7 +5,7 @@ permalink: instalando-nodejs-012-no-ubuntu-via-apt-get
 date: 2015-08-10 00:10:30
 comments: true
 description: "Salve galera! Hoje vou explicar como instalar o NodeJS no Ubuntu via apt-get"
-cover: /assets/images/posts/instalando-nodejs-no-ubuntu.jpg
+cover: /assets/images/posts/2015/08/instalando-nodejs-no-ubuntu.jpg
 keywords: "nodejs, ubuntu, node"
 categories:
 - ubuntu

@@ -6,7 +6,7 @@ date: 2015-09-26 22:22:13
 comments: true
 description: "Gulp 4 não foi liberado ainda e se você não pode esperar para colocar suas mãos sobre ele, aqui vai como instalar o Gulp 4"
 keywords: "gulp, gulpjs, node, nodejs, dicas, gulp4"
-cover: /assets/images/posts/meu-ambiente-gulpjs.png
+cover: /assets/images/posts/2015/08/meu-ambiente-gulpjs.png
 categories:
 - gulp
 tags:

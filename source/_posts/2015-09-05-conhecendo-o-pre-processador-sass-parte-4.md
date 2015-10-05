@@ -5,7 +5,7 @@ permalink: sass-parte-4-funcoes
 date: 2015-09-05 21:58:04
 comments: true
 description: "Conhecendo o pré-processador SASS-Parte 4"
-cover: /assets/images/posts/conhecendo-o-pre-processador-sass.jpg
+cover: /assets/images/posts/2015/09/conhecendo-o-pre-processador-sass.jpg
 keywords: "sass, css, scss, pre-processador, pre-processadores"
 categories:
  - sass

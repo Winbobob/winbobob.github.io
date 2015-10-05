@@ -11,12 +11,12 @@ categories:
 tags:
 - meetup
 - eventos
-cover: /assets/images/posts/meetup-wp/meet-cover.jpg
+cover: /assets/images/posts/2015/08/meetup-wp/meet-cover.jpg
 ---
 
 ## Queremos MeetUp WordPress!
 
-{% image posts/meetup-wp/meet-cover.jpg alt="Meetup Wordpress Curitiba - Capa" [autosize] %}
+{% image posts/2015/08/meetup-wp/meet-cover.jpg alt="Meetup Wordpress Curitiba - Capa" [autosize] %}
 
 [Walter](http://fb.com/waltinhojaworski), [Rômulo](http://fb.com/romulo.zoch) e o [Kossmann](http://fb.com/danielkferraz) que tomaram toda a iniciativa de criar o **[MeetUp WordPress](http://www.meetup.com/pt/wpcuritiba/)**, eu fiquei sabendo que estava tudo já organizado uma semana antes do evento.. Mais de 50 pessoas se inscreveram, e pouco mais 20 compareceram.. ainda bem, porque a sala já estava lotada, hehehe..
 
@@ -91,26 +91,26 @@ A moçada começou a se conhecer melhor, rolou troca de conhecimento, cartões d
 <div class="gallery">
 
   <figure class="thumb">
-    <a href="{{ 'posts/meetup-wp/meetup-galera.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
-      {% image posts/meetup-wp/meetup-galera.jpg alt="Meetup Wordpress Curitiba - Toda Galera" [autosize] %}
+    <a href="{{ 'posts/2015/08/meetup-wp/meetup-galera.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
+      {% image posts/2015/08/meetup-wp/meetup-galera.jpg alt="Meetup Wordpress Curitiba - Toda Galera" [autosize] %}
     </a>
   </figure>
 
   <figure class="thumb">
-    <a href="{{ 'posts/meetup-wp/meetup-galera-2.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
-      {% image posts/meetup-wp/meetup-galera-2.jpg alt="Meetup Wordpress Curitiba - Toda Galera" [autosize] %}
+    <a href="{{ 'posts/2015/08/meetup-wp/meetup-galera-2.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
+      {% image posts/2015/08/meetup-wp/meetup-galera-2.jpg alt="Meetup Wordpress Curitiba - Toda Galera" [autosize] %}
     </a>
   </figure>
 
   <figure class="thumb">
-    <a href="{{ 'posts/meetup-wp/meetup-palestra-seo.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
-      {% image posts/meetup-wp/meetup-palestra-seo.jpg alt="Meetup Wordpress Curitiba - Palestra de SEO para Wordpress" [autosize] %}
+    <a href="{{ 'posts/2015/08/meetup-wp/meetup-palestra-seo.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
+      {% image posts/2015/08/meetup-wp/meetup-palestra-seo.jpg alt="Meetup Wordpress Curitiba - Palestra de SEO para Wordpress" [autosize] %}
     </a>
   </figure>
 
   <figure class="thumb">
-    <a href="{{ 'posts/meetup-wp/meetup-palestra-seo-2.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
-      {% image posts/meetup-wp/meetup-palestra-seo-2.jpg alt="Meetup Wordpress Curitiba - Palestra de SEO para Wordpress" [autosize] %}
+    <a href="{{ 'posts/2015/08/meetup-wp/meetup-palestra-seo-2.jpg' | asset_path }}" class="swipebox" rel="gallery" title="{{ page.title }}">
+      {% image posts/2015/08/meetup-wp/meetup-palestra-seo-2.jpg alt="Meetup Wordpress Curitiba - Palestra de SEO para Wordpress" [autosize] %}
     </a>
   </figure>
 
