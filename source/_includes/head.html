@@ -14,15 +14,16 @@
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }} {% endif %}{%if page.slug == 'category' %} Categoria: {{ page.title }}{% endif %}{%if page.slug == 'tag' %} Tag: {{ page.title }}{% endif %}">
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
 
-<meta property="og:locale" content="pt_BR">
-<meta property="og:type" content="{% if page.id %}article{% else %}website{% endif %}">
-<meta property="og:title" content="{{ site.name }} - {{ site.description }}">
-<meta property="og:description" content="{{ site.name }} - {{ site.meta_description }}">
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.author.name }}">
-<meta property="article:publisher" content="{{ site.author.facebook }}">
-<meta property="fb:app_id" content="668905279849616">
+<meta property="og:title" content="{{ site.name }} - {{ site.description }}">
+<meta property="og:description" content="{{ site.name }} - {{ site.meta_description }}">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="{% if page.id %}article{% else %}website{% endif %}">
+<meta property="og:author" content="{{ site.author.facebook }}">
 <meta property="og:image" content="{% if page.cover %}{{ page.cover | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.cover | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+
+<meta property="article:publisher" content="{{ site.author.facebook }}">
 {% if page.id %}
 <meta property="article:published_time" content="{{ page.date }}">
 <meta property="article:modified_time" content="{{ page.date }}">
@@ -39,12 +40,13 @@
     {% endfor %}
   {% endif %}
 {% endif %}
+
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@nandomoreirame">
+<meta name="twitter:creator" content="@nandomoreirame">
 <meta name="twitter:domain" content="{{ site.url }}">
 <meta name="twitter:title" content="{% if page.title == "Home" %}{{ site.name }}{% else %}{{ page.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}">
-<meta name="twitter:creator" content="@nandomoreirame">
 <meta name="twitter:image:src" content="{{ 'author.jpg' | asset_path | prepend: site.baseurl | prepend: site.url }}">
 
 <link rel="apple-touch-icon" sizes="114x114" href="{{ 'ico/apple-touch-icon-114.png' | asset_path | prepend: site.baseurl | prepend: site.url }}">
