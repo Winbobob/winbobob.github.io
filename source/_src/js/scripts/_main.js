@@ -19,6 +19,20 @@
     }
   });
 
+  // Parallax Ccrolling
+  var parallaxElements = $('[data-parallax]'),
+      browserWindow = $(window);
+
+  $.each(parallaxElements, function(index, value) {
+    var $this = $(value),
+        speed = $this.data('parallax');
+
+    browserWindow.scroll(function() {
+      var offset = -(browserWindow.scrollTop() / speed);
+      $this.css({ backgroundPosition: '50% ' + offset + 'px' });
+    });
+  });
+
   $.fn.scrolltoo = function (options) {
 
     var defaults = {

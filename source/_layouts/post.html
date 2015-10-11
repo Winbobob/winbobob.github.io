@@ -6,7 +6,7 @@ post_class: post-template
 slug: single
 ---
 
-<header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})">
+<header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})" data-parallax="9">
   {% include nav.html %}
   <div class="vertical">
     <div class="main-header-content inner">

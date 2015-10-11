@@ -1227,7 +1227,7 @@ a.newer-posts {
 	height: 20em;
 	margin-bottom: 0;
 	text-align: center;
-	background: #222 no-repeat center center;
+	background: #222 no-repeat 50% 0;
 	background-size: cover;
 	overflow: hidden;
 }
