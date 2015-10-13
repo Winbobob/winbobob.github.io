@@ -31,12 +31,14 @@ Outro requisito, caso não seja possível cumprir com o primeiro, é a _**troca 
 
 Eu tenho amplo conhecimento em tecnologias para _front-end_ como **HTML(Jekyll/liquid, jade, Haml, Erb), CSS(CSS3, SASS, Less, Stylus) e Javascript(jQuery, AngularJS, NodeJS, Gulp.js)**, e eu posso contribuir com o seu projeto **SEM LHE COBRAR NADA POR ISSO**, se e somente se, você tiver algum conhecimento(que possa ser de meu interesse, claro) você pode ensina-lo a mim, seria algo como: _uma nova linguagem de programação, um framework bacana, tocar violão, guitarra, sax, bombardão, teclado, piano, dançar, cozinhar..._ ou seja qualquer coisa mesmo!!!
 
-## Conclusão
+## E aí, Bora?
 
-Eu apoio totalmente a troca deconhecimento, seja ela em uma boa conversa sobre culinária ou em um repositório no _Github_.
+Eu apoio totalmente a troca deconhecimento, seja em uma boa conversa sobre culinária ou em um repositório no _Github_.
 
-Vamos lá, você quer troca figurinhas comigo? Seu projeto está no _Github_? Você sabe tocar algum instrumento? Podemos nos encontrar e conversar sobre o assunto, podemos fazer isso acontecer.
+Você quer troca figurinhas comigo? Seu projeto está no _Github_ e você precisa de um front-end? Você sabe tocar algum instrumento e tem um projeto bacana para colocar no ar? Podemos nos encontrar e conversar sobre o assunto, podemos fazer isso acontecer...
 
-**Só se for agora!**
+... juntos!
+
+**Só se for agora \o/**
 
 /end
