@@ -29,6 +29,18 @@
   @include media($screen-desktop) {
     height: 100%;
   }
+
+  img {
+    border: 1px solid rgba(#fff, .5);
+    padding: 5px;
+    width: 100px;
+  }
+}
+
+.page-template {
+  .main-header {
+    height: em(360px);
+  }
 }
 
 .main-nav {
@@ -130,20 +142,32 @@
   }
 }
 
+.page-description {
+  color: $white-color;
+  @include font-size(20px);
+  font-style: italic;
+}
+
 .page-title {
   border: none;
-  margin: 0 0 10px 0;
+  margin: 0 0 em(20px) 0;
   @include font-size(30px);
   letter-spacing: -1px;
   font-weight: 700;
   color: $white-color;
+
+  strong,
+  span {
+    color: $primary-color;
+  }
 
   @include media($screen-tablet) {
     @include font-size(42px);
   }
 
   @include media($screen-desktop) {
-    @include font-size(53px);
+    @include font-size(46px);
+    line-height: 1;
   }
 
   @include media(max-width $screen-phone) {
@@ -157,28 +181,31 @@
   }
 }
 
-.page-description {
+.page-nav {
   margin: 0;
-  @include font-size(16px);
-  font-weight: 400;
+  display: block;
+  margin-top: em(20px);
+  margin-bottom: em(15px);
 
   &, a {
     color: rgba($white-color, .7);
   }
 
-  nav {
-    display: block;
-    margin-top: em(40px);
-    margin-bottom: em(10px);
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
-    a {
+    li {
       display: block;
-      border: none;
-      margin: 0;
+      text-align: center;
     }
   }
 
   a {
+    border: none;
+    margin: 0;
+
     &:hover,
     &:focus {
       color: $white-color;

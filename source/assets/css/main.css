@@ -1237,6 +1237,16 @@ a.newer-posts {
 	max-width: 47.777778em;
 }
 
+.main-header img {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	width: 100px;
+}
+
+.page-template .main-header {
+	height: 20em;
+}
+
 .main-nav {
 	position: absolute;
 	top: 0;
@@ -1333,40 +1343,56 @@ a.newer-posts {
 	background: none;
 }
 
+.page-description {
+	color: #fff;
+	font-size: 1.25rem;
+	font-style: italic;
+}
+
 .page-title {
 	border: none;
-	margin: 0 0 10px 0;
+	margin: 0 0 1.111111em 0;
 	font-size: 1.875rem;
 	letter-spacing: -1px;
 	font-weight: 700;
 	color: #fff;
 }
 
-.page-description {
-	margin: 0;
-	font-size: 1rem;
-	font-weight: 400;
+.page-title strong,
+.page-title span {
+	color: #bdb76b;
 }
 
-.page-description,
-.page-description a {
+.page-nav {
+	margin: 0;
+	display: block;
+	margin-top: 1.111111em;
+	margin-bottom: 0.833333em;
+}
+
+.page-nav,
+.page-nav a {
 	color: rgba(255, 255, 255, 0.7);
 }
 
-.page-description nav {
-	display: block;
-	margin-top: 2.222222em;
-	margin-bottom: 0.555556em;
+.page-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
-.page-description nav a {
+.page-nav ul li {
 	display: block;
+	text-align: center;
+}
+
+.page-nav a {
 	border: none;
 	margin: 0;
 }
 
-.page-description a:hover,
-.page-description a:focus {
+.page-nav a:hover,
+.page-nav a:focus {
 	color: #fff;
 }
 
@@ -1377,7 +1403,6 @@ body.error404 .main-header {
 .site-footer {
 	margin-top: 1.388889em;
 	padding: 1.388889em 0.555556em;
-	border-top: 1px solid #EBF2F6;
 	text-align: center;
 	font-size: 0.75rem;
 	color: #acacac;
@@ -2490,10 +2515,11 @@ body:not(.post-template) .post-title {
 }
 
 .page-title {
-	font-size: 3.3125rem;
+	font-size: 2.875rem;
+	line-height: 1;
 }
 
-.page-description {
+.page-nav {
 	font-size: 1.375rem;
 }
 

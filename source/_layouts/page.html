@@ -1,29 +1,26 @@
 ---
 layout: default
+post_class: page-template
 ---
 
-<header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})" data-parallax="9">
+<header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})" data-parallax="15">
   {% include nav.html %}
   <div class="vertical">
     <div class="main-header-content inner">
       <h1 class="page-title">{{ page.title }}</h1>
 
       {% if page.slug == 'about' %}
-        <br>
         <figure class="fade-in-down">
           <img src="{{ site.author.image }}" class="dot" title="{{ site.author.name }}" alt="{{ site.author.name }}">
         </figure>
-
-        <div class="page-description">
-          <nav>
-            <a href='{{ "/projetos" | prepend: site.baseurl }}'>Open Source</a>
-          </nav>
-        </div>
+        <nav class="page-nav">
+          <a href='{{ "/projetos" | prepend: site.baseurl }}'>Open Source</a>
+        </nav>
       {% endif %}
     </div>
   </div>
 
-  <a class="scroll-down icon icon-chevron-down bounce" href="#content" data-offset="-45"></a>
+  {% comment %}<a class="scroll-down icon icon-chevron-down bounce" href="#content" data-offset="-45"></a>{% endcomment %}
 </header>
 
 <main id="content" class="" role="main" itemprop="mainContentOfPage" itemscope="" itemtype="http://schema.org/WebPage">
