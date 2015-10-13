@@ -1419,7 +1419,7 @@ body.error404 .main-header {
 }
 
 .search-container {
-	padding: 10em 10em 0;
+	padding: 7em 10em 0;
 	color: #fff;
 }
 
@@ -1448,10 +1448,11 @@ body.error404 .main-header {
 	text-align: center;
 	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
 	width: 100%;
-	padding: 0;
-	font-size: 6.25rem;
+	padding: .2em 0;
+	font-size: 3.75rem;
 	font-weight: 300;
 	border: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.65);
 	outline: 0;
 	background-color: transparent;
 }
@@ -1600,7 +1601,7 @@ body:not(.post-template) .post-title {
 
 .modal-close {
 	position: absolute;
-	top: 20px;
+	top: 0;
 	right: 20px;
 	border: none;
 	padding: 5px 10px;
@@ -1610,7 +1611,7 @@ body:not(.post-template) .post-title {
 	display: inline-block;
 	text-align: center;
 	margin: 0;
-	font-size: 42px;
+	font-size: 4.25rem;
 	border: none;
 	border-radius: 4px;
 }
@@ -2533,7 +2534,7 @@ body:not(.post-template) .post-title {
 
 .search-container input[type="text"] {
 	width: 100%;
-	font-size: 3.75rem;
+	font-size: 3.375rem;
 }
 
 }
@@ -2573,7 +2574,7 @@ body:not(.post-template) .post-title {
 }
 
 .search-container input[type="text"] {
-	font-size: 1.875rem;
+	font-size: 1.625rem;
 }
 
 }

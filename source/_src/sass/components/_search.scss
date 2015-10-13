@@ -18,7 +18,7 @@
 }
 
 .search-container {
-  padding: 10em 10em 0;
+  padding: 7em 10em 0;
   color: $white-color;
 
   ul {
@@ -46,10 +46,11 @@
     text-align: center;
     font-family: $family-base;
     width: 100%;
-    padding: 0;
-    @include font-size(100px);
+    padding: .2em 0;
+    @include font-size(60px);
     font-weight: 300;
     border: 0;
+    border-bottom: 1px solid rgba($white-color, .65);
     outline: 0;
     background-color: transparent;
   }
@@ -78,7 +79,7 @@
 
     input[type="text"] {
       width: 100%;
-      @include font-size(60px);
+      @include font-size(54px);
     }
   }
 }
@@ -88,7 +89,7 @@
     padding: 3em;
 
     input[type="text"] {
-      @include font-size(30px);
+      @include font-size(26px);
     }
   }
 }
