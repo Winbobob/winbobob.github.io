@@ -27,15 +27,17 @@ a.btn {
   // background-color: transparent;
 }
 
-.back-button {
-  float: left;
-}
+// .back-button {
+//   float: left;
+// }
 
+.back-button,
 .subscribe-button,
 .search-button {
   float: right;
 }
 
+.back-button,
 .search-button {
   margin-right: 15px;
 }

@@ -828,6 +828,7 @@ th {
 	width: 80%;
 	max-width: 710px;
 	margin: 0 auto;
+	padding: 4em 0;
 }
 
 /* Centres vertically yo. (IE8+) */
@@ -1170,6 +1171,18 @@ table.plain tbody > tr:nth-child(odd) > th {
 	background: transparent;
 }
 
+.github-corner {
+	position: fixed;
+	top: 0;
+	lef: 0;
+	z-index: 999;
+}
+
+.github-corner:hover .octo-arm {
+	-webkit-animation: octocat-wave 560ms ease-in-out;
+	animation: octocat-wave 560ms ease-in-out;
+}
+
 .btn,
 .back-button,
 .subscribe-button,
@@ -1201,15 +1214,13 @@ a.newer-posts {
 	background: rgba(0, 0, 0, 0.2);
 }
 
-.back-button {
-	float: left;
-}
-
+.back-button,
 .subscribe-button,
 .search-button {
 	float: right;
 }
 
+.back-button,
 .search-button {
 	margin-right: 15px;
 }
@@ -1335,12 +1346,6 @@ a.newer-posts {
 
 .post-head.main-header .main-nav.overlay {
 	background: rgba(0, 0, 0, 0.7);
-}
-
-.no-cover .main-nav.overlay,
-.no-cover .back-button,
-.no-cover .subscribe-button {
-	background: none;
 }
 
 .page-description {
@@ -2562,6 +2567,20 @@ body:not(.post-template) .post-title {
 
 }
 
+@media (max-width: 500px) {
+
+.github-corner:hover .octo-arm {
+	-webkit-animation: none;
+	animation: none;
+}
+
+.github-corner .octo-arm {
+	-webkit-animation: octocat-wave 560ms ease-in-out;
+	animation: octocat-wave 560ms ease-in-out;
+}
+
+}
+
 @media only screen and (max-width: 480px) {
 
 .search-label {
@@ -2745,6 +2764,44 @@ to {
 	opacity: 1;
 	-webkit-transform: none;
 	transform: none;
+}
+
+}
+
+@-webkit-keyframes octocat-wave {
+
+0%,100% {
+	-webkit-transform: rotate(0);
+	transform: rotate(0);
+}
+
+20%,60% {
+	-webkit-transform: rotate(-25deg);
+	transform: rotate(-25deg);
+}
+
+40%,80% {
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+}
+
+@keyframes octocat-wave {
+
+0%,100% {
+	-webkit-transform: rotate(0);
+	transform: rotate(0);
+}
+
+20%,60% {
+	-webkit-transform: rotate(-25deg);
+	transform: rotate(-25deg);
+}
+
+40%,80% {
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
 }
 
 }
