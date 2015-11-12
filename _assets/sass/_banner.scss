@@ -3,7 +3,7 @@
 ====================================*/
 
 .banner {
-  padding: 8em 2em 5em;
+  padding: 8em 2.5em 4em;
   background: #2B7369 url("/assets/images/banner.png") center top fixed;
   background-size: cover;
   line-height: 1.75;
@@ -11,6 +11,11 @@
 
   :last-child {
     margin-bottom: 0;
+  }
+
+  img {
+    padding: 3px;
+    border: 1px solid rgba($white-color, .3);
   }
 
   h2 {
@@ -31,8 +36,8 @@
     }
   }
 
-  @include media($screen-tablet) {
-    padding: 12em 0;
+  @include media($screen-desktop) {
+    padding: 10em 0;
 
     h2 strong {
       font-size: 2.2em;

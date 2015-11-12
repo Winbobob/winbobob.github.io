@@ -271,6 +271,10 @@ pre {
   }
 }
 
+.dot {
+  @include border-radius(50%);
+}
+
 .txt-white {
   color: $white-color !important;
 }
