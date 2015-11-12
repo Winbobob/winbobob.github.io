@@ -113,5 +113,73 @@ body:not(.single) {
       }
     }
   }
+}
 
+.post-footer {
+  position: relative;
+  margin: em(30px) 0 0;
+  padding: em(40px) 0 0;
+  border-top: $border-color 1px solid;
+
+  h4 {
+    @include font-size(18px);
+    font-weight: 300;
+    margin: 0;
+  }
+
+  p {
+    margin: em(10px) 0;
+    @include font-size(14px);
+  }
+
+  .author {
+    margin-right: 180px;
+  }
+
+  h4 a {
+    color: #2e2e2e;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .share {
+    position: absolute;
+    width: em(140px);
+    top: em(60px);
+    right: 0;
+    text-align: center;
+
+    a {
+      font-size: 1.6em;
+      display: inline-block;
+      margin: 0 .3em 0;
+      color: $gray-color;
+      text-decoration: none;
+      border: none;
+
+      &:hover {
+        color: $txt-color;
+      }
+    }
+  }
+
+  @include media(max-width $screen-phone) {
+    .author,
+    .share {
+      float: none;
+      width: 100%;
+      position: relative;
+      margin: 0;
+      text-align: center;
+      clear: both;
+    }
+
+    .share {
+      top: auto;
+      margin-top: em(40px);
+    }
+  }
 }
