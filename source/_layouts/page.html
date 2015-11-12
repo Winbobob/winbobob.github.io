@@ -3,42 +3,21 @@ layout: default
 post_class: page-template
 ---
 
-<header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})" data-parallax="15">
-  {% include nav.html %}
-  <div class="vertical">
-    <div class="main-header-content inner">
-      <h1 class="page-title">{{ page.title }}</h1>
+<div class="post" itemprop="mainContentOfPage">
 
-      {% if page.slug == 'about' %}
-        <figure class="fade-in-down">
-          <img src="{{ site.author.image }}" class="dot" title="{{ site.author.name }}" alt="{{ site.author.name }}">
-        </figure>
-        <nav class="page-nav">
-          <a href='{{ "/projetos" | prepend: site.baseurl }}'>Open Source</a>
-        </nav>
-      {% endif %}
-    </div>
-  </div>
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+  </header>
 
-  {% comment %}<a class="scroll-down icon icon-chevron-down bounce" href="#content" data-offset="-45"></a>{% endcomment %}
-</header>
+  {{content}}
 
-<main id="content" class="" role="main" itemprop="mainContentOfPage" itemscope="" itemtype="http://schema.org/WebPage">
+</div>
 
-  <div class="container">
-    <article role="article" class="post card" itemprop="mainContentOfPage">
-      <section class="post-content">
-        {{content}}
-      </section>
-    </article>
-  </div>
 
-  {% if page.slug == "error404" %}
-  <div class="container">
-    {% for post in site.posts limit:6 %}
-      {% include post.html %}
-    {% endfor %}
-  </div>
-  {% endif %}
+{% if page.slug == "error404" %}
 
-</main>
+  {% for post in site.posts limit:6 %}
+    {% include article.html %}
+  {% endfor %}
+
+{% endif %}

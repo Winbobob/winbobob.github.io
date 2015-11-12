@@ -15,8 +15,6 @@ tags:
 - yeoman
 ---
 
-{% image posts/2015/09/yeoman.jpg alt="Yeoman" [autosize] %}
-
 Eu criei um [repositório](https://github.com/nandomoreirame/gulp-boilerplate) no [Github](https://github.com/) onde mantenho atualizado com um **boilerplate** para Gulp, o repositório era pra ser pessoal mas eu resolvi compartilhar.
 
 Todo mundo já usou ou já ouviu falar dos pacotes do [NodeJS](https://nodejs.org/) os famosos [npm](https://www.npmjs.com/), eu queria saber como fazer um e talvez, quem sabe, criar um pra saber que gostinho tem :)

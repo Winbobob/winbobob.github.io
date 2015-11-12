@@ -28,10 +28,12 @@ rss_path: source/
 author:
   name     : Fernando Moreira
   image    : /assets/images/author.jpg
-  email    : hi@nandomoreira.me
+  email    : nandomoreira.me@gmail.com
   url      : http://nandomoreira.me
-  facebook : https://www.facebook.com/fernando.dev
-  twitter  : https://twitter.com/nandomoreirame
+  facebook : http://facebook.com/fernando.dev
+  twitter  : http://twitter.com/nandomoreirame
+  github   : http://github.com/nandomoreirame
+  linkedin : https://www.linkedin.com/in/nandomoreirame
   bio      : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
 
 # Custom vars
