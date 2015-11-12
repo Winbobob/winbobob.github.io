@@ -4,12 +4,23 @@
     {% include head.html %}
   </head>
   <body class="{% if page.post_class %}{{page.post_class}}{% endif %} {% if page.slug %}{{page.slug}}{% endif %}">
-    {{ content }}
-    {% include footer.html %}
-    {% javascript main.min %}
-    {% if page.slug == 'projects' %}
-        {% javascript jquery.github.min %}
+    {% include header.html %}
+
+    {% if page.slug == 'home' %}
+      {% include banner.html %}
     {% endif %}
-    {% include github-corner.html %}
+
+    <main class="wrapper container" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    {% include search-modal.html %}
+
+    {% javascript main %}
+    {% if page.slug == 'projects' %}
+        {% javascript jquery.github %}
+    {% endif %}
   </body>
 </html>{% endstrip %}

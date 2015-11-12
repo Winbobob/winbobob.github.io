@@ -2,27 +2,16 @@
 layout: default
 ---
 
-<header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})" data-parallax="15">
-  {% include nav.html %}
-  <div class="vertical">
-    <div class="main-header-content inner">
-      <h1 class="page-title">{{ page.title }}</h1>
-    </div>
-  </div>
+{% if site.categories[page.slug] %}
 
-  <a class="scroll-down icon icon-chevron-down bounce" href="#content" data-offset="-45"></a>
-</header>
+  {% for post in site.categories[page.slug] %}
+    {% include article.html %}
+  {% endfor %}
 
-<main id="content" class="container" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-  {% if site.categories[page.slug] %}
-    {% for post in site.categories[page.slug] %}
-      {% include post.html %}
-    {% endfor %}
-  {% else %}
-    <article role="article" class="post">
-      <section class="post-content">
-        <p>Não há artigos para a categoria: <strong>{{ page.title }}</strong></p>
-      </section>
-    </article>
-  {% endif %}
-</main>
+{% else %}
+
+  <article class="post txt-center">
+    <p>Não há artigos para a categoria: <strong>{{ page.title }}</strong></p>
+  </article>
+
+{% endif %}

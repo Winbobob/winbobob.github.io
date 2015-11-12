@@ -2,31 +2,20 @@
 layout: default
 ---
 
-<header class="main-header post-head" style="background-image: url({% if page.cover %}{{ page.cover }}{%else%}{{ site.cover }}{% endif %})" data-parallax="15">
-  {% include nav.html %}
-  <div class="vertical">
-    <div class="main-header-content inner">
-      <h1 class="page-title">Artigos por tag: {{ page.title }}</h1>
-    </div>
-  </div>
-
-  <a class="scroll-down icon icon-chevron-down bounce" href="#content" data-offset="-45"></a>
+<header class="post-header">
+  <h1>Artigos por tag: {{ page.title }}</h1>
 </header>
 
-<main id="content" class="container" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+{% if site.tags[page.slug] %}
 
-  {% if site.tags[page.slug] %}
-    {% for post in site.tags[page.slug] %}
-      {% include post.html %}
-    {% endfor %}
-  {% else %}
+  {% for post in site.tags[page.slug] %}
+    {% include article.html %}
+  {% endfor %}
 
-    <article role="article" class="post wow fadeInUp" data-wow-duration="1s" data-wow-delay="0">
-      <section class="post-content">
-        <p>Não há artigos para a tag: <strong>{{ page.title }}</strong></p>
-      </section>
-    </article>
+{% else %}
 
-  {% endif %}
+  <article class="post txt-center">
+      <p>Não há artigos para a tag: <strong>{{ page.title }}</strong></p>
+  </article>
 
-</main>
+{% endif %}

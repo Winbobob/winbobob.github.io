@@ -1,10 +1,11 @@
+- nandomoreirame/faisca-css
+- nandomoreirame/zetsu
 - php-pr/portal-php-pr
-- nandomoreirame/scss-sos
 - php-pr/odin-snippets
-- zen-team/zen-framework
-- zen-team/zen-snippets
 - nandomoreirame/generator-gulp-boilerplate
 - nandomoreirame/gulp-boilerplate
+- nandomoreirame/walk-theme
+- nandomoreirame/boostratp3-clean-login
 # - nandomoreirame/canvas_menino
 # - nandomoreirame/xtheme-html5
 # - nandomoreirame/jogo-de-dados-canvas-html5
@@ -12,9 +13,7 @@
 # - nandomoreirame/LF_template
 # - nandomoreirame/menu-dropdown
 # - nandomoreirame/simplegallery
-# - nandomoreirame/walk-theme
 # - nandomoreirame/redirect-to-maintenance
-# - nandomoreirame/boostratp3-clean-login
 # - nandomoreirame/simple-wp-2.0
 # - nandomoreirame/upload-e-corte-com-php
 # - nandomoreirame/fmc-simple-modal

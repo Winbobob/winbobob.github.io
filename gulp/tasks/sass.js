@@ -7,7 +7,6 @@ var $ = require('gulp-load-plugins')();
 var gulp = require('gulp');
 
 gulp.task('sass', function () {
-  console.log(config.dest.css);
   return $.rubySass(config.sass + 'main.scss', {
       "compass": true,
       "precision": 6,
@@ -21,11 +20,11 @@ gulp.task('sass', function () {
     }))
     .pipe($.combineMediaQueries())
     .pipe($.size({ title: 'Styles', gzip: false, showFiles: true }))
-    .pipe(gulp.dest(config.dest.css))
+    // .pipe(gulp.dest(config.dest.css))
     .pipe($.minifyCss({
       processImport: false
     }))
-    .pipe($.rename({suffix: '.min'}))
+    // .pipe($.rename({suffix: '.min'}))
     .pipe($.size({ title: 'Styles', gzip: false, showFiles: true }))
     .pipe(gulp.dest(config.dest.css))
     .pipe($.plumber.stop());

@@ -21,7 +21,7 @@ gulp.task('lint', function () {
     .pipe($.if(config.concatjs, $.concat('mpstyle.js')))
     // .pipe(gulp.dest(config.dest.js))
     .pipe($.uglify())
-    .pipe($.rename({ suffix: '.min' }))
+    // .pipe($.rename({ suffix: '.min' }))
     .pipe($.size({ title: 'Scripts', gzip: false, showFiles: true }))
     .pipe(gulp.dest(config.dest.js))
     .pipe($.plumber.stop());
