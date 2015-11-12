@@ -18,9 +18,9 @@
 
     {% include search-modal.html %}
 
-    {% javascript main %}
+    {% javascript main data-cfasync="false" %}
     {% if page.slug == 'projects' %}
-        {% javascript jquery.github %}
+        {% javascript jquery.github main data-cfasync="false" %}
     {% endif %}
   </body>
 </html>{% endstrip %}
