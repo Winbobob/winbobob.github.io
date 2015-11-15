@@ -7,6 +7,8 @@
     $('.swipebox').swipebox();
     // scrollDown.scrolltoo();
     scrollUp.scrolltoo();
+
+    $('p').selectionSharer();
   });
 
   $(window).scroll(function () {
@@ -77,3 +79,4 @@
 })(jQuery);
 
 // new WOW().init();
+// var sharer = new SelectionSharer('p');
