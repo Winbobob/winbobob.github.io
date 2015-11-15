@@ -44,8 +44,6 @@ slug: single
                 {% assign category = data_category %}
               {% endif %}
             {% endfor %}
-
-
             {% if category %}
               {% capture categories_content_temp %}{{ categories_content }}<a href="/categoria/{{ category.slug }}/">{{ category.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
               {% assign categories_content = categories_content_temp %}
@@ -61,7 +59,9 @@ slug: single
 
   {% if page.cover %}
     <figure class="post-photo">
-      <img src="{{ page.cover }}" alt="{{ page.title }}" title="{{ page.title }}">
+      <a href="{{ page.cover }}" class="swipebox" rel="gallery" title="{{ page.title }}">
+        <img src="{{ page.cover }}" alt="{{ page.title }}" title="{{ page.title }}">
+      </a>
     </figure>
   {% endif %}
 

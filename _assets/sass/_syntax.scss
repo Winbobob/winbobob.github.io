@@ -6,8 +6,8 @@
     bottom: 25px;
   };
 
-  &, .hll, pre {
-    background-color: #272822;
+  &, .hll, pre, code {
+    background-color: #272822 !important;
     border: none;
   }
 
