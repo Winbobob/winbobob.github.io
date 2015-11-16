@@ -6,11 +6,11 @@
   <body class="{% if page.post_class %}{{page.post_class}}{% endif %} {% if page.slug %}{{page.slug}}{% endif %}">
     {% include header.html %}
 
-    {% if page.slug == 'home' %}
+    {% if page.slug == 'home' or page.slug == 'about' %}
       {% include banner.html %}
     {% endif %}
 
-    <main class="wrapper container" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <main class="wrapper" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
       {{ content }}
     </main>
 

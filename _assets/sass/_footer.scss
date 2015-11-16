@@ -3,8 +3,8 @@
 ====================================*/
 
 .footer {
-  padding: 5em 0 3em;
-  background: #f6f6f6;
+  padding: 4em 0 2em;
+  background: $white-color;
   text-align: center;
 
   p {
@@ -18,59 +18,45 @@
     }
   }
 
-  .icons {
-    margin-bottom: 3em;
-    display: none;
+  span {
+    font-size: .8em;
+    color: #aaa;
+  }
+}
 
-    @include media($screen-tablet) {
-      display: inline-block;
-    }
+body:not(.post-template) {
+  .footer {
+    margin-top: 3em;
+  }
+}
 
-    li {
-      display: inline-block;
-      padding-right: 2.5em;
+.social {
+  padding: 0;
+  margin: 0 0 3em;
+  display: none;
 
-      &:last-child {
-        padding-right: 0;
-      }
-    }
+  @include media($screen-tablet) {
+    display: inline-block;
+  }
 
-    a {
-      text-decoration: none;
-      color: #999;
-      border: 2px solid #ddd;
-      @include border-radius(50%);
-      text-align: center;
-      display: inline-block;
-      width: 55px;
-      height: 55px;
-      line-height: 60px;
+  li {
+    display: inline-block;
+    padding: 0 2em;
+  }
 
-      .fa {
-        font-size: 1.6em;
-      }
+  a {
+    text-decoration: none;
+    color: #999;
+    @include transition(opacity .2s ease);
+    @include opacity(.7);
+    text-align: center;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 2.4em;
 
-      &:hover,
-      &:active {
-        color: #fff;
-        border-color: transparent;
-
-        &.icon-github {
-          background-color: #222;
-        }
-        &.icon-facebook {
-          background-color: #3765A3;
-        }
-        &.icon-twitter {
-          background-color: #5EA9DD;
-        }
-        &.icon-instagram {
-          background-color: #323232;
-        }
-        &.icon-linkedin {
-          background-color: #0274B3;
-        }
-      }
+    &:hover,
+    &:active {
+      @include opacity(.9);
     }
   }
 }

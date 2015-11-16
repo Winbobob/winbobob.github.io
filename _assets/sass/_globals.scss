@@ -1,8 +1,8 @@
 /*======================================
 =            Globals styles            =
 ======================================*/
-// @import url("//fonts.googleapis.com/css?family=Raleway:400,700");
-@import url("//fonts.googleapis.com/css?family=Droid+Sans:400,700");
+@import url("//fonts.googleapis.com/css?family=Raleway:400,700");
+// @import url("//fonts.googleapis.com/css?family=Droid+Sans:400,700");
 @import url("//fonts.googleapis.com/css?family=Droid+Serif:400,700");
 
 * {
@@ -33,6 +33,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: .01em;
+}
+
+body:not(.home) {
+  border-top: 2px solid $primary-color;
 }
 
 input,
@@ -66,7 +70,7 @@ em {
 }
 
 p {
-  margin: 0 0 .6em 0;
+  margin: 0 0 .8em 0;
 }
 
 h1,
@@ -189,6 +193,7 @@ pre {
 /* Container */
 .container {
   @extend %clearfix;
+  position: relative;
   padding: {
     left: $gutter-padding;
     right: $gutter-padding;
@@ -206,11 +211,6 @@ pre {
     width: $container-desktop-width;
   }
 }
-
-.wrapper {
-  padding: 3em 0;
-}
-
 
 // Gist
 //
@@ -242,6 +242,7 @@ pre {
 }
 
 .alert {
+  @extend .card;
   padding: 5em;
   display: block;
   @include transition(background-color .2s linear, color .2s linear, border-color .2s linear);
@@ -273,6 +274,12 @@ pre {
 .txt-center {
   text-align: center;
 }
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+img.pull-left { margin-right: 20px; }
+img.pull-right { margin-left: 20px; }
 
 .scroll-down {
   display: block;

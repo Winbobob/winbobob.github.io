@@ -2,20 +2,20 @@
 layout: default
 ---
 
-<header class="post-header">
-  <h1>Artigos por tag: {{ page.title }}</h1>
-</header>
+<div class="posts container">
 
-{% if site.tags[page.slug] %}
+  {% if site.tags[page.slug] %}
 
-  {% for post in site.tags[page.slug] %}
-    {% include article.html %}
-  {% endfor %}
+    {% for post in site.tags[page.slug] %}
+      {% include article.html %}
+    {% endfor %}
 
-{% else %}
+  {% else %}
 
-  <article class="post txt-center">
-      <p>Não há artigos para a tag: <strong>{{ page.title }}</strong></p>
-  </article>
+    <article class="post txt-center">
+        <p>Não há artigos para a tag: <strong>{{ page.title }}</strong></p>
+    </article>
 
-{% endif %}
+  {% endif %}
+
+</div>

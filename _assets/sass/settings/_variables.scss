@@ -2,10 +2,10 @@
 // Variables
 //
 
-// $font-family-base: "Raleway", Helvetica, sans-serif !default;
-$font-family-base: "Droid Sans", Helvetica, sans-serif !default;
+$font-family-base: "Raleway", Helvetica, sans-serif !default;
+// $font-family-base: "Droid Sans", Helvetica, sans-serif !default;
 $font-family-serif: "Droid Serif", sans-serif !default;
-$line-height: 1.8 !default;
+$line-height: 1.7em !default;
 $font-size-base: 18px !default;
 
 $gutter: 30px !default;
@@ -13,11 +13,11 @@ $gutter-padding: ($gutter/2) !default;
 $default-feature: min-width;
 
 $container-tablet-width  : 90% !default;
-$container-desktop-width : 48em !default;
+$container-desktop-width : 760px !default;
 
-$screen-phone   : 30em !default;
-$screen-tablet  : 37em !default;
-$screen-desktop : 56em !default;
+$screen-phone   : 480px !default;
+$screen-tablet  : 600px !default;
+$screen-desktop : 896px !default;
 
 //
 // Colors
@@ -29,7 +29,7 @@ $silver-color: darken($white-color, 22%) !default; // ~ #ccc
 $black-color: #000 !default;
 $gray-color: darken($white-color, 42%) !default; // ~ #999
 
-$bg-color: #e8e8e8 !default;
+$bg-color: #f9f9f9 !default;
 $txt-color: rgba(lighten($black-color, 5%), .65) !default;
 
 $blue-color: #016BA9 !default;

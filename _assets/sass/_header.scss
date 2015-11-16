@@ -9,24 +9,26 @@
   color: #484848;
   cursor: default;
   font-size: 1.25em;
-  height: 4.5em;
+  height: 3.25em;
+  line-height: 3.25em;
   left: 0;
-  line-height: 4.4em;
+  text-transform: lowercase;
 
   h1 {
-    text-transform: lowercase;
     font-family: $font-family-base;
     color: #484848;
     font-weight: 400;
     height: inherit;
-    left: 2em;
+    float: left;
     line-height: inherit;
     margin: 0;
     padding: 0;
-    position: absolute;
-    top: 0;
     letter-spacing: 0;
     text-indent: 0;
+
+    span {
+      color: $primary-color;
+    }
   }
 
   h1, li {
@@ -37,8 +39,6 @@
     background-color: transparent;
     border: 0;
     box-shadow: none;
-    height: 3.25em;
-    line-height: 3.25em;
     position: absolute;
     top: 0;
     width: 100%;
@@ -46,8 +46,6 @@
 
     h1 {
       color: #fff;
-      left: 2em;
-      top: 1.2em;
       font-size: .9em;
 
       a, a strong {
@@ -55,10 +53,7 @@
       }
     }
 
-    nav {
-      right: 2em;
-      top: 1em;
-
+    .navbar {
       a {
         color: #ddd;
 
@@ -82,9 +77,8 @@
 .navbar {
   height: inherit;
   line-height: inherit;
-  position: absolute;
-  right: 2em;
-  top: 0;
+  float: right;
+  position: relative;
   vertical-align: middle;
 
   ul {

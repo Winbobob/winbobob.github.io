@@ -2,16 +2,20 @@
 layout: default
 ---
 
-{% if site.categories[page.slug] %}
+<div class="posts container">
 
-  {% for post in site.categories[page.slug] %}
-    {% include article.html %}
-  {% endfor %}
+  {% if site.categories[page.slug] %}
 
-{% else %}
+    {% for post in site.categories[page.slug] %}
+      {% include article.html %}
+    {% endfor %}
 
-  <article class="post txt-center">
-    <p>Não há artigos para a categoria: <strong>{{ page.title }}</strong></p>
-  </article>
+  {% else %}
 
-{% endif %}
+    <article class="post txt-center">
+      <p>Não há artigos para a categoria: <strong>{{ page.title }}</strong></p>
+    </article>
+
+  {% endif %}
+
+</div>

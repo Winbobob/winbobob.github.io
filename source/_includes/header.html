@@ -1,6 +1,6 @@
-<header class="header{% if page.slug == 'home' %} alt{% endif %}">
+<header class="header{% if page.slug == 'home' or page.slug == 'about' %} alt{% endif %}">
   <div class="container">
-    <h1><a href="{{ "/" | prepend: site.baseurl }}"><strong>nandomoreira</strong>.me</a></h1>
+    <h1><a href="{{ "/" | prepend: site.baseurl }}"><strong>nandomoreira</strong><span>.me</span></a></h1>
     <nav class="navbar">
       <ul>
         <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
