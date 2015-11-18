@@ -26,7 +26,7 @@ Vamos continuar nossa série **"Conhecendo o pré-processador SASS"**, mas agora
 
 Se você está começando agora no mundo do desenvolvimento você precisa ter uma base de como funciona variáveis.
 
-O conceito de variáveis no SASS é bem parecido com na programação em geral.
+O conceito de variáveis no SASS é bem parecido com este na programação em geral.
 
 De acordo com o Google:
 
