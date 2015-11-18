@@ -5,7 +5,7 @@ echo 'Testing travis...'
 bundle install
 bundle exec travis-lint
 bundle exec jekyll build
-bundle exec htmlproof ./_site --disable-external --only-4xx --check-favicon --check-html
+bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html --disable-external --favicon --verbose
 
 # config
 echo "Git config"
