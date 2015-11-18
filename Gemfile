@@ -2,6 +2,9 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
+gem 'github-pages'
+gem 'html-proofer'
+
 group :development do
   gem 'rake', '~> 10.4.2'
   gem 'compass', '~> 1.0.3'
