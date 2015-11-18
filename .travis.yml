@@ -2,14 +2,13 @@ language: ruby
 rvm:
 - 2.1
 
-script:
-  - bundle exec jekyll build
-  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html
-
 before_script:
 - chmod +x cibuild.sh
 
-script: "./cibuild.sh"
+script:
+  - bundle exec jekyll build
+  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html
+  - ./cibuild.sh
 
 env:
   global:
