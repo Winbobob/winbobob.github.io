@@ -15,7 +15,7 @@ tags:
 
 **SASS** é um pré-processador incrível não acha? Mas muitos não sabem como organizar seus projetos com ele, nesse artigo vou lhe mostrar como organizar uma estrutura _"foda"_ usando **[SASS](http://sass-lang.com/)** e _**[Atomic Design](http://patternlab.io/about.html)**_, vem comigo.
 
-> Não vou para para explicar o que é _Atomic Design_ mas vou deixar aqui alguns links para que você dê uma lida antes de continuar.
+> Não vou explicar o que é _Atomic Design_, não é o intuito desse artigo, mas vou deixar aqui alguns links para que você dê uma lida antes de continuar.
 
 * **[O que é Design Atômico?](http://tableless.com.br/o-que-e-design-atomic/)** - _tableless_
 * **[Atomic Design - Por que usar?](http://nomadev.com.br/atomic-design-por-que-usar/)** - _nomadev_
@@ -67,7 +67,7 @@ Vamos começar com o diretório `core/`, nele vamos criar 4 outros diretórios: 
 * **_mixins/_**: São as [mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins) do projeto.
 * **_variables/_**: São todas as variáveis do projeto.
 
-Vamos deixar `functions/`, `mixins/` e `variables/` de lado e vamos nos concentrar em `bosons/`, é ai que começa a fazer sentido a metodologia _Atomic Design_. Ness diretório vamos criar um _bóson_ que muita gente conheçe, o famoso `button`.
+Vamos deixar `functions/`, `mixins/` e `variables/` de lado e vamos nos concentrar em `bosons/`, é ai que começa a fazer sentido a metodologia _Atomic Design_. Nesse diretório vamos criar um _bóson_ que muita gente conheçe, o famoso `button`.
 
 Crie um arquivo chamado `_buttons.scss` e coloque a seguinte estrutura.
 
