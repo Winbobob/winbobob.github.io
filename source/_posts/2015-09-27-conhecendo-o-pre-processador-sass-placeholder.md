@@ -46,7 +46,7 @@ body {
 
 Outra diferença de ID's e Classes é que os placeholders não ficam visíveis quando meu CSS for processado, ele só aparece se for invocado com `@extend` por alguma classe ou ID.
 
-No código acima os placeholders `%background-white` e `%heading-big` não aparecerão no meu CSS processado enquanto não forem chamados, mesmo invocando o `%background-white` dentro de `%heading-big` eles ainda continarão invisíveis.
+No código acima os placeholders `%background-white` e `%heading-big` não aparecerão no meu CSS processado enquanto não forem chamados, mesmo invocando o `%background-white` dentro de `%heading-big` eles ainda continuarão invisíveis.
 
 ## E qual a vantagem?
 

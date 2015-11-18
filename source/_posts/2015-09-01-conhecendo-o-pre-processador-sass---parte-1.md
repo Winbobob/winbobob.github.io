@@ -24,7 +24,7 @@ Hoje vou começar uma série de artigos com algumas dicas sobre o pré-processad
 > Um pré-processador é um programa que recebe texto e efectua conversões léxicas nele. As conversões podem incluir substituição de macros, inclusão condicional e inclusão de outros ficheiros.
   > <small>Google.com (<a href="https://goo.gl/OeWJWB">https://goo.gl/OeWJWB</a>)</small>
 
-Pense num pré-processador como uma nova linguam para escrever CSS.
+Pense num pré-processador como uma nova linguagem para escrever CSS.
 
 Chame de tradutor de linguagem, ou de compilador.. não tem problema, tudo vira CSS no final.
 
