@@ -6,7 +6,11 @@ before_script:
 - chmod +x cibuild.sh
 
 script:
-- ./cibuild.sh
+  - bundle install
+  - bundle exec travis-lint
+  - bundle exec jekyll build
+  - bundle exec htmlproof ./_site --check-favicon --verbose --check-html
+  - ./cibuild.sh
 
 env:
   global:
@@ -15,3 +19,6 @@ env:
 branches:
   only:
   - source
+
+notifications:
+  email: false

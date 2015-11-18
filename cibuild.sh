@@ -1,12 +1,6 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-echo 'Testing travis...'
-bundle install
-bundle exec travis-lint
-bundle exec jekyll build
-bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html --disable-external --favicon --verbose
-
 # config
 echo "Git config"
 git config --global user.email "nandomoreira.me@gmail.com"
