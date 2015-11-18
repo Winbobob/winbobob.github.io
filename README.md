@@ -53,4 +53,8 @@ Enjoy!
 
 ---
 
-## [MIT](/LICENSE) License
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+Enjoy :yum:
