@@ -6,10 +6,7 @@ before_script:
 - chmod +x cibuild.sh
 
 script:
-  - bundle install
-  - bundle exec jekyll build
-  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html
-  - ./cibuild.sh
+- ./cibuild.sh
 
 env:
   global:
