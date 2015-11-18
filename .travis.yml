@@ -9,7 +9,7 @@ script:
   - bundle install
   - bundle exec travis-lint
   - bundle exec jekyll build
-  - bundle exec htmlproof ./_site --check-favicon --verbose --check-html
+  - bundle exec htmlproof ./_site --check-favicon --verbose --check-html --href-ignore
   - ./cibuild.sh
 
 env:
