@@ -6,6 +6,7 @@ gem 'liquid'
 gem 'redcarpet'
 gem 'github-pages'
 gem 'html-proofer'
+gem 'travis-lint'
 gem 'jekyll'
 gem 'jekyll-assets'
 
