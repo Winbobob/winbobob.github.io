@@ -12,7 +12,7 @@ install:
 script:
 - bundle exec travis-lint
 - bundle exec jekyll build
-- bundle exec htmlproof ./_site --check-favicon --verbose --check-html
+# - bundle exec htmlproof ./_site --check-favicon --verbose --check-html
 - ./deploy.sh
 
 after_script:
