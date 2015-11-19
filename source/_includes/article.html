@@ -1,10 +1,16 @@
 
 <article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
   <header class="post-header">
-    <h1 class="post-title"><a href="{{ post.url }}" title="Permalink para: {{ post.title }}">{{ post.title }}</a></h1>
+    <h1 class="post-title">
+      <a href="{{ post.url }}" title="Permalink para: {{ post.title }}">{{ post.title }}</a>
+    </h1>
   </header>
 
-  <p><a href="{{ post.url }}" title="Permalink para: {{ post.title }}" class="read-more">{{ post.content | strip_html | truncatewords: 50 }}</a></p>
+  <p>
+    <a href="{{ post.url }}" title="Permalink para: {{ post.title }}" class="read-more">
+      {{ post.content | strip_html | truncatewords: 26 }}
+    </a>
+  </p>
 
   <footer class="post-meta">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">

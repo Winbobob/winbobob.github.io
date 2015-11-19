@@ -86,11 +86,15 @@ $post-small-spacing: 15px;
 .posts {
   .post {
     @extend .card;
-    padding: $post-spacing-y $post-spacing-x;
+    padding: ($post-spacing-y/2) ($post-spacing-x/2);
     margin: {
       top: 3em !important;
       bottom: 3em !important;
     };
+
+    @include media($screen-tablet) {
+      padding: $post-spacing-y $post-spacing-x;
+    }
 
     .post-title {
       @include font-size(22px);
