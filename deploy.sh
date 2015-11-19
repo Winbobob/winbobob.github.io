@@ -5,6 +5,8 @@ bundle exec jekyll build
 # bundle exec travis-lint
 # bundle exec htmlproof ${HTML_FOLDER} --disable-external
 
+cd ${HTML_FOLDER}
+
 # config
 git config --global user.email "nandomoreira.me@gmail.com"
 git config --global user.name "Fernando Moreira"
