@@ -16,11 +16,13 @@ before_script:
 - git config credential.helper "store --file=.git/credentials"
 - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 
-script:
-- bundle exec jekyll build
-# - bundle exec travis-lint
-# - bundle exec htmlproof $HTML_FOLDER --check-favicon --verbose --check-html
-- bash deploy.sh
+script: "./deploy.sh"
+
+# script:
+# - bundle exec jekyll build
+# # - bundle exec travis-lint
+# # - bundle exec htmlproof $HTML_FOLDER --check-favicon --verbose --check-html
+# - bash deploy.sh
 
 after_script:
 
