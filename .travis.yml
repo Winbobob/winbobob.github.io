@@ -15,10 +15,10 @@ before_script:
 # - chmod +x deploy.sh
 
 script:
-- bundle exec travis-lint
 - bundle exec jekyll build
-- bundle exec htmlproof $HTML_FOLDER --check-favicon --verbose --check-html
 - rake
+# - bundle exec travis-lint
+# - bundle exec htmlproof $HTML_FOLDER --check-favicon --verbose --check-html
 # - ./deploy.sh
 
 after_script:
