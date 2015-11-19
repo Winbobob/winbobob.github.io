@@ -2,8 +2,8 @@
 set -e # exit with nonzero exit code if anything fails
 
 # run our compile script, discussed above
-chmod +x ./compile.sh
-./compile.sh
+chmod +x ${TRAVIS_FOLDER}/compile.sh
+${TRAVIS_FOLDER}/compile.sh
 
 # go to the out directory and create a *new* Git repo
 cd ${HTML_FOLDER}
