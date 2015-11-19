@@ -1,6 +1,8 @@
 # [nandomoreira.me](http://nandomoreira.me/)
 
-My personal website where I talk about front-end development like HTML5, CSS3, JavaScript and Wordpress, PHP and more.
+[![Build Status](https://travis-ci.org/nandomoreirame/nandomoreirame.github.io.svg)](https://travis-ci.org/nandomoreirame/nandomoreirame.github.io)
+
+> My personal website where I talk about front-end development like HTML5, CSS3, JavaScript and Wordpress, PHP and more.
 
 ## Setup
 

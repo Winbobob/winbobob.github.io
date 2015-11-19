@@ -92,15 +92,6 @@
     margin-left: 1.8em;
     padding-left: 0;
 
-    &:first-child {
-      margin-left: 0;
-      display: none;
-
-      @include media($screen-phone) {
-        display: inline-block;
-      }
-    }
-
     @include media($screen-tablet) {
       margin-left: 2.5em;
     }

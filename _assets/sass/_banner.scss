@@ -22,7 +22,7 @@
     font-family: $font-family-base;
     color: #aaa;
     margin-bottom: 1.75em;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     text-transform: none;
     font-weight: 400;
 
@@ -30,17 +30,17 @@
       color: #fff;
       display: block;
       font-weight: 800;
-      font-size: 1.2em;
+      font-size: 1.5rem;
       line-height: 1.35;
       text-transform: uppercase;
     }
   }
 
   @include media($screen-tablet) {
-    padding: 10em 1.6em;
+    padding: 10em 1.8rem;
 
     h2 strong {
-      font-size: 1.6em;
+      font-size: 1.6rem;
     }
   }
 
@@ -48,10 +48,10 @@
     padding: 8em 1.6em 6em;
 
     h2 {
-      font-size: 1.6em;
+      font-size: 2rem;
 
       strong {
-        font-size: 2.2em;
+        font-size: 2.8rem;
       }
     }
   }
