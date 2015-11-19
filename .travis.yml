@@ -10,9 +10,6 @@ install:
 - bundle install
 
 script:
-- bundle exec travis-lint
-- bundle exec jekyll build
-- bundle exec htmlproof ./_site --check-favicon --verbose --check-html --href-ignore
 - .travis/deploy.sh
 
 after_script:
