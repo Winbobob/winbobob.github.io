@@ -11,4 +11,4 @@ echo "Deploy"
 git init
 git add --all
 git commit -m "Deploy to GitHub Pages"
-git push --force --quiet "https://${GH_TOKEN}@github.com/nandomoreirame/nandomoreirame.github.io.git" master
+git push --force --quiet "https://${GH_TOKEN}@github.com/${REPO}" master
