@@ -13,6 +13,10 @@ $post-small-spacing: 15px;
     bottom: 0 !important;
   };
 
+  em {
+    text-decoration: underline;
+  }
+
   img {
     display: block;
     max-width: 100%;
