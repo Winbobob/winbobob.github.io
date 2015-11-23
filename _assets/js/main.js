@@ -8,7 +8,7 @@
 //=require ../../bower/simple-jekyll-search/dest/jekyll-search.js
 //=require ../../bower/swipebox/src/js/jquery.swipebox.min.js
 
-//=require _selection-sharer.js
+//=require vendor/_selection-sharer.js
 
 //=require scripts/_modal.js
 //=require scripts/_simple-jekyll-search.js
