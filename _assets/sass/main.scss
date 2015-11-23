@@ -2,14 +2,14 @@
 
 @charset "UTF-8";
 
-@import "compass/css3";
-@import "compass/reset";
+@import "bourbon/bourbon";
 
 @import "settings/variables";
 @import "settings/functions";
 @import "settings/mixins";
 @import "settings/placeholders";
 
+@import "reset";
 @import "globals";
 @import "list";
 @import "header";

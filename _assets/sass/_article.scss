@@ -30,7 +30,7 @@ $post-small-spacing: 15px;
 
   h1 {
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1.2em;
     margin: 0;
 
     @include media($screen-tablet) {
@@ -77,7 +77,6 @@ $post-small-spacing: 15px;
 }
 
 .disqus {
-  // background-color: #efefef;
   margin-top: 0;
   padding-top: 2em;
   padding-bottom: $post-spacing-y;
@@ -90,6 +89,7 @@ $post-small-spacing: 15px;
 .posts {
   .post {
     @extend .card;
+    @include transition(box-shadow .2s linear);
     padding: ($post-spacing-y/2) ($post-spacing-x/2);
     margin: {
       top: 3em !important;
@@ -106,7 +106,6 @@ $post-small-spacing: 15px;
 
       @include media($screen-tablet) {
         @include font-size(30px);
-        line-height: $line-height;
       }
     }
 
@@ -123,6 +122,12 @@ $post-small-spacing: 15px;
       &:hover {
         color: $link-hover-color;
       }
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      @include box-shadow(0 0 0 0, 0 10px 16px rgba($black-color, .2));
     }
   }
 }

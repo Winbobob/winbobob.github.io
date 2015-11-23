@@ -1,15 +1,15 @@
 /*======================================
 =            Globals styles            =
 ======================================*/
+
 @import url("//fonts.googleapis.com/css?family=Raleway:400,700");
-// @import url("//fonts.googleapis.com/css?family=Droid+Sans:400,700");
 @import url("//fonts.googleapis.com/css?family=Droid+Serif:400,700");
 
 * {
   &,
   &:before,
   &:after {
-    @include box-sizing(border-box);
+    box-sizing: border-box;
   }
 }
 
@@ -39,10 +39,9 @@ body {
 input,
 select,
 textarea {
-  color: #666;
+  color: $txt-color;
   font-family: $font-family-base;
   font-size: $font-size-base;
-  font-weight: 400;
   line-height: 2em;
 }
 
@@ -55,11 +54,6 @@ a {
     text-decoration: none;
     color: $link-hover-color;
   }
-}
-
-strong {
-  color: #484848;
-  font-weight: 700;
 }
 
 em {
@@ -76,10 +70,9 @@ h3,
 h4,
 h5,
 h6 {
-  color: #484848;
-  font-weight: 700;
-  line-height: 1em;
+  line-height: 1.2em;
   margin: .5em 0 .6em;
+  font-weight: 700;
   font-family: $font-family-serif;
 
   a {
@@ -162,7 +155,7 @@ code {
   background: none;
   border-radius: 0;
   border: none;
-  font-family: "Courier New", monospace;
+  font-family: $font-family-monospace;
   font-size: 0.9em;
   margin: 0;
   background-color: #ededed;
@@ -171,7 +164,7 @@ code {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
+  font-family: $font-family-monospace;
   font-size: 0.9em;
   margin: 0;
 
@@ -188,13 +181,16 @@ pre {
 }
 
 /* Container */
-.container {
+.container-full {
   @extend %clearfix;
   position: relative;
   padding: {
-    left: $gutter-padding;
-    right: $gutter-padding;
+    left: em($gutter);
+    right: em($gutter);
   };
+}
+.container {
+  @extend .container-full;
   margin: {
     left: auto;
     right: auto;

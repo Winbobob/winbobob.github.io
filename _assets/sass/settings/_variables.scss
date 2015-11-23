@@ -5,6 +5,7 @@
 $font-family-base: "Raleway", Helvetica, sans-serif !default;
 // $font-family-base: "Droid Sans", Helvetica, sans-serif !default;
 $font-family-serif: "Droid Serif", sans-serif !default;
+$font-family-monospace: "Courier New", monospace !default;
 $line-height: 1.7em !default;
 $font-size-base: 18px !default;
 
@@ -22,7 +23,7 @@ $screen-desktop : 896px !default;
 //
 // Colors
 
-$primary-color: #f32853 !default;
+$primary-color: #f05f5c !default;
 
 $white-color: #fff !default;
 $silver-color: darken($white-color, 22%) !default; // ~ #ccc

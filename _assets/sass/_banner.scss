@@ -20,19 +20,23 @@
 
   h2 {
     font-family: $font-family-base;
-    color: #aaa;
+    color: $silver-color;
     margin-bottom: 1.75em;
     font-size: 1.2em;
+    font-weight: 200;
     text-transform: none;
-    font-weight: 400;
 
     strong {
-      color: #fff;
+      color: $white-color;
       display: block;
-      font-weight: 800;
       font-size: 1.1em;
       line-height: 1.65;
       text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    em {
+      font-weight: 400;
     }
   }
 
