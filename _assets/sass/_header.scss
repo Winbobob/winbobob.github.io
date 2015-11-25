@@ -82,17 +82,17 @@ body.single {
 .header,
 body.single .header {
   &.is-fixed {
-    position: fixed;
-    top: -100%;
-  }
-
-  &.is-visible {
     background-color: rgba(#272822, .9);
-    top: 0;
+    position: fixed;
+    top: -100px;
 
     &, h1, a, a strong {
       color: $white-color;
     }
+  }
+
+  &.is-visible {
+    top: 0;
   }
 }
 
