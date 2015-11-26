@@ -9,13 +9,14 @@
   </header>
 
   <p>
-    <a href="{{ post.url }}" title="Permalink para: {{ post.title }}" class="read-more">
+    <a href="{{ post.url }}" title="Permalink para: {{ post.title }}" class="read-more link">
       {{ post.content | strip_html | truncatewords: 27 }} <em>Continue lendo &raquo;</em>
     </a>
   </p>
 
   <footer class="post-meta">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+      <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
       <i class="fa fa-calendar-o"></i>
       {% assign m = post.date | date: "%-m" %}
       {{ post.date | date: "%-d" }} de

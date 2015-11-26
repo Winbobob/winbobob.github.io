@@ -1,5 +1,8 @@
-{% strip %}<!DOCTYPE html>
-<html class="no-js" lang="pt-br">
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/{% if page.itemtype %}{{ page.itemtype }}{% else %}{{ site.itemtype }}{% endif %}">
   <head>
     {% include head.html %}
   </head>
@@ -10,7 +13,7 @@
       {% include banner.html %}
     {% endif %}
 
-    <main class="wrapper" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <main class="wrapper" itemprop="mainContentOfPage">
       {{ content }}
     </main>
 
@@ -20,4 +23,4 @@
 
     {% javascript main %}
   </body>
-</html>{% endstrip %}
+</html>
