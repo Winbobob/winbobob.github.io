@@ -3,7 +3,7 @@
   <h1>{{ page.title }}</h1>
   <div class="post-meta">
     <time datetime="2015-10-13">
-      <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
+      <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date | date_to_xmlschema }}">
         {% assign m = page.date | date: "%-m" %}
         {{ page.date | date: "%-d" }} de
         {% case m %}
