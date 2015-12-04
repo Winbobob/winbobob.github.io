@@ -4,12 +4,14 @@
 
 .footer {
   padding: 4em 0 2em;
-  background: $white-color;
+  background: $gray-darck-color;
   text-align: center;
 
   p {
+    color: darken($white-color, 18%);
+
     small {
-      color: #999;
+      color: darken($white-color, 25%);
     }
 
     @include media($screen-desktop) {
@@ -19,8 +21,10 @@
   }
 
   span {
-    font-size: .8em;
-    color: #aaa;
+    display: block;
+    font-size: .7em;
+    margin-top: 1em;
+    color: darken($white-color, 20%);
   }
 }
 
@@ -46,7 +50,7 @@ body:not(.post-template) {
 
   a {
     text-decoration: none;
-    color: #999;
+    color: darken($white-color, 20%);
     @include transition(opacity .2s ease);
     @include opacity(.7);
     text-align: center;

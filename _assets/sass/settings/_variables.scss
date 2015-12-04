@@ -27,11 +27,12 @@ $primary-color: #f05f5c !default;
 
 $white-color: #fff !default;
 $silver-color: darken($white-color, 22%) !default; // ~ #ccc
-$black-color: #000 !default;
 $gray-color: darken($white-color, 42%) !default; // ~ #999
+$gray-darck-color: #2d3138 !default;
+$black-color: #000 !default;
 
 $bg-color: #f9f9f9 !default;
-$txt-color: rgba(lighten($black-color, 5%), .65) !default;
+$txt-color: rgba(#423F37, .9) !default;
 
 $blue-color: #016BA9 !default;
 

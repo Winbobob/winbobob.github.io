@@ -8,7 +8,6 @@ var gulp = require('gulp');
 
 gulp.task('sass', function () {
   return $.rubySass(config.sass + 'main.scss', {
-      "compass": true,
       "precision": 6,
       "stopOnError": false,
       "sourcemap=none": true

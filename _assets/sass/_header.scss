@@ -82,7 +82,7 @@ body.single {
 .header,
 body.single .header {
   &.is-fixed {
-    background-color: rgba(#272822, .9);
+    background-color: rgba($gray-darck-color, .9);
     position: fixed;
     top: -100px;
 

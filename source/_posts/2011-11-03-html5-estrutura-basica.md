@@ -25,7 +25,26 @@ A Estrutura base para dar o pontapé inicial com HTML5.
   </head>
   <body>
     <main>
-      <p>Estrutura básica de um HTML</p>
+      <header>
+        <h1>Cabeçalho do site</h1>
+      </header>
+      <section>
+        <article>
+          <header>
+            <h1>Cabeçalho do artigo</h1>
+          </header>
+          <p>Conteúdo do artigo</p>
+          <footer>
+            <span>Rodapé do artigo</span>
+          </footer>
+        </article>
+        <aside>
+          <h3>Conteúdo secundário (sidebar)</h3>
+        </aside>
+      </section>
+      <footer>
+        <h3>Rodapé do site</h3>
+      </footer>
     </main>
   </body>
 </html>

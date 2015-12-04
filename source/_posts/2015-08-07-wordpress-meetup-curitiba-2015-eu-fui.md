@@ -16,8 +16,6 @@ cover: /assets/images/posts/2015/08/meetup-wp/meet-cover.jpg
 
 ## Queremos MeetUp WordPress!
 
-{% image posts/2015/08/meetup-wp/meet-cover.jpg alt="Meetup Wordpress Curitiba - Capa" [autosize] %}
-
 [Walter](http://fb.com/waltinhojaworski), [Rômulo](http://fb.com/romulo.zoch) e o [Kossmann](http://fb.com/danielkferraz) que tomaram toda a iniciativa de criar o **[MeetUp WordPress](http://www.meetup.com/pt/wpcuritiba/)**, eu fiquei sabendo que estava tudo já organizado uma semana antes do evento.. Mais de 50 pessoas se inscreveram, e pouco mais 20 compareceram.. ainda bem, porque a sala já estava lotada, hehehe..
 
 Eu estava ansioso por esse encontro aqui em Curitiba, quando conversei com Walter sobre o assunto, em Janeiro, ele falou que queria muito fazer esse encontro acontecer.
