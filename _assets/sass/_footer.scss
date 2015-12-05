@@ -63,3 +63,14 @@ body:not(.post-template) {
     }
   }
 }
+
+html.no-js {
+  .scroll-up {
+    bottom: 10px !important;
+  }
+
+  .navbar .search {
+    display: none;
+    visibility: hidden;
+  }
+}
