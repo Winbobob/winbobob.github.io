@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-<!DOCTYPE html>
+{% strip %}<!DOCTYPE html>
 <html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/{% if page.itemtype %}{{ page.itemtype }}{% else %}{{ site.itemtype }}{% endif %}">
   <head>
     {% include head.html %}
@@ -23,4 +23,4 @@ layout: compress
 
     {% javascript main %}
   </body>
-</html>
+</html>{% endstrip %}
