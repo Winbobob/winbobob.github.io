@@ -14,7 +14,7 @@ source:      source
 destination: _site
 
 itemtype: WebPage
-cover: /assets/images/header-cover.png
+cover: /assets/images/banner.jpg
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
