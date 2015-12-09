@@ -1,7 +1,7 @@
 <nav class="pagination" role="pagination">
 
   {% if paginator.next_page %}
-    <a class="older-posts" href="/page/{{ paginator.next_page }}/" title="Artigos antigos">&laquo; Antigos</a>
+    <a class="older-posts" href="/blog/page/{{ paginator.next_page }}/" title="Artigos antigos">&laquo; Antigos</a>
   {% endif %}
 
   <span class="page-number">Página {{paginator.page}} de {{paginator.total_pages}}</span>
@@ -10,7 +10,7 @@
     {% if paginator.previous_page == 1 %}
       <a class="newer-posts" href="/" title="Artigos novos">Novos &raquo;</a>
     {% else %}
-      <a class="newer-posts" href="/page/{{ paginator.previous_page }}/" title="Artigos novos">Novos &raquo;</a>
+      <a class="newer-posts" href="/blog/page/{{ paginator.previous_page }}/" title="Artigos novos">Novos &raquo;</a>
     {% endif %}
   {% endif %}
 

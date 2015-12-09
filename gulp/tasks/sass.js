@@ -17,7 +17,9 @@ gulp.task('sass', function () {
     .pipe($.autoprefixer({
       browsers: config.autoprefixer_browsers
     }))
-    .pipe($.combineMediaQueries())
+    .pipe($.mergeMediaQueries({
+      log: false
+    }))
     .pipe($.size({ title: 'Styles', gzip: false, showFiles: true }))
     // .pipe(gulp.dest(config.dest.css))
     .pipe($.minifyCss({

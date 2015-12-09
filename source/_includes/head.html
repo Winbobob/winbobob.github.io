@@ -1,27 +1,62 @@
+<head>
     <meta charset="utf-8">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="zS1dSn20XtA4FJYEOQLXqI0boxZdMnJ2g3beje-cl20">
 
-    {% assign page_image = '' %}
-    {% capture page_image %}{% if page.cover %}{{ page.cover | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.cover | prepend: site.baseurl | prepend: site.url }}{% endif %}{% endcapture %}
-    {% capture page_image %}{{ page_image | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
-
     {% assign page_title = '' %}
-    {% if page.title == "Home" %}{% capture page_title %}{{ site.name }} | {{ site.description }}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}{% endcapture %}{% else %}{% capture page_title %}{%if page.slug == 'category' %}Categoria: {% endif %}{%if page.slug == 'tag' %}Tag: {% endif %} {{ page.title }} | {{ site.name }}{% endcapture %}{% endif %}
-    {% capture page_title %}{{ page_title | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
+    {% if page.title == "Home" %}
+        {% capture page_title %}
+            Olá meu nome é {{ site.name }} eu sou Front-end developer
+        {% endcapture %}
+    {% else %}
+        {% capture page_title %}
+            {%if page.slug == 'category' %}Categoria: {% endif %}
+            {%if page.slug == 'tag' %}Tag: {% endif %} {{ page.title }} | {{ site.name }}
+            {% if page.slug == "blog" %}
+                {%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}
+            {% endif %}
+        {% endcapture %}
+    {% endif %}
+    {% capture page_title %}
+        {{ page_title | strip | rstrip | lstrip | escape | strip_newlines }}
+    {% endcapture %}
+
     <title>{{ page_title }}</title>
 
     {% assign page_description = '' %}
-    {% capture page_description %}{% if page.description %}{{ page.description | strip_html | strip | rstrip | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}{%if paginator and paginator.page != 1 %} - Página {{ paginator.page }} {% endif %}{%if page.slug == 'category' %} Categoria: {{ page.title }}{% endif %}{%if page.slug == 'tag' %} Tag: {{ page.title }}{% endif %}{% endcapture %}
-    {% capture page_description %}{{ page_description | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
+    {% capture page_description %}
+        {% if page.description %}
+            {{ page.description | strip_html | strip | rstrip | strip_newlines | truncate: 160 }}
+        {% else %}
+            {{ site.meta_description }}
+        {% endif %}
+        {%if paginator and paginator.page != 1 %} - Página {{ paginator.page }} {% endif %}
+        {%if page.slug == 'category' %} Categoria: {{ page.title }}{% endif %}
+        {%if page.slug == 'tag' %} Tag: {{ page.title }}{% endif %}
+    {% endcapture %}
+
+    {% capture page_description %}
+        {{ page_description | strip | rstrip | lstrip | escape | strip_newlines }}
+    {% endcapture %}
+
     <meta name="description" content="{{ page_description }}">
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="theme-color" content="#005344">
+
+    {% assign page_image = '' %}
+    {% capture page_image %}
+        {% if page.cover %}
+            {{ page.cover | prepend: site.baseurl | prepend: site.url }}
+        {% else %}
+            {{ site.cover | prepend: site.baseurl | prepend: site.url }}
+        {% endif %}
+    {% endcapture %}
+    {% capture page_image %}{{ page_image | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
 
     <meta itemprop="image" content="{{ page_image }}">
 
@@ -99,3 +134,4 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
+</head>

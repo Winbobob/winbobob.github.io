@@ -3,11 +3,31 @@
 ====================================*/
 
 .banner {
-  padding: 6em 2.5em 3em;
   background: #2B7369 url("/assets/images/banner.jpg") center top fixed;
   background-size: cover;
-  line-height: 1.75;
   text-align: center;
+}
+
+body.home {
+  width: 100%;
+  display: table;
+
+  .wrapper {
+    @extend .banner;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.banner,
+.hero {
+  padding: 0;
+  margin: 0;
+  line-height: 1.75;
+
+  .hero-inner {
+    padding: 1em 2.5em;
+  }
 
   :last-child {
     margin-bottom: 0;
@@ -40,8 +60,18 @@
     }
   }
 
+  .social {
+    margin-top: 2em;
+
+    li {
+      padding: 0 1.4em;
+    }
+  }
+
   @include media($screen-tablet) {
-    padding: 10em 1.8em;
+    .hero-inner {
+      padding: 10em 1.8em;
+    }
 
     h2 {
       font-size: 1.4em;
@@ -54,7 +84,9 @@
   }
 
   @include media($screen-desktop) {
-    padding: 8em 1.6em 6em;
+    .hero-inner {
+      padding: 8em 1.6em 6em;
+    }
 
     h2 {
       font-size: 1.8em;
@@ -64,4 +96,9 @@
       }
     }
   }
+}
+
+.about .banner {
+  padding: 8em 1.6em 6em;
+  margin-bottom: 2em;
 }

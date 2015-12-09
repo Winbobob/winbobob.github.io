@@ -6,7 +6,7 @@ var config = require('../config.json');
 var $ = require('gulp-load-plugins')();
 var gulp = require('gulp');
 
-var mainfile = config.js + '*.js';
+var mainfile = config.js + 'main.js';
 
 gulp.task('lint', function () {
   return gulp.src([mainfile])

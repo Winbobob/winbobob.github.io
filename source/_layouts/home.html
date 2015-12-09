@@ -5,16 +5,9 @@ layout: compress
 <html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/{% if page.itemtype %}{{ page.itemtype }}{% else %}{{ site.itemtype }}{% endif %}">
   {% include head.html %}
   <body class="{% if page.post_class %}{{page.post_class}}{% endif %} {% if page.slug %}{{page.slug}}{% endif %}">
-    {% include header.html %}
-
     <main class="wrapper" itemprop="mainContentOfPage">
       {{ content }}
     </main>
-
-    {% include footer.html %}
-
-    {% include search-modal.html %}
-
     {% javascript main %}
   </body>
 </html>{% endstrip %}

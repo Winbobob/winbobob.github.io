@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Sobre mim
 description: "Desenvolvedor front-end, entusiasta de performance e usabilidade, sempre em busca do melhor projeto e de um bom café"
 permalink: /about/
@@ -10,38 +10,52 @@ cover: "/assets/images/aboutme-cover.jpg"
 {% assign year = site.time | date: '%Y' %}
 {% capture myage %}{{ year | minus: 1989 }}{% endcapture %}
 
-<div itemscope itemtype="http://schema.org/Person">
-  <p>Meu nome é <strong itemprop="name">Fernando Moreira Costa</strong>, tenho <strong>{{ myage }} anos</strong>. Nasci e cresci em uma cidadezinha do interior de <em>Rondônia</em> chamada <em>Ariquemes</em>, sai de lá com 18 anos para me aventurar em <em itemprop="addressLocality">Curitiba</em>/<span itemprop="addressRegion">PR</span> onde moro atualmente. Sou <em>casado</em>, tenho um cachorro chamado <em>Ted</em>, e não tenho filhos.</p>
+<header class="banner">
 
-  <p>Eu comecei a "brincar" com códigos em meados de 2009 e trabalhar profissionalmente em uma agência de criação e desenvolvimento web no ano de 2010.</p>
+  <img src="{{ "/assets/images/author.jpg" | prepend: site.baseurl }}" alt="author thumb" class="dot animated hinge fadeInDown">
 
-  <p>Em 2010 comecei o curso de web design na <a href="http://microcampcuritiba.com.br/" target="_blank">Microcamp Curitiba</a> e finalizei em 2012, nesta mesma época conclui o curso <em>técnico em informática</em> com ênfase em programação no <em>Colégio Estadual do Paraná (CEP)</em>.</p>
+    <h2 class="animated hinge fadeIn" itemscope itemtype="http://schema.org/Person">Sobre mim</h2>
+    <nav class="actions animated hinge fadeInUp">
+      <a href="{{ "/blog" | prepend: site.baseurl }}" class="button ghost">Artigos</a>
+    </nav>
 
-  <p>Hoje sou especializado em desenvolvimento web usando o <a href="http://br.wordpress.org/" target="_blank"><em>Wordpress</em></a>, focado em <span itemprop="jobTitle">front-end</span> eu sempre cuido da usabilidade e performance de um site.</p>
+</header>
 
-  <p>Atualmente estou cursando <a href="http://www.ctpositivo.edu.br/cursos-de-tecnologia/sistemas-para-internet" target="_blank">Tecnologia em Sistemas para Internet</a> no <a target="_blank" href="http://www.ctpositivo.edu.br/">CT Positivo</a>, trabalho como <em>desenvolvedor web/front-end</em> e nos tempos livres contribuo com a comunidade [open source no meu Github](https://github.com/nandomoreirame).</p>
+<div class="container">
+  <div itemscope itemtype="http://schema.org/Person">
+    <p>Meu nome é <strong itemprop="name">Fernando Moreira Costa</strong>, tenho <strong>{{ myage }} anos</strong>. Nasci e cresci em uma cidadezinha do interior de <em>Rondônia</em> chamada <em>Ariquemes</em>, sai de lá com 18 anos para me aventurar em <em itemprop="addressLocality">Curitiba</em>/<span itemprop="addressRegion">PR</span> onde moro atualmente. Sou <em>casado</em>, tenho um cachorro chamado <em>Ted</em>, e não tenho filhos.</p>
 
-  <h3>Minhas Habilidades</h3>
+    <p>Eu comecei a "brincar" com códigos em meados de 2009 e trabalhar profissionalmente em uma agência de criação e desenvolvimento web no ano de 2010.</p>
 
-  <ul>
-    <li>HTML (Jekyll/liquid, Jade, Haml, Erb)</li>
-    <li>CSS (Stylus, Sass, Less)</li>
-    <li>CSS Frameworks (Bootstrap, Foundation, e outros)</li>
-    <li>Design Responsivo (Mobile First)</li>
-    <li>Javascript / jQuery / AngularJS</li>
-    <li>Gulp / Grunt / Yeoman</li>
-    <li>Bower / npm / Ruby gems</li>
-    <li>Git / Github / Gitlab</li>
-    <li>PHP / Frameworks PHP (Codeigniter, laravel, symfony)</li>
-    <li>MySQL</li>
-    <li>Scrum e Kanban</li>
-    <li>NodeJS (básico)</li>
-    <li>Ruby (básico)</li>
-    <li>TDD e BDD (básico)</li>
-  </ul>
+    <p>Em 2010 comecei o curso de web design na <a href="http://microcampcuritiba.com.br/" target="_blank">Microcamp Curitiba</a> e finalizei em 2012, nesta mesma época conclui o curso <em>técnico em informática</em> com ênfase em programação no <em>Colégio Estadual do Paraná (CEP)</em>.</p>
+
+    <p>Hoje sou especializado em desenvolvimento web usando o <a href="http://br.wordpress.org/" target="_blank"><em>Wordpress</em></a>, focado em <span itemprop="jobTitle">front-end</span> eu sempre cuido da usabilidade e performance de um site.</p>
+
+    <p>Atualmente estou cursando <a href="http://www.ctpositivo.edu.br/cursos-de-tecnologia/sistemas-para-internet" target="_blank">Tecnologia em Sistemas para Internet</a> no <a target="_blank" href="http://www.ctpositivo.edu.br/">CT Positivo</a>, trabalho como <em>desenvolvedor web/front-end</em> e nos tempos livres contribuo com a comunidade [open source no meu Github](https://github.com/nandomoreirame).</p>
+
+    <h3>Minhas Habilidades</h3>
+
+    <ul>
+      <li>HTML (Jekyll/liquid, Jade, Haml, Erb)</li>
+      <li>CSS (Stylus, Sass, Less)</li>
+      <li>CSS Frameworks (Bootstrap, Foundation, e outros)</li>
+      <li>Design Responsivo (Mobile First)</li>
+      <li>Javascript / jQuery / AngularJS</li>
+      <li>Gulp / Grunt / Yeoman</li>
+      <li>Bower / npm / Ruby gems</li>
+      <li>Git / Github / Gitlab</li>
+      <li>PHP / Frameworks PHP (Codeigniter, laravel, symfony)</li>
+      <li>MySQL</li>
+      <li>Scrum e Kanban</li>
+      <li>NodeJS (básico)</li>
+      <li>Ruby (básico)</li>
+      <li>TDD e BDD (básico)</li>
+    </ul>
+
+  </div>
+
+  <hr>
+
+  <p>E por fim, para entrar em contato comigo basta enviar um e-mail para <em itemprop="email">nandomoreira.me[at]gmail.com</em> ou me procurar em uma das minhas redes sociais.</p>
 
 </div>
-
-<hr>
-
-<p>E por fim, para entrar em contato comigo basta enviar um e-mail para <em itemprop="email">nandomoreira.me[at]gmail.com</em> ou me procurar em uma das minhas redes sociais.</p>

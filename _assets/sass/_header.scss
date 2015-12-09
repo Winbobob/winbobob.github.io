@@ -65,6 +65,7 @@
   }
 }
 
+body.blog,
 body.single {
   .header {
     top: auto;
@@ -80,6 +81,7 @@ body.single {
 }
 
 .header,
+body.blog .header,
 body.single .header {
   &.is-fixed {
     background-color: rgba($gray-darck-color, .9);

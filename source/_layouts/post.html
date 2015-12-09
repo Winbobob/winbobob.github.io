@@ -4,9 +4,7 @@ post_class: post-template
 ---
 {% strip %}<!DOCTYPE html>
 <html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/BlogPosting">
-  <head>
-    {% include head.html %}
-  </head>
+  {% include head.html %}
   <body class="{% if page.post_class %}{{page.post_class}}{% endif %} {% if page.slug %}{{page.slug}}{% endif %}">
     {% include header.html %}
 

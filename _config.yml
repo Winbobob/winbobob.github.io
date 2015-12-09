@@ -4,7 +4,7 @@ highlighter : pygments
 
 paginate: 12
 comments: true
-paginate_path: "/page/:num"
+paginate_path: "/blog/page/:num/"
 
 baseurl: ""
 domain_name: nandomoreira.me
