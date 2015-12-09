@@ -50,7 +50,7 @@ body:not(.post-template) {
   a {
     text-decoration: none;
     color: darken($white-color, 20%);
-    @include transition(opacity .2s ease);
+    @include transition(opacity .2s linear, color .2s linear);
     @include opacity(.7);
     text-align: center;
     display: inline-block;
