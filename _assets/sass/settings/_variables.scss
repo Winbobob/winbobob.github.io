@@ -23,7 +23,9 @@ $screen-desktop : 896px !default;
 //
 // Colors
 
-$primary-color: #f05f5c !default;
+// $primary-color: #f05f5c !default;
+$primary-color: #f4d03f !default;
+$secondary-color: #f05f5c !default;
 
 $white-color: #fff !default;
 $silver-color: darken($white-color, 22%) !default; // ~ #ccc
@@ -39,5 +41,5 @@ $blue-color: #016BA9 !default;
 $border-color: #f1f2f3 !default;
 
 // link
-$link-color: $primary-color !default;
+$link-color: $secondary-color !default;
 $link-hover-color: darken($link-color, 10%) !default;
