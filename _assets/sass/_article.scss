@@ -129,6 +129,11 @@ $post-small-spacing: 15px;
     &:focus {
       @include box-shadow(0 0 0 0, 0 10px 16px rgba($black-color, .2));
     }
+
+    .post-thumb {
+      max-height: 320px;
+      overflow: hidden;
+    }
   }
 }
 

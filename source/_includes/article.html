@@ -6,6 +6,13 @@
         {{ post.title }}
       </a>
     </h1>
+    {% if post.cover %}
+    <figure class="post-thumb">
+      <a href="{{ post.url }}" title="Permalink para: {{ post.title }}">
+        <img src="{{ post.cover }}" alt="imagem de {{ post.title }}">
+      </a>
+    </figure>
+    {% endif %}
   </header>
 
   <p>
