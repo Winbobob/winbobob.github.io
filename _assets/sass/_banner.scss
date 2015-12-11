@@ -43,20 +43,29 @@ body.home {
     color: $silver-color;
     margin-bottom: 1.75em;
     font-size: 1.2em;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: none;
 
     strong {
-      color: $primary-color;
+      color: $secondary-color;
       display: block;
-      font-size: 1.1em;
+      font-size: 1.2em;
       line-height: 1.65;
       text-transform: uppercase;
-      font-weight: 700;
+      font-weight: 300;
+      letter-spacing: -1px;
+
+      @include media($screen-tablet) {
+        letter-spacing: -2px;
+      }
+
+      @include media($screen-desktop) {
+        letter-spacing: -3px;
+      }
     }
 
     em {
-      font-weight: 400;
+      font-weight: 700;
     }
   }
 

@@ -61,7 +61,7 @@ body:not(.post-template) {
     &:focus,
     &:active {
       @include opacity(.9);
-      color: $primary-color;
+      color: $secondary-color;
     }
   }
 }

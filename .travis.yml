@@ -18,14 +18,6 @@ before_script:
 
 script: "./deploy.sh"
 
-# script:
-# - bundle exec jekyll build
-# # - bundle exec travis-lint
-# # - bundle exec htmlproof $HTML_FOLDER --check-favicon --verbose --check-html
-# - bash deploy.sh
-
-after_script:
-
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
