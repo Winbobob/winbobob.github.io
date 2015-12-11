@@ -19,27 +19,27 @@ $post-small-spacing: 15px;
 
   img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin-bottom: 1.6em;
   }
 
   h2, h3, h4 {
-    margin-top: 1.8em;
-  }
-
-  h1 {
-    font-size: 1.2em;
-    line-height: 1.2em;
-    margin: 0;
-
-    @include media($screen-tablet) {
-      font-size: 1.9em;
-    }
+    margin-top: 1em;
   }
 
   .post-header {
     margin-bottom: 2em;
+
+    h1 {
+      font-size: 1.2em;
+      line-height: 1.2em;
+      margin: 0;
+
+      @include media($screen-tablet) {
+        font-size: 1.9em;
+      }
+    }
   }
 
   .post-photo {
@@ -135,7 +135,7 @@ $post-small-spacing: 15px;
 .post-footer {
   background-color: $gray-darck-color !important;
   margin: 2em 0 0;
-  padding: 2em 0 0;
+  padding: 2em 0 .5em;
 
   h4, p {
     color: $white-color;

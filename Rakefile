@@ -1,67 +1,13 @@
 # encoding: UTF-8
 require "rubygems"
-require "tmpdir"
-require "bundler/setup"
-require "jekyll"
-
-# git remote set-url origin git@github.com:nandomoreirame/nandomoreirame.github.io.git
-# git remote set-url origin https://github.com/nandomoreirame/nandomoreirame.github.io.git
-# Change your GitHub reponame
-GITHUB_REPONAME = "nandomoreirame/nandomoreirame.github.io"
 
 SOURCE = "source/"
-DEST   = "_site"
 CONFIG = {
-  'layouts' => File.join(SOURCE, "_layouts"),
-  'posts' => File.join(SOURCE, "_posts"),
-  'post_ext' => "md",
+  'posts'      => File.join(SOURCE, "_posts"),
+  'post_ext'   => "md",
   'categories' => File.join(SOURCE, "categories"),
-  'tags' => File.join(SOURCE, "tags")
+  'tags'       => File.join(SOURCE, "tags")
 }
-
-task default: %w[publish]
-
-desc "Generate blog files"
-task :generate do
-  Jekyll::Site.new(Jekyll.configuration({
-    "source"      => "source/",
-    "destination" => "_site",
-    "config"      => "_config.yml"
-  })).process
-end
-
-
-desc "Generate and publish blog to gh-pages"
-task :publish => [:generate] do
-  Dir.mktmpdir do |tmp|
-    cp_r "_site/.", tmp
-
-    pwd = Dir.pwd
-    Dir.chdir tmp
-
-    system "git init"
-    system "git config --global user.email 'nandomoreira.me@gmail.com'"
-    system "git config --global user.name 'Fernando Moreira'"
-    system "git add ."
-    message = "Site updated at #{Time.now.utc}"
-    system "git commit -m #{message.inspect}"
-    # system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
-    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-    system "git push origin master --force"
-
-    Dir.chdir pwd
-  end
-end
-
-desc "Set github remote url to SSH"
-task :ssh => [:generate] do
-  system "git remote set-url origin git@github.com:#{GITHUB_REPONAME}.git"
-end
-
-desc "Set github remote url to HTTPS"
-task :https => [:generate] do
-  system "git remote set-url origin https://github.com/#{GITHUB_REPONAME}.git"
-end
 
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do

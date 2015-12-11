@@ -21,9 +21,9 @@ cover: /assets/images/banner.jpg
 # Details for the RSS feed generator
 name: Fernando Moreira
 title: Fernando Moreira | Desenvolvimento Web e tudo mais..
-description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
-meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
-meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
+description: "Desenvolvedor Front-end, Design Responsivo, HTML5, CSS3 e JavaScript"
+meta_description: "Desenvolvedor Front-end, Design Responsivo, HTML5, CSS3 e JavaScript"
+meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html, html5, css, css3, js, javascript, jquery, seo, otimizacao, performance"
 url: http://nandomoreira.me
 production_url: http://nandomoreira.me
 repo: http://github.com/nandomoreirame/nandomoreirame.github.io
@@ -39,7 +39,7 @@ author:
   # instagram : http://instagram.com/nandomoreira.me
   github    : http://github.com/nandomoreirame
   linkedin  : http://linkedin.com/in/nandomoreirame
-  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+  bio       : "Desenvolvedor Front-end entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
 
 
 # Plugin: jekyll-assets
