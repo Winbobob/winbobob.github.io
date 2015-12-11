@@ -8,11 +8,11 @@ description: "Mixin foi definitivamente algo novo para mim, você consegue passa
 cover: /assets/images/posts/2015/09/conhecendo-o-pre-processador-sass.jpg
 keywords: "sass, css, scss, pre-processador, pre-processadores"
 categories:
- - sass
+- sass
 tags:
- - sass
- - css
- - pre-processador
+- sass
+- css
+- pre-processador
 ---
 
 **Mixin** foi definitivamente algo novo para mim, você consegue passar valores por parâmetros assim como funções, a diferença é que uma função retorna apenas 1 único valor e mixin retorna um bloco inteiro de CSS.

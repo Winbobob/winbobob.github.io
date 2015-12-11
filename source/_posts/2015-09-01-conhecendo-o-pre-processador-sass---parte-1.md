@@ -8,11 +8,11 @@ description: "Todo desenvolvedor web deveria conhecer algum pré-processador CSS
 keywords: "sass, css, scss, pre-processador, pre-processadores"
 cover: /assets/images/posts/2015/09/conhecendo-o-pre-processador-sass.jpg
 categories:
- - sass
+- sass
 tags:
- - sass
- - css
- - pre-processador
+- sass
+- css
+- pre-processador
 ---
 
 Na minha opinião todo desenvolvedor web deveria conhecer algum pré-processador CSS, seja ele `Less`, `SASS`, `Stylus` ou qualquer outro.

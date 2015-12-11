@@ -8,10 +8,10 @@ description: "Fazer um blog usando Jekyll é bem fácil e rápido, sem contar qu
 keywords: "jekyll, blog, seo, dicas"
 cover: '/assets/images/posts/2015/07/por-que-resolvi-criar-meu-blog-com-o-jekyll.jpg'
 categories:
- - jekyll
+- jekyll
 tags:
- - dicas
- - jekyll
+- dicas
+- jekyll
 ---
 
 Fazer um blog usando [Jekyll](http://jekyllrb.com/) é bem fácil e rápido, sem contar que é incrível poder hospedar ele no [Github](http://github.com/nandomoreirame/nandomoreirame.github.io) sem pagar nada por isso, entretanto, existem alguns cuidados que se deve tomar se você quiser ser bem vindo no Google.

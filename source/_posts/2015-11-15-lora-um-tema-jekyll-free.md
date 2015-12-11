@@ -8,8 +8,9 @@ description: "Gostei de aprender a fazer página para o Github (gh-pages) utiliz
 keywords: "jekyll, theme, tema, gratuito, free, github, gh-pages, download"
 cover: http://raw.githubusercontent.com/nandomoreirame/lora/master/screenshot.png
 categories:
-- jekyll
+- temas
 tags:
+- temas
 - jekyll
 - download
 ---

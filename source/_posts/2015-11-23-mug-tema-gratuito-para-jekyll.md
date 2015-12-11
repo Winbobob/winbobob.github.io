@@ -8,8 +8,9 @@ description: "Mug, tema gratuito para Jekyll"
 cover: http://raw.githubusercontent.com/nandomoreirame/mug/master/screenshot.png
 keywords: "jekyll, download, free, tema, mug, gratuito"
 categories:
-- jekyll
+- temas
 tags:
+- temas
 - jekyll
 - download
 ---

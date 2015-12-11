@@ -8,10 +8,10 @@ description: "Blog Wilson Luiz Prosdocimo com Jekyll"
 keywords: "blog, projeto, jekyll"
 cover: /assets/images/posts/2015/09/wprosdocimo.jpg
 categories:
- - projetos
+- temas
 tags:
- - jekyll
- - blog
+- jekyll
+- blog
 ---
 
 Meu amigo Wilson gostou muito da ideia de poder publicar o blog dele no github usando Jekyll. Pode-se dizer que eu sou um _"Evangelista do Jekyll"_ porque ele é um convertido da minha palavra. (huehuehue)

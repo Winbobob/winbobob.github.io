@@ -8,11 +8,11 @@ description: "Conhecendo o pré-processador SASS-Parte 4"
 cover: /assets/images/posts/2015/09/conhecendo-o-pre-processador-sass.jpg
 keywords: "sass, css, scss, pre-processador, pre-processadores"
 categories:
- - sass
+- sass
 tags:
- - sass
- - css
- - pre-processador
+- sass
+- css
+- pre-processador
 ---
 
 Esse artigo será bem rápido, vou falar sobre o recurso que deixa o **SASS** ainda mais com cara de linguagem de programação, são as **funções**.

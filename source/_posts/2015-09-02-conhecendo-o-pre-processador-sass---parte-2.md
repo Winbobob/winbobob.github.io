@@ -8,11 +8,11 @@ description: "Conhecendo o pré-processador SASS - Variáveis"
 cover: /assets/images/posts/2015/09/conhecendo-o-pre-processador-sass.jpg
 keywords: "sass, css, scss, pre-processador, pre-processadores, variáveis"
 categories:
- - sass
+- sass
 tags:
- - sass
- - css
- - pre-processador
+- sass
+- css
+- pre-processador
 ---
 
 Vamos continuar nossa série **"Conhecendo o pré-processador SASS"**, mas agora falando de **Variáveis**.
