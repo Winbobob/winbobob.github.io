@@ -15,9 +15,9 @@ tags:
 
 Essa é uma dica rápida para os amantes da web, quem gosta, ama e trabalha com desenvolvimento de interfaces para o usuário.
 
-O [Panda 4 - News & Inspiration Dashboard](http://usepanda.com/) é um dashborad (painel) com freeds de websites, one pages, imagens, fotos e projetos inspiradores para quem gosta de apreciar essa arte.
-
 ## O que é?
+
+O [Panda 4 - News & Inspiration Dashboard](http://usepanda.com/) é um dashborad (painel) com freeds de websites, one pages, imagens, fotos e projetos inspiradores para quem gosta de apreciar essa arte.
 
 Ele tem a versão [web](http://usepanda.com/app/) e extensões para [Firefox](https://addons.mozilla.org/en-US/firefox/addon/panda-daily-news/) e [Google Chrome](https://chrome.google.com/webstore/detail/panda-4-news-inspiration/haafibkemckmbknhfkiiniobjpgkebko). Eu uso ele nos dois navegadores (Firefox e Chrome).
 
