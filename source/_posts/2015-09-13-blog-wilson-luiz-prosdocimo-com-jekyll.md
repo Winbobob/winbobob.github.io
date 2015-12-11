@@ -8,8 +8,9 @@ description: "Blog Wilson Luiz Prosdocimo com Jekyll"
 keywords: "blog, projeto, jekyll"
 cover: /assets/images/posts/2015/09/wprosdocimo.jpg
 categories:
-- temas
+- temas-jekyll
 tags:
+- temas
 - jekyll
 - blog
 ---

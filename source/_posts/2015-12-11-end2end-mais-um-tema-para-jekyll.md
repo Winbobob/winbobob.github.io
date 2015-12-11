@@ -8,7 +8,7 @@ description: "end2end - mais um tema para Jekyll"
 cover: http://raw.githubusercontent.com/nandomoreirame/end2end/master/screenshot.png
 keywords: "temas, jekyll, download, tema, free, gratuito, blog, front-end"
 categories:
-- temas
+- temas-jekyll
 tags:
 - temas
 - jekyll

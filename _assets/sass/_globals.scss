@@ -89,7 +89,7 @@ h6 {
 }
 
 h1 {
-  letter-spacing: -2px;
+  letter-spacing: -1.6px;
 }
 
 h2 {
@@ -325,5 +325,13 @@ img.pull-right { margin-left: 20px; }
   &, &:hover, &:focus {
     text-decoration: none;
     border: none;
+  }
+}
+
+.page-header {
+  h1 {
+    font-size: 2em;
+    margin-top: 1.6em;
+    font-weight: 300;
   }
 }

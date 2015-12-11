@@ -8,7 +8,7 @@ description: "simplest - mais um tema para Jekyll"
 cover: http://raw.githubusercontent.com/nandomoreirame/simplest/master/screenshot.png
 keywords: "temas, jekyll, download, tema, free, gratuito, blog, front-end"
 categories:
-- temas
+- temas-jekyll
 tags:
 - temas
 - jekyll

@@ -7,7 +7,7 @@ comments: true
 description: "Zetsu é o meu primeiro tema de muitos que vou fazer para Jekyll que estará disponível no Github para download"
 keywords: "jekyll, temas, zetsu, blog"
 categories:
-- jekyll
+- temas-jekyll
 tags:
 - temas
 - jekyll
