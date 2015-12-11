@@ -60,7 +60,7 @@ Não seja esse cara. Entenda como as tecnologias novas podem ajudar em um projet
 
 ## 4. Não tenha medo de aprender coisas novas
 
-O designer aprender a programar não quer dizer que a empresa vai passar as tarefas do programador pra ele quando ele estiver com o tempo livre, e assim vale para o programador ou para o front-end.
+Um designer que aprende a programar não quer dizer que a empresa vai passar as tarefas do programador pra ele, quando ele estiver com o tempo livre, e assim vale para o programador ou para o front-end.
 
 ![gif skate!](/assets/images/posts/2015/12/skate.gif)
 
@@ -94,7 +94,7 @@ Não deixe que digam que você é **_"apenas um fatiador de layout"_** e **_"dia
 
 ## Conclusão
 
-Por mais que você não queira aprender sobre outras áreas que não estejam relacionadas a sua formação, ainda assim isso é o que o mercado quer, é pra onde os profissionais e as empresas estão caminhando, e se você não correr poderá ficar para trás.
+O mercado necessita de profissionais que interajam e aprendem sobre outras áreas, que não estejam relacionadas apenas com a sua formação.Se você não correr poderá ficar para trás.
 
 Tem cada vez mais por ai, designers sabendo front-end, front-end sabendo UX e back-end tendo noções de design, não deixe que uma dessas pessoas tome sua vaga no mercado de trabalho.
 
