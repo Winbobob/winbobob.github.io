@@ -5,15 +5,14 @@ slug: home
 ---
 
 <section class="hero">
-
   <div class="hero-inner">
-    <img src="{{ "/assets/images/author.jpg" | prepend: site.baseurl }}" alt="author thumb" class="dot animated hinge fadeInDown">
-    <h2 class="animated hinge fadeIn" itemscope itemtype="http://schema.org/Person">Olá meu nome é <strong itemprop="name">{{ site.name }}</strong> eu sou <em itemprop="jobTitle">Front-end</em> e gosto muito de café!</h2>
-    <nav class="actions animated hinge fadeInUp">
+    <div class="filter"></div>
+    <img src="{{ "/assets/images/author.jpg" | prepend: site.baseurl }}" alt="author thumb" class="dot author-thumb">
+    <h1 itemscope itemtype="http://schema.org/Person">Olá meu nome é <strong itemprop="name">{{ site.name }}</strong> eu sou <em itemprop="jobTitle">Front-end</em> e gosto muito de café!</h1>
+    <nav class="actions">
       <a href="{{ "/blog" | prepend: site.baseurl }}" class="button ghost">Artigos</a>
       <a href="{{ "/about" | prepend: site.baseurl }}" class="button ghost">Sobre</a>
       {% include social.html %}
     </nav>
   </div>
-
 </section>

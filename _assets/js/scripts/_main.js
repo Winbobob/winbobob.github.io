@@ -77,38 +77,3 @@
     });
   };
 })(jQuery);
-
-$header = $('.header');
-
-$(document).ready(function($) {
-  var MQL = 1170;
-
-  if ($(window).width() > MQL) {
-    var headerHeight = $header.height();
-    $(window).on('scroll', {
-      previousTop: 0
-    },
-    function() {
-      var currentTop = $(window).scrollTop();
-
-      if (currentTop < this.previousTop) {
-
-        if (currentTop > 0 && $header.hasClass('is-fixed')) {
-          $header.addClass('is-visible');
-        } else {
-          $header.removeClass('is-visible is-fixed');
-        }
-
-      } else {
-
-        $header.removeClass('is-visible');
-        if (currentTop > headerHeight && !$header.hasClass('is-fixed')) $header.addClass('is-fixed');
-      }
-      this.previousTop = currentTop;
-    });
-  }
-});
-
-
-// new WOW().init();
-// var sharer = new SelectionSharer('p');

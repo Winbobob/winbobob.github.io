@@ -1,15 +1,18 @@
 
 <div class="container">
+
   {% include post/post-header.html %}
 
   {% if page.cover %}
-    <figure class="post-photo">
+    <figure class="post-thumb">
       <a href="{{ page.cover }}" class="swipebox" rel="gallery" title="{{ page.title }}">
         <img src="{{ page.cover }}" alt="{{ page.title }}" title="{{ page.title }}">
       </a>
     </figure>
   {% endif %}
 
-  {{content}}
+  <div class="post-content">
+    {{content}}
+  </div>
 
 </div>

@@ -1,0 +1,180 @@
+
+.post {
+  .post-content {
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-bottom: 1.6em;
+    }
+  }
+
+  .post-thumb {
+    max-height: 320px;
+    overflow: hidden;
+    margin-bottom: $base-spacing;
+  }
+}
+
+.posts {
+  .post {
+    @extend %clearfix;
+    margin-bottom: $base-spacing;
+    padding-bottom: $base-spacing;
+    border-bottom: 1px solid $base-border-color;
+
+    @include media($screen-tablet) {
+      margin-bottom: $base-spacing * 2;
+      padding-bottom: $base-spacing * 2;
+    }
+
+    p {
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+}
+
+.post-title {
+  @include font-size(22px);
+  text-transform: none;
+  margin-bottom: 0.4em;
+
+  a {
+    text-decoration: none;
+    color: $txt-color;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $link-color;
+    }
+  }
+
+  @include media($screen-tablet) {
+    @include font-size(30px);
+  }
+}
+
+.post-meta {
+  margin-top: $small-spacing;
+  margin-bottom: $base-spacing;
+
+  span, time, img {
+    @include font-size(14px);
+    color: $gray-color;
+    vertical-align: middle;
+    font-style: italic;
+  }
+
+  .author-thumb {
+    height: 30px;
+    width: 30px;
+    margin-right: 4px;
+  }
+}
+
+.disqus {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: $base-spacing;
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.post-footer {
+  background-color: lighten($silver-color, 10%);
+  margin: 2em 0;
+  padding: 2em 0;
+
+  h4 {
+    @include font-size(18px);
+    font-weight: 400;
+    margin: 0;
+  }
+
+  p {
+    margin: 1em 0 0;
+    line-height: 1.7em;
+    @include font-size(15px);
+  }
+
+  .author {
+    margin-right: 180px;
+  }
+
+  .author-thumb {
+    width: 100px;
+    float: left;
+    margin-right: 1em;
+  }
+
+  h4 a {
+    color: $txt-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .share {
+    position: absolute;
+    width: 140px;
+    top: 1.4em;
+    right: $gutter-padding;
+    text-align: center;
+
+    h4 {
+      margin-bottom: .6em;
+    }
+
+    a {
+      font-size: 1.6em;
+      display: inline-block;
+      margin: 0 .3em 0;
+      color: $gray-color;
+      text-decoration: none;
+      @include transition(opacity .4s linear);
+      border: none;
+      opacity: .6;
+
+      &.share-facebook {
+        color: #3B599F;
+      }
+
+      &.share-twitter {
+        color: #28A9E0;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  @include media(max-width $screen-desktop) {
+    .author,
+    .author-thumb,
+    .share {
+      float: none;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      text-align: center;
+      clear: both;
+    }
+
+    .share {
+      top: auto;
+      margin: 2em auto;
+    }
+
+    .author-thumb {
+      display: inline;
+      margin-bottom: 1em;
+    }
+  }
+}

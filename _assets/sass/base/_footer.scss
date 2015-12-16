@@ -3,11 +3,25 @@
 ====================================*/
 
 .footer {
-  padding: 4em 0 2em;
-  background: $gray-darck-color;
+  background-color: $gray-dark-color;
   text-align: center;
+  padding: $base-spacing $small-spacing;
+
+  @include media($screen-desktop) {
+    background-color: transparent;
+    width: $header-medium-width;
+    position: fixed;
+    padding: 0 $small-spacing $small-spacing;
+    left: 0;
+    bottom: 0;
+  }
+
+  @include media($screen-large-desktop) {
+    width: $header-large-width;
+  }
 
   p {
+    font-size: 1rem;
     color: darken($white-color, 18%);
 
     small {
@@ -20,31 +34,29 @@
     }
   }
 
+  .social {
+    margin-top: 0;
+  }
+
   span {
     display: block;
     font-size: .7em;
     margin-top: 1em;
     color: darken($white-color, 20%);
   }
-}
 
-body:not(.post-template) {
-  .footer {
-    margin-top: 3em;
+  a {
+    color: darken($white-color, 5%);
   }
 }
 
 .social {
   padding: 0;
-  margin: 0 0 3em;
+  margin: $base-spacing 0 $small-spacing;
 
   li {
     display: inline-block;
-    padding: 0 1.2em;
-
-    @include media($screen-tablet) {
-      padding: 0 2em;
-    }
+    padding: 0 $small-spacing;
   }
 
   a {
@@ -55,13 +67,13 @@ body:not(.post-template) {
     text-align: center;
     display: inline-block;
     line-height: 60px;
-    font-size: 2.4em;
+    font-size: 1.8rem;
 
     &:hover,
     &:focus,
     &:active {
       @include opacity(.9);
-      color: $secondary-color;
+      color: $primary-color;
     }
   }
 }

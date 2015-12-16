@@ -4,7 +4,7 @@ title: "Mug, tema gratuito para Jekyll"
 permalink: mug-tema-gratuito-para-jekyll
 date: 2015-11-23 17:13:30
 comments: true
-description: "Mug, tema gratuito para Jekyll"
+description: "Olá, eu desenvolvi mais um tema para Jekyll, faça o download do Mug!"
 cover: http://raw.githubusercontent.com/nandomoreirame/mug/master/screenshot.png
 keywords: "jekyll, download, free, tema, mug, gratuito"
 categories:

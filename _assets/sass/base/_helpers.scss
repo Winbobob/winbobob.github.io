@@ -1,0 +1,53 @@
+
+.clearfix {
+  @extend %clearfix;
+}
+
+.dot {
+  border-radius: 50%;
+}
+
+.txt-white {
+  color: $white-color !important;
+}
+
+.txt-center { text-align: center !important; }
+.txt-left { text-align: left !important; }
+.txt-right { text-align: right !important; }
+.txt-justify { text-align: justify !important; }
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+img.pull-left { margin-right: 20px; }
+img.pull-right { margin-left: 20px; }
+
+.card {
+  background-color: $white-color;
+  padding: $base-spacing;
+  @include box-shadow(0 0 0 0, 0 6px 12px rgba(34,34,34, .1));
+}
+
+
+.scroll-up {
+  position: fixed;
+  right: 15px;
+  bottom: -80px;
+  @include font-size(36px);
+  @include transition(all .2s linear);
+  font-size: 2em !important;
+
+  &, &:hover, &:focus {
+    color: $txt-color;
+  }
+
+  &:hover {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  &, &:hover, &:focus {
+    text-decoration: none;
+    border: none;
+  }
+}

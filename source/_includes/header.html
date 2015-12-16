@@ -1,11 +1,19 @@
 <header class="header">
-  <div class="container-full">
-    <h1><a href="{{ "/" | prepend: site.baseurl }}"><strong>nandomoreira</strong><span>.me</span></a></h1>
-    <nav class="navbar">
-      <ul>
-        <li class="search"><a href="#!" data-modal="modalSearch"><i class="fa fa-search"></i></a></li>
-        <li class="feed"><a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-feed"></i></a></li>
-      </ul>
-    </nav>
-  </div>
+
+  <a href="{{ "/" | prepend: site.baseurl }}">
+    <img src="{{ "/assets/images/author.jpg" | prepend: site.baseurl }}" alt="author thumb" class="dot author-thumb">
+  </a>
+
+  <h1 itemscope itemtype="http://schema.org/Person">Olá meu nome é <strong itemprop="name">{{ site.name }}</strong> eu sou <em itemprop="jobTitle">Front-end</em> e gosto muito de café!</h1>
+
+  <nav class="nav">
+    <ul class="navbar">
+      <li><a href="{{ "/blog" | prepend: site.baseurl }}" class="subnav-trigger"><span>Artigos</span></a></li>
+      <li><a href="{{ "/about" | prepend: site.baseurl }}">Sobre</a></li>
+      <li class="search">
+        <a href="#!" data-modal-search="modalSearch"><i class="fa fa-search"></i> Busca</a>
+      </li>
+    </ul>
+  </nav>
+
 </header>

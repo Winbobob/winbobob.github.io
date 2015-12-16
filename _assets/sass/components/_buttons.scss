@@ -1,0 +1,66 @@
+.btn,
+.button {
+  appearance: none;
+  background-color: $primary-color;
+  border: 1px solid lighten($primary-color, 6%);
+  @include border-radius($base-border-radius);
+  color: $white-color;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  line-height: 1;
+  padding: $small-spacing $base-spacing;
+  text-decoration: none;
+  @include transition(background-color $base-duration $base-timing, color $base-duration $base-timing);
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background-color: shade($primary-color, 20%);
+    color: $white-color;
+  }
+
+  &:active,
+  &:focus {
+    @include transform(scale(.9));
+  }
+
+  &.ghost {
+    background-color: transparent;
+    border-color: rgba($white-color, .85);
+
+    &:hover,
+    &:focus {
+      background-color: rgba($white-color, .1);
+    }
+  }
+
+  &.secondary {
+    background-color: $secondary-color;
+    border-color: rgba($secondary-color, .8);
+
+    &:hover,
+    &:focus {
+      background-color: shade($secondary-color, 20%);
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+
+  &.round {
+    @include border-radius(300px);
+  }
+}

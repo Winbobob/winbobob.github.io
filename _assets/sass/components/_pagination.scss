@@ -1,0 +1,78 @@
+
+.pagination {
+  @extend %clearfix;
+  width: 100%;
+  margin: $base-spacing auto $small-spacing;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin: $small-spacing .2em;
+
+    &.button {
+      display: inline-block;
+    }
+  }
+
+  li, a, span {
+    display: block;
+    width: 100%;
+  }
+
+  a, span {
+    text-decoration: none;
+    display: inline-block;
+    @include user-select(none);
+    padding: .6em .8em;
+    @include font-size(15px);
+  }
+
+  a, .disabled {
+    border: 1px solid darken($silver-color, 10%);
+    border-radius: $base-border-radius;
+  }
+
+  a {
+    .no-touch &:hover {
+      background-color: darken($silver-color, 5%);
+    }
+
+    &:active {
+      @include transform(scale(.9));
+    }
+  }
+
+  .page-number {
+    font-style: italic;
+    color: $silver-color;
+  }
+
+  .disabled {
+    border-color: rgba($gray-color, .7);
+    color: rgba($gray-color, .4);
+    pointer-events: none;
+
+    &::before, &::after {
+      opacity: .4;
+    }
+  }
+
+  @include media($screen-tablet) {
+    li {
+      margin: 0 .2em;
+    }
+
+    li, a, span {
+      width: auto;
+      display: inline-block;
+    }
+  }
+
+  @include media($screen-desktop) {
+    margin: ($base-spacing*2) auto;
+  }
+}

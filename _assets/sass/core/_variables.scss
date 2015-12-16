@@ -1,0 +1,80 @@
+//
+// Variables
+//
+
+// Typography
+$base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif !default;
+$font-family-base: $base-font-family !default;
+$font-family-serif: "Droid Serif", sans-serif !default;
+$font-family-monospace: "Courier New", monospace !default;
+$heading-font-family: $font-family-serif !default;
+$base-font-size: 1.2rem !default;
+$font-size-base: $base-font-size !default;
+
+// Line height
+$base-line-height: 1.5 !default;
+$heading-line-height: 1.2 !default;
+
+// Other Sizes
+$base-border-radius: 3px !default;
+$base-spacing: $base-line-height * 1em !default;
+$small-spacing: $base-spacing / 2 !default;
+$base-z-index: 0 !default;
+
+// Colors
+$primary-color: #E97F02 !default;
+$secondary-color: #BD1550 !default;
+$tertiary-color: #490A3D !default;
+
+$white-color: #fff !default;
+$silver-color: darken($white-color, 22%) !default;
+$gray-color: darken($white-color, 42%) !default;
+$gray-dark-color: #2d3138 !default;
+$black-color: #000 !default;
+$blue-color: #766dcc !default;
+
+// Font Colors
+$txt-color: rgba($gray-dark-color, .6) !default;
+$base-font-color: $txt-color !default;
+$action-color: $primary-color !default;
+
+// Border
+$base-border-color: tint($silver-color, 25%) !default;
+$base-border: 1px solid $base-border-color !default;
+
+// Background Colors
+$base-background-color: $white-color !default;
+$secondary-background-color: tint($base-border-color, 75%) !default;
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06) !default;
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3) !default;
+
+// link
+$link-color: $primary-color !default;
+$link-hover-color: shade($link-color, 10%) !default;
+
+// Animations
+$base-duration: 150ms !default;
+$base-timing: ease !default;
+
+// Grid
+$small-screen: 480px;
+$medium-screen: 960px;
+$large-screen: 1280px;
+$xlarge-screen: 1800px;
+
+$screen-phone: $small-screen;
+$screen-tablet: $medium-screen;
+$screen-desktop: $large-screen;
+$screen-large-desktop: $xlarge-screen;
+
+$header-medium-width: 22em;
+$header-large-width: 32em;
+
+$gutter: 30px;
+$gutter-padding: ($gutter/2);
+$default-feature: min-width;
+
+$medium-screen-up: new-breakpoint($default-feature $medium-screen 4);
+$large-screen-up: new-breakpoint($default-feature $large-screen 8);

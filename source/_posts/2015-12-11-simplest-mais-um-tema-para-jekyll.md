@@ -4,7 +4,7 @@ title: "simplest - mais um tema para Jekyll"
 permalink: simplest-mais-um-tema-para-jekyll
 date: 2015-12-11 14:55:22
 comments: true
-description: "simplest - mais um tema para Jekyll"
+description: "Olá, eu desenvolvi mais um tema para Jekyll, faça o download do simplest agora"
 cover: http://raw.githubusercontent.com/nandomoreirame/simplest/master/screenshot.png
 keywords: "temas, jekyll, download, tema, free, gratuito, blog, front-end"
 categories:

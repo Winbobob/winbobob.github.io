@@ -4,7 +4,7 @@ title: "end2end - mais um tema para Jekyll"
 permalink: end2end-mais-um-tema-para-jekyll
 date: 2015-12-11 14:45:22
 comments: true
-description: "end2end - mais um tema para Jekyll"
+description: "Olá, eu desenvolvi mais um tema para Jekyll, faça o download do end2end agora"
 cover: http://raw.githubusercontent.com/nandomoreirame/end2end/master/screenshot.png
 keywords: "temas, jekyll, download, tema, free, gratuito, blog, front-end"
 categories:

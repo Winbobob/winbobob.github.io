@@ -4,8 +4,8 @@ title: "Não seja apenas um recortador de PSD!"
 permalink: nao-seja-apenas-um-recortador-de-psd
 date: 2015-12-10 23:37:08
 comments: true
-description: "Não seja apenas um recortador de PSD!"
-keywords: "front-end, frontend, psd"
+description: "Durante minha trajetória até aqui eu já trabalhei com alguns programadores e designers que discordariam completamente da minha opinião"
+keywords: "front-end, frontend, psd, reflexao"
 categories:
 - geral
 tags:

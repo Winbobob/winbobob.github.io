@@ -71,28 +71,28 @@
       }
     });
 
-    this.el.querySelector('.modal__overlay').addEventListener('click', this.toggle.bind(this));
+    this.el.querySelector('.modal-search__overlay').addEventListener('click', this.toggle.bind(this));
   }
 
   ModalFx.prototype.toggle = function () {
     var self = this;
     if (this.isOpen) {
-      classie.remove(document.body, 'modal--open');
-      classie.remove(this.el, 'modal--open');
-      classie.add(self.el, 'modal--close');
+      classie.remove(document.body, 'modal-search--open');
+      classie.remove(this.el, 'modal-search--open');
+      classie.add(self.el, 'modal-search--close');
 
-      onEndAnimation(this.el.querySelector('.modal__content'), function () {
-        classie.remove(self.el, 'modal--close');
+      onEndAnimation(this.el.querySelector('.modal-search__content'), function () {
+        classie.remove(self.el, 'modal-search--close');
       });
 
       // callback on close
       this.options.onCloseModal(this);
     } else {
-      classie.add(document.body, 'modal--open');
-      classie.add(this.el, 'modal--open');
+      classie.add(document.body, 'modal-search--open');
+      classie.add(this.el, 'modal-search--open');
 
       /* Search input focus */
-      document.getElementById("search-input").focus();
+      document.getElementById("modal-search-input").focus();
       /* Search input focus */
 
       // callback on open
@@ -109,8 +109,8 @@
 var ModalFx = ModalFx || [];
 
 (function () {
-  var Mdtrigger = document.querySelector('[data-modal]'),
-    someModal = document.getElementById(Mdtrigger.getAttribute('data-modal')),
+  var Mdtrigger = document.querySelector('[data-modal-search]'),
+    someModal = document.getElementById(Mdtrigger.getAttribute('data-modal-search')),
     dlg = new ModalFx(someModal);
   Mdtrigger.addEventListener('click', dlg.toggle.bind(dlg));
 })();

@@ -2,8 +2,8 @@
   @extend %clearfix;
   padding: 0;
   margin: {
-    top: em(15px);
-    bottom: 25px;
+    top: $base-spacing;
+    bottom: $base-spacing;
   };
 
   &, .hll, pre, code {
@@ -13,7 +13,7 @@
 
   pre {
     margin: 0;
-    padding: em(15px) em(20px);
+    padding: $small-spacing $base-spacing;
     white-space: pre;
     line-height: 23px;
     overflow-x: auto;

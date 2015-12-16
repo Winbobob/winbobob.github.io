@@ -1,0 +1,130 @@
+
+.header {
+  @extend %clearfix;
+  background-color: $tertiary-color;
+  background-attachment: scroll, fixed;
+  background-image: url('/assets/images/banner.jpg');
+  background-position: top left, top left;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, auto 100%;
+  color: $white-color;
+  padding: $base-spacing $small-spacing;
+  text-align: center;
+
+  @include media($screen-desktop) {
+    height: 100%;
+    width: $header-medium-width;
+    position: fixed;
+    padding: ($base-spacing * 2) $base-spacing;
+    left: 0;
+    top: 0;
+  }
+
+  @include media($screen-large-desktop) {
+    padding: ($base-spacing * 3) ($base-spacing * 2);
+    width: $header-large-width;
+  }
+
+  a {
+    text-decoration: none;
+    color: $white-color;
+  }
+
+  .author-thumb {
+    margin: 0 0 $base-spacing 0;
+    animation-duration: .5s;
+    animation-name: bounce-rotate;
+    display: inline;
+    width: 6.25em;
+  }
+
+  h1 {
+    animation-name: bounce-right;
+    font-family: $font-family-base;
+    color: rgba($white-color, .5);
+    line-height: 1.5;
+    display: block;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    font-weight: 400;
+    animation-duration: 1s;
+
+    strong, em {
+      color: rgba($white-color, .9);
+    }
+
+    strong {
+      text-transform: uppercase;
+    }
+
+    @include media($screen-desktop) {
+      margin-bottom: $base-spacing;
+      font-size: 1.4rem;
+      float: none;
+    }
+
+    @include media($screen-large-desktop) {
+      font-size: 1.7rem;
+    }
+  }
+
+  .social {
+    display: none;
+
+    @include media($screen-desktop) {
+      display: block;
+      margin-top: $base-spacing;
+      animation-duration: 1.2s;
+      animation-name: bounce-rotate;
+    }
+  }
+}
+
+.navbar {
+  // float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @include media($screen-desktop) {
+    // float: none;
+    width: 100%;
+  }
+
+  li {
+    font-size: 1rem;
+    margin-left: 1em;
+
+    @include media($screen-desktop) {
+      margin: 0 0 .5em;
+      display: block;
+      width: 100%;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+
+  li, a {
+    display: inline-block;
+  }
+
+  a {
+    padding: .6em 1em;
+    line-height: 1;
+    color: rgba($white-color, .6);
+    border-bottom: 1px solid transparent;
+    @include transition(color .4s linear, border-color .4s linear);
+  }
+
+  li.active a,
+  li.active a:hover,
+  li.active a:focus,
+  li.active a:active,
+  li a:hover,
+  li a:focus,
+  li a:active {
+    color: $white-color;
+    border-color: $white-color;
+  }
+}

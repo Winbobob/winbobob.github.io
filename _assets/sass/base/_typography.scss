@@ -1,0 +1,165 @@
+
+// Google web fonts
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700");
+@import url("//fonts.googleapis.com/css?family=Droid+Serif:400,700");
+
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-feature-settings: "kern", "liga", "pnum";
+  font-weight: 400;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: .01em;
+}
+
+input,
+select,
+textarea {
+  color: $txt-color;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: 2em;
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $link-color;
+  text-decoration: underline;
+  @include transition(color $base-duration $base-timing);
+
+  &:active,
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: $link-hover-color;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $base-font-color;
+  font-family: $heading-font-family;
+  line-height: $heading-line-height;
+  margin: ($base-spacing/1.5) 0;
+  font-weight: 700;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  small {
+    font-size: 60%;
+  }
+}
+
+h1 { @include font-size(30px) }
+
+h2 { @include font-size(28px) }
+
+h3 { @include font-size(22px) }
+
+h4 { @include font-size(20px) }
+
+h5, h6 { @include font-size(16px) }
+
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+hr {
+  border: 0;
+  border-bottom: $base-border;
+  margin: $base-spacing 0;
+
+  &.major {
+    margin: 3em 0;
+  }
+}
+
+ol {
+  list-style: decimal;
+  margin: 0 0 2em 0;
+  padding-left: 1.25em;
+
+  li {
+    padding-left: 0.25em;
+  }
+}
+
+ul {
+  list-style: disc;
+  margin: 0 0 2em 0;
+  padding-left: 1.2em;
+
+  li {
+    padding-left: 0.5em;
+  }
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: solid 4px $primary-color;
+  font-style: italic;
+  margin: 0 0 1em;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+q, blockquote {
+  small {
+    font-size: 60%;
+  }
+}
+
+code {
+  background: none;
+  border-radius: 0;
+  border: none;
+  font-family: $font-family-monospace;
+  font-size: 0.9em;
+  margin: 0;
+  background-color: #ededed;
+  padding: 0 4px;
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: $font-family-monospace;
+  font-size: 0.9em;
+  margin: 0;
+
+  code {
+    line-height: 1.75em;
+  }
+}

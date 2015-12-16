@@ -4,7 +4,7 @@ title: "Lora, um tema Jekyll gratuito"
 permalink: lora-um-tema-jekyll-free
 date: 2015-11-15 18:45:26
 comments: true
-description: "Gostei de aprender a fazer página para o Github (gh-pages) utilizando o Jekyll, um pacote do Ruby"
+description: "Olá, eu desenvolvi mais um tema para Jekyll, faça o download do Lora!"
 keywords: "jekyll, theme, tema, gratuito, free, github, gh-pages, download"
 cover: http://raw.githubusercontent.com/nandomoreirame/lora/master/screenshot.png
 categories:

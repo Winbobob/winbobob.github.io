@@ -1,15 +1,5 @@
 <ul class="social">
 
-  {% comment %}
-  {% if site.author.email %}
-  <li>
-    <a href="mailto:{{ site.author.email }}" class="icon-email" target="_blank">
-      <i class="fa fa-envelope"></i>
-    </a>
-  </li>
-  {% endif %}
-  {% endcomment %}
-
   {% if site.author.github %}
   <li>
     <a href="{{ site.author.github }}" class="icon-github" target="_blank">
@@ -49,5 +39,9 @@
     </a>
   </li>
   {% endif %}
+
+  <li>
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-feed"></i></a>
+  </li>
 
 </ul>
