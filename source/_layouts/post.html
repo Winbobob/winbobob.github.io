@@ -1,37 +1,18 @@
 ---
+layout: default
 slug: single
 post_class: post-template
+itemtype: BlogPosting
 ---
-{% strip %}<!DOCTYPE html>
-<html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/BlogPosting">
-  {% include head.html %}
-  <body class="{% if page.post_class %}{{page.post_class}}{% endif %} {% if page.slug %}{{page.slug}}{% endif %}">
-    {% include header.html %}
 
-    {% if page.slug == 'home' or page.slug == 'about' %}
-      {% include banner.html %}
-    {% endif %}
+<article role="article" class="post" itemprop="articleBody">
 
-    <main class="wrapper" itemprop="mainContentOfPage">
+  {% include post/post-content.html %}
 
-      <article role="article" class="post" itemprop="articleBody">
+  {% include post/post-footer.html %}
 
-        {% include post/post-content.html %}
+  {% if site.comments and page.comments %}
+    {% include post/post-comments.html %}
+  {% endif %}
 
-        {% include post/post-footer.html %}
-
-        {% if site.comments and page.comments %}
-          {% include post/post-comments.html %}
-        {% endif %}
-
-      </article>
-
-    </main>
-
-    {% include footer.html %}
-
-    {% include search-modal.html %}
-
-    {% javascript main %}
-  </body>
-</html>{% endstrip %}
+</article>
