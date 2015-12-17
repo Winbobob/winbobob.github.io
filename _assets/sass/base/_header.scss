@@ -44,9 +44,8 @@
     color: rgba($white-color, .5);
     line-height: 1.5;
     display: block;
-    margin-top: .5em;
-    margin-bottom: 1em;
-    font-size: 1.2em;
+    margin: 0 0 $base-spacing;
+    @include font-size(22px);
     font-weight: 400;
     animation-duration: 1s;
 
@@ -59,13 +58,12 @@
     }
 
     @include media($screen-desktop) {
-      margin-bottom: $base-spacing;
-      font-size: 1.4rem;
+      @include font-size(20px);
       float: none;
     }
 
     @include media($screen-large-desktop) {
-      font-size: 1.7rem;
+      @include font-size(26px);
     }
   }
 
