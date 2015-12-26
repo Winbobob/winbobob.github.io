@@ -7,7 +7,7 @@ layout: compress
   <body class="{% if page.post_class %}{{page.post_class}}{% endif %} {% if page.slug %}{{page.slug}}{% endif %}">
     {% include header.html %}
 
-    <main class="wrapper" itemprop="mainContentOfPage">
+    <main class="wrapper" role="main" itemprop="mainContentOfPage">
       {{ content }}
     </main>
 

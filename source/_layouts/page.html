@@ -3,7 +3,7 @@ layout: default
 post_class: page-template
 ---
 
-<div class="post" itemprop="mainContentOfPage">
+<article class="post" itemprop="mainContentOfPage">
 
   {% if page.slug != 'about' %}
     <header class="post-header container">
@@ -15,7 +15,7 @@ post_class: page-template
     {{content}}
   </div>
 
-</div>
+</article>
 
 {% if page.slug == "error404" %}
   <div class="posts container">
