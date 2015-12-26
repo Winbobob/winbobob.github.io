@@ -19,9 +19,7 @@ Eu criei um [repositório](https://github.com/nandomoreirame/gulp-boilerplate) n
 
 Todo mundo já usou ou já ouviu falar dos pacotes do [NodeJS](https://nodejs.org/) os famosos [npm](https://www.npmjs.com/), eu queria saber como fazer um e talvez, quem sabe, criar um pra saber que gostinho tem :)
 
-Eu gosto muito da ideia do [Yeoman](http://yeoman.io/) de poder iniciar um projeto rápido com os seus _[generators](http://yeoman.io/generators/)_, dai eu pensei comigo:
-
-> Porque não fazer o um generator também?
+Eu gosto muito da ideia do [Yeoman](http://yeoman.io/) de poder iniciar um projeto rápido com os seus _[generators](http://yeoman.io/generators/)_, dai eu pensei: **"Porque não fazer o um generator também?"**
 
 Dessa ideia que saiu o [Generator Gulp Boilerplate](https://github.com/nandomoreirame/generator-gulp-boilerplate).
 
@@ -32,7 +30,7 @@ A documentação do Yeoman é bem simples e fazer um generator é bem fácil, eu
 Como o **Yeoman** é um componente do **NodeJS** então você deve instalar ele com o comando `npm install`, assim:
 
 {% highlight bash %}
-sudo vnpm install -g yo
+sudo npm install -g yo
 {% endhighlight %}
 
 Com o Yeoman devidamente instalado em sua máquina basta só ir no [repositório](http://yeoman.io/generators/) e escolher o generator que quer instalar, a escolha não vai ser fácil pois atualmente tem mais de _**3 mil**_ generators no repositório do Yeoman.
