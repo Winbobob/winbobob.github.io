@@ -17,14 +17,17 @@
   background-color: transparent;
   display: inline-block;
   text-align: center;
-  margin: 0;
   @include font-size(68px);
   border: none;
   border-radius: 4px;
 
   &, &:hover, &:focus {
     text-decoration: none;
-    color: #fff;
+    color: $white-color;
+  }
+
+  @include media(max-width $screen-tablet) {
+    top: -20px;
   }
 }
 
@@ -45,11 +48,12 @@ body.modal-search--open {
 .modal-search__overlay {
   position: absolute;
   z-index: 1;
-  padding: 80px;
+  padding: 0;
+  margin: 0;
   @include opacity(0);
   visibility: hidden;
-  background-color: #000;
-  background-color: rgba(#000,.9);
+  background-color: $black-color;
+  background-color: rgba($black-color,.95);
   transition: opacity 0.3s;
 }
 
@@ -122,9 +126,33 @@ body.modal-search--open {
   @include font-size(16px);
   margin-top: 26px;
 
-  @media only screen and (max-width: 480px) {
+  @include media(max-width $screen-tablet) {
     display: none;
     visibility: hidden;
+  }
+}
+
+.modal-search-input {
+  font-family: $font-family-base;
+  width: 100%;
+  padding: 6px 50px 6px 0;
+  @include font-size(38px);
+  text-transform: lowercase;
+  font-weight: 300;
+  border: 0;
+  border-bottom: 1px solid rgba($white-color, .65);
+  outline: 0;
+  background-color: transparent;
+  color: rgba($white-color, .8);
+
+  &:focus,
+  &:active {
+    box-shadow: none  !important;
+    outline: none !important;
+  }
+
+  @include media(max-width $screen-tablet) {
+    @include font-size(20px);
   }
 }
 
@@ -132,81 +160,88 @@ body.modal-search--open {
   padding: 7em 10em 0;
   color: $white-color;
 
-  ul {
-    list-style: none;
-    padding: 15px 0;
-    margin: 10px 0;
-  }
+  .form-group {
+    position: relative;
 
-  li {
-    border-bottom: 1px solid rgba(#000, .2);
-    padding: 10px 0;
-  }
+    i {
+      position: absolute;
+      top: 40px;
+      right: 20px;
+    }
 
-  a {
-    text-decoration: none;
-    color: $white-color;
-    border-top: 1px solid transparent;
-
-    &:hover {
-      border-top-color:  $white-color;
+    @include media(max-width $screen-tablet) {
+      i {
+        top: 15px;
+        right: 15px;
+      }
     }
   }
 
-  input[type="text"] {
-    text-align: center;
-    font-family: $font-family-base;
-    width: 100%;
-    padding: .2em 0;
-    @include font-size(60px);
-    font-weight: 300;
-    border: 0;
-    border-bottom: 1px solid rgba($white-color, .65);
-    outline: 0;
-    background-color: transparent;
-
-    &:focus,
-    &:active {
-      box-shadow: none  !important;
-      outline: none !important;
-    }
+  @include media(max-width $screen-tablet) {
+    padding: 3.2em 2em;
   }
 
   ::-webkit-input-placeholder {
-    text-transform: uppercase;
-    color: $white-color;
+    text-transform: lowercase;
+    color: rgba($white-color, .8);
   }
   :-moz-placeholder { /* Firefox 18- */
-    text-transform: uppercase;
-    color: $white-color;
+    text-transform: lowercase;
+    color: rgba($white-color, .8);
   }
   ::-moz-placeholder {  /* Firefox 19+ */
-    text-transform: uppercase;
-    color: $white-color;
+    text-transform: lowercase;
+    color: rgba($white-color, .8);
   }
   :-ms-input-placeholder {
-    text-transform: uppercase;
-    color: $white-color;
+    text-transform: lowercase;
+    color: rgba($white-color, .8);
   }
 }
 
-@media only screen and (min-width: 460px) and (max-width: 860px) {
-  .modal-search-container {
-    padding: 4em 3px;
+.search-results {
+  text-align: left;
+  list-style: none;
+  padding: 15px 0;
+  margin: 10px 0;
 
-    input[type="text"] {
-      width: 100%;
-      @include font-size(54px);
+  li {
+    padding: 5px 0;
+  }
+
+  a {
+    overflow: hidden;
+    text-decoration: none;
+    color: rgba($white-color, .8);
+    @include font-size(20px);
+    padding: 5px 0;
+    border-bottom: 1px solid transparent;
+    display: block;
+
+    &:hover {
+      border-color:  $white-color;
     }
-  }
-}
 
-@media only screen and (max-width: 480px) {
-  .modal-search-container {
-    padding: 3em;
+    span {
+      float: left;
+      font-family: $font-family-serif;
+    }
 
-    input[type="text"] {
+    small {
+      float: right;
+      opacity: .6;
+    }
+
+    @include media(max-width $screen-tablet) {
       @include font-size(16px);
+
+      span {
+        float: none;
+      }
+
+      small {
+        display: none;
+      }
     }
   }
 }

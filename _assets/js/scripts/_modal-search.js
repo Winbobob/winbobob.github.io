@@ -91,10 +91,6 @@
       classie.add(document.body, 'modal-search--open');
       classie.add(this.el, 'modal-search--open');
 
-      /* Search input focus */
-      document.getElementById("modal-search-input").focus();
-      /* Search input focus */
-
       // callback on open
       this.options.onOpenModal(this);
     }

@@ -1,11 +1,25 @@
 
-<div id="modalSearch" class="modal-search">
+<div id="modalSearch" class="modal-search" ng-app="searchApp">
+
   <div class="modal-search__overlay"></div>
+
   <div class="modal-search__content">
-    <a href="#!" class="modal-search-close" data-modal-close>&times;</a>
-    <div class="modal-search-container">
-      <input type="text" id="modal-search-input" placeholder="digite algo aqui..">
-      <ul id="search-results-container"></ul>
+    <a href="#" class="modal-search-close" data-modal-close>&times;</a>
+
+    <div class="modal-search-container" ng-controller="searchController">
+      <div class="form-group">
+        <input type="text" class="modal-search-input" ng-keyup="pesquisar(search)" ng-model="search" placeholder="sass, javascript, ruby, gulp..." autofocus autocomplete="off">
+        <i class="fa fa-search"></i>
+      </div>
+      <ul class="search-results" ng-show="posts.length > 0">
+        <li ng-repeat="post in posts | filter:search">
+          <a href="{( post.url )}">
+            <span>{( post.title )}</span> <small>{( post.category )}</small>
+          </a>
+        </li>
+      </ul>
     </div>
+
   </div>
+
 </div>
