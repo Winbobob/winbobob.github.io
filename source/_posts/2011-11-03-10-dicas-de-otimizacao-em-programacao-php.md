@@ -7,7 +7,6 @@ keywords: "Dicas, PHP, Programação"
 comments: true
 categories:
 - php
-- programacao
 tags:
 - dicas
 - php
