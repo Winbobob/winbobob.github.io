@@ -3,8 +3,12 @@ set -e # halt script on error
 
 echo 'Testing travis...'
 bundle exec travis-lint
+
+echo 'Jekyll build...'
 bundle exec jekyll build
-bundle exec htmlproof ./_site --href-ignore "#","#!" --disable-external
+
+echo 'Testing htmlproof...'
+bundle exec htmlproof ./_site --href-ignore "#","#!","/mug" --disable-external
 
 cd ${HTML_FOLDER}
 

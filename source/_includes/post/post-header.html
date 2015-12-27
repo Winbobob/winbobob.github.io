@@ -7,9 +7,11 @@
       <i class="fa fa-calendar-o"></i> {{ page.date | date: "%-d/%-m/%Y" }}
     </time>
 
+    {% if comments %}
     <span>
       | <i class="fa fa-comments"></i> <a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Deixe um comentário</a>
     </span>
+    {% endif %}
 
     <span> |
       {% if page.categories.size > 0 %}

@@ -48,4 +48,4 @@ Este tema é liberado sob licença [MIT](https://github.com/nandomoreirame/mug/b
 
 ## Demo e download
 
-[Demo]({{ "/mug" | prepend: site.baseurl }}){: .button} [Download](https://github.com/nandomoreirame/mug/archive/master.zip){: .button}
+[Demo](http://nandomoreira.me/mug){: .button} [Download](https://github.com/nandomoreirame/mug/archive/master.zip){: .button}

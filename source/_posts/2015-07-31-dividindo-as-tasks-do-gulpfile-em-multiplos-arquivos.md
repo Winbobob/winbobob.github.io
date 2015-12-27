@@ -38,7 +38,7 @@ requireDir('./tasks', { recurse: true });
 
 Feito isso, crie suas tarefas dentro do retório `tasks` que todas serão inclusas pelo módulo **requireDir**.
 
-Aqui eu criei e ficou mais ou menos [assim]():
+Aqui eu criei e ficou mais ou menos assim:
 
 <a href="/assets/images/posts/2015/07/tasks-do-gulpfile-em-multiplos-arquivos.png" class="swipebox" rel="gallery" title="{{ page.title }}">
   <img src="/assets/images/posts/2015/07/tasks-do-gulpfile-em-multiplos-arquivos.png" alt="{{ page.title }}">

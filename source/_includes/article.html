@@ -13,7 +13,9 @@
         <i class="fa fa-calendar-o"></i> {{ post.date | date: "%-d/%-m/%Y" }}
       </time>
 
-      <span> | <i class="fa fa-comments"></i> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a></span>
+      {% if comments %}
+        <span> | <i class="fa fa-comments"></i> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Deixe um comentário</a></span>
+      {% endif %}
 
       <span> | {% if post.categories.size > 0 %}
         {% capture categories_content %}<i class="fa fa-folder-open-o"></i> {% endcapture %}

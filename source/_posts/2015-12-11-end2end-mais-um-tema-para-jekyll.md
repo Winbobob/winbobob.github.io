@@ -45,4 +45,4 @@ Este tema é liberado sob licença [MIT](https://github.com/nandomoreirame/end2e
 
 ## Demo e download
 
-[Demo]({{ "/end2end" | prepend: site.baseurl }}){: .button} [Download](https://github.com/nandomoreirame/end2end/archive/master.zip){: .button}
+[Demo](http://nandomoreira.me/end2end){: .button} [Download](https://github.com/nandomoreirame/end2end/archive/master.zip){: .button}

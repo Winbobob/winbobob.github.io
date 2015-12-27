@@ -10,4 +10,6 @@ group :development do
   gem 'jekyll-assets'
   gem 'rake', '~> 10.4.2'
   gem 'sass', '~> 3.4.10'
+  gem 'html-proofer'
+  gem 'travis-lint'
 end

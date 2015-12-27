@@ -4,6 +4,8 @@ _site
 .jekyll-assets-cache
 .ruby-version
 .sass-cache
+.tmp
+tmp
 
 # Numerous always-ignore extensions
 *.diff
