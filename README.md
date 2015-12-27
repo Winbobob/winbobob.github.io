@@ -53,10 +53,10 @@ gulp serve
 ### Create a posts and page using Rake tasks ###
 
 ```
-$ rake post title="TITLE OF THE POST"
-$ rake page name="about.md"
-$ rake category title="Programing"
-$ rake tag title="Jekyll"
+rake post title="TITLE OF THE POST"
+rake page name="about.md"
+rake category title="Programing"
+rake tag title="Jekyll"
 ```
 
 ## License ##
