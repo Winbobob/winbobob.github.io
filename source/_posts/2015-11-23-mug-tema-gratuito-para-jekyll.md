@@ -15,7 +15,7 @@ tags:
 - download
 ---
 
-Olá galera, fiz mais um tema para Jekyll chamado **Mug**, você pode dar um confere nele clicando [aqui]({{ "/mug" | prepend: site.baseurl }}).
+Olá galera, fiz mais um tema para Jekyll chamado **Mug**, você pode dar um confere nele clicando [aqui](http://nandomoreira.me/mug).
 
 ---
 
