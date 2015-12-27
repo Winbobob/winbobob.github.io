@@ -1,79 +1,71 @@
-;(function ($, undefined) {
-  var mainHeader = $('.main-header'),
-      // scrollDown = $('.scroll-down'),
-      scrollUp   = $('.scroll-up');
+(function($) {
+  'use strict';
+
+  // var $header   = $('.header'),
+  //     $scrollUp = $('.scroll-up');
 
   $(document).ready(function () {
-    $('.swipebox').swipebox();
-    // scrollDown.scrolltoo();
-    scrollUp.scrolltoo();
+    // $scrollUp.scrolltoo({
+    //   speed: 1200
+    // });
 
     $('p').selectionSharer();
+    $('.swipebox').swipebox();
   });
 
-  $(window).scroll(function () {
-    var headerHeight = mainHeader.height();
+  // $(document).scroll(function() {
+  //   alert('asasdsda');
+  //   var headerHeight = $header.height();
 
-    if ($(this).scrollTop() > headerHeight) {
-      scrollUp.css({ 'bottom' : '15px' });
-    } else {
-      scrollUp.css({ 'bottom' : '-80px' });
-    }
-  });
+  //   console.log(headerHeight);
 
-  // Parallax Ccrolling
-  // var parallaxElements = $('[data-parallax]'),
-  //     browserWindow = $(window);
-
-  // $.each(parallaxElements, function(index, value) {
-  //   var $this = $(value),
-  //       speed = $this.data('parallax');
-
-  //   browserWindow.scroll(function() {
-  //     var offset = -(browserWindow.scrollTop() / speed);
-  //     $this.css({ backgroundPosition: '50% ' + offset + 'px' });
-  //   });
+  //   if ($(this).scrollTop() > headerHeight) {
+  //     $scrollUp.css({ 'bottom' : '15px' });
+  //   } else {
+  //     $scrollUp.css({ 'bottom' : '-80px' });
+  //   }
   // });
 
-  $.fn.scrolltoo = function (options) {
+  // $.fn.scrolltoo = function (options) {
 
-    var defaults = {
-      elem: $(this),
-      speed: 800
-    },
+  //   var defaults = {
+  //     elem: $(this),
+  //     speed: 800
+  //   },
 
-    settings = $.extend(defaults, options);
+  //   settings = $.extend(defaults, options);
 
-    settings.elem.click(function (e) {
-      e.preventDefault();
+  //   settings.elem.click(function (e) {
+  //     e.preventDefault();
 
-      var $this     = $(this),
-          $htmlBody = $('html, body'),
-          offset    = ($this.attr('data-offset')) ? $this.attr('data-offset') : false,
-          position  = ($this.attr('data-position')) ? $this.attr('data-position') : false,
-          toMove;
+  //     var $this     = $(this),
+  //         $htmlBody = $('html, body'),
+  //         offset    = ($this.attr('data-offset')) ? $this.attr('data-offset') : false,
+  //         position  = ($this.attr('data-position')) ? $this.attr('data-position') : false,
+  //         toMove;
 
-      if (offset) {
+  //     if (offset) {
 
-        toMove = parseInt(offset, 10);
-        $htmlBody.stop(true, false).animate({
-          scrollTop: ($(this.hash).offset().top + toMove)
-        }, settings.speed);
+  //       toMove = parseInt(offset, 10);
+  //       $htmlBody.stop(true, false).animate({
+  //         scrollTop: ($(this.hash).offset().top + toMove)
+  //       }, settings.speed);
 
-      } else if (position) {
+  //     } else if (position) {
 
-        toMove = parseInt(position, 10);
-        $htmlBody.stop(true, false).animate({
-          scrollTop: toMove
-        }, settings.speed);
+  //       toMove = parseInt(position, 10);
+  //       $htmlBody.stop(true, false).animate({
+  //         scrollTop: toMove
+  //       }, settings.speed);
 
-      } else {
+  //     } else {
 
-        $htmlBody.stop(true, false).animate({
-          scrollTop: ($(this.hash).offset().top)
-        }, settings.speed);
+  //       $htmlBody.stop(true, false).animate({
+  //         scrollTop: ($(this.hash).offset().top)
+  //       }, settings.speed);
 
-      }
-    });
-  };
+  //     }
+  //   });
+  // };
+
 })(jQuery);
