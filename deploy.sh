@@ -5,7 +5,7 @@ echo 'Testing travis...'
 bundle exec travis-lint
 bundle exec jekyll build
 # bundle exec htmlproof ${HTML_FOLDER} --disable-external
-bundle exec htmlproof ./_site
+bundle exec htmlproof ./_site --href-ignore "#"
 
 cd ${HTML_FOLDER}
 
