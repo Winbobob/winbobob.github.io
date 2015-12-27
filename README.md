@@ -4,20 +4,53 @@
 
 > My personal website where I talk about front-end development like HTML5, CSS3, JavaScript and Wordpress, PHP and more.
 
-## Setup
+---
 
-> :warning: It requires inslated node and npm, ruby and rubygems
+## Contributing ##
 
-### In the terminal run the commands
+1. Fork it
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+---
+
+## Setup ##
 
 ```
-$ sudo npm i -g gulp bower browser-sync
-$ sudo gem install bundler
-$ bundle install
-$ npm install
+sudo npm i -g gulp bower browser-sync
+sudo gem install bundler
+bundle install
+npm install
 ```
 
-## Using Rake tasks
+---
+
+
+### Using Jekyll ###
+
+```
+jekyll server
+```
+
+Access, [localhost:4000](http://localhost:4000/)
+
+---
+
+### Using Gulp ###
+
+```
+gulp
+```
+or
+
+```
+gulp serve
+```
+
+
+### Create a posts and page using Rake tasks ###
 
 ```
 $ rake post title="TITLE OF THE POST"
@@ -26,37 +59,6 @@ $ rake category title="Programing"
 $ rake tag title="Jekyll"
 ```
 
-## Using Jekyll
+## License ##
 
-### Running the server:
-
-```
-$ jekyll server
-```
-
-Access, [localhost:4000](http://localhost:4000/)
-
-## Using Gulp
-
-### Rum gulp
-
-```
-$ gulp
-```
-
-Enjoy!
-
----
-
-* [Jekyll](http://jekyllrb.com/);
-* [Jekyll Documentation](http://jekyllrb.com/docs/home/);
-* [Como definir URLs curtas no Jekyll](http://nandomoreira.me/urls-curtas-no-jekyll/);
-* [Adicionando Disqus ao seu projeto Jekyll](http://nandomoreira.me/adicionando-disqus-ao-seu-projeto-jekyll/);
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
-
-Enjoy :yum:
+It is free under the [open-source MIT license](/LICENSE).
