@@ -27,6 +27,7 @@
 
     code {
       white-space: pre;
+      padding: 0;
 
       * {
         white-space: nowrap; // this sets all children inside to nowrap

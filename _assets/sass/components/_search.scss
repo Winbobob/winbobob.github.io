@@ -132,30 +132,6 @@ body.modal-search--open {
   }
 }
 
-.modal-search-input {
-  font-family: $font-family-base;
-  width: 100%;
-  padding: 6px 50px 6px 0;
-  @include font-size(38px);
-  text-transform: lowercase;
-  font-weight: 300;
-  border: 0;
-  border-bottom: 1px solid rgba($white-color, .65);
-  outline: 0;
-  background-color: transparent;
-  color: rgba($white-color, .8);
-
-  &:focus,
-  &:active {
-    box-shadow: none  !important;
-    outline: none !important;
-  }
-
-  @include media(max-width $screen-tablet) {
-    @include font-size(20px);
-  }
-}
-
 .modal-search-container {
   padding: 7em 10em 0;
   color: $white-color;
@@ -174,6 +150,30 @@ body.modal-search--open {
         top: 15px;
         right: 15px;
       }
+    }
+  }
+
+  input[type="text"] {
+    border: 0;
+    border-bottom: 1px solid rgba($white-color, .65);
+    outline: 0;
+    background-color: transparent;
+    color: rgba($white-color, .8);
+    font-family: $font-family-base;
+    width: 100%;
+    padding: 6px 50px 6px 0;
+    @include font-size(38px);
+    text-transform: lowercase;
+    font-weight: 300;
+
+    &:focus,
+    &:active {
+      box-shadow: none  !important;
+      outline: none !important;
+    }
+
+    @include media(max-width $screen-tablet) {
+      @include font-size(20px);
     }
   }
 

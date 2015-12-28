@@ -85,9 +85,9 @@
 }
 
 .post-footer {
-  background-color: lighten($silver-color, 10%);
-  margin: 2em 0;
-  padding: 2em 0;
+  background-color: darken($white-color, 5%);
+  margin: $base-spacing 0;
+  padding: $base-spacing 0;
 
   h4 {
     @include font-size(18px);
@@ -169,7 +169,7 @@
 
     .share {
       top: auto;
-      margin: 2em auto;
+      margin: $base-spacing auto;
     }
 
     .author-thumb {
