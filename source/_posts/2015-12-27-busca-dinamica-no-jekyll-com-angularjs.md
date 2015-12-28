@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fazendo um sistema de busca simples no Jekyll usando AngularJS"
-permalink: busca-no-jekyll-com-angularjs
+permalink: fazendo-sistema-de-busca-no-jekyll-com-angularjs
 date: 2015-12-27 22:28:33
 comments: true
 description: "Por alguns meses eu usei o plugin Simple Jekyll Search que funcionou muito bem no meu blog"
