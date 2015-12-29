@@ -6,13 +6,23 @@ var config = require('../config.json');
 var $ = require('gulp-load-plugins')();
 var gulp = require('gulp');
 
+var lintFiles = [
+  config.sass + '**/*.scss',
+  "!" + config.sass + 'base/_normalize.scss',
+  "!" + config.sass + 'components/_swipebox.scss',
+  "!" + config.sass + 'components/_syntax.scss',
+  "!" + config.sass + 'components/_selection-sharer.scss',
+  "!" + config.sass + 'bourbon/**/*.scss',
+  "!" + config.sass + 'font-awesome/**/*.scss'
+];
+
 gulp.task('scss-lint', function() {
-  return $.scssLint({
+  gulp.src(lintFiles)
+  .pipe($.scssLint({
     shell: 'bash',
-    src: config.sass + '**/*.scss',
     config: '.scss-lint.yml',
     reporterOutput: '.scss-lint-report.json'
-  });
+  }));
 });
 
 gulp.task('sass', ['scss-lint'], function () {

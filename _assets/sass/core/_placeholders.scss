@@ -2,17 +2,18 @@
 // Placeholders
 //
 
+// scss-lint:disable PropertySpelling, DeclarationOrder
 %clearfix {
-  &:before {
-    content: " ";
+  &:before,
+  &:after {
+    content: "";
     display: table;
   }
 
   &:after {
-    content: " ";
-    display: table;
     clear: both;
   }
 
   *zoom: 1;
 }
+// scss-lint:enable PropertySpelling, DeclarationOrder

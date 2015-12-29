@@ -2,14 +2,21 @@
 // Mixins
 //
 
+// scss-lint:disable VendorPrefix, Indentation
+@mixin all-vendors($property, $value...) {
+    -webkit-#{$property}: $value;
+       -moz-#{$property}: $value;
+        -ms-#{$property}: $value;
+         -o-#{$property}: $value;
+            #{$property}: $value;
+}
 
 //
 // mixin font-size
 @mixin font-size($px) {
-  $pxValue: strip-unit($px);
-  $remValue: $pxValue / 16;
-  // font-size: $pxValue + px;
-  font-size: $remValue + rem;
+  $px-value: strip-unit($px);
+  $rem-value: $px-value / 16;
+  font-size: $rem-value + rem;
 }
 
 //
@@ -19,11 +26,9 @@
     @media ($default-feature: nth($query, 1)) {
       @content;
     }
-  }
-
-  @else {
+  } @else {
     $loop-to: length($query);
-    $media-query: 'screen and ';
+    $media-query: "screen and ";
 
     @if length($query) % 2 != 0 {
       $loop-to: $loop-to - 1;
@@ -31,10 +36,10 @@
 
     $i: 1;
     @while $i <= $loop-to {
-      $media-query: $media-query + '(' + nth($query, $i) + ': ' + nth($query, $i + 1) + ') ';
+      $media-query: $media-query + "(" + nth($query, $i) + ": " + nth($query, $i + 1) + ") ";
 
       @if ($i + 1) != $loop-to {
-        $media-query: $media-query + 'and ';
+        $media-query: $media-query + "and ";
       }
 
       $i: $i + 2;
@@ -47,16 +52,14 @@
 }
 
 @mixin box-shadow($shadow...) {
-  -webkit-box-shadow: $shadow;
-  -moz-box-shadow: $shadow;
-  box-shadow: $shadow;
+  @include all-vendors(box-shadow, $shadow);
 }
 
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  border-radius: $radius;
+  @include all-vendors(border-radius, $radius);
+  @include all-vendors(border-radius, $radius);
 }
+// scss-lint:enable VendorPrefix, Indentation
 
 @mixin opacity($opacity) {
   opacity: $opacity;

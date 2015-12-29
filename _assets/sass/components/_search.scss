@@ -17,7 +17,9 @@
   background-color: transparent;
   display: inline-block;
   text-align: center;
+
   @include font-size(68px);
+
   border: none;
   border-radius: 4px;
 
@@ -46,19 +48,19 @@ body.modal-search--open {
 }
 
 .modal-search__overlay {
+  background-color: rgba($black-color, .95);
   position: absolute;
   z-index: 1;
   padding: 0;
   margin: 0;
-  @include opacity(0);
   visibility: hidden;
-  background-color: $black-color;
-  background-color: rgba($black-color,.95);
-  transition: opacity 0.3s;
+  transition: opacity .3s;
+  @include opacity(0);
 }
 
 .modal-search--open .modal-search__overlay {
   @include opacity(1);
+
   visibility: visible;
   pointer-events: auto;
 }
@@ -80,7 +82,7 @@ body.modal-search--open {
   pointer-events: auto;
 }
 
-/* Content */
+// Content
 .modal-search h2 {
   margin: 0;
   font-weight: 400;
@@ -91,7 +93,7 @@ body.modal-search--open {
 
 .modal-search.modal-search--open .modal-search__content,
 .modal-search.modal-search--close .modal-search__content {
-  animation-duration: 0.3s;
+  animation-duration: .3s;
   animation-fill-mode: forwards;
 }
 
@@ -104,13 +106,26 @@ body.modal-search--open {
 }
 
 @keyframes anim-open {
-  0% { opacity: 0; transform: scale3d(1.1, 1.1, 1); }
-  100% { opacity: 1; transform: scale3d(1, 1, 1); }
+  0% {
+    opacity: 0;
+    transform: scale3d(1.1, 1.1, 1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
 }
 
 @keyframes anim-close {
-  0% { opacity: 1; }
-  100% { opacity: 0; transform: scale3d(0.9, 0.9, 1); }
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale3d(.9, .9, 1);
+  }
 }
 
 //
@@ -123,7 +138,9 @@ body.modal-search--open {
   font-family: $font-family-base;
   text-transform: uppercase;
   color: $white-color;
+
   @include font-size(16px);
+
   margin-top: 26px;
 
   @include media(max-width $screen-tablet) {
@@ -162,7 +179,9 @@ body.modal-search--open {
     font-family: $font-family-base;
     width: 100%;
     padding: 6px 50px 6px 0;
+
     @include font-size(38px);
+
     text-transform: lowercase;
     font-weight: 300;
 
@@ -181,18 +200,24 @@ body.modal-search--open {
     padding: 3.2em 2em;
   }
 
+
   ::-webkit-input-placeholder {
     text-transform: lowercase;
     color: rgba($white-color, .8);
   }
-  :-moz-placeholder { /* Firefox 18- */
+
+  :-moz-placeholder {
+    // Firefox 18-
     text-transform: lowercase;
     color: rgba($white-color, .8);
   }
-  ::-moz-placeholder {  /* Firefox 19+ */
+
+  ::-moz-placeholder {
+    // Firefox 19+
     text-transform: lowercase;
     color: rgba($white-color, .8);
   }
+
   :-ms-input-placeholder {
     text-transform: lowercase;
     color: rgba($white-color, .8);
@@ -213,13 +238,15 @@ body.modal-search--open {
     overflow: hidden;
     text-decoration: none;
     color: rgba($white-color, .8);
+
     @include font-size(20px);
+
     padding: 5px 0;
     border-bottom: 1px solid transparent;
     display: block;
 
     &:hover {
-      border-color:  $white-color;
+      border-color: $white-color;
     }
 
     span {
