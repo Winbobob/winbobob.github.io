@@ -7,6 +7,9 @@
   text-align: center;
   padding: $base-spacing $small-spacing;
 
+  animation-duration: 1s;
+  animation-name: fade-in-up;
+
   @include media($screen-desktop) {
     background-color: transparent;
     width: $header-medium-width;
@@ -53,6 +56,10 @@
 .social {
   padding: 0;
   margin: $base-spacing 0 $small-spacing;
+
+  animation-duration: .5s;
+  animation-name: fade-in-up;
+
 
   li {
     display: inline-block;

@@ -1,16 +1,7 @@
 
-.clearfix {
-  @extend %clearfix;
-}
-
-.dot {
-  border-radius: 50%;
-}
-
-.txt-white {
-  color: $white-color !important;
-}
-
+.clearfix { @extend %clearfix; }
+.dot { border-radius: 50%; }
+.txt-white { color: $white-color !important; }
 .txt-center { text-align: center !important; }
 .txt-left { text-align: left !important; }
 .txt-right { text-align: right !important; }
@@ -46,7 +37,9 @@ img.pull-right { margin-left: 20px; }
     animation: none;
   }
 
-  &, &:hover, &:focus {
+  &,
+  &:hover,
+  &:focus {
     text-decoration: none;
     border: none;
   }

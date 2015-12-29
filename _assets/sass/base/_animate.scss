@@ -1,13 +1,14 @@
-
 @keyframes bounce-right {
   0% {
     opacity: .2;
     transform: translateX(-200px);
   }
+
   60% {
     opacity: .7;
     transform: translateX(15px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -19,10 +20,12 @@
     opacity: .2;
     transform: translateX(200px);
   }
+
   60% {
     opacity: .7;
     transform: translateX(-15px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -34,14 +37,28 @@
     opacity: .2;
     transform: perspective(800px) rotateX(-80deg);
   }
+
   20% {
     opacity: 1;
   }
+
   60% {
     transform: perspective(800px) rotateX(20deg);
   }
+
   100% {
     opacity: 1;
     transform: perspective(800px) rotateX(0);
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
   }
 }
