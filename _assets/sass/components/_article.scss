@@ -141,15 +141,15 @@
       color: $gray-color;
       text-decoration: none;
       @include transition(opacity .4s linear);
-      border: none;
+      border: 0;
       opacity: .6;
 
       &.share-facebook {
-        color: #3B599F;
+        color: $facebook-color;
       }
 
       &.share-twitter {
-        color: #28A9E0;
+        color: $twitter-color;
       }
 
       &:hover {

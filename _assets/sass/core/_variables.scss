@@ -30,8 +30,12 @@ $white-color: #fff !default;
 $silver-color: darken($white-color, 22%) !default;
 $gray-color: darken($white-color, 42%) !default;
 $gray-dark-color: #2d3138 !default;
+$code-color: #ededed !default;
 $black-color: #000 !default;
 $blue-color: #766dcc !default;
+
+$facebook-color: #3b599f;
+$twitter-color: #28a9e0;
 
 // font colors
 $txt-color: rgba($gray-dark-color, .6) !default;

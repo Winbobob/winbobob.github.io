@@ -1,3 +1,7 @@
+
+$highlight-bg-color: #272822;
+$highlight-font-color: #eeffdd;
+
 .highlight {
   @extend %clearfix;
   padding: 0;
@@ -7,8 +11,8 @@
   };
 
   &, .hll, pre, code {
-    background-color: #272822 !important;
-    border: none;
+    background-color: $highlight-bg-color !important;
+    border: 0;
   }
 
   pre {
@@ -22,7 +26,7 @@
     word-wrap: inherit;
 
     &, code {
-      color: #eeffdd;
+      color: $highlight-font-color;
     }
 
     code {
