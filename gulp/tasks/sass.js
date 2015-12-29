@@ -6,7 +6,16 @@ var config = require('../config.json');
 var $ = require('gulp-load-plugins')();
 var gulp = require('gulp');
 
-gulp.task('sass', function () {
+gulp.task('scss-lint', function() {
+  return $.scssLint({
+    shell: 'bash',
+    src: config.sass + '**/*.scss',
+    config: '.scss-lint.yml',
+    reporterOutput: '.scss-lint-report.json'
+  });
+});
+
+gulp.task('sass', ['scss-lint'], function () {
   return $.rubySass(config.sass + 'main.scss', {
       "precision": 6,
       "stopOnError": false,
