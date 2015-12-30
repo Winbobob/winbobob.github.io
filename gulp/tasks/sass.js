@@ -19,7 +19,7 @@ var lintFiles = [
 gulp.task('scss-lint', function() {
   gulp.src(lintFiles)
   .pipe($.scssLint({
-    shell: 'bash',
+    // shell: 'bash',
     config: '.scss-lint.yml',
     reporterOutput: '.scss-lint-report.json'
   }));

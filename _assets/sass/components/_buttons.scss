@@ -35,9 +35,34 @@
     background-color: transparent;
     border-color: rgba($white-color, .85);
 
+    &:before {
+      background-color: $white-color;
+      bottom: 0;
+      content: "";
+      left: 0;
+      margin-left: 50%;
+      opacity: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      @include transition(all .25s ease-out);
+      width: 0;
+      z-index: -1;
+    }
+
     &:hover,
     &:focus {
-      background-color: rgba($white-color, .1);
+      color: $black-color;
+
+      &:before {
+        margin-left: 0;
+        opacity: 1;
+        width: 100%;
+      }
+    }
+
+    &:active:before {
+      @include transform(scale(.96));
     }
   }
 
