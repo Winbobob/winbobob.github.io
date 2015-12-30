@@ -4,7 +4,7 @@ body.home {
   display: table;
 
   .wrapper {
-    background: $blue-color url(/assets/images/banner.jpg) center top fixed;
+    background: $secondary-color url(/assets/images/banner.jpg) center top fixed;
     background-size: cover;
     display: table-cell;
     vertical-align: middle;
@@ -47,6 +47,7 @@ body.home {
       display: block;
       @include font-size(30px);
       line-height: 1.65;
+      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: -1px;
 
@@ -57,13 +58,16 @@ body.home {
       }
 
       @include media($screen-desktop) {
-        @include font-size(62px);
+        @include font-size(72px);
+      }
+
+      @include media($screen-large-desktop) {
+        @include font-size(86px);
       }
     }
 
     strong, em {
-      color: rgba($white-color, .9);
-      font-weight: 400;
+      color: $white-color;
     }
 
     @include media($screen-tablet) {

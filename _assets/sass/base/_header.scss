@@ -1,7 +1,7 @@
 
 .header {
   @extend %clearfix;
-  background-color: $tertiary-color;
+  background-color: $secondary-color;
   background-attachment: scroll, fixed;
   background-image: url("/assets/images/banner.jpg");
   background-position: top left, top left;

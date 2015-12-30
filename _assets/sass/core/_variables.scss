@@ -3,9 +3,9 @@
 //
 
 // typography
-$base-font-family: "source sans pro", helvetica, arial, sans-serif !default;
+$base-font-family: "Source Sans Pro", Helvetica, sans-serif !default;
 $font-family-base: $base-font-family !default;
-$font-family-serif: "droid serif", sans-serif !default;
+$font-family-serif: "PT Serif", sans-serif !default;
 $font-family-monospace: "courier new", monospace !default;
 $heading-font-family: $font-family-serif !default;
 $base-font-size: 1.2rem !default;
@@ -16,15 +16,15 @@ $base-line-height: 1.5 !default;
 $heading-line-height: 1.2 !default;
 
 // other sizes
-$base-border-radius: 0 !default;
+$base-border-radius: 2px !default;
 $base-spacing: $base-line-height * 1em !default;
 $small-spacing: $base-spacing / 2 !default;
 $base-z-index: 0 !default;
 
 // colors
 $primary-color: #e97f02 !default;
-$secondary-color: #bd1550 !default;
-$tertiary-color: #490a3d !default;
+$secondary-color: #383838 !default;
+$tertiary-color: #f4d03f !default;
 
 $white-color: #fff !default;
 $silver-color: darken($white-color, 22%) !default;
@@ -38,7 +38,7 @@ $facebook-color: #3b599f;
 $twitter-color: #28a9e0;
 
 // font colors
-$txt-color: rgba($gray-dark-color, .6) !default;
+$txt-color: rgba($gray-dark-color, .8) !default;
 $base-font-color: $txt-color !default;
 $action-color: $primary-color !default;
 

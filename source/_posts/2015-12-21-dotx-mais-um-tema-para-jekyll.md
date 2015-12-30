@@ -44,5 +44,5 @@ Este tema é liberado sob licença [MIT](https://github.com/nandomoreirame/dotX/
 
 ## Demo e download
 
-[Demo](http://nandomoreira.me/dotX){: .button} [Download](https://github.com/nandomoreirame/dotX/archive/master.zip){: .button}
+[Demo](http://nandomoreira.me/dotX){: .button} [Download](https://github.com/nandomoreirame/dotX/archive/master.zip){: .button .secondary}
 
