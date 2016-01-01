@@ -17,13 +17,11 @@ destination: _site
 itemtype: WebPage
 cover: /assets/images/banner.jpg
 
-# site title, description, meta_description, meta_keywords
-# Details for the RSS feed generator
+# site title, description, keywords
 name: Fernando Moreira
-title: Fernando Moreira | Desenvolvimento Web e tudo mais..
+title: Fernando Moreira • Front-end e Freelance Web
 description: "Desenvolvedor Front-end, Design Responsivo, HTML5, CSS3 e JavaScript"
-meta_description: "Desenvolvedor Front-end, Design Responsivo, HTML5, CSS3 e JavaScript"
-meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html, html5, css, css3, js, javascript, jquery, seo, otimizacao, performance"
+keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html, html5, css, css3, js, javascript, jquery, seo, otimizacao, performance"
 url: http://nandomoreira.me
 repo: http://github.com/nandomoreirame/nandomoreirame.github.io
 disqus_shortname: "fernandomoreira"

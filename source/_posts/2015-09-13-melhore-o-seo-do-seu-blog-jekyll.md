@@ -58,7 +58,7 @@ O mesmo if que eu usei para montar minha paginação eu vou usar no titulo:
   { % endif % }
 </title>
 
-<meta name="description" content="{ % if page.description % }{ { page.description | strip_html | strip_newlines | truncate: 160 } }{ % else % }{ { site.meta_description } }{ % endif % }{ %if paginator and paginator.page != 1 % } - Página { { paginator.page } }{ % endif % }">
+<meta name="description" content="{ % if page.description % }{ { page.description | strip_html | strip_newlines | truncate: 160 } }{ % else % }{ { site.description } }{ % endif % }{ %if paginator and paginator.page != 1 % } - Página { { paginator.page } }{ % endif % }">
 {% endhighlight %}
 
 ## Use as metas rel="next" e rel="prev"
@@ -102,7 +102,7 @@ Por exemplo se eu quiser usar o valor que está contigo em `title` basta que eu 
 Então para ter suas keywords diferentes de cada artigo basta que você coloque a variável `{ { page.keywords } }` dentro da meta tag keywords.
 
 {% highlight liquid %}
-<meta name="keywords" content="{ % if page.keywords % }{ { page.keywords } }{ % else % }{ { site.meta_keywords } }{ % endif % }">
+<meta name="keywords" content="{ % if page.keywords % }{ { page.keywords } }{ % else % }{ { site.keywords } }{ % endif % }">
 {% endhighlight %}
 
 ## Não esqueça do canonical

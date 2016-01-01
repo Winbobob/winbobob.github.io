@@ -52,6 +52,7 @@
 
     &:hover,
     &:focus {
+      background-color: rgba($white-color, .2);
       color: lighten($secondary-color, 5%);
 
       &:before {

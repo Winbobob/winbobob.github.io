@@ -1,15 +1,26 @@
 
 .header {
   @extend %clearfix;
-  background-color: $secondary-color;
-  background-attachment: scroll, fixed;
-  background-image: url("/assets/images/banner.jpg");
-  background-position: top left, top left;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, auto 100%;
+  background-color: darken($secondary-color, 2%);
+  // background-attachment: scroll, fixed;
+  // background-image: url("/assets/images/banner.jpg");
+  // background-position: top left, top left;
+  // background-repeat: repeat, no-repeat;
+  // background-size: auto, auto 100%;
   color: $white-color;
   padding: $base-spacing $small-spacing;
   text-align: center;
+  overflow: hidden;
+  position: relative;
+
+  .svg-pattern {
+    position: absolute;
+  }
+
+  .header-in {
+    position: relative;
+    z-index: 10;
+  }
 
   @include media($screen-desktop) {
     height: 100%;

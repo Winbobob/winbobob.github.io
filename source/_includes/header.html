@@ -1,19 +1,22 @@
 <header class="header">
+  {% include svg-pattern.html %}
 
-  <a href="{{ "/" | prepend: site.baseurl }}">
-    <img src="{{ "/assets/images/author.jpg" | prepend: site.baseurl }}" alt="author thumb" class="dot author-thumb">
-  </a>
+  <div class="header-in">
+    <a href="{{ "/" | prepend: site.baseurl }}">
+      <img src="{{ "/assets/images/author.jpg" | prepend: site.baseurl }}" alt="author thumb" class="dot author-thumb">
+    </a>
 
-  <h1 itemscope itemtype="http://schema.org/Person">Olá meu nome é <strong itemprop="name">{{ site.name }}</strong> eu sou <em itemprop="jobTitle">Front-end</em> e gosto muito de café!</h1>
+    <h1 itemscope itemtype="http://schema.org/Person">Olá meu nome é <strong itemprop="name">{{ site.name }}</strong> eu sou <em itemprop="jobTitle">Front-end</em> e gosto muito de café!</h1>
 
-  <nav class="nav" role="navigation">
-    <ul class="navbar" role="menu">
-      <li role="menuitem"><a href="{{ "/blog" | prepend: site.baseurl }}" class="subnav-trigger"><span>Artigos</span></a></li>
-      <li role="menuitem"><a href="{{ "/about" | prepend: site.baseurl }}">Sobre</a></li>
-      <li role="menuitem" class="search">
-        <a href="#" data-modal-search="modalSearch"><i class="fa fa-search"></i> Busca</a>
-      </li>
-    </ul>
-  </nav>
+    <nav class="nav" role="navigation">
+      <ul class="navbar" role="menu">
+        <li role="menuitem"><a href="{{ "/blog" | prepend: site.baseurl }}" class="subnav-trigger"><span>Artigos</span></a></li>
+        <li role="menuitem"><a href="{{ "/about" | prepend: site.baseurl }}">Sobre</a></li>
+        <li role="menuitem" class="search">
+          <a href="#" data-modal-search="modalSearch"><i class="fa fa-search"></i> Busca</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
 </header>
