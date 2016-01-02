@@ -38,3 +38,4 @@ nbproject
 # Folders to ignore
 node_modules
 bower
+source/bower
