@@ -66,15 +66,10 @@ $base-duration: 150ms !default;
 $base-timing: ease !default;
 
 // grid
-$small-screen: 480px;
-$medium-screen: 960px;
-$large-screen: 1280px;
-$xlarge-screen: 1800px;
-
-$screen-phone: $small-screen;
-$screen-tablet: $medium-screen;
-$screen-desktop: $large-screen;
-$screen-large-desktop: $xlarge-screen;
+$screen-phone: 480px;
+$screen-tablet: 1024px;
+$screen-desktop: 1280px;
+$screen-large-desktop: 1800px;
 
 $header-medium-width: 22em;
 $header-large-width: 32em;
@@ -83,5 +78,5 @@ $gutter: 30px;
 $gutter-padding: ($gutter/2);
 $default-feature: min-width;
 
-$medium-screen-up: new-breakpoint($default-feature $medium-screen 4);
-$large-screen-up: new-breakpoint($default-feature $large-screen 8);
+$medium-screen-up: new-breakpoint($default-feature $screen-tablet 4);
+$large-screen-up: new-breakpoint($default-feature $screen-desktop 8);

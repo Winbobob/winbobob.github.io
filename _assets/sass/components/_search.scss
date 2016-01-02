@@ -177,6 +177,7 @@ body.modal-search--open {
     background-color: transparent;
     color: rgba($white-color, .8);
     font-family: $font-family-base;
+    @include border-radius(0);
     width: 100%;
     padding: 6px 50px 6px 0;
 

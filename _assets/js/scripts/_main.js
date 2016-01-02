@@ -11,6 +11,23 @@
     //   speed: 1200
     // });
 
+    $('.show-disqus').on('click', function (e) {
+      e.preventDefault();
+      var $btn = $(this);
+
+      $.ajax({
+        type: "GET",
+        url: "http://" + disqus_shortname + ".disqus.com/embed.js",
+        dataType: "script",
+        cache: true,
+        beforeSend: function() {
+          $btn.html('Carregando..');
+        }
+      }).done(function() {
+        $btn.delay(1200).fadeOut().delay(500).html('');
+      });
+    });
+
     $('p').selectionSharer();
     $('.swipebox').swipebox();
 

@@ -10,19 +10,6 @@
   animation-duration: 1s;
   animation-name: fade-in-up;
 
-  @include media($screen-desktop) {
-    background-color: transparent;
-    width: $header-medium-width;
-    position: fixed;
-    padding: 0 $small-spacing $small-spacing;
-    left: 0;
-    bottom: 0;
-  }
-
-  @include media($screen-large-desktop) {
-    width: $header-large-width;
-  }
-
   p {
     font-size: 1rem;
     color: darken($white-color, 18%);
@@ -50,6 +37,24 @@
 
   a {
     color: darken($white-color, 5%);
+  }
+
+  @include media($screen-desktop) {
+    background-color: transparent;
+    width: $header-medium-width;
+    position: fixed;
+    padding: 0 $small-spacing $small-spacing;
+    left: 0;
+    bottom: 0;
+
+    .social,
+    span {
+      margin: 0;
+    }
+  }
+
+  @include media($screen-large-desktop) {
+    width: $header-large-width;
   }
 }
 

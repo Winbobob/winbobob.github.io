@@ -13,9 +13,7 @@ tags:
 - open-source
 ---
 
-Você deve estar se perguntando:
-
-> "Front-end de graça? Como assim?"
+Você deve estar se perguntando: _**"Front-end de graça? Como assim?"**_
 
 É isso mesmo que você leu, **Faço front-end de graça**, mas tem alguns requisitos necessários para que isso aconteça, vem comigo que te explico como...
 
@@ -36,8 +34,6 @@ Eu tenho amplo conhecimento em tecnologias para _front-end_ como **HTML(Jekyll/l
 Eu apoio totalmente a troca deconhecimento, seja em uma boa conversa sobre culinária ou em um repositório no _Github_.
 
 Você quer troca figurinhas comigo? Seu projeto está no _Github_ e você precisa de um front-end? Você sabe tocar algum instrumento e tem um projeto bacana para colocar no ar? Podemos nos encontrar e conversar sobre o assunto, podemos fazer isso acontecer...
-
-... juntos!
 
 **Só se for agora \o/**
 

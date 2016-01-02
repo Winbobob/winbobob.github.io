@@ -41,18 +41,19 @@ sup {
 
 .wrapper {
   padding: $base-spacing 0;
+  margin: 0 auto;
 
   @include media($screen-tablet) {
     max-width: $screen-tablet;
   }
 
   @include media($screen-desktop) {
-    max-width: $medium-screen;
     margin-left: $header-medium-width;
-    padding: ($base-spacing * 3);
+    padding: 2em ($base-spacing * 3);
   }
 
   @include media($screen-large-desktop) {
+    max-width: $screen-tablet;
     margin-left: $header-large-width;
   }
 }

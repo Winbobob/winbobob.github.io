@@ -56,15 +56,28 @@ body.home {
   }
 
   h1 {
+    position: relative;
     animation-name: bounce-right;
     font-family: $font-family-base;
     color: rgba($white-color, .5);
-    margin-top: .5em;
-    margin-bottom: 1em;
+    margin-top: ($small-spacing/2);
+    margin-bottom: $small-spacing;
+    padding-bottom: $small-spacing;
     @include font-size(26px);
     font-weight: 300;
     text-transform: none;
     animation-duration: .6s;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width: 50px;
+      left: 50%;
+      margin-left: -25px;
+      height: 2px;
+      background-color: rgba($white-color, .6);
+    }
 
     strong {
       display: block;
