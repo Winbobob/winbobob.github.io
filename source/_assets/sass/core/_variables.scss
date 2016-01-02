@@ -52,7 +52,7 @@ $base-font-color: $txt-color;
 $action-color: $primary-color;
 
 // border
-$base-border-color: tint($silver-color, 25%);
+$base-border-color: lighten($silver-color, 10%);
 $base-border: 1px solid $base-border-color;
 
 // background colors

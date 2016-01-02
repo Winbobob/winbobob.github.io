@@ -1,13 +1,13 @@
 
-$highlight-bg-color: #272822;
+$highlight-bg-color: darken($secondary-color, 10%);
 $highlight-font-color: #eeffdd;
 
 .highlight {
   @extend %clearfix;
   padding: 0;
   margin: {
-    top: $base-spacing;
-    bottom: $base-spacing;
+    top: $small-spacing;
+    bottom: $small-spacing;
   };
 
   &, .hll, pre, code {

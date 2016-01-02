@@ -9,8 +9,7 @@
 
     <div class="post-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-        <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
-        <i class="fa fa-calendar-o"></i> {{ post.date | date: "%-d/%-m/%Y" }}
+        <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}"> {{ post.date | date: '%B %d, %Y' }}
       </time>
 
       {% comment %}
@@ -20,7 +19,7 @@
       {% endcomment %}
 
       <span> - {% if post.categories.size > 0 %}
-        {% capture categories_content %}<i class="fa fa-folder-open-o"></i> {% endcapture %}
+        {% capture categories_content %}{% endcapture %}
         {% for post_category in post.categories %}
           {% for data_category in site.data.categories %}
             {% if data_category.slug == post_category %}

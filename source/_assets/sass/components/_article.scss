@@ -7,6 +7,10 @@
       height: auto;
       margin-bottom: 1.6em;
     }
+
+    em {
+      border-bottom: 1px solid $action-color;
+    }
   }
 
   .post-thumb {
@@ -73,17 +77,27 @@
 
 .posts {
   .post {
+    position: relative;
     animation-duration: .9s;
     animation-name: bounce-left;
     margin-bottom: $base-spacing;
     padding-bottom: $base-spacing;
-    border-bottom: 1px solid $base-border-color;
-
+    // border-bottom: 1px solid $base-border-color;
     @extend %clearfix;
 
     p {
       width: 100%;
       overflow: hidden;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: $base-border-color;
+      height: 2px;
+      width: 50px;
     }
   }
 

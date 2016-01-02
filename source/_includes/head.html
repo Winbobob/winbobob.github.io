@@ -84,18 +84,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Website",
-      "publisher": "{{ site.domain_name }}",
-      "url": "http://{{ site.domain_name }}/",
-      "description": "{{ site.description }}"
-    }
-    </script>
-
     <script type="text/javascript">
-    var disqus_shortname = '{{ site.disqus_shortname }}';
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
     _gaq.push(['_trackPageview']);
@@ -106,4 +95,6 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
+
+    <script type="text/javascript">var disqus_shortname = '{{ site.disqus_shortname }}';</script>
 </head>

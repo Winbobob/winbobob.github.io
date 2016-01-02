@@ -111,26 +111,6 @@ hr {
   }
 }
 
-ol {
-  list-style: decimal;
-  margin: 0 0 2em 0;
-  padding-left: 1.25em;
-
-  li {
-    padding-left: .25em;
-  }
-}
-
-ul {
-  list-style: disc;
-  margin: 0 0 2em 0;
-  padding-left: 1.2em;
-
-  li {
-    padding-left: .5em;
-  }
-}
-
 img,
 picture {
   margin: 0;
@@ -142,6 +122,23 @@ blockquote {
   font-style: italic;
   margin: 0 0 1em;
   padding: .5em 0 .5em 2em;
+
+  &, p {
+    font-size: $base-font-size * 1.2;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  small {
+    display: block;
+
+    &:before {
+      content: '—';
+      margin-top: ($small-spacing/2);
+    }
+  }
 }
 
 q, blockquote {

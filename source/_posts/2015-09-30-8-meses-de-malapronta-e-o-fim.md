@@ -50,7 +50,7 @@ Todos sabem que designers e desenvolvedores não se dão muito bem em agências,
 
 ## A equipe
 
-Eu tinha uma equipe massa quando eu entrei, atenciosos, focados e determinados ao extremo e tínhamos um _team leader_ foda pra caralho. Éramos em 5 membros, sendo 1 _team leader_ e 3 devs e 1 front(eu). Nosso entrosamento era o máximo, tínhamos reuniões diária (das quais eu quase não participava), tínhamos almoços só da equipe (partiu Madeiro?), mas as perdas foi deixando isso tudo para trás, primeiro um dos membros virou Analista, logo ele foi deixando de fazer parte da equipe, deixando de ir nas reuniões e tudo mais. Entrou uma nova programadora pra ajudar nas demandas do site atual enquanto nós focavamos nossos recursos no site novo. Depois de algum tempo anunciada a saída do nosso _team leader_, logo mais os outros foram indo também, acabou ficando só eu e a nova programadora no time do site.
+Eu tinha uma equipe massa quando eu entrei, atenciosos, focados e determinados ao extremo e tínhamos um _team leader_ foda pra caralho. Éramos em 5 membros, sendo 1 _team leader_ e 3 devs e 1 front(eu). Nosso entrosamento era o máximo, tínhamos reuniões diária (das quais eu quase não participava), tínhamos almoços só da equipe (partiu Madero?), mas as perdas foi deixando isso tudo para trás, primeiro um dos membros virou Analista, logo ele foi deixando de fazer parte da equipe, deixando de ir nas reuniões e tudo mais. Entrou uma nova programadora pra ajudar nas demandas do site atual enquanto nós focavamos nossos recursos no site novo. Depois de algum tempo anunciada a saída do nosso _team leader_, logo mais os outros foram indo também, acabou ficando só eu e a nova programadora no time do site.
 
 ## A segunda equipe
 

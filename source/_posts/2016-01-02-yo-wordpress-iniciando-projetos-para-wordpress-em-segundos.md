@@ -20,10 +20,10 @@ Esse é o meu primeiro artigo do ano de **2016**, então eu vou falar sobre **[Y
 > Yeoman helps you to kickstart new projects, prescribing best practices and tools to help you stay productive.
   > <small>[yeoman.io](http://yeoman.io/)</small>
 
-> _Traduzindo:_ Yeoman ajuda a iniciar novos projectos, a prescrição de melhores práticas e ferramentas para ajudá-lo a manter-se produtivo.
+> _Traduzindo:_ Yeoman ajuda a iniciar novos projetos, a prescrição de melhores práticas e ferramentas para ajudá-lo a manter-se produtivo.
   > <small>[Google translate](https://goo.gl/d9zH8D) :D</small>
 
-E para isso existe os _Generators_, são basicamente pacotes npm feitos para Yeoman e que através deles você consegue dar o pontapé inicial de estruturas completas prontas para iniciar o seu projeto.
+E para isso existe os _Generators_, são basicamente pacotes <abbr title="node package manager">npm</abbr> feitos para Yeoman e que através deles você consegue dar o pontapé inicial de estruturas completas prontas para iniciar o seu projeto.
 
 ## O yo-wordpress
 
@@ -41,7 +41,7 @@ Nós vamos procurar por **yo-wordpress** no campo de busca e clicar no link.
 
 Clicando no link você será direcionado para o [repositório do generator](https://github.com/romainberger/yeoman-wordpress), lá teremos o passo-a-passo de como instalar e usar.
 
-Instalamos o Yeoman e o Generator como instalação de qualquer pacote npm.
+Instalamos o Yeoman e o Generator como instalação de qualquer pacote <abbr title="node package manager">npm</abbr>.
 
 {% highlight bash %}
 sudo npm install -g yo generator-yo-wordpress
@@ -98,7 +98,7 @@ O Generator vai gerar todos os arquivos para o seu novo projeto, e também um ar
 
 ## Conclusão
 
-Usando generators você poupa um tempo massa de downloads, configurações, criação de diretórios, etc. E ainda se você trabalha criando novos projetos toda a semana com WordPress o ganho é absurdamente grande.
+Usando generators você poupa um tempo massa de downloads, configurações, criação de diretórios, entre outros. E ainda se você trabalha criando novos projetos toda a semana com WordPress o ganho é absurdamente grande.
 
 Você já usa o Yeoman no seu dia-a-dia? Você achou interessante essa abordagem? Comenta ai vai.
 
