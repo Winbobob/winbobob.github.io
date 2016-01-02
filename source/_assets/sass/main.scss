@@ -6,7 +6,30 @@
 @charset "UTF-8";
 
 @import "compass";
-@import "core";
-@import "base";
-@import "components";
+
+@import "core/variables";
+@import "core/mixins";
+@import "core/functions";
+@import "core/placeholders";
+
+@import "base/normalize";
+@import "base/globals";
+@import "base/helpers";
+@import "base/animate";
+@import "base/header";
+@import "base/forms";
+@import "base/lists";
+@import "base/tables";
+@import "base/typography";
+@import "base/footer";
+
+@import "components/buttons";
+@import "components/intro";
+@import "components/article";
+@import "components/pagination";
+@import "components/search";
+@import "components/selection-sharer";
+@import "components/swipebox";
+@import "components/syntax";
+
 @import "font-awesome";

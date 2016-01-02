@@ -49,7 +49,7 @@ sup {
 
   @include media($screen-desktop) {
     margin-left: $header-medium-width;
-    padding: 2em ($base-spacing * 3);
+    padding: ($base-spacing*2);
   }
 
   @include media($screen-large-desktop) {

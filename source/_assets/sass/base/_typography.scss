@@ -59,7 +59,7 @@ h6 {
   font-family: $heading-font-family;
   line-height: $heading-line-height;
   margin: ($base-spacing/1.5) 0;
-  font-weight: 700;
+  font-weight: $bolder-font-weight;
 
   a {
     color: inherit;
@@ -98,7 +98,7 @@ em {
 }
 
 strong {
-  font-weight: 700;
+  font-weight: $bold-font-weight;
 }
 
 hr {

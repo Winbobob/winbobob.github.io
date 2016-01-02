@@ -16,28 +16,6 @@
   }
 }
 
-.posts {
-  .post {
-    animation-duration: .9s;
-    animation-name: bounce-left;
-
-    @extend %clearfix;
-    margin-bottom: $base-spacing;
-    padding-bottom: $base-spacing;
-    border-bottom: 1px solid $base-border-color;
-
-    @include media($screen-tablet) {
-      margin-bottom: $base-spacing * 2;
-      padding-bottom: $base-spacing * 2;
-    }
-
-    p {
-      width: 100%;
-      overflow: hidden;
-    }
-  }
-}
-
 .post-header {
   border-bottom: 1px solid $base-border-color;
   margin-bottom: $base-spacing;
@@ -90,6 +68,38 @@
     height: 30px;
     width: 30px;
     margin-right: 4px;
+  }
+}
+
+.posts {
+  .post {
+    animation-duration: .9s;
+    animation-name: bounce-left;
+    margin-bottom: $base-spacing;
+    padding-bottom: $base-spacing;
+    border-bottom: 1px solid $base-border-color;
+
+    @extend %clearfix;
+
+    p {
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+
+  .post-header {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .post-title {
+    margin-top: 0;
+  }
+
+  .post-meta {
+    margin-top: $small-spacing;
+    margin-bottom: $small-spacing;
   }
 }
 

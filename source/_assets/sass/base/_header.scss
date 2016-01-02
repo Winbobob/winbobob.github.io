@@ -3,7 +3,7 @@
   @extend %clearfix;
   background-color: darken($secondary-color, 2%);
   color: $white-color;
-  padding: $base-spacing $small-spacing;
+  padding: $small-spacing;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -15,6 +15,10 @@
   .header-in {
     position: relative;
     z-index: 10;
+  }
+
+  @include media($screen-tablet) {
+    padding: $base-spacing $small-spacing;
   }
 
   @include media($screen-desktop) {
@@ -37,11 +41,15 @@
   }
 
   .author-thumb {
-    margin: 0 0 $base-spacing 0;
+    margin: 0 0 $small-spacing 0;
     animation-duration: .5s;
     animation-name: bounce-rotate;
     display: inline;
     width: 6.25em;
+
+    @include media($screen-desktop) {
+      margin: 0 0 $base-spacing 0;
+    }
   }
 
   h1 {
@@ -77,8 +85,13 @@
 .navbar {
   position: relative;
   list-style: none;
-  padding: $small-spacing 0;
+  padding: $small-spacing 0 ($small-spacing/2);
   margin: 0;
+
+  @include media($screen-desktop) {
+    padding: $small-spacing;
+    width: 100%;
+  }
 
   &:before {
     content: '';
@@ -91,13 +104,9 @@
     background-color: rgba($white-color, .6);
   }
 
-  @include media($screen-desktop) {
-    width: 100%;
-  }
-
   li {
     font-size: 1rem;
-    margin-left: 1em;
+    margin: 0 .4em;
     padding: 0;
 
     @include media($screen-desktop) {
@@ -124,6 +133,14 @@
     &:focus,
     &:active {
       color: $action-color;
+    }
+  }
+
+  .search span {
+    display: none;
+
+    @include media($screen-tablet) {
+      display: inline-block;
     }
   }
 }

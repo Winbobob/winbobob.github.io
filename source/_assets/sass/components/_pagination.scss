@@ -73,6 +73,6 @@
   }
 
   @include media($screen-desktop) {
-    margin: ($base-spacing*2) auto;
+    margin: ($base-spacing*2) auto 0;
   }
 }

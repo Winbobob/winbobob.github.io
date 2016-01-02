@@ -42,7 +42,11 @@ body.home {
 
 .hero-inner {
   text-align: center;
-  padding: 0 $base-spacing;
+  padding: $small-spacing $base-spacing 0;
+
+  @include media($screen-tablet) {
+    padding: 0 $base-spacing;
+  }
 
   h1,
   .author-thumb,
@@ -123,6 +127,18 @@ body.home {
   .button {
     animation-name: bounce-rotate;
     animation-duration: .7s;
+  }
+
+  .button {
+    margin: .5em 0;
+    width: 100%;
+    display: block;
+
+    @include media($screen-phone) {
+      margin: 0 .2em;
+      width: auto;
+      display: inline-block;
+    }
   }
 
   .button:first-child {
