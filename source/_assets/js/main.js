@@ -13,5 +13,4 @@
 //=require vendor/_selection-sharer.js
 
 //=require scripts/_modal-search.js
-//=require scripts/_disqus.js
 //=require scripts/_main.js
