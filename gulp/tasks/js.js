@@ -7,7 +7,7 @@ var $ = require('gulp-load-plugins')();
 var gulp = require('gulp');
 
 var mainfile = [
-    config.js + 'main.js'
+  config.js + 'main.js'
 ];
 
 gulp.task('lint', function () {
@@ -20,10 +20,7 @@ gulp.task('lint', function () {
   gulp.src(mainfile)
     .pipe($.plumber())
     .pipe($.include()).on('error', console.log)
-    // .pipe($.if(config.concatjs, $.concat('mpstyle.js')))
-    // .pipe(gulp.dest(config.dest.js))
-    // .pipe($.uglify())
-    // .pipe($.rename({ suffix: '.min' }))
+    .pipe($.uglify())
     .pipe($.size({ title: 'Scripts', gzip: false, showFiles: true }))
     .pipe(gulp.dest(config.dest.js))
     .pipe($.plumber.stop());
