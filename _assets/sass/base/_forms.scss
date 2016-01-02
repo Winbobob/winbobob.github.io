@@ -26,6 +26,30 @@ label {
   }
 }
 
+legend {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  border-bottom: $base-border;
+}
+
+input, textarea, select, label {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $base-font-color;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+legend {
+  display: block;
+  width: 100%;
+  @include appearance(none);
+}
+
 #{$all-text-inputs},
 select[multiple=multiple] {
   background-color: $base-background-color;
@@ -33,12 +57,9 @@ select[multiple=multiple] {
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
   margin-bottom: $small-spacing;
-  padding: $base-spacing / 3;
+  padding: $base-spacing / 3 $small-spacing;
   transition: border-color $base-duration $base-timing;
-  width: 100%;
 
   &:hover {
     border-color: shade($base-border-color, 20%);
@@ -57,6 +78,10 @@ select[multiple=multiple] {
     &:hover {
       border: $base-border;
     }
+  }
+
+  &.error {
+    border-color: $error-color;
   }
 }
 

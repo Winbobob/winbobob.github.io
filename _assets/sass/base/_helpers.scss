@@ -19,6 +19,33 @@ img.pull-right { margin-left: 20px; }
   @include box-shadow(0 0 0 0, 0 6px 12px rgba(34,34,34, .1));
 }
 
+.alert {
+  padding: $small-spacing;
+  margin-bottom: $small-spacing;
+  border-radius: $base-border-radius;
+  text-align: center;
+
+  p {
+    text-shadow: 0px 1px 1px rgba($black-color, .2);
+    margin: 0;
+  }
+}
+
+.alert-success {
+  background-color: $success-color;
+  border: 1px solid darken($success-color, 5%);
+  color: $white-color;
+}
+
+.alert-error {
+  background-color: $error-color;
+  border: 1px solid darken($error-color, 5%);
+  color: $white-color;
+}
+
+.contact .alert {
+  display: none;
+}
 
 .scroll-up {
   position: fixed;
@@ -43,4 +70,25 @@ img.pull-right { margin-left: 20px; }
     text-decoration: none;
     border: 0;
   }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  animation-duration: 2s;
+}
+
+.tada {
+  animation-name: tada;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
 }

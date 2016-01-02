@@ -38,9 +38,21 @@
   }
 }
 
+.post-header {
+  border-bottom: 1px solid $base-border-color;
+  margin-bottom: $base-spacing;
+  padding-bottom: ($small-spacing / 2);
+
+  h1 {
+    @include font-size(32px);
+    margin-bottom: 0;
+  }
+}
+
 .post-title {
   @include font-size(22px);
   margin-bottom: .4em;
+  line-height: 1.4;
   text-transform: none;
 
   a {

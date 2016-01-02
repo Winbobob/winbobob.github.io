@@ -1,0 +1,38 @@
+---
+layout: page
+title: Contato
+permalink: /contato/
+slug: contact
+---
+
+<section class="contact">
+
+  <p>Para entrar em contato comigo basta enviar um e-mail para <a href="mailto:nandomoreira.me@gmail.com"><em>nandomoreira.me[at]gmail.com</em></a> ou preencha o formulário logo abaixo ;)</p>
+
+  <form action="//formspree.io/nandomoreira.me@gmail.com" id="contactForm" method="POST">
+    <div class="input-group">
+      <label for="name">Nome</label>
+      <input id="name" type="text" name="name" required>
+    </div>
+
+    <div class="input-group">
+      <label for="email">E-mail</label>
+      <input id="email" type="email" name="_replyto" required>
+    </div>
+
+    <div class="input-group">
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <div class="alert">&nbsp;</div>
+
+    <div class="input-group">
+      <input type="submit" id="sendForm" class="button secondary" value="Enviar">
+      <input type="hidden" name="_subject" value="Nova mensagem de contato">
+      <input type="text" name="_gotcha" style="display:none">
+      <input type="hidden" name="_next" value="{{ "/contato/" | prepend: site.baseurl | prepend: site.url }}">
+    </div>
+  </form>
+
+</section>
