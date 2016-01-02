@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "YeoPress, iniciando projetos para WordPress em segundos"
+title: "YeoPress, iniciando projetos WordPress em segundos"
 permalink: yo-wordpress-em-segundos
 date: 2016-01-02 18:34:18
 comments: true
