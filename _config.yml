@@ -15,7 +15,7 @@ source:      source
 destination: _site
 
 itemtype: WebPage
-cover: /assets/images/banner.jpg
+cover: /assets/images/facebook.png
 
 # site title, description, keywords
 name: Fernando Moreira
