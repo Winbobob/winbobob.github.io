@@ -118,18 +118,12 @@
     line-height: 1;
     color: rgba($white-color, .6);
     text-transform: uppercase;
-    border-bottom: 1px solid transparent;
-    @include transition(color .4s linear, border-color .4s linear);
-  }
+    @include transition(color .4s linear);
 
-  li.active a,
-  li.active a:hover,
-  li.active a:focus,
-  li.active a:active,
-  li a:hover,
-  li a:focus,
-  li a:active {
-    color: $white-color;
-    border-color: $white-color;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $action-color;
+    }
   }
 }
