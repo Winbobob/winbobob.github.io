@@ -34,7 +34,8 @@
     $form.on('click', '#sendForm', function (e) {
       e.preventDefault();
 
-      var action = $form.attr('action'),
+      var $btn = $(this),
+          action = $form.attr('action'),
           method = $form.attr('method'),
           formdata = $form.serialize(),
           alert = $form.find('.alert'),
@@ -49,6 +50,8 @@
           messageValue = message.val();
 
       alert.html('').removeClass('alert-error alert-success fadeIn tada animated hinge').hide();
+
+      $btn.prop('disabled', true);
 
       if(nameValue !== '' && nameValue !== undefined &&
         emailValue !== '' && emailValue !== undefined &&
@@ -73,6 +76,7 @@
           }
 
           alert.html(msg).addClass(alertClass).fadeIn('600');
+          $btn.prop('disabled', false);
         }).error(function(err) {
           console.error(err);
         });
@@ -101,6 +105,7 @@
         msg = '<p>Preencha corretamente o formulário.</p>';
 
         alert.html(msg).addClass(alertClass).fadeIn('600');
+        $btn.prop('disabled', false);
       }
     });
   });
