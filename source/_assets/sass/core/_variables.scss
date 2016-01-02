@@ -3,36 +3,42 @@
 //
 
 // typography
-$base-font-family: "Source Sans Pro", Helvetica, sans-serif !default;
-$font-family-base: $base-font-family !default;
-$font-family-serif: "PT Serif", sans-serif !default;
-$font-family-monospace: "courier new", monospace !default;
-$heading-font-family: $font-family-serif !default;
-$base-font-size: 1.2rem !default;
-$font-size-base: $base-font-size !default;
+$base-font-family: "Source Sans Pro", Helvetica, sans-serif;
+$font-family-base: $base-font-family;
+$font-family-serif: "PT Serif", sans-serif;
+$font-family-monospace: "courier new", monospace;
+$heading-font-family: $font-family-serif;
+$base-font-size: 1.2rem;
+$font-size-base: $base-font-size;
 
 // line height
-$base-line-height: 1.6 !default;
-$heading-line-height: 1.2 !default;
+$base-line-height: 1.6;
+$heading-line-height: 1.2;
+
+// line height
+$light-font-weight: 300;
+$base-font-weight: 400;
+$bold-font-weight: 600;
+$bolder-font-weight: 300;
 
 // other sizes
-$base-border-radius: .25em !default;
-$base-spacing: 2em !default;
-$small-spacing: $base-spacing / 2 !default;
-$base-z-index: 0 !default;
+$base-border-radius: .25em;
+$base-spacing: 2em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
 
 // colors
-$primary-color: #e97f02 !default;
-$secondary-color: #383838 !default;
-$tertiary-color: #f4d03f !default;
+$primary-color: #e97f02;
+$secondary-color: #383838;
+$tertiary-color: #f4d03f;
 
-$white-color: #fff !default;
-$silver-color: darken($white-color, 22%) !default;
-$gray-color: darken($white-color, 42%) !default;
-$gray-dark-color: #2d3138 !default;
-$code-color: #ededed !default;
-$black-color: #000 !default;
-$blue-color: #766dcc !default;
+$white-color: #fff;
+$silver-color: darken($white-color, 22%);
+$gray-color: darken($white-color, 42%);
+$gray-dark-color: #2d3138;
+$code-color: #ededed;
+$black-color: #000;
+$blue-color: #766dcc;
 
 $success-color: #00E600;
 $error-color: #f04124;
@@ -41,29 +47,29 @@ $facebook-color: #3b599f;
 $twitter-color: #28a9e0;
 
 // font colors
-$txt-color: rgba($gray-dark-color, .8) !default;
-$base-font-color: $txt-color !default;
-$action-color: $primary-color !default;
+$txt-color: rgba($gray-dark-color, .8);
+$base-font-color: $txt-color;
+$action-color: $primary-color;
 
 // border
-$base-border-color: tint($silver-color, 25%) !default;
-$base-border: 1px solid $base-border-color !default;
+$base-border-color: tint($silver-color, 25%);
+$base-border: 1px solid $base-border-color;
 
 // background colors
-$base-background-color: $white-color !default;
-$secondary-background-color: tint($base-border-color, 75%) !default;
+$base-background-color: $white-color;
+$secondary-background-color: tint($base-border-color, 75%);
 
 // forms
-$form-box-shadow: inset 0 1px 1px rgba(#000, .08) !default;
-$form-box-shadow-focus: 0 0 5px rgba($action-color, .2) !default;
+$form-box-shadow: inset 0 1px 1px rgba(#000, .08);
+$form-box-shadow-focus: 0 0 5px rgba($action-color, .2);
 
 // link
-$link-color: $primary-color !default;
-$link-hover-color: shade($link-color, 10%) !default;
+$link-color: $primary-color;
+$link-hover-color: shade($link-color, 10%);
 
 // animations
-$base-duration: 150ms !default;
-$base-timing: ease !default;
+$base-duration: 150ms;
+$base-timing: ease;
 
 // grid
 $screen-phone: 480px;

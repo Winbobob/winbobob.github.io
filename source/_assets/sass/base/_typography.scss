@@ -5,23 +5,20 @@
 
 body {
   color: $base-font-color;
-  font-family: $base-font-family;
-  font-feature-settings: "kern", "liga", "pnum";
-  font-weight: 400;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: .01em;
 }
 
+body,
 input,
 select,
 textarea {
-  color: $txt-color;
-  font-family: $font-family-base;
-  font-size: $font-size-base;
-  line-height: 2em;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: $base-font-weight;
 }
 
 p {
@@ -39,6 +36,17 @@ a {
     text-decoration: none;
     color: $link-hover-color;
   }
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-rendering: optimizeLegibility;
 }
 
 h1,
