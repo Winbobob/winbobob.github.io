@@ -22,11 +22,15 @@
 
 .post-header {
   border-bottom: 1px solid $base-border-color;
-  margin-bottom: $base-spacing;
   padding-bottom: ($small-spacing / 2);
+  margin: {
+    bottom: $base-spacing;
+    top: 0;
+  };
 
   h1 {
     @include font-size(32px);
+    margin-top: 0;
     margin-bottom: 0;
   }
 }
