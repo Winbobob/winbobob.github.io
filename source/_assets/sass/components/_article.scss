@@ -161,6 +161,7 @@
     width: 100px;
     float: left;
     margin-right: 1em;
+    border-color: rgba($black-color, .2);
   }
 
   h4 a {
@@ -175,8 +176,8 @@
   .share {
     position: absolute;
     width: 140px;
-    top: 1.4em;
-    right: $gutter-padding;
+    top: .5em;
+    right: 1.5em;
     text-align: center;
 
     h4 {
