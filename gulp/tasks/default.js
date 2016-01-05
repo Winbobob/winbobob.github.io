@@ -4,4 +4,4 @@
 
 var gulp = require('gulp');
 
-gulp.task('default', ['serve', 'jekyll']);
+gulp.task('default', ['serve']);

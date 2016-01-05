@@ -10,7 +10,11 @@ $highlight-font-color: #eeffdd;
     bottom: $small-spacing;
   };
 
-  &, .hll, pre, code {
+  &,
+  .hll,
+  pre,
+  code {
+    position: relative;
     background-color: $highlight-bg-color !important;
     border: 0;
   }

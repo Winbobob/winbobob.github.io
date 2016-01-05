@@ -8,22 +8,29 @@
   ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
   }
 
   li {
-    margin: $small-spacing .2em;
+    margin: $small-spacing 0;
+    padding: 0;
 
     &.button {
       display: inline-block;
     }
   }
 
-  li, a, span {
+  li,
+  a,
+  span {
     display: block;
     width: 100%;
   }
 
-  a, span {
+  a,
+  span {
     text-decoration: none;
     display: inline-block;
     @include user-select(none);
@@ -31,7 +38,8 @@
     @include font-size(15px);
   }
 
-  a, .disabled {
+  a,
+  .disabled {
     border: 1px solid darken($silver-color, 10%);
     border-radius: $base-border-radius;
   }
@@ -62,10 +70,6 @@
   }
 
   @include media($screen-tablet) {
-    li {
-      margin: 0 .2em;
-    }
-
     li, a, span {
       width: auto;
       display: inline-block;
