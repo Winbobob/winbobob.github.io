@@ -58,4 +58,4 @@ Este tema é liberado sob licença [MIT](https://github.com/nandomoreirame/lora/
 
 ## Demo e download
 
-[Demo](http://nandomoreira.me/lora){: .button} [Download](https://github.com/nandomoreirame/lora/archive/master.zip){: .button .secondary}
+[Demo](http://nandomoreira.me/lora){: .button} [Download](https://github.com/nandomoreirame/lora/archive/master.zip){: .button-secondary}

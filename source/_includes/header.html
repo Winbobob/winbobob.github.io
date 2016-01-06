@@ -10,11 +10,11 @@
 
     <nav class="nav" role="navigation">
       <ul class="navbar" role="menu">
-        <li role="menuitem"><a href="{{ "/blog" | prepend: site.baseurl }}" class="subnav-trigger"><span>Blog</span></a></li>
-        <li role="menuitem"><a href="{{ "/about" | prepend: site.baseurl }}">Sobre</a></li>
-        <li role="menuitem"><a href="{{ "/contato" | prepend: site.baseurl }}">Contato</a></li>
+        <li role="menuitem"><a href="{{ "/blog" | prepend: site.baseurl }}" class="after">Blog</a></li>
+        <li role="menuitem"><a href="{{ "/about" | prepend: site.baseurl }}" class="after">Sobre</a></li>
+        <li role="menuitem"><a href="{{ "/contato" | prepend: site.baseurl }}" class="after">Contato</a></li>
         <li role="menuitem" class="search">
-          <a href="#" data-modal-search="modalSearch"><i class="fa fa-search"></i> <span>Busca</span></a>
+          <a href="#" data-modal-search="modalSearch" class="after"><i class="fa fa-search"></i> <span>Busca</span></a>
         </li>
       </ul>
     </nav>

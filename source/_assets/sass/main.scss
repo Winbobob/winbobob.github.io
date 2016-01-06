@@ -7,7 +7,10 @@
 
 @import "compass";
 
+@import "mix-buttons/mix-variables";
 @import "core/variables";
+@import "mix-buttons/mix-buttons";
+
 @import "core/mixins";
 @import "core/functions";
 @import "core/placeholders";

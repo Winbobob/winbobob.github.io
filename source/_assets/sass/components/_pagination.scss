@@ -22,20 +22,15 @@
     }
   }
 
-  li,
-  a,
-  span {
-    display: block;
-    width: 100%;
+  .prev,
+  .next {
+    @include mix-button($secondary-color, $secondary-color, $base-border-radius, $bold-font-weight, lowercase, true);
+    @include mix-button-size(($base-spacing*1.8), ($base-spacing/1.2), .8rem);
   }
 
-  a,
-  span {
-    text-decoration: none;
-    display: inline-block;
-    @include user-select(none);
-    padding: .6em .8em;
-    @include font-size(15px);
+  li, a, span, a.prev, a.next {
+    display: block;
+    width: 100%;
   }
 
   a,
@@ -57,6 +52,8 @@
   .page-number {
     font-style: italic;
     color: $silver-color;
+    font-size: .8rem;
+    line-height: 4.5em;
   }
 
   .disabled {
@@ -66,6 +63,12 @@
 
     &::before, &::after {
       opacity: .4;
+    }
+  }
+
+  @include media(max-width $screen-phone) {
+    ul {
+      display: block;
     }
   }
 

@@ -44,4 +44,4 @@ Este tema é liberado sob licença [MIT](https://github.com/nandomoreirame/simpl
 
 ## Demo e download
 
-[Demo](http://nandomoreira.me/simplest){: .button} [Download](https://github.com/nandomoreirame/simplest/archive/master.zip){: .button .secondary}
+[Demo](http://nandomoreira.me/simplest){: .button} [Download](https://github.com/nandomoreirame/simplest/archive/master.zip){: .button-secondary}

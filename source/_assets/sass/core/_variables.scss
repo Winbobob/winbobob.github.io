@@ -45,6 +45,11 @@ $error-color: #f04124;
 $facebook-color: #3b599f;
 $twitter-color: #28a9e0;
 
+// mix buttons
+$mix-base-font-size: $base-font-size;
+$mix-base-spacing: $base-spacing * 1.4;
+$mix-base-height: 3.2em;
+
 // font colors
 $txt-color: rgba($gray-dark-color, .8);
 $base-font-color: $txt-color;

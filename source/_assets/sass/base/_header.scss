@@ -101,7 +101,7 @@
     left: 50%;
     margin-left: -25px;
     height: 2px;
-    background-color: rgba($white-color, .5);
+    background-color: rgba($white-color, .6);
   }
 
   li {
@@ -138,29 +138,10 @@
       @include transition(color .4s ease);
     }
 
-    &:after {
-      content: "";
-      @include transition(all .3s ease);
-      -webkit-backface-visibility: hidden;
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%);
-      backface-visibility: hidden;
-      background: $white-color;
-      position: absolute;
-      height: 2px;
-      width: 0;
-      left: 50%;
-      bottom: 0;
-    }
-
     &:hover,
     &:focus,
     &:active {
       color: $white-color;
-
-      &:after {
-        width: 100%;
-      }
     }
   }
 
@@ -169,6 +150,33 @@
 
     @include media($screen-tablet) {
       display: inline-block;
+    }
+  }
+}
+
+.after {
+  position: relative;
+
+  &:after {
+    content: "";
+    @include transition(all .3s ease);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    backface-visibility: hidden;
+    background: $white-color;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    &:after {
+      width: 100%;
     }
   }
 }

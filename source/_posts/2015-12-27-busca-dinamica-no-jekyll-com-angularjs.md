@@ -136,7 +136,7 @@ Bem, esse HTML ai em cima dispeça explicações né, se você sabe pelo menos o
 Você deve ter notado que o nosso `searchController` e nossa função `pesquisar` retorna todos os objetos do arquivo `search.json` por isso passamos um filtro mágico do AngularJS chamado `filter:` que recebe o model `search` (que é basicamente as letras digitadas no input).
 
 [Demonstração](http://nandomoreira.me/busca-no-jekyll-com-angularjs/){: .button}
-[Download](https://github.com/nandomoreirame/busca-no-jekyll-com-angularjs){: .button .secondary}
+[Download](https://github.com/nandomoreirame/busca-no-jekyll-com-angularjs){: .button-secondary}
 
 Com isso fechamos nosso sisteminha de busca simples no Jekyll usando AngularJS ;)
 

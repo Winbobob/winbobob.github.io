@@ -51,7 +51,7 @@ body.home {
   h1,
   .author-thumb,
   .social,
-  .button {
+  .button-ghost {
     opacity: 0;
     animation-delay: .3s;
     animation-fill-mode: forwards;
@@ -124,12 +124,12 @@ body.home {
   }
 
   .author-thumb,
-  .button {
+  .button-ghost {
     animation-name: bounce-rotate;
     animation-duration: .7s;
   }
 
-  .button {
+  .button-ghost {
     margin: .5em 0;
     width: 100%;
     display: block;
@@ -141,7 +141,7 @@ body.home {
     }
   }
 
-  .button:first-child {
+  .button-ghost:first-child {
     animation-delay: .4s;
   }
 }
