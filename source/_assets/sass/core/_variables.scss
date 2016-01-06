@@ -73,7 +73,7 @@ $link-hover-color: shade($link-color, 10%);
 
 // animations
 $base-duration: 150ms;
-$base-timing: ease;
+$base-timing: cubic-bezier(0.21, 1, 0.84, 1.01);
 
 // grid
 $screen-phone: 480px;

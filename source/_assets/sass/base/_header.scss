@@ -159,7 +159,7 @@
 
   &:after {
     content: "";
-    @include transition(all .3s ease);
+    @include transition(all .4s $base-timing);
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
