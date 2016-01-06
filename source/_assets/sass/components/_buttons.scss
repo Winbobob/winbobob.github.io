@@ -17,3 +17,13 @@
     }
   }
 }
+
+@include media(max-width $screen-phone) {
+  .btn,
+  .button,
+  .button-secondary,
+  .button-ghost {
+    width: 100%;
+    clear: both;
+  }
+}

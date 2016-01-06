@@ -222,7 +222,8 @@
 
     .share {
       top: auto;
-      margin: $base-spacing auto;
+      right: auto;
+      margin: ($base-spacing*1.4) auto 0;
     }
 
     .author-thumb {
