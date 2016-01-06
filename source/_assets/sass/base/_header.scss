@@ -101,7 +101,7 @@
     left: 50%;
     margin-left: -25px;
     height: 2px;
-    background-color: rgba($white-color, .6);
+    background-color: rgba($white-color, .5);
   }
 
   li {
@@ -125,14 +125,42 @@
   a {
     padding: .6em;
     line-height: 1;
-    color: rgba($white-color, .6);
+    color: rgba($white-color, .5);
     text-transform: uppercase;
-    @include transition(color .4s linear);
+
+    &,
+    &:visited,
+    &:hover,
+    &:active {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      position: relative;
+      @include transition(color .4s ease);
+    }
+
+    &:after {
+      content: "";
+      @include transition(all .3s ease);
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      backface-visibility: hidden;
+      background: $white-color;
+      position: absolute;
+      height: 2px;
+      width: 0;
+      left: 50%;
+      bottom: 0;
+    }
 
     &:hover,
     &:focus,
     &:active {
-      color: $action-color;
+      color: $white-color;
+
+      &:after {
+        width: 100%;
+      }
     }
   }
 
