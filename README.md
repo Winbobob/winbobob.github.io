@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/nandomoreirame/nandomoreirame.github.io.svg)](https://travis-ci.org/nandomoreirame/nandomoreirame.github.io)
 
-> :gem: My personal website
+> :gem: My personal website and blog http://nandomoreira.me/
 
 ---
 
