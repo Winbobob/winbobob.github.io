@@ -1,8 +1,8 @@
-# [nandomoreira.me](http://nandomoreira.me/)
+# [nandomoreira.me](http://nandomoreira.me/) #
 
 [![Build Status](https://travis-ci.org/nandomoreirame/nandomoreirame.github.io.svg)](https://travis-ci.org/nandomoreirame/nandomoreirame.github.io)
 
-> My personal website where I talk about front-end development like HTML5, CSS3, JavaScript and Wordpress, PHP and more.
+> :gem: My personal website
 
 ---
 
