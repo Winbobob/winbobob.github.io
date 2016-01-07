@@ -19,9 +19,10 @@
 ## Setup ##
 
 ```
-sudo npm i -g gulp bower browser-sync
+sudo npm install -g gulp bower browser-sync
 sudo gem install bundler
 bundle install
+bower install
 npm install
 ```
 

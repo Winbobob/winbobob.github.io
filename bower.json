@@ -1,13 +1,13 @@
 {
   "name": "nandomoreira.me",
-  "version": "1.0.0",
+  "version": "3.1.0",
   "homepage": "https://github.com/nandomoreirame/nandomoreirame.github.io",
   "private": true,
   "license": "MIT",
   "authors": [
     "Fernando Moreira <nandomoreira.me@gmail.com>"
   ],
-  "dependencies": {
+  "devDependencies": {
     "classie": "~1.0.1",
     "jquery": "~2.1.4",
     "swipebox": "~1.4.1",

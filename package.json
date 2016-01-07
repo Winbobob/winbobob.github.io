@@ -1,7 +1,7 @@
 {
   "name": "nandomoreira.me",
-  "version": "3.0.0",
-  "description": "My personal website where I talk about front-end development like HTML5, CSS3, JavaScript and Wordpress, PHP and more",
+  "version": "3.1.0",
+  "description": "My personal website and blog >> http://nandomoreira.me/",
   "repository": {
     "type": "git",
     "url": "git@github.com:nandomoreirame/nandomoreirame.github.io.git"
