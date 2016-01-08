@@ -6,6 +6,12 @@
 
 ---
 
+> :warning: Esse repositório é atualizado constantemente!
+
+> :warning: This repository is constantly updated!
+
+---
+
 ## Contributing ##
 
 1. Fork it
