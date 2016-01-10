@@ -14,8 +14,7 @@ tags:
 - programacao
 - video
 ---
-<div class="video-responsive">
-  <iframe src="http://www.youtube.com/embed/uylEH2wT3nw" height="460" width="100%" allowfullscreen="" frameborder="0"></iframe>
-</div>
+
+{% youtube uylEH2wT3nw %}
 
 Retornando com a parte 6 do nosso curso "Desenvolvendo um site Profissional e Completo" e hoje vamos continuar com o CSS da página inicial criando a boxes serviços.

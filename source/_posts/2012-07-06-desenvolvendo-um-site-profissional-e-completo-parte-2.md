@@ -17,8 +17,6 @@ tags:
 - youtube
 ---
 
-<div class="video-responsive">
-  <iframe src="http://www.youtube.com/embed/4L4HJgsyC5A" frameborder="0" width="100%" height="350"></iframe>
-</div>
+{% youtube 4L4HJgsyC5A %}
 
 Essa é a segunda parte das videos "Criando um site profissional e completo".

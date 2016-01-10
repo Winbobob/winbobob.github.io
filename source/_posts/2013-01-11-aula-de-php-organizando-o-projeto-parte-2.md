@@ -12,6 +12,4 @@ tags:
 - organizando
 ---
 
-<div class="video-responsive">
-  <iframe src="http://www.youtube.com/embed/wgYoVeVsGY8" height="460" width="100%" allowfullscreen="" frameborder="0"></iframe>
-</div>
+{% youtube wgYoVeVsGY8 %}

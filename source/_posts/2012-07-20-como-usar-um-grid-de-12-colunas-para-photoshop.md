@@ -14,9 +14,7 @@ tags:
 - youtube
 ---
 
-<div class="video-responsive">
-  <iframe src="http://www.youtube.com/embed/5kfgi27jPcI" height="460" width="100%" frameborder="0"></iframe>
-</div>
+{% youtube 5kfgi27jPcI %}
 
 E ai galera!
 

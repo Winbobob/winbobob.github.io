@@ -18,9 +18,7 @@ tags:
 - youtube
 ---
 
-<div class="video-responsive">
-  <iframe src="http://www.youtube.com/embed/nJGmouulKxU" frameborder="0" width="100%" height="350"></iframe>
-</div>
+{% youtube nJGmouulKxU %}
 
 Chegamos a 3ª parte do nosso curso "Desenvolvendo um site Profissional e Completo".
 

@@ -65,10 +65,21 @@ wp plugin install hello-dolly
 
 Fácil não?
 
-
 <a href="/assets/images/posts/2016/01/wp-cli-theme-status.png" class="swipebox" rel="gallery" title="WP-CLI theme status">
 ![WP-CLI theme status](/assets/images/posts/2016/01/wp-cli-theme-status.png)
 </a>
+
+---
+
+## Palestra
+
+Tem um vídeo muito bom de uma palestra do **[Rodrigo Primo](https://github.com/rodrigoprimo)** no WordCamp Belo Horizonte em 2014.
+
+{% youtube Gy6uQ_2Gceg %}
+
+Os slides da palestra está nesse link: [rodrigoprimo.github.io/wp-cli-wordcamp-bh-2014](http://rodrigoprimo.github.io/wp-cli-wordcamp-bh-2014/)
+
+---
 
 E você já usa <abbr title="WordPress Command Line Interface">WP-CLI</abbr>? Conte para nós como está sendo sua experiência com a ferramenta.
 

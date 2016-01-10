@@ -14,6 +14,4 @@ tags:
 - video
 ---
 
-<div class="video-responsive">
-  <iframe src="http://www.youtube.com/embed/fB18HZi-hdQ" height="460" width="100%" allowfullscreen="" frameborder="0"></iframe>
-</div>
+{% youtube fB18HZi-hdQ %}
