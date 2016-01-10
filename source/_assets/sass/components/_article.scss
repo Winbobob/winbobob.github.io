@@ -11,6 +11,13 @@
     em {
       border-bottom: 1px solid $action-color;
     }
+
+    hr {
+      background: $base-border-color;
+      height: 2px;
+      width: 50px;
+      border: none;
+    }
   }
 
   .post-thumb {
