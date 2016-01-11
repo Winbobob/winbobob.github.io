@@ -1,3 +1,4 @@
+<script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script>
 <script type="text/javascript">
   var disqus_identifier = '{{ page.id }}';
   var disqus_title = '{{ page.title }}';
@@ -10,9 +11,11 @@
 
     <hr>
 
-    <h3><i class="fa fa-comments"></i> Comentários</h3>
+    <h3>
+      <i class="fa fa-comments"></i> <a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}" class="show-disqus"></a>
+    </h3>
 
-    <a href="#" class="show-disqus">Deixe seu comentário</a>
+    <a href="#" class="show-disqus disqus-hidden">Deixe seu comentário</a>
 
     <div id="disqus_thread"></div>
 

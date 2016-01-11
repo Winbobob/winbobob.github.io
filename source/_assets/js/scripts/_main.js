@@ -13,7 +13,7 @@
 
     $('.show-disqus').on('click', function (e) {
       e.preventDefault();
-      var $btn = $(this);
+      var $btn = $('.disqus-hidden');
 
       $.ajax({
         type: "GET",
