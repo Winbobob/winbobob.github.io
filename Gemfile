@@ -2,7 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-ruby '2.2.4'
+ruby '2.1.5'
 
 group :development do
   gem 'jekyll', '~> 2.5.3'
@@ -11,4 +11,5 @@ group :development do
   gem 'sass', '~> 3.4.10'
   gem 'compass', '~> 1.0', '>= 1.0.3'
   gem 'html-proofer', '~> 2.6', '>= 2.6.1'
+  gem 'therubyracer'
 end
