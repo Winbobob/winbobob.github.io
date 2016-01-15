@@ -1,34 +1,25 @@
 language: ruby
-
 rvm:
 - 2.1
-
 cache:
-  - bundler
-
+- bundler
 gemfile: travisGemfile
-
 install:
 - bundle install
-
 before_script:
 - chmod +x deploy.sh
 - git config credential.helper "store --file=.git/credentials"
 - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-
 script: "./deploy.sh"
-
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - HTML_FOLDER="./_site/"
-  - GH_REF="nandomoreirame/nandomoreirame.github.io"
-  - secure: AQp5VWX7PYbj3x/VZqmllsZ7G16W5jh2qqC2wHfKMWEd7c1cQKIVuGrplQ/OzAafE+89+gLBFPamAyedbcWhI+HOjo6zpJ5c4MOdv7AARd9i58Th9iJJNVWMlqHz6Iva898IhfknbWYuQ3nXK28zyXTQn7mGIPzdHiUJaOnY6jTjh5yRRWCIcBOzfKHwGXvzzWuoSn1DjyjMRjQDnoRGz0q0qn2MD6qHo9rBNPpToSuQSay+Hq5hxkuu1Oi42BqxMDPL/EC8JCyfoKmmY4SSgIgWK8pXCGJZfFPLEDzGvSN9XT/hmvRQIfc3y+ao6sCxWMc58V8itLEuAkSNm0hofadmK8S3x896ukEmoMl0ZCR6ijfqoF+o14/8XdhY4evlrC4oQoXtR/Jg5sin5tXACFKSoUsIlywO7r50ZrdCxkZiJkS7DVsfNYQ30DQ8RiOdECsyBCZZI0RIOcUb/51J4RG37dfJibnk3NIuaowFjoQIo8mtWNyJTCzQo11sE/geeDCa4g+YmrQMih3eLYOr9Xxna9Lj8INtp3QjEdYgDTkw/bqf3XFa4Gs6GEtigFxlCQKucNKGoIslY7uRvDGrAw0SvYctqDX2XBApiXj9mkyi5/Xl6fQS0idHYJPEZBK/WBzEHAwHloO1DVV5R58SDWn42FneyP0LA1aq5n0AZwQ=
-
+  - GH_REF="github.com/Winbobob/winbobob.github.io"
+  - secure: "nV5JSm9HGgk1pY3QmLeq9W1zXsLz0/DxJCXmj5ksj5kOH0z10v6oHNNn7ma8f4LfRDqozPkXwxPQLYeIb6J77swlneyAsvRQ8Yro+XRmseYnS1jZlhCRz1MyX+H88UVefzdSW8PGuLnFVf2wCm/zHfoC9MqzvWJFgvNzvU4AZsPb9SO63O2lFgwYBBETzMsN8U7L6MX5yA6jzL/MmUhPp5CPK3jBiJLGy2kDQ/dJbnS9rGKsr/M6P8YxVWnnhqujKLZFSvmDbG3/jKfUd286zlkhDZOoA8ElBuMAtivupxoVBKvGI5yetp0gs4LembtG8kZBIGgNzqu3tzlqMeIF05YW1CgCe4uZTMAfuQqRMC21QNQ7mJGT7kSpnqQQI5rCqg+unitI3KaF/N9pkC41h1kYXZWPBTBVwt09L6obudD2wUhyBZZpAVed/oe/+uNtfB7rsqR7Fe9tZefFE6LVLyoeBNfsBY+5zqTXw2gVmdRGN37ZLNlsZxcO5e9JOsFzLWuG6ExbZVyjd9AztkN6ryM3SVOPqgSICuF+McxMArX9ZZw1darYzd2JHg9gGOGLMv1zPEDCEnSokNFdPeiTsZkw3up3zSDRB/pTI+zecjtRtRdV3E6Cn/Ds7yiQV7p08qdK5yFbQjMNQX5QCaRLCzMVyergV02J2wNd/A8nB9o="
 branches:
   only:
   - master
   - source
-
 notifications:
   email: false

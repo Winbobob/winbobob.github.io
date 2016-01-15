@@ -13,8 +13,8 @@ bundle exec htmlproof ./_site --href-ignore "#","#!","{( post.url )}" --disable-
 cd ${HTML_FOLDER}
 
 # config
-git config --global user.email "nandomoreira.me@gmail.com"
-git config --global user.name "Fernando Moreira"
+git config --global user.email "zhu6@ncsu.edu"
+git config --global user.name "Winbobob"
 
 # deploy
 git init
