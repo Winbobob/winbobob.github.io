@@ -12,4 +12,5 @@ group :development do
   gem 'compass', '~> 1.0', '>= 1.0.3'
   gem 'html-proofer', '~> 2.6', '>= 2.6.1'
   gem 'therubyracer'
+  gem 'travis-lint'
 end
