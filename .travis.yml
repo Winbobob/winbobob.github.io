@@ -10,7 +10,7 @@ before_script:
 - chmod +x deploy.sh
 - git config credential.helper "store --file=.git/credentials"
 - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-script: "bash ./deploy.sh"
+script: "./deploy.sh"
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
