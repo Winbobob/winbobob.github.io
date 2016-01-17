@@ -6,15 +6,15 @@
       {% if paginator.previous_page > 1 %}
         {% assign prev = 'page/' | append: paginator.previous_page %}
       {% endif %}
-      <li role="menuitem"><a role="button" class="prev" href="{{ url | append: prev }}" title="Anterior">&laquo; Anterior</a></li>
+      <li role="menuitem"><a role="button" class="prev" href="{{ url | append: prev }}" title="Anterior">&laquo; Previous</a></li>
     {% else %}
-      <li role="menuitem"><span role="button" class="prev disabled">&laquo; Anterior</span></li>
+      <li role="menuitem"><span role="button" class="prev disabled">&laquo; Previous</span></li>
     {% endif %}
-    <li role="menuitem"><span class="page-number">Página {{paginator.page}} de {{paginator.total_pages}}</span></li>
+    <li role="menuitem"><span class="page-number">Page {{paginator.page}} in {{paginator.total_pages}}</span></li>
     {% if paginator.next_page %}
-      <li role="menuitem"><a role="button" class="next" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Próximo">Próximo &raquo;</a></li>
+      <li role="menuitem"><a role="button" class="next" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Próximo">Next &raquo;</a></li>
     {% else %}
-      <li role="menuitem"><span role="button" class="next disabled">Próximo &raquo;</span></li>
+      <li role="menuitem"><span role="button" class="next disabled">Next &raquo;</span></li>
     {% endif %}
   </ul>
 </nav>

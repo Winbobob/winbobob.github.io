@@ -7,11 +7,11 @@ slug: contact
 
 <section class="contact">
 
-  <p>Para entrar em contato comigo basta enviar um e-mail para <a href="mailto:nandomoreira.me@gmail.com"><em>nandomoreira.me[at]gmail.com</em></a> ou preencha o formulário logo abaixo ;)</p>
+  <p>To contact me please send an email to <a href="mailto:zhu6@ncsu.edu"><em>zhu6 AT ncsu.edu</em></a> or fill out the form below XD</p>
 
-  <form action="//formspree.io/nandomoreira.me@gmail.com" id="contactForm" method="POST">
+  <form action="//formspree.io/zhu6@ncsu.edu" id="contactForm" method="POST">
     <div class="input-group">
-      <label for="name">Nome</label>
+      <label for="name">Name</label>
       <input id="name" type="text" name="name" required>
     </div>
 
@@ -21,17 +21,17 @@ slug: contact
     </div>
 
     <div class="input-group">
-      <label for="message">Mensagem</label>
+      <label for="message">Message</label>
       <textarea id="message" name="message" required></textarea>
     </div>
 
     <div class="alert">&nbsp;</div>
 
     <div class="input-group">
-      <input type="submit" id="sendForm" class="button-secondary" value="Enviar">
-      <input type="hidden" name="_subject" value="Nova mensagem de contato">
+      <input type="submit" id="sendForm" class="button-secondary" value="Submit">
+      <input type="hidden" name="_subject" value="New contact message">
       <input type="text" name="_gotcha" style="display:none">
-      <input type="hidden" name="_next" value="{{ "/contato/" | prepend: site.baseurl | prepend: site.url }}">
+      <input type="hidden" name="_next" value="{{ "/contact/" | prepend: site.baseurl | prepend: site.url }}">
     </div>
   </form>
 
