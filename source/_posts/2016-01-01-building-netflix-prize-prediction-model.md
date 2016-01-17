@@ -12,6 +12,9 @@ tags:
 - data mining
 - course project
 - team project
+- ruby
+- rails
+- matlab
 ---
 
 ## Netflix Prize competition
@@ -30,8 +33,8 @@ Given the `100 million` customer rating records, focused on the following tasks:
 
 ## Poster
 
-<a href="/assets/images/posts/2016/01/netflix-project-poster.jpg" class="swipebox" rel="gallery" title="netflix-project-poster">
-![netflix-project-poster](/assets/images/posts/2016/01/netflix-project-poster.jpg)
+<a href="https://cloud.githubusercontent.com/assets/7702035/12379934/f8771d96-bd32-11e5-9c29-42bf4739576f.jpg" class="swipebox" rel="gallery" title="netflix-project-poster">
+![netflix-project-poster](https://cloud.githubusercontent.com/assets/7702035/12379934/f8771d96-bd32-11e5-9c29-42bf4739576f.jpg)
 </a>
 
 ## Related Material
