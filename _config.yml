@@ -4,7 +4,7 @@ highlighter : pygments
 
 paginate: 12
 comments: true
-paginate_path: "/blog/page/:num/"
+paginate_path: "/project/page/:num/"
 
 gems:
   - jekyll-paginate
