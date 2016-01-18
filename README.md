@@ -1,16 +1,8 @@
-# [nandomoreira.me](http://nandomoreira.me/) #
+# [zhewe.me](http://zhewe.me/) #
 
-[![Build Status](https://travis-ci.org/nandomoreirame/nandomoreirame.github.io.svg)](https://travis-ci.org/nandomoreirame/nandomoreirame.github.io)
+[![Build Status](https://travis-ci.org/Winbobob/winbobob.github.io.svg?branch=master)](https://travis-ci.org/Winbobob/winbobob.github.io)
 
-> :gem: My personal website and blog >> http://nandomoreira.me/
-
----
-
-> :warning: Esse repositório é atualizado constantemente!
-
-> :warning: This repository is constantly updated!
-
----
+> :gem: My personal website and blog >> http://zhewe.me/
 
 ## Contributing ##
 
