@@ -10,13 +10,13 @@ post_class: page-template
   </header>
 
   <div class="container" role="alert">
-    <p>Desculpe, parece que essa URL está apontando para uma página que não existe. Tente voltar para a Home e tentar novamente. <br> <strong>Ou você pode ler os meus últimos posts listados logo abaixo :)</strong></p>
+    <p>Sorry, it seems that this URL is pointing to a page that does not exist. <br> Try to return to the Home and try again. <br> <strong>Or you can read my past projects listed below :)</strong></p>
   </div>
 
 </div>
 
 <div class="posts container">
-  {% for post in site.posts limit:6 %}
+  {% for post in site.posts limit:12 %}
     {% include article.html %}
   {% endfor %}
 </div>

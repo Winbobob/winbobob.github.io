@@ -17,7 +17,7 @@ post_class: page-template
 
 {% if page.slug == "error404" %}
   <div class="posts container">
-    {% for post in site.posts limit:6 %}
+    {% for post in site.posts limit:12 %}
       {% include article.html %}
     {% endfor %}
   </div>
