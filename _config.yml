@@ -10,7 +10,7 @@ gems:
   - jekyll-paginate
 
 baseurl: null
-domain_name: zhewei.me
+domain_name: zhewe.me
 google_analytics: UA-52446115-1
 
 source:      source
@@ -24,14 +24,14 @@ name: Zhewei Hu
 title: Zhewei Hu • Ruby on Rails Developer
 description: "Ruby on Rails Developer"
 keywords: "Web application, Ruby, Ruby on Rails, RSpec, Factorygirl, Capybara, Git, MySQL, Heroku, Amazon AWS"
-url: http://zhewei.me
+url: http://zhewe.me
 repo: http://github.com/Winbobob/winbobob.github.io
 rss_path: source/
 author:
   name      : Zhewei Hu
   image     : /assets/images/author.png
   email     : zhu6@ncsu.edu
-  url       : http://zhewei.me
+  url       : http://zhewe.me
   github    : http://github.com/Winbobob
   linkedin  : http://www.linkedin.com/in/zhewei-hu-30483491
   bio       : "A positive dreamer and doer with more than one year Ruby on Rails development experience."
