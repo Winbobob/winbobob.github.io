@@ -21,7 +21,7 @@ task :post do
   env_tags = ENV["tags"] || ""
   tags = strtag(env_tags)
 
-  # categorias
+  # categories
   env_cat = ENV["category"] || ""
   categories = strtag(env_cat)
 
@@ -105,7 +105,7 @@ task :category do
     category.puts "layout: category"
     category.puts "title: \"#{title.gsub(/-/,' ')}\""
     category.puts "slug: #{slug}"
-    category.puts "permalink: /categoria/#{slug}/"
+    category.puts "permalink: /category/#{slug}/"
     category.puts "---"
   end
 

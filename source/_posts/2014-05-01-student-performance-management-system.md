@@ -7,10 +7,10 @@ comments: true
 description: "Student performance management system."
 keywords: "management system"
 categories:
-- Software Engineering
+- Software Development
 tags:
-- Software Engineering
-- ASP.NET
+- Software development
+- asp.net
 - c#
 ---
 

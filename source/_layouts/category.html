@@ -5,7 +5,7 @@ layout: default
 <section class="posts container">
 
   <header class="page-header">
-    <h1>Categoria: {{ page.title }}</h1>
+    <h1>Category: {{ page.title }}</h1>
   </header>
 
   {% if site.categories[page.slug] %}
@@ -17,7 +17,7 @@ layout: default
   {% else %}
 
     <div class="post txt-center" role="alert">
-      <p>Não há artigos para a categoria: <strong>{{ page.title }}</strong></p>
+      <p>Não há artigos para a category: <strong>{{ page.title }}</strong></p>
     </div>
 
   {% endif %}

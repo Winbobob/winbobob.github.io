@@ -10,8 +10,11 @@ categories:
 - Expertiza
 tags:
 - expertiza
+- software development
 - course project
 - team project
+- ruby
+- rails
 ---
 
 ## What is staggered-dealine assignment?

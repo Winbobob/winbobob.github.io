@@ -9,11 +9,12 @@ keywords: "OpenGL, space invader, 3d"
 categories:
 - Computer Graphics
 tags:
-- Computer Graphics
+- computer graphics
 - course project
 - team project
 - c
 - c++
+- opengl
 ---
 
 ## Abstract

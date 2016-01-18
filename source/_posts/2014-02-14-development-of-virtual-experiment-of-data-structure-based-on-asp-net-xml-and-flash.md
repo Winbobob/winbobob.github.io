@@ -7,12 +7,13 @@ comments: true
 description: "Development of Virtual Experiment of Data Structure Based on ASP.NET XML and Flash."
 keywords: "Virtual Experiment, Data Structure, ASP.NET, XML, Flash"
 categories:
-- Software Engineering
+- Software Development
 tags:
-- Software Engineering
-- ASP.NET
-- XML
-- Flash
+- software development
+- asp.net
+- xml
+- flash
+- c#
 ---
 
 ## Abstract

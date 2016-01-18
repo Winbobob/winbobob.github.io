@@ -10,8 +10,10 @@ categories:
 - Data mining
 tags:
 - data mining
+- software development
 - course project
 - team project
+- python
 ---
 
 ## Abstract
