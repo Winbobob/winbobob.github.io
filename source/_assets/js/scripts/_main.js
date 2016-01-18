@@ -21,7 +21,7 @@
         dataType: "script",
         cache: true,
         beforeSend: function() {
-          $btn.html('Carregando..');
+          $btn.html('Loading..');
         }
       }).done(function() {
         $btn.delay(1200).fadeOut().delay(500).html('');
@@ -72,7 +72,7 @@
             msg = '<p>Formulário enviado com sucesso.</p>';
           } else {
             alertClass = 'alert-error tada animated hinge';
-            msg = '<p>Ocorreu um erro no envio do formulário, tente enviar novamente para: <strong>nandomoreira.me@gmail.com</strong></p>';
+            msg = '<p>An error occurred in sending the form, try sending again to: <strong>zhu6@ncsu.edu</strong></p>';
           }
 
           alert.html(msg).addClass(alertClass).fadeIn('600');
@@ -102,7 +102,7 @@
         }
 
         alertClass = 'alert-error tada animated hinge';
-        msg = '<p>Preencha corretamente o formulário.</p>';
+        msg = '<p>Please fill out the form.</p>';
 
         alert.html(msg).addClass(alertClass).fadeIn('600');
         $btn.prop('disabled', false);
