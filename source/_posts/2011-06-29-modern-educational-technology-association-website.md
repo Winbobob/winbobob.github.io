@@ -7,11 +7,10 @@ comments: true
 description: "Modern educational technology association website."
 keywords: "Teaching Platform, Adaptive"
 categories:
-- Software Development
+- software-development
 tags:
-- software development
-- asp.net
-- team project
+- asp-net
+- team-project
 - c#
 ---
 

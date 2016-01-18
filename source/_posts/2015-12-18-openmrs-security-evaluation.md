@@ -7,11 +7,10 @@ comments: true
 description: "Open Medical Record System (OpenMRS®) was created in 2004 as a open source medical record system platform for developing countries – a tide which rises all ships."
 keywords: "OpenMRS, OWASP, CWE/SANS, MSTMT, attack tree"
 categories:
-- Software Security
+- software-security
 tags:
-- software security
-- course project
-- team project
+- course-project
+- team-project
 ---
 
 ## OpenMRS®

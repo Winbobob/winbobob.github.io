@@ -7,11 +7,10 @@ comments: true
 description: "3D Space Invader."
 keywords: "OpenGL, space invader, 3d"
 categories:
-- Computer Graphics
+- computer-graphics
 tags:
-- computer graphics
-- course project
-- team project
+- course-project
+- team-project
 - c
 - c++
 - opengl

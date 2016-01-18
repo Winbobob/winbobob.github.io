@@ -7,12 +7,11 @@ comments: true
 description: "Users Controller Refactoring in Expertiza (OSS)."
 keywords: "Expertiza, users controller"
 categories:
-- Expertiza
-tags:
 - expertiza
-- software development
-- course project
-- team project
+- software-development
+tags:
+- course-project
+- team-project
 - ruby
 - rails
 ---

@@ -7,11 +7,10 @@ comments: true
 description: "Utilized Ruby on Rails features in designing an Agile software project management tool."
 keywords: "storyboard, agile"
 categories:
-- Software Development
+- software-development
 tags:
-- software development
-- course project
-- team project
+- course-project
+- team-project
 - ruby
 - rails
 ---

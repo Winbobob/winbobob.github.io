@@ -7,12 +7,11 @@ comments: true
 description: "Develop a website, offering car buyers the integrated information of used cars, based on the customer’s need and several most useful factors (model, year, website link and price range)."
 keywords: "Netflix, Decision Tree, ANN, KNN, RMSE"
 categories:
-- Data mining
+- data-mining
+- software-development
 tags:
-- data mining
-- software development
-- course project
-- team project
+- course-project
+- team-project
 - python
 ---
 

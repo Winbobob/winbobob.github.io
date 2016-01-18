@@ -1,110 +1,35 @@
-- slug: jekyll
-  name: Jekyll
+- slug: c
+  name: C
 
-- slug: dicas
-  name: Dicas
+- slug: c++
+  name: C++
 
-- slug: programacao
-  name: Programação
+- slug: asp-net
+  name: ASP.NET
 
-- slug: php
-  name: PHP
+- slug: "c#"
+  name: "C#"
 
-- slug: wordpress
-  name: Wordpress
+- slug: xml
+  name: XML
 
-- slug: html
-  name: HTML
+- slug: flash
+  name: FLASH
 
-- slug: twitter
-  name: Twitter
+- slug: course-project
+  name: Course Project
 
-- slug: jquery
-  name: jQuery
-
-- slug: funcoes
-  name: Funções
-
-- slug: ajax
-  name: Ajax
+- slug: team-project
+  name: Team Project
 
 - slug: ruby
   name: Ruby
 
-- slug: geral
-  name: Geral
+- slug: rails
+  name: Rails
 
-- slug: ubuntu
-  name: Ubuntu
+- slug: python
+  name: Python
 
-- slug: linux
-  name: Linux
-
-- slug: gem
-  name: Gem
-
-- slug: rvm
-  name: RVM
-
-- slug: gulp
-  name: Gulp
-
-- slug: tasks
-  name: Tasks
-
-- slug: rake
-  name: Rake
-
-- slug: ambiente
-  name: Ambiente
-
-- slug: desenvolvimento
-  name: Desenvolvimento
-
-- slug: meetup
-  name: MeetUp
-
-- slug: eventos
-  name: Eventos
-
-- slug: temas
-  name: Temas
-
-- slug: node
-  name: Node
-
-- slug: nodejs
-  name: NodeJS
-
-- slug: css
-  name: CSS
-
-- slug: sass
-  name: SASS
-
-- slug: pre-processador
-  name: Pré-processador
-
-- slug: blog
-  name: Blog
-
-- slug: generator
-  name: Generator
-
-- slug: yeoman
-  name: Yeoman
-
-- slug: trabalho
-  name: Trabalho
-
-- slug: front-end
-  name: Front-end
-
-- slug: open-source
-  name: Open source
-
-- slug: github
-  name: GitHub
-
-- slug: github-pages
-  name: GitHub Pages
+- slug: matlab
+  name: Matlab

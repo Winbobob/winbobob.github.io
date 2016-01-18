@@ -1,71 +1,14 @@
-- slug: jekyll
-  name: Jekyll
+- slug: computer-graphics
+  name: Computer Graphics
 
-- slug: dicas
-  name: Dicas
+- slug: data-mining
+  name: Data mining
 
-- slug: programacao
-  name: Programação
+- slug: expertiza
+  name: Expertiza
 
-- slug: php
-  name: PHP
+- slug: software-development
+  name: Software Development
 
-- slug: wordpress
-  name: WordPress
-
-- slug: videos
-  name: Vídeos
-
-- slug: php
-  name: PHP
-
-- slug: dicas
-  name: Dicas
-
-- slug: css
-  name: CSS
-
-- slug: downloads
-  name: Downloads
-
-- slug: jquery
-  name: jQuery
-
-- slug: html
-  name: HTML
-
-- slug: wordpress
-  name: Wordpress
-
-- slug: geral
-  name: Geral
-
-- slug: git
-  name: Git
-
-- slug: github
-  name: Github
-
-- slug: jekyll
-  name: Jekyll
-
-- slug: ruby
-  name: Ruby
-
-- slug: ubuntu
-  name: Ubuntu
-
-- slug: gulp
-  name: Gulp
-
-- slug: meu-trabalho
-  name: Meu trabalho
-
-- slug: sass
-  name: SASS
-
-- slug: projetos
-  name: Projetos
-
-- slug: temas-jekyll
-  name: Temas Jekyll
+- slug: software-security
+  name: Software Security

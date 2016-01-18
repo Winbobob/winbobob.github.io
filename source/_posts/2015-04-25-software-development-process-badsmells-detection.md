@@ -7,11 +7,10 @@ comments: true
 description: "The goal of this project is to detect Bad Smells in the software development process by looking at the commits, issues, pull requests, labels and milestones in Github Repository."
 keywords: "Bad smell, GitHub, commit, issue, pull request, label, milestone"
 categories:
-- Software Development
+- software-development
 tags:
-- software development
-- course project
-- team project
+- course-project
+- team-project
 ---
 
 ## Abstract

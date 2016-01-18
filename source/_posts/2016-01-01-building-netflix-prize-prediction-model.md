@@ -7,11 +7,10 @@ comments: true
 description: "Netflix Prize competition was hold by Netflix Inc. in Oct 2006. The main goal of this competition was to predict how many score a user will rate for a movie, by learning a test set containing nearly 100 million customer rating records. In this project, we learned the data from this competition."
 keywords: "Netflix, Decision Tree, ANN, KNN, RMSE"
 categories:
-- Data mining
+- data-mining
 tags:
-- data mining
-- course project
-- team project
+- course-project
+- team-project
 - ruby
 - rails
 - matlab

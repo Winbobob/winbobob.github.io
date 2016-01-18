@@ -7,12 +7,11 @@ comments: true
 description: "Refactor staggered-deadline assignments in Expertiza."
 keywords: "Expertiza, staggered-deadline"
 categories:
-- Expertiza
-tags:
 - expertiza
-- software development
-- course project
-- team project
+- software-development
+tags:
+- course-project
+- team-project
 - ruby
 - rails
 ---
