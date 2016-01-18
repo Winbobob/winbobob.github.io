@@ -1,6 +1,6 @@
 # [zhewe.me](http://zhewe.me/) #
 
-[![Build Status](https://travis-ci.org/Winbobob/winbobob.github.io.svg?branch=master)](https://travis-ci.org/Winbobob/winbobob.github.io)
+[![Build Status](https://travis-ci.org/Winbobob/winbobob.github.io.svg?branch=source)](https://travis-ci.org/Winbobob/winbobob.github.io)
 
 > :gem: My personal website and blog >> http://zhewe.me/
 
