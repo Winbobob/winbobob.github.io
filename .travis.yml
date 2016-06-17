@@ -1,9 +1,6 @@
 language: ruby
 rvm:
 - 2.1.5
-cache:
-- bundler
-gemfile: travisGemfile
 install:
 - bundle install
 before_script:
