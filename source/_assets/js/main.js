@@ -1,8 +1,3 @@
-/**
- * by Fernando Moreira | nandomoreira.me
- * https://github.com/nandomoreirame/nandomoreirame.github.io
- */
-
 //=require ../../bower/angular/angular.min.js
 //=require scripts/_search.js
 
@@ -11,6 +6,8 @@
 //=require ../../bower/swipebox/src/js/jquery.swipebox.min.js
 
 //=require vendor/_selection-sharer.js
+//=require vendor/particles.min.js
 
 //=require scripts/_modal-search.js
 //=require scripts/_main.js
+//=require scripts/_particles.js
