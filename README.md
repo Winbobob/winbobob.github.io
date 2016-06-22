@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Winbobob/winbobob.github.io.svg?branch=source)](https://travis-ci.org/Winbobob/winbobob.github.io)
 
-> :gem: My personal website and blog >> http://zhewe.me/
+> My personal website and blog >> http://zhewe.me/
 
 ## Contributing ##
 
