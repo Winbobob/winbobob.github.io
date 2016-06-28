@@ -7,6 +7,9 @@ _site
 .scss-lint-report.json
 .tmp
 tmp
+source/.asset-cache/
+source/.jekyll-metadata
+
 
 # Numerous always-ignore extensions
 *.diff

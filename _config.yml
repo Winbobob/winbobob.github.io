@@ -2,8 +2,7 @@ permalink   : /:title/
 markdown    : kramdown
 highlighter : pygments
 
-paginate: 12
-comments: true
+paginate: 5
 paginate_path: "/project/page/:num/"
 
 gems:
@@ -42,12 +41,10 @@ assets:
   dirname: /assets
   baseurl: /assets/
   sources:
-    - assets/images
-    - assets/fonts
-    - assets/css
-    - assets/js
-  cache: true
-  gzip: [ text/css, application/javascript ]
+    - _assets/images
+    - _assets/fonts
+    - _assets/css
+    - _assets/js
 
 # Compress HTML
 compress_html:
