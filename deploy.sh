@@ -7,8 +7,9 @@ bundle exec travis-lint
 echo 'Jekyll build...'
 bundle exec jekyll build --incremental
 
-echo 'Testing htmlproof...'
-bundle exec htmlproof ./_site --href-ignore "#","#!","{( post.url )}" --disable-external
+#echo 'Testing htmlproof...'
+#bundle exec htmlproof ./_site --href-ignore --disable-external
+
 
 cd ${HTML_FOLDER}
 
