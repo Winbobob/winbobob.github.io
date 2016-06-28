@@ -16,3 +16,6 @@ group :development do
   gem 'therubyracer'
   gem 'travis-lint'
 end
+group :test do
+  gem "html-proofer"
+end
