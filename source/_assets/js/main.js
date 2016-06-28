@@ -10,4 +10,5 @@
 
 //=require scripts/_modal-search.js
 //=require scripts/_main.js
-//=require scripts/_particles.js
+//=require scripts/_particles.min.js
+//=require scripts/_app.js
