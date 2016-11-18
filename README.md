@@ -1,7 +1,5 @@
 # [zhewe.me](http://zhewe.me/) #
 
-https://docs.google.com/presentation/d/1zydUD1EJYRE8x9lJmFHW7ee1k728CNraZsdHZFnJFIA/edit?usp=sharing
-
 [![Build Status](https://travis-ci.org/Winbobob/winbobob.github.io.svg?branch=source)](https://travis-ci.org/Winbobob/winbobob.github.io)
 
 > :gem:My personal website and blog >> http://zhewe.me/
