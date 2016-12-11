@@ -123,6 +123,7 @@ rake tag title="Jekyll"
 └── travisGemfile
 ```
 > All folders starting with underscore, such as `_assets` will not be included in final site.
+
  - File `bower.json` maintains the bower dependencies.
  - Script `config.rb` sets the paths of assets and other global configurations.
  - YAML file `_config.yml` stores the global information of admin user.
