@@ -33,3 +33,18 @@
 
 - slug: matlab
   name: Matlab
+
+- slug: continuous-integration
+  name: Continuous Integration
+
+- slug: continuous-deployment
+  name: Continuous Deployment
+
+- slug: jenkins
+  name: Jenkins
+
+- slug: ansible
+  name: Ansible
+
+- slug: nodejs
+  name: Node.js
