@@ -29,5 +29,6 @@ Overall, I made following contributions:<br/>
 ## Related Material
 
 * <u><a href="https://github.com/Automated-Program-Repair-in-Expertiza" target="_blank">Source code</a></u>
+* <u><a href="https://goo.gl/5Tcgbt" target="_blank">Slides</a></u>
 
 /end

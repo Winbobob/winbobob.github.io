@@ -40,6 +40,14 @@
   </li>
   {% endif %}
 
+  {% if site.author.docker %}
+  <li>
+    <a href="{{ site.author.docker }}" class="icon-docker" target="_blank">
+      <i class="fa fa-docker"></i>
+    </a>
+  </li>
+  {% endif %}
+
   <li>
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-feed"></i></a>
   </li>
