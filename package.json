@@ -4,10 +4,10 @@
   "description": "My personal website and blog >> http://zhewe.me/",
   "repository": {
     "type": "git",
-    "url": "git@github.com:nandomoreirame/nandomoreirame.github.io.git"
+    "url": "git@github.com:Winbobob/winbobob.github.io.git"
   },
   "keywords": [],
-  "author": "Fernando Moreira",
+  "author": "Zhewei Hu",
   "license": "MIT",
   "private": true,
   "engines": {
