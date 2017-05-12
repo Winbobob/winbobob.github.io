@@ -1,22 +1,25 @@
 language: ruby
+cache:
+  bundler: true
+  timeout: 1000
 rvm:
-- 2.2.4
+  - 2.2.4
 install:
-- bundle install
+  - bundle install
 before_script:
-- chmod +x deploy.sh
-- git config credential.helper "store --file=.git/credentials"
-- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  - chmod +x deploy.sh
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 script: "./deploy.sh"
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - HTML_FOLDER="./_site/"
-  - GH_REF="Winbobob/winbobob.github.io"
-  - secure: "b8VTYNSil9Q2+vAyeILL3RmukJvbHwRVX67GVKcmZpAD5d9+M3YbQjTsIKhymri6cPr4L1tY0XLGcPbO3tWruFqbkmpwoBwONiVJ84oAG1xVqNX0HpLX4RJC5t/NYD9hXr+GSpFFqN25Dossy+y3lvj9DGNOxN/zWVnjzjIbuNHxRgWfg5q/SZRUHdncpQYvH3nE4/Alg0vaQ4novUTPAJnENsKBIjZr+YOgY6W6kBjT0G/EvwN9S0ooBDd/4QWyPITFdi8aUPBxHu+VsbZCccADpD3i04+lp0Wqbw0ARrs4DpbdVqrJFhupxH9BxE2GNwDz5JEMENouyPKleS+MS6w+CVXxkBAJonF9KQxvhZb9qWSkeS96X6IvNLKJ6Zq68yIGGfgfygh6yyVEkV7czDNxEsHzh9x+vzV9aSbOWeUChTbsTPOZKz/cZh8Qe3Nm5SdGLjoP0+IBD31K9poi+87XqG81zxx5/9l90CZvlecWN4ICzCLuOgs5lhWwRXwUz4ETtBTdCd9cPHnqRQBbF02+eVSq3/9rDQTFbCmluXIJZh990rMdN+ODMvDNqlqOkh1ByaBt6zaFUEPeiTSDO3wQj3qbULBKwkFuEM4OUrB5FJESr9KLa33k9qDrQRWBpR8Z3pXHcEm3rRZ6jhI8ptw40iKIV7HAQq2+tabjvNs="
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - HTML_FOLDER="./_site/"
+    - GH_REF="Winbobob/winbobob.github.io"
+    - secure: "b8VTYNSil9Q2+vAyeILL3RmukJvbHwRVX67GVKcmZpAD5d9+M3YbQjTsIKhymri6cPr4L1tY0XLGcPbO3tWruFqbkmpwoBwONiVJ84oAG1xVqNX0HpLX4RJC5t/NYD9hXr+GSpFFqN25Dossy+y3lvj9DGNOxN/zWVnjzjIbuNHxRgWfg5q/SZRUHdncpQYvH3nE4/Alg0vaQ4novUTPAJnENsKBIjZr+YOgY6W6kBjT0G/EvwN9S0ooBDd/4QWyPITFdi8aUPBxHu+VsbZCccADpD3i04+lp0Wqbw0ARrs4DpbdVqrJFhupxH9BxE2GNwDz5JEMENouyPKleS+MS6w+CVXxkBAJonF9KQxvhZb9qWSkeS96X6IvNLKJ6Zq68yIGGfgfygh6yyVEkV7czDNxEsHzh9x+vzV9aSbOWeUChTbsTPOZKz/cZh8Qe3Nm5SdGLjoP0+IBD31K9poi+87XqG81zxx5/9l90CZvlecWN4ICzCLuOgs5lhWwRXwUz4ETtBTdCd9cPHnqRQBbF02+eVSq3/9rDQTFbCmluXIJZh990rMdN+ODMvDNqlqOkh1ByaBt6zaFUEPeiTSDO3wQj3qbULBKwkFuEM4OUrB5FJESr9KLa33k9qDrQRWBpR8Z3pXHcEm3rRZ6jhI8ptw40iKIV7HAQq2+tabjvNs="
 branches:
   only:
-  - master
-  - source
+    - master
+    - source
 notifications:
   email: false
