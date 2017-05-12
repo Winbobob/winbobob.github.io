@@ -1,7 +1,6 @@
 language: ruby
 cache:
   bundler: true
-  timeout: 1000
 rvm:
   - 2.2.4
 before_script:
