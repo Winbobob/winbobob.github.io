@@ -19,7 +19,7 @@ tags:
 
 ## Abstract
 
-I created an automated program repair tool named **Mutator**. It can fix Ruby on Rails runtime exception errors successfully. Mutator uses fix patterns offered by Mutant ruby gem to exhaustively produce patch candidates. For the experiment, I selected **17 real runtime exception errors** and manually created developer patches and corresponding test cases. Mutator successfully fixed one runtime exception errors for **24 minutes each**.
+I created an automated program repair tool named **Mutator**. It can fix Ruby on Rails runtime exception errors successfully. Mutator uses fix patterns offered by Mutant ruby gem to exhaustively produce patch candidates. For the experiment, I selected **17 real runtime exception errors** and manually created developer patches and corresponding test cases. Mutator successfully fixed one runtime exception error with **20 solutions for 24 minutes each**.
 
 Overall, I made following contributions:<br/>
 **1. Benchmark:** Manually created developer patches and corresponding test cases of selected Expertiza runtime exception errors.<br/>
