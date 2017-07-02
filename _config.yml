@@ -5,7 +5,7 @@ highlighter : pygments
 paginate: 5
 paginate_path: "/project/page/:num/"
 
-gems:
+plugins:
   - jekyll-paginate
 
 baseurl: null
