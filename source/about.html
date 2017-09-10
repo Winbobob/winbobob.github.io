@@ -1,13 +1,22 @@
 ---
 layout: page
 title: About me
-description: "Hello, my name is ZHEWEI HU I am a Rails developer and like jogging and fishing!"
+description: "Hello, my name is ZHEWEI HU. DevOps | Ruby on Rails | Ph.D. student, TA/RA@NCSU | SDE Intern@Offers.com | SDE (DevOps) Intern@IBM"
 permalink: /about/
 slug: about
 ---
 
 {% assign year = site.time | date: '%Y' %}
-{% capture myage %}{{ year | minus: 1992 }}{% endcapture %}
+{% assign myage = year | minus: 1992 %}
+{% assign current_unix_time = site.time | date: '%s' %}
+{% assign start_using_rails_unix_time = '2014-11-01' | date: '%s' %}
+{% assign railsyears = current_unix_time | minus: start_using_rails_unix_time | divided_by: 86400 | divided_by: 365 %}
+{% assign railsdays = current_unix_time | minus: start_using_rails_unix_time | divided_by: 86400 | modulo: 365 %}
+{% capture railsusage %}
+  {% if railsdays == 0 %} {{ railsyears }} years {% endif %}
+  {% if railsdays < 200 %} more than {{ railsyears }} years {% endif %}
+  {% if railsdays >= 200 %} almost {{ railsyears | plus: 1 }} years {% endif %}
+{% endcapture %}
 
 <div itemscope itemtype="http://schema.org/Person">
 
@@ -15,7 +24,7 @@ slug: about
 
   <p>In 2016 Spring semester, I received the degree of <b>Master of Science in Computer Science</b> from North Carolina State University. My master thesis is <a href="http://repository.lib.ncsu.edu/ir/handle/1840.16/10975" target="_blank">"Scaffolding the Grading Process for Peer Review Assignments: A Pluggable Reputation Web-Service Approach"</a>. I am working as a <b>Software Engineer Intern</b> at <a href="http://www.offers.com/" target="_blank"> Offers.com</a> at Austin, Texas during this summer. And I am a <b>Ph.D. student</b> in the Computer Science department of North Carolina State University now.</p>
 
-  <p>I started to "play" with Ruby and Rails in Nov. 2014, so it is more than two years now. Since that time, I began to work on an <b>open source project</b> named <a href="https://expertiza.ncsu.edu/" target="_blank">Expertiza</a>. Expertiza is a web application supported by NSF written in Ruby on Rails framework through which students can submit and peer-review learning objects (articles, code, websites, etc).  Now I am the <b>core maintainer and contributor</b> of Expertiza and contributed more than 600 commits to Expertiza master branch on <a href="https://github.com/expertiza/expertiza" target="_blank">GitHub</a>. And I designed and deployed several key features, such as multi-part rubrics, team lazy initialization</em>, automatic review mapping strategy, student suggested topics, staggered-deadline assignment, etc.</p>
+  <p>I started to "play" with Ruby and Rails in Nov. 2014, so it is {{ railsusage }} now. Since that time, I began to work on an <b>open source project</b> named <a href="https://expertiza.ncsu.edu/" target="_blank">Expertiza</a>. Expertiza is a web application supported by NSF written in Ruby on Rails framework through which students can submit and peer-review learning objects (articles, code, websites, etc).  Now I am the <b>core maintainer and contributor</b> of Expertiza and contributed more than 600 commits to Expertiza master branch on <a href="https://github.com/expertiza/expertiza" target="_blank">GitHub</a>. And I designed and deployed several key features, such as multi-part rubrics, team lazy initialization</em>, automatic review mapping strategy, student suggested topics, staggered-deadline assignment, etc.</p>
 
   <p>I am familiar with the <b>RSpec</b> testing framework. Recently, I refactored and merged several pull requests to increase the test coverage from <b>28%</b> to <b>52%</b>. And I also used <b>Rubocop</b> auto-correction functionality to enforce ruby coding guidelines. It improved the Code Climate GPA from <b>0.9</b> to <b>2.5</b>, and the code style of Expertiza is becoming better and better.</p>
 

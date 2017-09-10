@@ -80,7 +80,7 @@ rake tag title="Jekyll"
 │   │   └── index.html
 │   ├── categories
 │   ├── CNAME
-│   ├── contact.html
+│   ├── timeline.html
 │   ├── _data
 │   │   ├── categories.yml
 │   │   └── tags.yml
