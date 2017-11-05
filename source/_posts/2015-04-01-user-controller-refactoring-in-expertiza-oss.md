@@ -16,7 +16,7 @@ tags:
 - rails
 ---
 
-## Abstract
+## Description
 
 * Find the un-called methods if any and delete them.
 * Change the Rails 2 syntax to `Rails 4` style.

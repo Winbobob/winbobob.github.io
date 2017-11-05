@@ -16,7 +16,7 @@ tags:
 - opengl
 ---
 
-## Abstract
+## Description
 
 This project was to simulate the classic game `Space Invader` by `OpenGL`. In addition to implement to basic components, such as the field, players' cannon, cannon shooting, this project also included some additional effects. Such as the monsters exploding when shot, UFOs move across the top periodically and shoot, multiple lives, etc.
 

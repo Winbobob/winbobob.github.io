@@ -17,7 +17,7 @@ tags:
 
 > Bug fixing is a time-consuming work. Recently, automated program repair receives more and more attentions. There are many existing tools which can fix Java, C and Python programs. To the best of my knowledge, no tool repairs on Ruby language, especially Ruby on Rails web application program.
 
-## Abstract
+## Description
 
 I created an automated program repair tool named **Mutator**. It can fix Ruby on Rails runtime exception errors successfully. Mutator uses fix patterns offered by Mutant ruby gem to exhaustively produce patch candidates. For the experiment, I selected **17 real runtime exception errors** and manually created developer patches and corresponding test cases. Mutator successfully fixed one runtime exception error with **20 solutions for 24 minutes each**.
 

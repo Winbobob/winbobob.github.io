@@ -14,9 +14,9 @@ tags:
 - c#
 ---
 
-## Abstract
+## Description
 
-Modern educational technology association website. 
+Modern educational technology association website.
 
 ## Related material
 

@@ -13,7 +13,7 @@ tags:
 - team-project
 ---
 
-## Abstract
+## Description
 
 1. Used `gitable.py` to collect information from a specific Github Repo and store in the format of JSON.
 2. Wrote 14 `feature extractors` to further process the raw JSON data.

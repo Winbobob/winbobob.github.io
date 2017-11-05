@@ -20,7 +20,7 @@ tags:
 
 > The pipeline contains 4 milestones, which are a [build component](https://github.com/DevOps-CSC519-591-791/DevOps-M1), a [testing and analysis component](https://github.com/DevOps-CSC519-591-791/DevOps-M2), a [deployment component](https://github.com/DevOps-CSC519-591-791/DevOps-M3), and an [incremental testing toolkit](https://github.com/DevOps-CSC519-591-791/DevOps-M4).
 
-## Abstract
+## Description
 
 1. Created an Incremental Testing Toolkit to achieve test prioritization and shorten test time by 67%.
 2. Ran Behavior Driven Test and Static Analysis Tool on Git hook to accept or reject a commit.

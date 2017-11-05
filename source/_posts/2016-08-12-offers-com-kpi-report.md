@@ -15,7 +15,7 @@ tags:
 
 > A KPI report for marketing team using Ruby on Rails as web application framework, Sequel as ORM layer for mapping records to Ruby objects and handling associated records and PostgreSQL on AWS as the database.
 
-## Abstract
+## Description
 
 1. Utilized Ruby on Rails, Sequel, and PostgreSQL to build a Key Performance Index (KPI) report for the marketing team.
 2. Fixed more than 15 issues from JIRA scrum board using Agile methodology.

@@ -15,7 +15,7 @@ tags:
 - rails
 ---
 
-## Abstract
+## Description
 
 1. Utilized Ruby on Rails features in designing an Agile software project management tool.
 2. Practice Agile and use Storyboards to assign and track Stories.
@@ -25,12 +25,8 @@ tags:
 
 * <b><u><a href="https://desolate-shore-1596.herokuapp.com/login" target="_blank">Website</a></u></b>
 
-> `Admin account`<br/>
-email: admin@ncsu.edu<br/>
-psw  : admin
-> `Developer account`<br/>
-email: zhu6@ncsu.edu<br/>
-psw  : 12345
+  * Admin account (username: admin@ncsu.edu; password: admin)
+  * Developer account (email: zhu6@ncsu.edu; password: 12345)
 
 * <u><a href="https://github.com/Storyboard-OOP-NCSU/Storyboards" target="_blank">Source code</a></u>
 

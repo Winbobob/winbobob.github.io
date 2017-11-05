@@ -13,12 +13,10 @@ tags:
 - team-project
 ---
 
-## OpenMRS®
-
 > Open Medical Record System (OpenMRS®) was created in 2004 as a open source medical record system platform for developing countries – a tide which rises all ships. 
   > <small>Read more at: _[About OpenMRS](http://openmrs.org/about/)_</small>
 
-## Abstract
+## Description
 
 1. Performed a security review based upon the `OWASP Top 10`, the `CWE/SANS Top 25`, and generated static analysis report.
 2. Documented the findings and providing remediation suggestions to correct and adverse findings.

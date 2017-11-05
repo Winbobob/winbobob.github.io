@@ -15,7 +15,7 @@ tags:
 - c#
 ---
 
-## Abstract
+## Description
 
 Developed a virtual experiment based on `ASP.NET`, `XML` and `Flash`. Using ASP.NET processes data, using XML transfers data and using Flash to display the data via animations. 
 

@@ -13,7 +13,7 @@ tags:
 - c#
 ---
 
-## Abstract
+## Description
 
 Student performance management system used `Microsoft Chart Controls` making the students' scores displaying as charts automatically. Users can import Excel files as data sources, and sort data records via different attributes.
 

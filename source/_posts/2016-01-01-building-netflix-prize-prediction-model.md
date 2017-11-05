@@ -16,11 +16,9 @@ tags:
 - matlab
 ---
 
-## Netflix Prize competition
-
 > Netflix Prize competition was hold by Netflix Inc. in Oct 2006. The main goal of this competition was to predict how many score a user will rate for a movie, by learning a test set containing nearly `100 million` customer rating records.
 
-## Abstract
+## Description
 
 Given the `100 million` customer rating records, focused on the following tasks:
 

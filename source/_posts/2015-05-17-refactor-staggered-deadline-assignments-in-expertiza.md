@@ -23,7 +23,7 @@ tags:
 > This raises the idea of a `staggered-deadlne assignment`, where different topics have different submission and review deadlines, rather than all topics having the same deadline. 
   > <small>Read more at: _[About staggered-dealine assignment (E1524)](https://goo.gl/g9eyjc)_</small>
 
-## Abstract
+## Description
 
 1. Refactor `signup_sheet_controller.rb` to implement staggered-deadline addignment and dependency graphs between topics.
 2. Test the `varying rubric by rounds` feature to make sure it works OK.

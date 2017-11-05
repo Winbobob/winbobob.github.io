@@ -14,9 +14,9 @@ tags:
 - c#
 ---
 
-## Abstract
+## Description
 
-Developed a `ASP.NET`-based platform to help students learn `Object-Oriented Programming`. According to the different test results based on `Likert scale`, the platform will adaptively provide different kinds of materials for students. 
+Developed a ASP.NET-based padaptive experiment teaching platform to help students learn Object-Oriented Programming. According to the different test results based on Likert scale survey, the platform will adaptively provide different kinds of learning materials for students, such as text, images, videos.
 
 ## Related material
 
