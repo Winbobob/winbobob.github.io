@@ -8,6 +8,7 @@ description: "Two summer intern projects: 1) Chef; 2) Kubernetes."
 keywords: "DevOps, Continuous Integration, Continuous Deployment, Docker, Vagrant, Chef, Inspec, Test Kitchen, Kubernetes, Minikube, Ingress, Nginx, etcd, CNI, Calico, SaaS"
 categories:
 - intern
+- devops
 tags:
 - continuous-integration
 - continuous-deployment
@@ -19,7 +20,7 @@ tags:
 - container-orchestration
 ---
 
-> The first project is related to a configuration management tool named Chef. The second project is related to container orchestration tool named Kubernetes.
+> The first project is related to a configuration management tool named [Chef](https://www.chef.io/chef/). The second project is related to container orchestration tool named [Kubernetes](https://kubernetes.io).
 
 ## Description
 
