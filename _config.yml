@@ -22,7 +22,7 @@ cover: /assets/images/facebook.png
 name: Zhewei Hu
 title: Zhewei Hu
 description: "DevOps | Ruby on Rails"
-keywords: "Web application, Ruby, Ruby on Rails, RSpec, Factorygirl, Capybara, Git, MySQL, Heroku, Amazon AWS"
+keywords: "Web application, Ruby, Ruby on Rails, RSpec, FactoryBot, Capybara, Git, MySQL, Heroku, Amazon AWS"
 url: http://zhewe.me
 repo: http://github.com/Winbobob/winbobob.github.io
 rss_path: source/
