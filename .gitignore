@@ -16,7 +16,6 @@ source/.jekyll-metadata
 *.err
 *.orig
 *.log
-*.lock
 *.rej
 *.swo
 *.swp
