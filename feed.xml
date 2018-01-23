@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhewei Hu</title>
+    <description>DevOps | Ruby on Rails</description>
+    <link>http://zhewe.me/
+    <link href="http://zhewe.me/feed.xml" rel="self" type="application/rss+xml">
+    <pubdate>Tue, 23 Jan 2018 18:25:47 +0000</pubdate>
+    <lastbuilddate>Tue, 23 Jan 2018 18:25:47 +0000</lastbuilddate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>IBM Summer Intern Chef and Kubernetes Projects</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;The first project is related to a configuration management tool named &lt;a href="https://www.chef.io/chef/"&gt;Chef&lt;/a&gt;. The second project is related to container orchestration tool named &lt;a href="https://kubernetes.io"&gt;Kubernetes&lt;/a&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id="description"&gt;Description&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;Created infrastructure test suites written by InSpec testing framework to verify configuration results converged by Test Kitchen or configured by Chef.&lt;/li&gt; &lt;li&gt;Set up Cron jobs to monitor infrastructure settings in real-time and send notification emails via SendGrid if exceptions occur.&lt;/li&gt; &lt;li&gt;Ported a big data sharing platform to Kubernetes cluster with etcd as distributed key-value store and Calico as CNI network plugin.&lt;/li&gt; &lt;li&gt;Replaced Nginx service with Nginx Ingress Controller that manages...</description>
+        <pubdate>Fri, 11 Aug 2017 11:11:11 +0000</pubdate>
+        <link>http://zhewe.me/ibm-summer-intern-projects-chef-kubernetes
+        <guid ispermalink="true">http://zhewe.me/ibm-summer-intern-projects-chef-kubernetes</guid>
+        
+        <category>continuous-integration</category>
+        
+        <category>continuous-deployment</category>
+        
+        <category>chef</category>
+        
+        <category>inspec</category>
+        
+        <category>test-kitchen</category>
+        
+        <category>k8s</category>
+        
+        <category>cni</category>
+        
+        <category>container-orchestration</category>
+        
+        
+        <category>intern</category>
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>DevOps Continuous Integration (CI) and Continuous Deployment (CD) Pipeline</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;The pipeline contains 4 milestones, which are a &lt;a href="https://github.com/DevOps-CSC519-591-791/DevOps-M1"&gt;build component&lt;/a&gt;, a &lt;a href="https://github.com/DevOps-CSC519-591-791/DevOps-M2"&gt;testing and analysis component&lt;/a&gt;, a &lt;a href="https://github.com/DevOps-CSC519-591-791/DevOps-M3"&gt;deployment component&lt;/a&gt;, and an &lt;a href="https://github.com/DevOps-CSC519-591-791/DevOps-M4"&gt;incremental testing toolkit&lt;/a&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id="description"&gt;Description&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;Created an Incremental Testing Toolkit to achieve test prioritization and shorten test time by 67%.&lt;/li&gt; &lt;li&gt;Ran Behavior Driven Test and Static Analysis Tool on Git hook to accept or reject a commit.&lt;/li&gt; &lt;li&gt;Set up Jenkins build server on AWS EC2 to run continuous testing on each Git commit.&lt;/li&gt; &lt;li&gt;Deployed code to Canary and Production Server continuously using Ansible.&lt;/li&gt; &lt;li&gt;Accomplished load balancing, auto-scaling, monitoring, and feature flag using Node.js.&lt;/li&gt;...</description>
+        <pubdate>Thu, 01 Dec 2016 23:33:33 +0000</pubdate>
+        <link>http://zhewe.me/devops-continuous-intergration-and-continuous-deployment-pipeline
+        <guid ispermalink="true">http://zhewe.me/devops-continuous-intergration-and-continuous-deployment-pipeline</guid>
+        
+        <category>course-project</category>
+        
+        <category>team-project</category>
+        
+        <category>nodejs</category>
+        
+        <category>continuous-integration</category>
+        
+        <category>continuous-deployment</category>
+        
+        <category>jenkins</category>
+        
+        <category>ansible</category>
+        
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>Automated Program Repair in Expertiza</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Bug fixing is a time-consuming work. Recently, automated program repair receives more and more attentions. There are many existing tools which can fix Java, C and Python programs. To the best of my knowledge, no tool repairs on Ruby language, especially Ruby on Rails web application program.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id="description"&gt;Description&lt;/h2&gt; &lt;p&gt;I created an automated program repair tool named &lt;strong&gt;Mutator&lt;/strong&gt;. It can fix Ruby on Rails runtime exception errors successfully. Mutator uses fix patterns offered by Mutant ruby gem to exhaustively produce patch candidates. For the experiment, I selected &lt;strong&gt;17 real runtime exception errors&lt;/strong&gt; and manually created developer patches and...</description>
+        <pubdate>Wed, 30 Nov 2016 11:59:59 +0000</pubdate>
+        <link>http://zhewe.me/automated-program-repair-in-expertiza
+        <guid ispermalink="true">http://zhewe.me/automated-program-repair-in-expertiza</guid>
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+        <category>course-project</category>
+        
+        
+        <category>automated-program-repair</category>
+        
+        <category>expertiza</category>
+        
+      </item>
+    
+      <item>
+        <title>Offers.com KPI Report</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;A KPI report for marketing team using Ruby on Rails as web application framework, Sequel as ORM layer for mapping records to Ruby objects and handling associated records and PostgreSQL on AWS as the database.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id="description"&gt;Description&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;Utilized Ruby on Rails, Sequel, and PostgreSQL to build a Key Performance Index (KPI) report for the marketing team.&lt;/li&gt; &lt;li&gt;Fixed more than 15 issues from JIRA scrum board using Agile methodology.&lt;/li&gt; &lt;li&gt;Implemented Rubocop on 6 projects to enforce coding guidelines (corrected more than 7000 LOC).&lt;/li&gt; &lt;li&gt;Created a pre-commit git hook to ensure the quality of commits.&lt;/li&gt; &lt;/ol&gt; &lt;h2 id="screenshot"&gt;Screenshot&lt;/h2&gt; &lt;p&gt;&lt;a...</description>
+        <pubdate>Fri, 12 Aug 2016 12:34:56 +0000</pubdate>
+        <link>http://zhewe.me/offers-com-kpi-report
+        <guid ispermalink="true">http://zhewe.me/offers-com-kpi-report</guid>
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+        
+        <category>intern</category>
+        
+      </item>
+    
+      <item>
+        <title>Building Netflix Prize Prediction Model</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Netflix Prize competition was hold by Netflix Inc. in Oct 2006. The main goal of this competition was to predict how many score a user will rate for a movie, by learning a test set containing nearly &lt;code&gt;100 million&lt;/code&gt; customer rating records.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id="description"&gt;Description&lt;/h2&gt; &lt;p&gt;Given the &lt;code&gt;100 million&lt;/code&gt; customer rating records, focused on the following tasks:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Predicted the existed records by data analysis techniques (&lt;code&gt;Decision tree&lt;/code&gt;, &lt;code&gt;ANN&lt;/code&gt;, &lt;code&gt;KNN&lt;/code&gt;, etc.), and computed the &lt;code&gt;RMSE&lt;/code&gt; (Root mean squared error) of different model, and then compare them.&lt;/li&gt; &lt;li&gt;Forecasted whether one customer will be in favor of one released movie.&lt;/li&gt; &lt;li&gt;Given...</description>
+        <pubdate>Fri, 01 Jan 2016 11:11:11 +0000</pubdate>
+        <link>http://zhewe.me/building-netflix-prize-prediction-model
+        <guid ispermalink="true">http://zhewe.me/building-netflix-prize-prediction-model</guid>
+        
+        <category>course-project</category>
+        
+        <category>team-project</category>
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+        <category>matlab</category>
+        
+        
+        <category>data-mining</category>
+        
+      </item>
+    
+      <item>
+        <title>OpenMRS Security Evaluation</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Open Medical Record System (OpenMRS®) was created in 2004 as a open source medical record system platform for developing countries – a tide which rises all ships. &lt;small&gt;Read more at: &lt;em&gt;&lt;a href="http://openmrs.org/about/"&gt;About OpenMRS&lt;/a&gt;&lt;/em&gt;&lt;/small&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id="description"&gt;Description&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;Performed a security review based upon the &lt;code&gt;OWASP Top 10&lt;/code&gt;, the &lt;code&gt;CWE/SANS Top 25&lt;/code&gt;, and generated static analysis report.&lt;/li&gt; &lt;li&gt;Documented the findings and providing remediation suggestions to correct and adverse findings.&lt;/li&gt; &lt;li&gt;Drew a threat model using the &lt;code&gt;Microsoft Threat Modeling Tool (MSTMT)&lt;/code&gt;.&lt;/li&gt; &lt;li&gt;Developed abuse/misuse diagram for one of the system modules.&lt;/li&gt; &lt;li&gt;Detailed misuse case description for one of the attacks in the...</description>
+        <pubdate>Fri, 18 Dec 2015 12:34:56 +0000</pubdate>
+        <link>http://zhewe.me/openmrs-security-evaluation
+        <guid ispermalink="true">http://zhewe.me/openmrs-security-evaluation</guid>
+        
+        <category>course-project</category>
+        
+        <category>team-project</category>
+        
+        
+        <category>software-security</category>
+        
+      </item>
+    
+      <item>
+        <title>Refactor staggered-deadline assignments in Expertiza</title>
+        <description>&lt;h2 id="what-is-staggered-dealine-assignment"&gt;What is staggered-dealine assignment?&lt;/h2&gt; &lt;blockquote&gt; &lt;p&gt;Consider &lt;code&gt;Wiki 1a&lt;/code&gt; and &lt;code&gt;Wiki 1b&lt;/code&gt; assignment in &lt;code&gt;NCSU CSC517&lt;/code&gt; class. They were structured as separate assignments, with separate signup sheets, teams, and reviews. But actually, since only one of the two was done by any student, it would’ve been better to have a single assignment. Still, some topics could be done soon after the course started, whereas others were better done after we had studied related topics in class.&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;This raises the idea of a &lt;code&gt;staggered-deadlne assignment&lt;/code&gt;, where different topics have different submission and review deadlines, rather than all topics having...</description>
+        <pubdate>Sun, 17 May 2015 12:34:56 +0000</pubdate>
+        <link>http://zhewe.me/refactor-staggered-deadline-assignments-in-expertiza
+        <guid ispermalink="true">http://zhewe.me/refactor-staggered-deadline-assignments-in-expertiza</guid>
+        
+        <category>course-project</category>
+        
+        <category>team-project</category>
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+        
+        <category>expertiza</category>
+        
+        <category>software-development</category>
+        
+      </item>
+    
+      <item>
+        <title>Software Development Process Badsmells Detection</title>
+        <description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Used &lt;code&gt;gitable.py&lt;/code&gt; to collect information from a specific Github Repo and store in the format of JSON.&lt;/li&gt;
+  &lt;li&gt;Wrote 14 &lt;code&gt;feature extractors&lt;/code&gt; to further process the raw JSON data.&lt;/li&gt;
+  &lt;li&gt;Implemented 6 &lt;code&gt;bad smell detectors&lt;/code&gt; to detect whether this repo exists some bad smells during development process, such as Issue Time Duration Detector, etc.&lt;/li&gt;
+  &lt;li&gt;Implemented 2 &lt;code&gt;early warning detectors&lt;/code&gt; (Issue Duration Early Warning and Issue Interval Early Warning) to give early warnings of bad smell patterns.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="related-material"&gt;Related Material&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;u&gt;&lt;a href="https://github.com/SuperCh-SE-NCSU/Project2_badsmell/blob/master/README.md" target="_blank"&gt;Project README&lt;/a&gt;&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;/end&lt;/p&gt;
+</description>
+        <pubdate>Sat, 25 Apr 2015 12:34:56 +0000</pubdate>
+        <link>http://zhewe.me/software-development-process-badsmells-detection
+        <guid ispermalink="true">http://zhewe.me/software-development-process-badsmells-detection</guid>
+        
+        <category>course-project</category>
+        
+        <category>team-project</category>
+        
+        
+        <category>software-development</category>
+        
+      </item>
+    
+      <item>
+        <title>Web Crawler Application – Scraping</title>
+        <description>&lt;h2 id="description"&gt;Description&lt;/h2&gt; &lt;p&gt;Based on a customer’s need - car model, year of make, mileage, we find the posts on &lt;code&gt;craiglist&lt;/code&gt;, which agree with the customer’s need and look up the price for the car on sale on the post from &lt;code&gt;Kbb&lt;/code&gt;. Then our website will show the customer the posts (link to the original posts on craiglist) with cars he is interested in on sale and the price from Kbb. Right now, people have to go to craiglist to find the car they are interested in with a seller’s price, and then go to kbb, checking out the review price....</description>
+        <pubdate>Thu, 02 Apr 2015 12:34:56 +0000</pubdate>
+        <link>http://zhewe.me/web-crawler-application-scraping
+        <guid ispermalink="true">http://zhewe.me/web-crawler-application-scraping</guid>
+        
+        <category>course-project</category>
+        
+        <category>team-project</category>
+        
+        <category>python</category>
+        
+        
+        <category>data-mining</category>
+        
+        <category>software-development</category>
+        
+      </item>
+    
+      <item>
+        <title>Users Controller Refactoring in Expertiza (OSS)</title>
+        <description>&lt;h2 id="description"&gt;Description&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Find the un-called methods if any and delete them.&lt;/li&gt; &lt;li&gt;Change the Rails 2 syntax to &lt;code&gt;Rails 4&lt;/code&gt; style.&lt;/li&gt; &lt;li&gt;Refactor &lt;code&gt;users_controller.rb&lt;/code&gt;&lt;/li&gt; &lt;li&gt;Change the white space for the second half of this file, starts at “def edit”.&lt;/li&gt; &lt;li&gt;Separate the &lt;code&gt;paginate_list&lt;/code&gt; method into two methods. The search method should be in model and the paginating method should be in the controller.&lt;/li&gt; &lt;li&gt;&lt;code&gt;New feature&lt;/code&gt;: delete users &lt;ul&gt; &lt;li&gt;A user can be deleted if (s)he has not participated in an assignment.&lt;/li&gt; &lt;li&gt;If the user is participating in an assignment, the system will ask, “User is participating in k assignments. Delete as a...</description>
+        <pubdate>Wed, 01 Apr 2015 12:34:56 +0000</pubdate>
+        <link>http://zhewe.me/user-controller-refactoring-in-expertiza-oss
+        <guid ispermalink="true">http://zhewe.me/user-controller-refactoring-in-expertiza-oss</guid>
+        
+        <category>course-project</category>
+        
+        <category>team-project</category>
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+        
+        <category>expertiza</category>
+        
+        <category>software-development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

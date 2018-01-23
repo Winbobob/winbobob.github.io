@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="zS1dSn20XtA4FJYEOQLXqI0boxZdMnJ2g3beje-cl20">
+    <title>Refactor staggered-deadline assignments in Expertiza • Zhewei Hu</title>
+    <meta name="description" content="Refactor staggered-deadline assignments in Expertiza.">
+    <meta name="keywords" content="Expertiza, staggered-deadline">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="theme-color" content="#333333">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="fb:admins" content="100003797913346">
+    <meta property="fb:app_id" content="585852118228520">
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="Zhewei Hu">
+    <meta property="article:section" content="expertiza, software-development">
+    <meta property="article:tag" content="Expertiza, staggered-deadline">
+    <meta property="article:published_time" content="2015-05-17 12:34:56 +0000">
+    <meta property="og:url" content="http://zhewe.me/refactor-staggered-deadline-assignments-in-expertiza">
+    <meta property="og:title" content="Refactor staggered-deadline assignments in Expertiza • Zhewei Hu">
+    <meta property="og:image" content="http://zhewe.me/assets/images/facebook.png">
+    <meta property="og:description" content="Refactor staggered-deadline assignments in Expertiza.">
+    <meta property="og:site_name" content="Zhewei Hu">
+    <meta property="og:locale" content="pt_BR">
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nandomoreirame">
+    <meta name="twitter:title" content="Refactor staggered-deadline assignments in Expertiza • Zhewei Hu">
+    <meta name="twitter:description" content="Refactor staggered-deadline assignments in Expertiza.">
+    <meta name="twitter:image:src" content="http://zhewe.me/assets/images/facebook.png">
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="Refactor staggered-deadline assignments in Expertiza • Zhewei Hu">
+    <meta itemprop="description" content="Refactor staggered-deadline assignments in Expertiza.">
+    <meta itemprop="image" content="http://zhewe.me/assets/images/facebook.png">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/ico/favicon-16x16.png">
+    <link rel="shortcut icon" href="/assets/images/ico/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- rel prev and next -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <script src="/assets/js/main.js"></script>
+    <!-- Canonical link tag -->
+    <link rel="canonical" href="http://zhewe.me/refactor-staggered-deadline-assignments-in-expertiza">
+    <link rel="alternate" type="application/rss+xml" title="Zhewei Hu" href="http://zhewe.me/feed.xml">
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-52446115-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    <script type="text/javascript">
+      var disqus_shortname = '';
+    </script>
+</head>
+  <body class=" refactor-staggered-deadline-assignments-in-expertiza">
+    <header class="header">
+  <div class="header-in">
+    <a href="/">
+      <img src="/assets/images/author.png" alt="author thumb" class="dot author-thumb">
+    </a>
+    <h1 itemscope itemtype="http://schema.org/Person">Hello, my name is <strong itemprop="name">Zhewei Hu</strong><br>DevOps | Ruby on Rails | Ph.D. student, TA/RA@NCSU | SDE Intern@Offers.com | SDE (DevOps) Intern@IBM</h1>
+    <nav class="nav" role="navigation">
+      <ul class="navbar" role="menu">
+        <li role="menuitem"><a href="https://goo.gl/aAiUji" target="_blank" class="after">Resume</a></li>
+        <li role="menuitem"><a href="/project" class="after">Projects</a></li>
+        <li role="menuitem"><a href="/about" class="after">About</a></li>
+        <!--<li role="menuitem"><a href="/timeline" class="after">Timeline</a></li>-->
+        <li role="menuitem" class="search">
+          <a href="#" data-modal-search="modalSearch" class="after"><i class="fa fa-search"></i> <span>Search</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="wrapper" role="main" itemprop="mainContentOfPage">
+      <article role="article" class="post" itemprop="articleBody">
+<div class="container">
+<header class="post-header">
+  <h1 class="post-title">Refactor staggered-deadline assignments in Expertiza</h1>
+  <div class="post-meta">
+    <time datetime="2015-05-17T12:34:56+00:00" itemprop="datePublished">
+      <meta itemprop="datePublished" content="2015-05-17T12:34:56+00:00"> May 17, 2015
+    </time>
+    <span> |
+       <a href="/category/expertiza/">Expertiza</a>, <a href="/category/software-development/">Software Development</a>
+    </span>
+  </div>
+</header>
+  <div class="post-content">
+    <h2 id="what-is-staggered-dealine-assignment">What is staggered-dealine assignment?</h2>
+<blockquote>
+  <p>Consider <code>Wiki 1a</code> and <code>Wiki 1b</code> assignment in <code>NCSU CSC517</code> class.  They were structured as separate assignments, with separate signup sheets, teams, and reviews. But actually, since only one of the two was done by any student, it would’ve been better to have a single assignment. Still, some topics could be done soon after the course started, whereas others were better done after we had studied related topics in class.</p>
+</blockquote>
+<blockquote>
+  <p>This raises the idea of a <code>staggered-deadlne assignment</code>, where different topics have different submission and review deadlines, rather than all topics having the same deadline. 
+<small>Read more at: <em><a href="https://goo.gl/g9eyjc">About staggered-dealine assignment (E1524)</a></em></small></p>
+</blockquote>
+<h2 id="description">Description</h2>
+<ol>
+  <li>Refactor <code>signup_sheet_controller.rb</code> to implement staggered-deadline addignment and dependency graphs between topics.</li>
+  <li>Test the <code>varying rubric by rounds</code> feature to make sure it works OK.</li>
+  <li>Write <code>Rspec</code> unit test and increase the test coverage by <code>1.01%</code>.</li>
+</ol>
+<h2 id="related-material">Related Material</h2>
+<ul>
+  <li><u><a href="https://github.com/expertiza/expertiza/pull/541" target="_blank">Source code</a></u></li>
+  <li><u><a href="http://wiki.expertiza.ncsu.edu/index.php/CSC/ECE_517_Spring_2015_S1524_FSZZ" target="_blank">Wiki page</a></u></li>
+  <li>Demo video</li>
+</ul>
+<div class="video-responsive"><iframe width="850" height="850" src="http://www.youtube.com/embed/1LBPbCMSk8w?color=white&amp;theme=light" allowfullscreen=""></iframe></div>
+<p>/end</p>
+  </div>
+</div>
+<footer class="post-footer">
+  <div class="container">
+    <section class="author">
+      <img src="/assets/images/author.png" alt="author thumb" class="dot author-thumb">
+      <h4>Zhewei Hu</h4>
+      <p>A positive dreamer and doer with almost three years' Ruby on Rails development experience.</p>
+    </section>
+<aside class="share">
+  <h4>Share.</h4>
+  <a class="share-twitter" href="http://twitter.com/share?text=Refactor%20staggered-deadline%20assignments%20in%20Expertiza&amp;url=http://zhewe.me/refactor-staggered-deadline-assignments-in-expertiza&amp;hashtags=web,dev,blog,soudev&amp;via=nandomoreirame" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+    <i class="fa fa-twitter-square"></i>
+  </a>
+  <a class="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://zhewe.me/refactor-staggered-deadline-assignments-in-expertiza" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+    <i class="fa fa-facebook-square"></i>
+  </a>
+</aside>
+  </div>
+</footer>
+</article>
+    </main>
+<footer class="footer">
+  <ul class="social">
+  <li>
+    <a href="http://github.com/Winbobob" class="icon-github" target="_blank">
+      <i class="fa fa-github"></i>
+    </a>
+  </li>
+  <li>
+    <a href="http://www.linkedin.com/in/zhewei-hu" class="icon-linkedin" target="_blank">
+      <i class="fa fa-linkedin"></i>
+    </a>
+  </li>
+  <li>
+    <a href="https://hub.docker.com/u/winbobob" class="icon-docker" target="_blank">
+      <i class="fa fa-docker"></i>
+    </a>
+  </li>
+  <li>
+    <a href="/feed.xml" target="_blank"><i class="fa fa-feed"></i></a>
+  </li>
+</ul>
+</footer>
+<a class="scroll-up fa fa-chevron-up bounce" href="#" data-position="0"></a>
+<div id="modalSearch" class="modal-search" ng-app="searchApp">
+  <div class="modal-search__overlay"></div>
+  <div class="modal-search__content">
+    <a href="#" class="modal-search-close" data-modal-close><img src="/assets/images/close.svg" alt="close search"></a>
+    <div class="modal-search-container" ng-controller="searchController">
+      <div class="form-group">
+        <input type="text" class="modal-search-input" ng-keyup="pesquisar(search)" ng-model="search" placeholder="ruby, rails, expertiza, software development, data mining..." autocomplete="off">
+        <i class="fa fa-search"></i>
+      </div>
+      <ul class="search-results" ng-show="posts.length &gt; 0">
+        <li ng-repeat="post in posts | filter:search">
+          <a href="%7B(%20post.url%20)%7D">
+            <span>{( post.title )}</span> <small>{( post.category )}</small>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

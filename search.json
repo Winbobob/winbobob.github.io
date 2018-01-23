@@ -1,0 +1,131 @@
+[
+  
+    {
+      "title"    : "IBM Summer Intern Chef and Kubernetes Projects",
+      "category" : "intern and devops",
+      "tags"     : "continuous-integration, continuous-deployment, chef, inspec, test-kitchen, k8s, cni, and container-orchestration",
+      "url"      : "/ibm-summer-intern-projects-chef-kubernetes",
+      "date"     : "11/8/2017"
+    } ,
+  
+    {
+      "title"    : "DevOps Continuous Integration (CI) and Continuous Deployment (CD) Pipeline",
+      "category" : "devops",
+      "tags"     : "course-project, team-project, nodejs, continuous-integration, continuous-deployment, jenkins, and ansible",
+      "url"      : "/devops-continuous-intergration-and-continuous-deployment-pipeline",
+      "date"     : "1/12/2016"
+    } ,
+  
+    {
+      "title"    : "Automated Program Repair in Expertiza",
+      "category" : "automated-program-repair and expertiza",
+      "tags"     : "ruby, rails, and course-project",
+      "url"      : "/automated-program-repair-in-expertiza",
+      "date"     : "30/11/2016"
+    } ,
+  
+    {
+      "title"    : "Offers.com KPI Report",
+      "category" : "intern",
+      "tags"     : "ruby and rails",
+      "url"      : "/offers-com-kpi-report",
+      "date"     : "12/8/2016"
+    } ,
+  
+    {
+      "title"    : "Building Netflix Prize Prediction Model",
+      "category" : "data-mining",
+      "tags"     : "course-project, team-project, ruby, rails, and matlab",
+      "url"      : "/building-netflix-prize-prediction-model",
+      "date"     : "1/1/2016"
+    } ,
+  
+    {
+      "title"    : "OpenMRS Security Evaluation",
+      "category" : "software-security",
+      "tags"     : "course-project and team-project",
+      "url"      : "/openmrs-security-evaluation",
+      "date"     : "18/12/2015"
+    } ,
+  
+    {
+      "title"    : "Refactor staggered-deadline assignments in Expertiza",
+      "category" : "expertiza and software-development",
+      "tags"     : "course-project, team-project, ruby, and rails",
+      "url"      : "/refactor-staggered-deadline-assignments-in-expertiza",
+      "date"     : "17/5/2015"
+    } ,
+  
+    {
+      "title"    : "Software Development Process Badsmells Detection",
+      "category" : "software-development",
+      "tags"     : "course-project and team-project",
+      "url"      : "/software-development-process-badsmells-detection",
+      "date"     : "25/4/2015"
+    } ,
+  
+    {
+      "title"    : "Web Crawler Application – Scraping",
+      "category" : "data-mining and software-development",
+      "tags"     : "course-project, team-project, and python",
+      "url"      : "/web-crawler-application-scraping",
+      "date"     : "2/4/2015"
+    } ,
+  
+    {
+      "title"    : "Users Controller Refactoring in Expertiza (OSS)",
+      "category" : "expertiza and software-development",
+      "tags"     : "course-project, team-project, ruby, and rails",
+      "url"      : "/user-controller-refactoring-in-expertiza-oss",
+      "date"     : "1/4/2015"
+    } ,
+  
+    {
+      "title"    : "Storyboards",
+      "category" : "software-development",
+      "tags"     : "course-project, team-project, ruby, and rails",
+      "url"      : "/storyboards",
+      "date"     : "12/3/2015"
+    } ,
+  
+    {
+      "title"    : "3D Space Invader",
+      "category" : "computer-graphics",
+      "tags"     : "course-project, team-project, c, c++, and opengl",
+      "url"      : "/3d-space-invader",
+      "date"     : "12/12/2014"
+    } ,
+  
+    {
+      "title"    : "Student Performance Management System",
+      "category" : "software-development",
+      "tags"     : "aspdnet and c#",
+      "url"      : "/student-performance-management-system",
+      "date"     : "1/5/2014"
+    } ,
+  
+    {
+      "title"    : "Development of Virtual Experiment of Data Structure Based on Asp.net XML and Flash",
+      "category" : "software-development",
+      "tags"     : "asp-net, xml, flash, and c#",
+      "url"      : "/development-of-virtual-experiment-of-data-structure-based-on-asp-net-xml-and-flash",
+      "date"     : "12/2/2014"
+    } ,
+  
+    {
+      "title"    : "Development of Adaptive Experiment Teaching Platform",
+      "category" : "software-development",
+      "tags"     : "asp-net, team-project, and c#",
+      "url"      : "/development-of-adaptive-experiment-teaching-platform",
+      "date"     : "1/6/2013"
+    } ,
+  
+    {
+      "title"    : "Modern educational technology association website",
+      "category" : "software-development",
+      "tags"     : "asp-net, team-project, and c#",
+      "url"      : "/modern-educational-technology-association-website",
+      "date"     : "29/6/2011"
+    } 
+  
+]
