@@ -1,33 +1,17 @@
 <ul class="social">
 
+  {% if site.author.google_scholar %}
+  <li>
+    <a href="{{ site.author.google_scholar }}" class="icon-google-scholar" target="_blank">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+  {% endif %}
+
   {% if site.author.github %}
   <li>
     <a href="{{ site.author.github }}" class="icon-github" target="_blank">
-      <i class="fa fa-github"></i>
-    </a>
-  </li>
-  {% endif %}
-
-  {% if site.author.facebook %}
-  <li>
-    <a href="{{ site.author.facebook }}" class="icon-facebook" target="_blank">
-      <i class="fa fa-facebook"></i>
-    </a>
-  </li>
-  {% endif %}
-
-  {% if site.author.twitter %}
-  <li>
-    <a href="{{ site.author.twitter }}" class="icon-twitter" target="_blank">
-      <i class="fa fa-twitter"></i>
-    </a>
-  </li>
-  {% endif %}
-
-  {% if site.author.instagram %}
-  <li>
-    <a href="{{ site.author.instagram }}" class="icon-instagram" target="_blank">
-      <i class="fa fa-instagram"></i>
+      <i class="fab fa-github"></i>
     </a>
   </li>
   {% endif %}
@@ -35,7 +19,7 @@
   {% if site.author.linkedin %}
   <li>
     <a href="{{ site.author.linkedin }}" class="icon-linkedin" target="_blank">
-      <i class="fa fa-linkedin"></i>
+      <i class="fab fa-linkedin-in"></i>
     </a>
   </li>
   {% endif %}
@@ -43,13 +27,13 @@
   {% if site.author.docker %}
   <li>
     <a href="{{ site.author.docker }}" class="icon-docker" target="_blank">
-      <i class="fa fa-docker"></i>
+      <i class="fab fa-docker"></i>
     </a>
   </li>
   {% endif %}
 
-  <li>
+  <!-- <li>
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-feed"></i></a>
-  </li>
+  </li> -->
 
 </ul>

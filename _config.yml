@@ -27,14 +27,15 @@ url: http://zhewe.me
 repo: http://github.com/Winbobob/winbobob.github.io
 rss_path: source/
 author:
-  name      : Zhewei Hu
-  image     : /assets/images/author.png
-  email     : zhu6@ncsu.edu
-  url       : http://zhewe.me
-  github    : http://github.com/Winbobob
-  linkedin  : http://www.linkedin.com/in/zhewei-hu
-  docker    : https://hub.docker.com/u/winbobob
-  bio       : "A positive dreamer and doer with almost three years' Ruby on Rails development experience."
+  name          : Zhewei Hu
+  image         : /assets/images/author.png
+  email         : zhu6@ncsu.edu
+  url           : http://zhewe.me
+  google_scholar: https://scholar.google.com/citations?user=m81b2sQAAAAJ&hl=en
+  github        : http://github.com/Winbobob
+  linkedin      : http://www.linkedin.com/in/zhewei-hu
+  docker        : https://hub.docker.com/u/winbobob
+  bio           : "Ph.D. candidate@NCSU | Incoming SRE@Pinterest"
 
 
 # Plugin: jekyll-assets
