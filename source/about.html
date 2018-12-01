@@ -6,27 +6,11 @@ permalink: /about/
 slug: about
 ---
 
-{% assign year = site.time | date: '%Y' %}
-{% assign myage = year | minus: 1992 %}
-{% assign current_unix_time = site.time | date: '%s' %}
-{% assign start_using_rails_unix_time = '2014-11-01' | date: '%s' %}
-{% assign railsyears = current_unix_time | minus: start_using_rails_unix_time | divided_by: 86400 | divided_by: 365 %}
-{% assign railsdays = current_unix_time | minus: start_using_rails_unix_time | divided_by: 86400 | modulo: 365 %}
-{% capture railsusage %}
-  {% if railsdays == 0 %} {{ railsyears }} years {% endif %}
-  {% if railsdays < 200 %} more than {{ railsyears }} years {% endif %}
-  {% if railsdays >= 200 %} almost {{ railsyears | plus: 1 }} years {% endif %}
-{% endcapture %}
-
 <div itemscope itemtype="http://schema.org/Person">
 
-  <p>My name is <strong itemprop="name">Zhewei Hu</strong>. I am <strong>{{ myage }} years old</strong>. I was born and grew up in <em>Cixi, Zhejiang Province, China</em>.</p>
+  <p>Hello, my name is Zhewei Hu. I am a fifth year Ph.D. student (2014-present) in the <a href="http://www.csc.ncsu.edu/" target="_blank">Department of Computer Science</a> at <a href="https://www.ncsu.edu/" target="_blank">North Carolina State University</a>. My advisor is <a href="https://people.engr.ncsu.edu/efg/" target="_blank">Prof. Edward F. Gehringer</a>. My research mainly focuses on computer science education and software engineering as student activities. Before joining NC State, I received my Bachelor degree from <a href="http://www.zjnu.edu.cn/english/" target="_blank">Zhejiang Normal University</a>, China in 2014.</p>
 
-  <p>In 2016 Spring semester, I received the degree of <b>Master of Science in Computer Science</b> from North Carolina State University. My master thesis is "<a href="http://repository.lib.ncsu.edu/ir/handle/1840.16/10975" target="_blank">Scaffolding the Grading Process for Peer Review Assignments: A Pluggable Reputation Web-Service Approach</a>". During 2016 summer I interned as a Software Engineer at <a href="http://www.offers.com/" target="_blank">Offers.com</a> in Austin, TX. During 2017 summer I interned as Aspera Software Engineer at <a href="http://asperasoft.com" target="_blank">IBM</a> in Emeryville, CA. Currently, I am a second-year Ph.D. student majoring in Computer Science at North Carolina State University.</p>
-
-  <p>I started to "play" with Ruby and Rails in Nov. 2014, so it is {{ railsusage }} now. Since that time, I began to work on an <b>open source project</b> named <a href="https://expertiza.ncsu.edu/" target="_blank">Expertiza</a>. Expertiza is a web application supported by NSF written in Ruby on Rails framework through which students can submit and peer-review learning objects (articles, code, websites, etc).  Now I am the <b>chief maintainer and contributor</b> of Expertiza and contributed more than 800 commits to Expertiza master branch on <a href="https://github.com/expertiza/expertiza" target="_blank">GitHub</a>. And I designed and deployed several key features, such as multi-part rubrics, team lazy initialization, automatic review mapping strategy, student-suggested topics, staggered-deadline assignment, course project bidding, etc. I am familiar with the <b>RSpec</b> testing framework. I continuously create and merge pull requests to increase the test coverage from <b>28%</b> to <b>47%</b>. And I also used <b>Rubocop</b> auto-correction functionality to enforce ruby coding guidelines.</p>
-
-  <p>In 2019 summer, I will join Pinterest as a full-time site reliability engineer.</p> 
+  <p>In 2019 summer, I will join Pinterest as a full-time site reliability engineer.</p>
 
   <h3>My skills</h3>
   <table>
@@ -36,12 +20,6 @@ slug: about
     <tr><td width="25%"><b>Testing Tools:</b></td><td>RSpec, InSpec, FactoryBot, Capybara, Test Kitchen, Selenium</td></tr>
     <tr><td width="25%"><b>DevOps Tools:</b></td><td>Git, Kubernetes, Chef, Ansible, Docker, Vagrant, Capistrano, Jenkins, TravisCI, CircleCI, Heroku</td></tr>
   </table>
-
-  <h3>My publications</h3>
-
-  <ul>
-    <li><a href="https://scholar.google.com/citations?user=m81b2sQAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-  </ul>
 
   <h3>My presentations</h3>
   <ul>
@@ -56,4 +34,4 @@ slug: about
 
 <hr>
 
-<p>Finally, to contact me please send an email to <em itemprop="email"><a href="mailto:zhu6@ncsu.edu">zhu6 AT ncsu.edu</a></em> or look me in one of my social networks.</p>
+<p>To contact me please send an email to <em itemprop="email"><a href="mailto:zhu6@ncsu.edu">zhu6 AT ncsu.edu</a></em> or look me in one of my social networks.</p>
