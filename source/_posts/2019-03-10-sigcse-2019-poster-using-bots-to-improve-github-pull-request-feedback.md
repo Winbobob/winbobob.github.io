@@ -22,7 +22,7 @@ Rising enrollments make it difficult for instructors and teaching assistants to 
 
 ## Poster
 
-<a href="https://raw.githubusercontent.com/Winbobob/Improving-Feedback-on-GitHub-Pull-Requests-A-Bots-Approach/master/SIGCSE'19%20poster%20-%20new.png" class="swipebox" rel="gallery" title="netflix-project-poster">
+<a href="https://raw.githubusercontent.com/Winbobob/Improving-Feedback-on-GitHub-Pull-Requests-A-Bots-Approach/master/SIGCSE'19%20poster%20-%20new.png" class="swipebox" rel="gallery" title="netflix-project-poster" target="_blank">
 ![sigcse-poster](https://raw.githubusercontent.com/Winbobob/Improving-Feedback-on-GitHub-Pull-Requests-A-Bots-Approach/master/SIGCSE'19%20poster%20-%20new.png)
 </a>
 
