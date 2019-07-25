@@ -18,7 +18,7 @@ tags:
 
 ## What is staggered-dealine assignment?
 
-> Consider `Wiki 1a` and `Wiki 1b` assignment in `NCSU CSC517` class.  They were structured as separate assignments, with separate signup sheets, teams, and reviews. But actually, since only one of the two was done by any student, it would’ve been better to have a single assignment. Still, some topics could be done soon after the course started, whereas others were better done after we had studied related topics in class.
+> Consider `Wiki 1a` and `Wiki 1b` assignment in `NC State CSC517` class.  They were structured as separate assignments, with separate signup sheets, teams, and reviews. But actually, since only one of the two was done by any student, it would’ve been better to have a single assignment. Still, some topics could be done soon after the course started, whereas others were better done after we had studied related topics in class.
 
 > This raises the idea of a `staggered-deadlne assignment`, where different topics have different submission and review deadlines, rather than all topics having the same deadline. 
   > <small>Read more at: _[About staggered-dealine assignment (E1524)](https://goo.gl/g9eyjc)_</small>
