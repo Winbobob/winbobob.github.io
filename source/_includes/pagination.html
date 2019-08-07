@@ -1,7 +1,7 @@
 {% if paginator.total_pages > 1 %}
 <nav class="pagination">
   <ul role="menu">
-    {% assign url = site.baseurl | append: "/project/" %}
+    {% assign url = site.baseurl | append: "/blogs/" %}
     {% if paginator.previous_page %}
       {% if paginator.previous_page > 1 %}
         {% assign prev = 'page/' | append: paginator.previous_page %}
@@ -12,7 +12,7 @@
     {% endif %}
     <li role="menuitem"><span class="page-number">Page {{paginator.page}} in {{paginator.total_pages}}</span></li>
     {% if paginator.next_page %}
-      <li role="menuitem"><a role="button" class="next" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Próximo">Next &raquo;</a></li>
+      <li role="menuitem"><a role="button" class="next" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Page">Next &raquo;</a></li>
     {% else %}
       <li role="menuitem"><span role="button" class="next disabled">Next &raquo;</span></li>
     {% endif %}

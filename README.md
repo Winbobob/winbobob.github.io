@@ -76,8 +76,6 @@ rake tag title="Jekyll"
 │   │   ├── images
 │   │   ├── js
 │   │   └── sass
-│   ├── blog
-│   │   └── index.html
 │   ├── categories
 │   ├── CNAME
 │   ├── timeline.html
@@ -114,7 +112,7 @@ rake tag title="Jekyll"
 │   │   ├── strip.rb
 │   │   └── youtube.rb
 │   ├── _posts
-│   ├── project
+│   ├── blogs
 │   │   └── index.html
 │   ├── robots.txt
 │   ├── search.json
@@ -140,7 +138,7 @@ rake tag title="Jekyll"
   - File `index.html` is the default starting page of the site.
   - File `about.html` stores self-introduce content.
   - File `contract.html` is the contract page.
-  - Folder `project` stores project page.
+  - Folder `blogs` stores blog pages.
   - Folder `_data` stores the information of catrgories and tags in YAML file.
   - Folder `_includes` and `_layouts` stores files related to site master template.
   - Folder `_plugins` stores some customed plugins, such as YouTube video embedded script.
