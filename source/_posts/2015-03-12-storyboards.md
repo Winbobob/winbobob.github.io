@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Storyboards"
-permalink: storyboards
+permalink: /blog/storyboards
 date: 2015-03-12 12:34:56
 comments: true
 description: "Utilized Ruby on Rails features in designing an Agile software project management tool."

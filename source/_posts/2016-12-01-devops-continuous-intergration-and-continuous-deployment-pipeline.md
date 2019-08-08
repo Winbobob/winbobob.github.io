@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DevOps Continuous Integration (CI) and Continuous Deployment (CD) Pipeline"
-permalink: devops-continuous-intergration-and-continuous-deployment-pipeline
+permalink: /blog/devops-continuous-intergration-and-continuous-deployment-pipeline
 date: 2016-12-01 23:33:33
 comments: true
 description: "The pipeline contains 4 milestones, which are a build component, a testing and analysis component, a deployment component, and an incremental testing toolkit."

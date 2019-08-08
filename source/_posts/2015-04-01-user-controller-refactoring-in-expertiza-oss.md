@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Users Controller Refactoring in Expertiza (OSS)"
-permalink: user-controller-refactoring-in-expertiza-oss
+permalink: /blog/user-controller-refactoring-in-expertiza-oss
 date: 2015-04-01 12:34:56
 comments: true
 description: "Users Controller Refactoring in Expertiza (OSS)."

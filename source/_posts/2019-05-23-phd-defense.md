@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ph.D. Dissertation: Helping Students Make Better Contributions to Open-Source Software Projects"
-permalink: phd-defense-slides
+permalink: /blog/phd-defense-slides
 date: 2019-05-15 00:00:01
 comments: true
 description: "Ph.D. defense slides"

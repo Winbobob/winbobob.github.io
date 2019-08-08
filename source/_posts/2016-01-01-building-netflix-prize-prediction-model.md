@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building Netflix Prize Prediction Model"
-permalink: building-netflix-prize-prediction-model
+permalink: /blog/building-netflix-prize-prediction-model
 date: 2016-01-01 11:11:11
 comments: true
 description: "Netflix Prize competition was hold by Netflix Inc. in Oct 2006. The main goal of this competition was to predict how many score a user will rate for a movie, by learning a test set containing nearly 100 million customer rating records. In this project, we learned the data from this competition."

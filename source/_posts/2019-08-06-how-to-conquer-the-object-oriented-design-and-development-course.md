@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to conquer the Object-Oriented Design and Development (OODD) course?"
-permalink: how-to-conquer-the-object-oriented-design-and-development-course
+permalink: /blog/how-to-conquer-the-object-oriented-design-and-development-course
 date: 2019-08-06 00:00:00
 comments: true
 description: "Pertinent advices to help you get A+ in OODD course."

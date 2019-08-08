@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Student Performance Management System"
-permalink: student-performance-management-system
+permalink: /blog/student-performance-management-system
 date: 2014-05-01 12:34:56
 comments: true
 description: "Student performance management system."

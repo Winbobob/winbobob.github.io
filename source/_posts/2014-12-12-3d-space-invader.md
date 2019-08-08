@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3D Space Invader"
-permalink: 3d-space-invader
+permalink: /blog/3d-space-invader
 date: 2014-12-12 12:34:56
 comments: true
 description: "3D Space Invader."

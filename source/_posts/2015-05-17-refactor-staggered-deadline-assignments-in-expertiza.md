@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Refactor staggered-deadline assignments in Expertiza"
-permalink: refactor-staggered-deadline-assignments-in-expertiza
+permalink: /blog/refactor-staggered-deadline-assignments-in-expertiza
 date: 2015-05-17 12:34:56
 comments: true
 description: "Refactor staggered-deadline assignments in Expertiza."

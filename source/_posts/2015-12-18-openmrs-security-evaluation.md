@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenMRS Security Evaluation"
-permalink: openmrs-security-evaluation
+permalink: /blog/openmrs-security-evaluation
 date: 2015-12-18 12:34:56
 comments: true
 description: "Open Medical Record System (OpenMRS®) was created in 2004 as a open source medical record system platform for developing countries – a tide which rises all ships."

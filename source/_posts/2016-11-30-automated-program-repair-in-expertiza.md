@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Automated Program Repair in Expertiza"
-permalink: automated-program-repair-in-expertiza
+permalink: /blog/automated-program-repair-in-expertiza
 date: 2016-11-30 11:59:59
 comments: true
 description: "I created an automated program repair tool named Mutator. It can fix Ruby on Rails runtime exception errors successfully. Mutator uses fix patterns offered by Mutant ruby gem to exhaustively produce patch candidates. For the experiment, I selected 17 real runtime exception errors and manually created developer patches and corresponding test cases. Mutator successfully fixed one runtime exception errors for 24 minutes each."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Procore Summer Intern ReactJS, Relay, GraphQL and Kubernetes Project"
-permalink: procore-summer-intern-project-reactjs-relay-graphql-kubernetes
+permalink: /blog/procore-summer-intern-project-reactjs-relay-graphql-kubernetes
 date: 2018-08-10 11:11:11
 comments: true
 description: "Procore summer intern project"

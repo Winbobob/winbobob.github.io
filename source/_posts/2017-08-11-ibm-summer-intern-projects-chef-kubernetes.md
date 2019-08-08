@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IBM Summer Intern Chef and Kubernetes Projects"
-permalink: ibm-summer-intern-projects-chef-kubernetes
+permalink: /blog/ibm-summer-intern-projects-chef-kubernetes
 date: 2017-08-11 11:11:11
 comments: true
 description: "Two summer intern projects: 1) Chef; 2) Kubernetes."

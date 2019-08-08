@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Development of Adaptive Experiment Teaching Platform"
-permalink: development-of-adaptive-experiment-teaching-platform
+permalink: /blog/development-of-adaptive-experiment-teaching-platform
 date: 2013-06-01 12:34:56
 comments: true
 description: "Development of Adaptive Experiment Teaching Platform."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Offers.com KPI Report"
-permalink: offers-com-kpi-report
+permalink: /blog/offers-com-kpi-report
 date: 2016-08-12 12:34:56
 comments: true
 description: "A KPI report for marketing team using Ruby on Rails as web application framework, Sequel as ORM layer for mapping records to Ruby objects and handling associated records and PostgreSQL on AWS as the database."

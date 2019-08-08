@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Web Crawler Application – Scraping"
-permalink: web-crawler-application-scraping
+permalink: /blog/web-crawler-application-scraping
 date: 2015-04-02 12:34:56
 comments: true
 description: "Develop a website, offering car buyers the integrated information of used cars, based on the customer’s need and several most useful factors (model, year, website link and price range)."

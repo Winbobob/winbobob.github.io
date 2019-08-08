@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modern educational technology association website"
-permalink: modern-educational-technology-association-website
+permalink: /blog/modern-educational-technology-association-website
 date: 2011-06-29 12:34:56
 comments: true
 description: "Modern educational technology association website."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Development of Virtual Experiment of Data Structure Based on Asp.net XML and Flash"
-permalink: development-of-virtual-experiment-of-data-structure-based-on-asp-net-xml-and-flash
+permalink: /blog/development-of-virtual-experiment-of-data-structure-based-on-asp-net-xml-and-flash
 date: 2014-02-12 12:34:56
 comments: true
 description: "Development of Virtual Experiment of Data Structure Based on ASP.NET XML and Flash."
