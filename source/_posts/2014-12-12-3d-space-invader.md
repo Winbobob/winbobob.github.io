@@ -16,9 +16,11 @@ tags:
 - opengl
 ---
 
+> I reproduced the classic game Space Invaders, which is considered one of the most influential video games of all time. This game helped expand the video game industry from a novelty to a global industry, and ushered in the golden age of arcade video games.
+
 ## Description
 
-This project was to simulate the classic game `Space Invader` by `OpenGL`. In addition to implement to basic components, such as the field, players' cannon, cannon shooting, this project also included some additional effects. Such as the monsters exploding when shot, UFOs move across the top periodically and shoot, multiple lives, etc.
+This project was to reproduce the classic game `Space Invaders` with `OpenGL`. In addition to basic components (the field, players' cannons, cannon shooting), this project also included some additional effects, such as monster explosion effects, the periodical appearance of UFO at the top and multiple lives.
 
 ## Related Material
 

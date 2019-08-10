@@ -15,11 +15,11 @@ tags:
 - python
 ---
 
+> I worked with my classmates to build a tool that makes it easier for customers to find cars and their price ranges online. Customers can subscribe to our service and enter information about the car. The tool then start to look for satisfied cars, as well as price ranges offered by a popular vehicle valuation company.
+
 ## Description
 
-Based on a customer’s need - car model, year of make, mileage, we find the posts on `craiglist`, which agree with the customer’s need and look up the price for the car on sale on the post from `Kbb`. Then our website will show the customer the posts (link to the original posts on craiglist) with cars he is interested in on sale and the price from Kbb. 
-Right now, people have to go to craiglist to find the car they are interested in with a seller’s price, and then go to kbb, checking out the review price.
-Our website will do the two jobs for the customer automatically, and people can get updated information from our website’s subscription service.
+According to information provided by the customer--make, model, year, mileage, we found cars on Craiglist and obtained the price ranges from Kbb. Then our tool sends an email to the customer every day to provide the latest information.
 
 ## Workflow
 
@@ -32,13 +32,6 @@ Our website will do the two jobs for the customer automatically, and people can 
 * <u><a href="https://github.com/SuperCh-SE-NCSU/ProjectScraping" target="_blank">Source code</a></u>
 * Demo Video
 {% youtube Bmi7bwp5V7k 850 460 %}
-
-## Conclusion
-
-1. Web crawler is a powerful tool. It will save a lot of time when searching information from complicated website.
-2. Some websites will block commercial servers from crawling their websites.
-3. The legality of scraping, especially for commercial use is not clear. 
-
 
 
 /end

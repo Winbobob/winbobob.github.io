@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Users Controller Refactoring in Expertiza (OSS)"
-permalink: /blog/user-controller-refactoring-in-expertiza-oss
+title: "OSS Project: Users Controller Refactoring in Expertiza"
+permalink: /blog/oss-project-user-controller-refactoring-in-expertiza
 date: 2015-04-01 12:34:56
 comments: true
-description: "Users Controller Refactoring in Expertiza (OSS)."
+description: "OSS project: Users Controller Refactoring in Expertiza"
 keywords: "Expertiza, users controller"
 categories:
 - expertiza
@@ -15,6 +15,8 @@ tags:
 - ruby
 - rails
 ---
+
+> This project is related to make contributions to an open-source project named <a href="https://github.com/expertiza/expertiza" target="_blank">Expertiza</a>. I refactored the existing bad smells following `Ruby on Rails` best practises, implemented new features related to user model and writing `RSpec` tests with two team members.
 
 ## Description
 

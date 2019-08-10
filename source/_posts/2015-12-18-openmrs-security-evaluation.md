@@ -14,7 +14,7 @@ tags:
 ---
 
 > Open Medical Record System (OpenMRS®) was created in 2004 as a open source medical record system platform for developing countries – a tide which rises all ships. 
-  > <small>Read more at: _[About OpenMRS](http://openmrs.org/about/)_</small>
+<small>Read more at: [About OpenMRS](http://openmrs.org/about/)</small>
 
 ## Description
 
