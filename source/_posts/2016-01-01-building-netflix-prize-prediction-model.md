@@ -16,11 +16,11 @@ tags:
 - matlab
 ---
 
-> Netflix Prize competition was hold by Netflix Inc. in Oct 2006. The main goal of this competition was to predict how many score a user will rate for a movie, by learning a test set containing nearly `100 million` customer rating records.
+> Netflix Prize competition was hold by Netflix Inc. in Oct 2006. The main goal of this competition was to predict how many score a user will rate for a movie, by learning a test set containing nearly 100 million customer rating records.
 
 ## Description
 
-Given the `100 million` customer rating records, focused on the following tasks:
+Given the 100 million customer rating records, focused on the following tasks:
 
 1. Predicted the existed records by data analysis techniques (`Decision tree`, `ANN`, `KNN`, etc.), and computed the `RMSE` (Root mean squared error) of different model, and then compare them.
 2. Forecasted whether one customer will be in favor of one released movie.

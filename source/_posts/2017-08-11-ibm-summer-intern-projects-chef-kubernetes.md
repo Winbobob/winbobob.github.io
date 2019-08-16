@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBM Summer Intern Chef and Kubernetes Projects"
+title: "IBM Summer Intern: Chef and Kubernetes Projects"
 permalink: /blog/ibm-summer-intern-projects-chef-kubernetes
 date: 2017-08-11 11:11:11
 comments: true
@@ -20,7 +20,7 @@ tags:
 - container-orchestration
 ---
 
-> The first project is related to a configuration management tool named [Chef](https://www.chef.io/chef/). The second project is related to container orchestration tool named [Kubernetes](https://kubernetes.io).
+> I interned at `IBM Aspera` DevOps team as a software engineer during 2017 summer. My first project is related to a configuration management tool named [Chef](https://www.chef.io/chef/). My second project is related to a container orchestration tool named [Kubernetes](https://kubernetes.io).
 
 ## Description
 

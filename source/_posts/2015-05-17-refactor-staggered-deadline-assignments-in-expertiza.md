@@ -18,16 +18,15 @@ tags:
 
 ## What is staggered-dealine assignment?
 
-> Consider `Wiki 1a` and `Wiki 1b` assignment in `NC State CSC517` class.  They were structured as separate assignments, with separate signup sheets, teams, and reviews. But actually, since only one of the two was done by any student, it would’ve been better to have a single assignment. Still, some topics could be done soon after the course started, whereas others were better done after we had studied related topics in class.
+> This project is related to the "Wiki 1a" and "Wiki 1b" assignment in NC State CSC 517 class. They were structured as separate assignments, with separate signup sheets, teams, and reviews. But actually, since only one of the two assignments was done by any student, it would’ve been better to have a single assignment. Still, some topics could be done soon after the course started, whereas others were better done after we had studied related topics in class.
 
-> This raises the idea of a `staggered-deadlne assignment`, where different topics have different submission and review deadlines, rather than all topics having the same deadline. 
-  > <small>Read more at: _[About staggered-dealine assignment (E1524)](https://goo.gl/g9eyjc)_</small>
+> This raises the idea of a "staggered-deadlne assignment", where different topics have different submission and review deadlines, rather than all topics having the same deadline.
 
 ## Description
 
 1. Refactor `signup_sheet_controller.rb` to implement staggered-deadline addignment and dependency graphs between topics.
-2. Test the `varying rubric by rounds` feature to make sure it works OK.
-3. Write `Rspec` unit test and increase the test coverage by `1.01%`.
+2. Test the "varying rubric by rounds" feature to make sure it works OK.
+3. Write `Rspec` unit test and increase the test coverage by <b>1.01%</b>.
 
 ## Related Material
 

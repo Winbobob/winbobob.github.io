@@ -18,7 +18,7 @@ tags:
 - ansible
 ---
 
-> The pipeline contains 4 milestones, which are a [build component](https://github.com/DevOps-CSC519-591-791/DevOps-M1), a [testing and analysis component](https://github.com/DevOps-CSC519-591-791/DevOps-M2), a [deployment component](https://github.com/DevOps-CSC519-591-791/DevOps-M3), and an [incremental testing toolkit](https://github.com/DevOps-CSC519-591-791/DevOps-M4).
+> I worked with my classmates to build a DevOps continuous integration and continuous deployment pipeline. The pipeline contains 4 components, which are a [build component](https://github.com/DevOps-CSC519-591-791/DevOps-M1), a [testing and analysis component](https://github.com/DevOps-CSC519-591-791/DevOps-M2), a [deployment component](https://github.com/DevOps-CSC519-591-791/DevOps-M3), and an [incremental testing toolkit](https://github.com/DevOps-CSC519-591-791/DevOps-M4).
 
 ## Description
 
