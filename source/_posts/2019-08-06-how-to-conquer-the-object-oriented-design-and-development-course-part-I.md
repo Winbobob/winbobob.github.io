@@ -31,8 +31,8 @@ OSS project (80 pts) and Final project (140 pts)
   * Please start as soon as possible.
   * If you have any questions, please ask your mentor.
   * Please read the general requirements at the top of project docs. It may only take 5 minutes, but you can earn 3-5 points or even more after reading.
-  * <b>Please make sure your code pass the Travis CI.</b> If you make some changes to the source code, please also change the corresponding tests.
-  * <b>Please resolve the CodeClimate issues as many as you can.</b> Some issues, such as abc complexity, can be ignored. You could ask teaching staff to approve these issues.
+  * **Please make sure your code pass the Travis CI.** If you make some changes to the source code, please also change the corresponding tests.
+  * **Please resolve the CodeClimate issues as many as you can.** Some issues, such as abc complexity, can be ignored. You could ask teaching staff to approve these issues.
     
 ### Writing assignments (80 pts)
   * Please do not include the introduction to Expertiza. This is redundant and the professor does not like it.

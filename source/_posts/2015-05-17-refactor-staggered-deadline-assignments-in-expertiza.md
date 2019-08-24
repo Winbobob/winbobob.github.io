@@ -26,7 +26,7 @@ tags:
 
 1. Refactor `signup_sheet_controller.rb` to implement staggered-deadline addignment and dependency graphs between topics.
 2. Test the "varying rubric by rounds" feature to make sure it works OK.
-3. Write `Rspec` unit test and increase the test coverage by <b>1.01%</b>.
+3. Write `Rspec` unit test and increase the test coverage by **1.01%**.
 
 ## Related Material
 
