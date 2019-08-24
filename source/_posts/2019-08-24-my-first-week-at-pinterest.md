@@ -12,7 +12,7 @@ tags:
 - pinterest
 ---
 
-> I just finished my first week at Pinterest. Summarize my feeling in two words: awesome and fantastic! Fun facts: I met CEO Ben Silbermann four times in person (twice in a cafeteria, once in a corridor and once in happy hour).
+> I just finished my first week at Pinterest. Summarize my feeling in two words: awesome and fantastic! Fun fact: I met CEO Ben Silbermann four times in person (twice in a cafeteria, once in a corridor and once in happy hour).
 
 ## Looking Back on the Last Five Years, Looking Forward to the Next Five Years
 
