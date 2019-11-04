@@ -5,7 +5,7 @@
   "private": true,
   "license": "MIT",
   "authors": [
-    "Zhewei Hu <zhu6@ncsu.edu>"
+    "Zhewei Hu <zhewei.hu33@gmail.com>"
   ],
   "devDependencies": {
     "classie": "~1.0.1",

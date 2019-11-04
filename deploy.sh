@@ -14,7 +14,7 @@ bundle exec jekyll build --incremental
 cd ${HTML_FOLDER}
 
 # config
-git config --global user.email "zhu6@ncsu.edu"
+git config --global user.email "zhewei.hu33@gmail.com"
 git config --global user.name "Winbobob"
 
 # deploy

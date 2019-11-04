@@ -28,7 +28,7 @@ Designed an agile software project management tool using `Ruby on Rails`.
     * Username: admin@ncsu.edu
     * Password: admin
   * Developer account
-    * Username: zhu6@ncsu.edu
+    * Username: zhewei.hu33@gmail.com
     * Password: 12345
 
 * <u><a href="https://github.com/Storyboard-OOP-NCSU/Storyboards" target="_blank">Source code</a></u>

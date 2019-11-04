@@ -72,7 +72,7 @@
             msg = '<p>Formulário enviado com sucesso.</p>';
           } else {
             alertClass = 'alert-error tada animated hinge';
-            msg = '<p>An error occurred in sending the form, try sending again to: <strong>zhu6@ncsu.edu</strong></p>';
+            msg = '<p>An error occurred in sending the form, try sending again to: <strong>zhewei.hu33@gmail.com</strong></p>';
           }
 
           alert.html(msg).addClass(alertClass).fadeIn('600');
