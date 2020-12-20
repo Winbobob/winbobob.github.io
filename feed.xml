@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhewei Hu</title>
+    <description>DevOps | Ruby on Rails</description>
+    <link>http://zhewe.me/</link>
+    <atom:link href="http://zhewe.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 Dec 2020 07:05:25 +0000</pubDate>
+    <lastBuildDate>Sun, 20 Dec 2020 07:05:25 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>My First Week at Pinterest</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;I just finished my first week at Pinterest. Summarize my feeling in two words: awesome and fantastic! Fun fact: I met CEO Ben Silbermann four times in person (twice in a cafeteria, once in a corridor and once in happy hour).&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;looking-back-on-the-last-five-years-looking-forward-to-the-next-five-years&quot;&gt;Looking Back on the Last Five Years, Looking Forward to the Next Five Years&lt;/h2&gt; &lt;p&gt;I came to America in 2014. It has been five years since then.&lt;/p&gt; &lt;p&gt;When I first studied at NC State University as a masters student, I never knew that I would get a Ph.D. degree and join Pinterest.&lt;/p&gt; &lt;p&gt;People may foresee the...</description>
+        <pubDate>Sat, 24 Aug 2019 00:10:40 +0000</pubDate>
+        <link>http://zhewe.me/blog/my-first-week-at-pinterest</link>
+        <guid isPermaLink="true">http://zhewe.me/blog/my-first-week-at-pinterest</guid>
+        
+        <category>pinterest</category>
+        
+        
+        <category>personal-thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>How to conquer the Object-Oriented Design and Development (OODD) course? — Part II</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Hello everyone, my name is Zhewei Hu. I am a site reliability engineer at Pinterest. Before that, I was a Ph.D. student under the direction of Dr. Ed Gehringer. I was the teaching assistant for the Object-Oriented Design and Development (OODD) course, aka. CSC/ECE 517 for more than 4 years. I’d like to share some of my experience to help you conquer this course and get A+. This is the second part.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;part-i---homework-405-pts&quot;&gt;Part I - Homework (405 pts)&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-I&quot;&gt;Link&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;part-ii-595-pts&quot;&gt;Part II (595 pts)&lt;/h2&gt; &lt;h3 id=&quot;reviews-120-pts&quot;&gt;Reviews (120 pts)&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;You are required to do...</description>
+        <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+        <link>http://zhewe.me/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-II</link>
+        <guid isPermaLink="true">http://zhewe.me/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-II</guid>
+        
+        <category>oodd</category>
+        
+        
+        <category>course-advice</category>
+        
+      </item>
+    
+      <item>
+        <title>How to conquer the Object-Oriented Design and Development (OODD) course? — Part I</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Hello everyone, my name is Zhewei Hu. I am a site reliability engineer at Pinterest. Before that, I was a Ph.D. student under the direction of Dr. Ed Gehringer. I was the teaching assistant for the Object-Oriented Design and Development (OODD) course, aka. CSC/ECE 517 for more than 4 years. I’d like to share some of my experience to help you conquer this course and get A+ (There are 1000 regular credits with many extra credits. If you could get 970 credits or more, you will receive an A+.). I will discuss my experience based on the syllabus and...</description>
+        <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+        <link>http://zhewe.me/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-I</link>
+        <guid isPermaLink="true">http://zhewe.me/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-I</guid>
+        
+        <category>oodd</category>
+        
+        
+        <category>course-advice</category>
+        
+      </item>
+    
+      <item>
+        <title>Ph.D. Dissertation: Helping Students Make Better Contributions to Open-Source Software Projects</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;On May 23rd 2019, I successfully defensed my Ph.D. dissertation: “Helping Students Make Better Contributions to Open-Source Software Projects”.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;I owe my sincere thanks to Dr. Edward Gehringer, my advisor, for his all-time support and guidance. I am very grateful to him for his valuable time, continuous advice and patient feedback. I learned a lot from our weekly meetings and his insights that helped me to generate creative ideas in my mind.&lt;/p&gt; &lt;p&gt;I would like to thank my other committee members, Dr. Christopher Parnin, Dr. Sarah Heckman, sand Dr. Ranga Vatsavai, for being my committee and providing valuable...</description>
+        <pubDate>Wed, 15 May 2019 00:00:01 +0000</pubDate>
+        <link>http://zhewe.me/blog/phd-defense</link>
+        <guid isPermaLink="true">http://zhewe.me/blog/phd-defense</guid>
+        
+        <category>phd-defense</category>
+        
+        
+        <category>research</category>
+        
+      </item>
+    
+      <item>
+        <title>SIGCSE 2019 Poster: Using Bots to Improve GitHub Pull-Request Feedback</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Rising enrollments make it difficult for instructors and teaching assistants to give adequate feedback on each student’s work. Our course projects require students to submit GitHub pull requests as deliverables for their open-source software (OSS) projects. We have set up a static code analyzer and a continuous integration service on GitHub to help students check different aspects of the code. However, these tools have some limitations.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt; &lt;p&gt;In this poster, I discuss how we bypass the limitations of existing tools by implementing three Internet bots. These bots are either open source or free for OSS projects and...</description>
+        <pubDate>Sun, 10 Mar 2019 11:11:11 +0000</pubDate>
+        <link>http://zhewe.me/sigcse-2019-poster-using-bots-to-improve-github-pull-request-feedback</link>
+        <guid isPermaLink="true">http://zhewe.me/sigcse-2019-poster-using-bots-to-improve-github-pull-request-feedback</guid>
+        
+        <category>sigcse</category>
+        
+        <category>poster</category>
+        
+        <category>bot</category>
+        
+        <category>github</category>
+        
+        <category>pull-request</category>
+        
+        
+        <category>expertiza</category>
+        
+        <category>research</category>
+        
+      </item>
+    
+      <item>
+        <title>Procore Summer Intern: ReactJS, Relay, GraphQL and Kubernetes Project</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;During 2018 summer, I interned as a site reliability engineer at Procore Technologies, which is a world’s leading construction project management software company. My project was to build a new UI and implement the GraphQL API for an on-demand staging environment.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;Implemented a &lt;code&gt;GraphQL&lt;/code&gt; API for an on-demand staging environment to manage &lt;code&gt;Kubernetes&lt;/code&gt; resources on &lt;code&gt;Tectonic&lt;/code&gt;.&lt;/li&gt; &lt;li&gt;Built the front end of the staging environment using &lt;code&gt;React&lt;/code&gt; as the JavaScript library and &lt;code&gt;Relay&lt;/code&gt; as the data management solution.&lt;/li&gt; &lt;li&gt;Wrote &lt;code&gt;RSpec&lt;/code&gt; request specs for the whole GraphQL API.&lt;/li&gt; &lt;li&gt;Set up &lt;code&gt;CircleCI&lt;/code&gt; to continuously run RSpec tests, build...</description>
+        <pubDate>Fri, 10 Aug 2018 11:11:11 +0000</pubDate>
+        <link>http://zhewe.me/blog/procore-summer-intern-project-reactjs-relay-graphql-kubernetes</link>
+        <guid isPermaLink="true">http://zhewe.me/blog/procore-summer-intern-project-reactjs-relay-graphql-kubernetes</guid>
+        
+        <category>k8s</category>
+        
+        
+        <category>intern</category>
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>IBM Summer Intern: Chef and Kubernetes Projects</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;I interned at &lt;code&gt;IBM Aspera&lt;/code&gt; DevOps team as a software engineer during 2017 summer. My first project is related to a configuration management tool named &lt;a href=&quot;https://www.chef.io/chef/&quot;&gt;Chef&lt;/a&gt;. My second project is related to a container orchestration tool named &lt;a href=&quot;https://kubernetes.io&quot;&gt;Kubernetes&lt;/a&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;Created infrastructure test suites written by InSpec testing framework to verify configuration results converged by Test Kitchen or configured by Chef.&lt;/li&gt; &lt;li&gt;Set up Cron jobs to monitor infrastructure settings in real-time and send notification emails via SendGrid if exceptions occur.&lt;/li&gt; &lt;li&gt;Ported a big data sharing platform to Kubernetes cluster with etcd as distributed key-value store...</description>
+        <pubDate>Fri, 11 Aug 2017 11:11:11 +0000</pubDate>
+        <link>http://zhewe.me/blog/ibm-summer-intern-projects-chef-kubernetes</link>
+        <guid isPermaLink="true">http://zhewe.me/blog/ibm-summer-intern-projects-chef-kubernetes</guid>
+        
+        <category>continuous-integration</category>
+        
+        <category>continuous-deployment</category>
+        
+        <category>chef</category>
+        
+        <category>inspec</category>
+        
+        <category>test-kitchen</category>
+        
+        <category>k8s</category>
+        
+        <category>cni</category>
+        
+        <category>container-orchestration</category>
+        
+        
+        <category>intern</category>
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>DevOps Continuous Integration (CI) and Continuous Deployment (CD) Pipeline</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;I worked with my classmates to build a DevOps continuous integration and continuous deployment pipeline. The pipeline contains 4 components, which are a &lt;a href=&quot;https://github.com/DevOps-CSC519-591-791/DevOps-M1&quot;&gt;build component&lt;/a&gt;, a &lt;a href=&quot;https://github.com/DevOps-CSC519-591-791/DevOps-M2&quot;&gt;testing and analysis component&lt;/a&gt;, a &lt;a href=&quot;https://github.com/DevOps-CSC519-591-791/DevOps-M3&quot;&gt;deployment component&lt;/a&gt;, and an &lt;a href=&quot;https://github.com/DevOps-CSC519-591-791/DevOps-M4&quot;&gt;incremental testing toolkit&lt;/a&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;Created an Incremental Testing Toolkit to achieve test prioritization and shorten test time by 67%.&lt;/li&gt; &lt;li&gt;Ran Behavior Driven Test and Static Analysis Tool on Git hook to accept or reject a commit.&lt;/li&gt; &lt;li&gt;Set up Jenkins build server on AWS EC2 to run continuous testing on each Git commit.&lt;/li&gt; &lt;li&gt;Deployed code to Canary and...</description>
+        <pubDate>Thu, 01 Dec 2016 23:33:33 +0000</pubDate>
+        <link>http://zhewe.me/blog/devops-continuous-intergration-and-continuous-deployment-pipeline</link>
+        <guid isPermaLink="true">http://zhewe.me/blog/devops-continuous-intergration-and-continuous-deployment-pipeline</guid>
+        
+        <category>course-project</category>
+        
+        <category>team-project</category>
+        
+        <category>nodejs</category>
+        
+        <category>continuous-integration</category>
+        
+        <category>continuous-deployment</category>
+        
+        <category>jenkins</category>
+        
+        <category>ansible</category>
+        
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>Automated Program Repair in Expertiza</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Bug fixing is a time-consuming work. Recently, automated program repair receives more and more attentions. There are many existing tools which can fix Java, C and Python programs. To the best of my knowledge, no tool repairs on Ruby language, especially Ruby on Rails web application program.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt; &lt;p&gt;I created an automated program repair tool named &lt;strong&gt;Mutator&lt;/strong&gt;. It can fix Ruby on Rails runtime exception errors successfully. Mutator uses fix patterns offered by Mutant ruby gem to exhaustively produce patch candidates. For the experiment, I selected &lt;strong&gt;17 real runtime exception errors&lt;/strong&gt; and manually created developer patches and...</description>
+        <pubDate>Wed, 30 Nov 2016 11:59:59 +0000</pubDate>
+        <link>http://zhewe.me/blog/automated-program-repair-in-expertiza</link>
+        <guid isPermaLink="true">http://zhewe.me/blog/automated-program-repair-in-expertiza</guid>
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+        <category>course-project</category>
+        
+        
+        <category>automated-program-repair</category>
+        
+        <category>expertiza</category>
+        
+      </item>
+    
+      <item>
+        <title>Offers.com Summer Intern: KPI Report</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;A KPI report for marketing team using &lt;code&gt;Ruby on Rails&lt;/code&gt; as web application framework, &lt;code&gt;Sequel&lt;/code&gt; as ORM layer for mapping records to Ruby objects and handling associated records and &lt;code&gt;PostgreSQL&lt;/code&gt; on AWS as the database.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Utilized &lt;code&gt;Ruby on Rails&lt;/code&gt;, &lt;code&gt;Sequel&lt;/code&gt;, and &lt;code&gt;PostgreSQL&lt;/code&gt; to build a Key Performance Index (KPI) report for the marketing team.&lt;/li&gt;
+  &lt;li&gt;Fixed more than 15 issues from &lt;code&gt;JIRA scrum board&lt;/code&gt; using Agile methodology.&lt;/li&gt;
+  &lt;li&gt;Implemented &lt;code&gt;Rubocop&lt;/code&gt; on six projects to enforce coding guidelines (corrected more than 7000 LOC).&lt;/li&gt;
+  &lt;li&gt;Created a &lt;code&gt;pre-commit git hook&lt;/code&gt; to ensure the quality of commits.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;/end&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Aug 2016 12:34:56 +0000</pubDate>
+        <link>http://zhewe.me/blog/offers-com-summer-intern-kpi-report</link>
+        <guid isPermaLink="true">http://zhewe.me/blog/offers-com-summer-intern-kpi-report</guid>
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+        
+        <category>intern</category>
+        
+      </item>
+    
+  </channel>
+</rss>
