@@ -67,5 +67,9 @@ td {
       <td width="25%"><img src="https://m.media-amazon.com/images/I/41dZIPKXcRL._SL500_.jpg" alt="The Whole-Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind"></td>
       <td> - Strategies I think is helpful: (1) connect and re-direct, (2) move it or lose it, (3) feelings come and go. (4) enjoy each other, (5) connect through conflict, and (6) use it or lose it.</td>
     </tr>
+    <tr>
+      <td width="25%"><img src="https://m.media-amazon.com/images/I/51Oi+FcrkKL._SL500_.jpg" alt="Guns, Germs and Steel: The Fate of Human Societies"></td>
+      <td> - The longest book I have ever listened. One fun fact: plants usually make their fruit delicious but make seeds bitter. It makes animals more likely to eat fruits while not crushing their seeds. So the seeds could be spread in various areas by different animals.</td>
+    </tr>
   </table>
 </div>
