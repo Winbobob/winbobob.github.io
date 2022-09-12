@@ -57,19 +57,24 @@ td {
     </tr>
     <tr>
       <td width="25%"><img src="https://m.media-amazon.com/images/I/51ZMlBEI7BL._SL500_.jpg" alt="Grit: The Power of Passion and Perseverance"></td>
-      <td> - Grit formula:<br/> - Talent x effort = skill<br/> - Skill x effort = achievement</td>
+      <td> - Grit formula:<br/>&nbsp;&nbsp;&nbsp;&nbsp;• Talent x effort = skill<br/>&nbsp;&nbsp;&nbsp;&nbsp;• Skill x effort = achievement</td>
     </tr>
     <tr>
       <td width="25%"><img src="https://m.media-amazon.com/images/I/51s11AU4otL._SL500_.jpg" alt="No Rules Rules: Netflix and the Culture of Reinvention"></td>
-      <td> - [The pratfall effect] For leaders who demonstrate their competencies, whisper wins and shout mistakes.<br/> - 5A feedback guidelines: (1) Aim to assist, (2) Actionable, (3) Appreciate, (4) Accept or discard, and (5) Adapt.</td>
+      <td> - [The pratfall effect] For leaders who demonstrate their competencies, whisper wins and shout mistakes.<br/> - 5A feedback guidelines:<br/>&nbsp;&nbsp;&nbsp;&nbsp;(1) Aim to assist<br/>&nbsp;&nbsp;&nbsp;&nbsp;(2) Actionable<br/>&nbsp;&nbsp;&nbsp;&nbsp;(3) Appreciate<br/>&nbsp;&nbsp;&nbsp;&nbsp;(4) Accept or discard<br/>&nbsp;&nbsp;&nbsp;&nbsp;(5) Adapt</td>
     </tr>
     <tr>
       <td width="25%"><img src="https://m.media-amazon.com/images/I/41dZIPKXcRL._SL500_.jpg" alt="The Whole-Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind"></td>
-      <td> - Strategies I think is helpful: (1) connect and re-direct, (2) move it or lose it, (3) feelings come and go. (4) enjoy each other, (5) connect through conflict, and (6) use it or lose it.</td>
+      <td> - Strategies I think is helpful:<br/>&nbsp;&nbsp;&nbsp;&nbsp;(1) connect and re-direct<br/>&nbsp;&nbsp;&nbsp;&nbsp;(2) move it or lose it<br/>&nbsp;&nbsp;&nbsp;&nbsp;(3) feelings come and go<br/>&nbsp;&nbsp;&nbsp;&nbsp;(4) enjoy each other<br/>&nbsp;&nbsp;&nbsp;&nbsp;(5) connect through conflict<br/>&nbsp;&nbsp;&nbsp;&nbsp;(6) use it or lose it</td>
     </tr>
     <tr>
       <td width="25%"><img src="https://m.media-amazon.com/images/I/51Oi+FcrkKL._SL500_.jpg" alt="Guns, Germs and Steel: The Fate of Human Societies"></td>
-      <td> - The longest book I have ever listened. One fun fact: plants usually make their fruit delicious but make seeds bitter. It makes animals more likely to eat fruits while not crushing their seeds. So the seeds could be spread in various areas by different animals.</td>
+      <td> - The longest book I have ever listened.<br/> - One fun fact: plants usually make their fruit delicious but make seeds bitter. It makes animals more likely to eat fruits while not crushing their seeds. So the seeds could be spread in various areas by different animals.</td>
+    </tr>
+    <tr>
+      <td width="25%"><img src="https://m.media-amazon.com/images/I/51j1P236E3L._SL300_.jpg" alt="The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers"></td>
+      <td> - This book is talking about how to become an excellent CEO including tips like how to recruit executives that fits the company under current scale.<br/> - However, there are still some tips that are helpful to me as an individual contributor:<br/>&nbsp;&nbsp;&nbsp;&nbsp;(1) when you being a part of a family, you cannot always think about yourself first. Stop being a boy, become a man.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(2) the company takes care of the people, the products, and the profits—in that order.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(3) training is a good investment for your new hires and you will not waste the training time, by contrast, good trainings can increase the employee productivity significantly.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(4) people judge you for what you did instead of how you feel. Both hero and coward will feel afraid, but the hero can fight the feelings off and make things done.
+      </td>
     </tr>
   </table>
 </div>
