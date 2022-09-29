@@ -12,7 +12,7 @@ tags:
 - audible
 ---
 
-> The book I finished in 2022 with one-sentence notes.
+> The book I finished in 2022 with notes.
 
 <style>
 td {
@@ -73,7 +73,12 @@ td {
     </tr>
     <tr>
       <td width="25%"><img src="https://m.media-amazon.com/images/I/51j1P236E3L._SL300_.jpg" alt="The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers"></td>
-      <td> - This book is talking about how to become an excellent CEO including tips like how to recruit executives that fits the company under current scale.<br/> - However, there are still some tips that are helpful to me as an individual contributor:<br/>&nbsp;&nbsp;&nbsp;&nbsp;(1) when you being a part of a family, you cannot always think about yourself first. Stop being a boy, become a man.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(2) the company takes care of the people, the products, and the profits—in that order.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(3) training is a good investment for your new hires and you will not waste the training time, by contrast, good trainings can increase the employee productivity significantly.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(4) people judge you for what you did instead of how you feel. Both hero and coward will feel afraid, but the hero can fight the feelings off and make things done.
+      <td> - This book talks about how to become an excellent CEO including tips like how to recruit executives that fits the company under the current scale.<br/> - However, there are still some tips that are helpful to me as an individual contributor:<br/>&nbsp;&nbsp;&nbsp;&nbsp;(1) when you are a part of a family, you cannot always think about yourself first. Stop being a boy, become a man.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(2) the company takes care of the people, the products, and the profits—in that order.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(3) training is a good investment for your new hires. You will not waste the training time. By contrast, good training can increase employee productivity significantly.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(4) people judge you for what you did instead of how you feel. Both hero and coward will feel afraid, but the hero can fight the feelings off and make things done.
+      </td>
+    </tr>
+    <tr>
+      <td width="25%"><img src="https://m.media-amazon.com/images/I/41vNqW7L8KL._SL500_.jpg" alt="Bringing Up Bébé: One American Mother Discovers the Wisdom of French Parenting"></td>
+      <td> Several learnings and thoughts:<br/>&nbsp;&nbsp;&nbsp;&nbsp;(1) the book mentioned that the French children, even 2-3 months old, could have 4 meals at the same time as adults (breakfast: 8 am, lunch: noon, goûter: 4 pm, and dinner: 8 pm) and could sleep the whole night. I find it difficult for my almost 2-month-old daughter to follow these eating and sleeping mechanisms. But I am trying to let her sleep longer (4-6 hours) during the night.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(2) it's important to let kids wait and delay to satisfy their requirements.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(3) even for babies who cannot speak, they can understand most things.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(4) it's crucial to have adult time and separate from your children, which is beneficial for both you and your kids.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(5) in order for parents to have authority, you should say yes to most of the things and only say no for several things that you do not want your kids to do.<br/>&nbsp;&nbsp;&nbsp;&nbsp;(6) autonomy is one of the child's most basic needs.
       </td>
     </tr>
   </table>
