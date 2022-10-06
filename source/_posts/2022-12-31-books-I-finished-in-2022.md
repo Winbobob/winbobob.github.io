@@ -65,7 +65,7 @@ td {
     </tr>
     <tr>
       <td width="25%"><img src="https://m.media-amazon.com/images/I/41dZIPKXcRL._SL500_.jpg" alt="The Whole-Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind"></td>
-      <td> - Strategies I think is helpful:<br/>&nbsp;&nbsp;&nbsp;&nbsp;(1) connect and re-direct<br/>&nbsp;&nbsp;&nbsp;&nbsp;(2) move it or lose it<br/>&nbsp;&nbsp;&nbsp;&nbsp;(3) feelings come and go<br/>&nbsp;&nbsp;&nbsp;&nbsp;(4) enjoy each other<br/>&nbsp;&nbsp;&nbsp;&nbsp;(5) connect through conflict<br/>&nbsp;&nbsp;&nbsp;&nbsp;(6) use it or lose it</td>
+      <td> - Strategies I think are helpful:<br/>&nbsp;&nbsp;&nbsp;&nbsp;(1) connect and re-direct<br/>&nbsp;&nbsp;&nbsp;&nbsp;(2) move it or lose it<br/>&nbsp;&nbsp;&nbsp;&nbsp;(3) feelings come and go<br/>&nbsp;&nbsp;&nbsp;&nbsp;(4) enjoy each other<br/>&nbsp;&nbsp;&nbsp;&nbsp;(5) connect through conflict<br/>&nbsp;&nbsp;&nbsp;&nbsp;(6) use it or lose it</td>
     </tr>
     <tr>
       <td width="25%"><img src="https://m.media-amazon.com/images/I/51Oi+FcrkKL._SL500_.jpg" alt="Guns, Germs and Steel: The Fate of Human Societies"></td>
