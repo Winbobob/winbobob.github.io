@@ -14,18 +14,12 @@ tags:
 
 > The book I finished in 2021 with one-sentence notes.
 
-<style>
-td {
-  padding: 15px;
-}
-</style>
+---
 
-<div>
-  <table>
-    <tr><th width="25%"><b>Book</b></th><th>Notes</th></tr>
-    <tr>
-      <td width="25%"><img src="https://m.media-amazon.com/images/I/41dIDDpGepL._SL500_.jpg" alt="Educated: A Memoir"></td>
-      <td> - Education can change your life.</td>
-    </tr>
-  </table>
-</div>
+<img src="https://m.media-amazon.com/images/I/41dIDDpGepL._SL500_.jpg" alt="Educated: A Memoir" style="width:40%;">
+# Educated: A Memoir
+- Education can change your life.
+
+---
+
+/end
