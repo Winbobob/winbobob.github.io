@@ -151,4 +151,55 @@ Several learnings and thoughts:
 
 ---
 
+<img src="https://m.media-amazon.com/images/I/41WufhfFf7L._SL500_.jpg" alt="Think Again: The Power of Knowing What You Don't Know" style="width:40%;">
+# Think Again: The Power of Knowing What You Don't Know
+- As we think and talk, we often slip into the mindsets of three different professions: preachers, prosecutors, and politicians.
+  - Preacher mode: when our sacred beliefs are in jeopardy, we deliver sermons to protect and promote our ideals.
+  - Prosecutor mode: when we recognize flaws in other people’s reasoning, we marshal arguments to prove them wrong and win our case. I often act as a prosecutor during the arguments.
+  - Politician mode: when we’re seeking to win over an audience, we campaign and lobby for the approval of our constituents.
+- If knowledge is power, knowing what we don't know is wisdom.
+- The sweet spot of confidence (neither overconfident nor underconfident)
+ - You can be confident in your ability to achieve the goal in the future while maintaining the humility to question whether you have the right tools in the present.
+- Action items from the book that inspire me
+  - Seek out information that goes against your views
+  - Embrace the joy being wrong
+  - Learn something new from each person you meet
+  - Build a challenge network (my wife in my case), not just a support network
+  - Don't shy away from constructive conflicts
+  - Practice the art of persuasive listening
+  - Less is often more
+    - If you have too many arguments, you will dilute the power of each and everyone. They are going to be less well-explained.
+  - Invite kids to do multiple drafts and seek feedback from others
+  - Stop asking kids what they want to be when they grow up
+    - Kids don't have to define themselves in terms of career.
+    - A single identity can close the door of alternatives.
+    - Instead of narrow their opportunities, help them broad their possibilities.
+- I also learned lots of psychology, sociology and other terms.
+  - [Anton syndrome](https://en.wikipedia.org/wiki/Anton_syndrome)
+  - [Armchair quarterback syndrome](https://en.wiktionary.org/wiki/armchair_quarterback)
+    - The opposite of impostor syndrome.
+  - [First-instinct fallacy](https://www.psychology-lexicon.com/cms/glossary/39-glossary-f/9594-first-instinct-fallacy.html)
+    - It happened a lot when I answered the multiple-choice questions on exams. Many times I stuck to my instinct and got the wrong answer.
+  - Totalitarian ego
+    - The mental gate-keeper that keeps threatening information out of our heads.
+  - [Group polarization](https://en.wikipedia.org/wiki/Group_polarization) 
+  - [Overview effect](https://en.wikipedia.org/wiki/Overview_effect)
+  - [Inverse charisma](https://myquestionlife.com/inverse-charisma/#:~:text=far%20more%20powerful.-,Inverse%20charisma,-is%20someone%E2%80%99s%20ability)
+    - Magnetic quality of a great listener
+  - Binary bias
+    - A basic human tendency to seek clarity and closure by simplifying a complex continuum into two categories.
+  - Psychological safety
+    - Forstering a climate with respect, trust, and openness in which people can raise concerns and suggestions without fear of reprisal.
+    - Not a matter of relaxing standards, making people feel comfortable, being nice and aggreeable, or giving unconditional praise.
+  - [Escalation of commitment](https://en.wikipedia.org/wiki/Escalation_of_commitment)
+    - Grit (passion and perseverance) might prevent us from rethinking.
+    - There's a fine line between heroic persistence and foolish  stubbornness. Sometimes the best kind of grit is gritting our teeth and turning around.
+  - [Counterfacutal thinking](https://en.wikipedia.org/wiki/Counterfactual_thinking)
+    - I am conducting conterfacutal thinking a lot, what if ...
+    - As I learned from the Computational Applied Logic course, if the IF statement is true, you can append anything statements after it. I always do this trick with my wife.
+- [Ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus)
+- [Planck's principle](https://en.wikipedia.org/wiki/Planck%27s_principle)
+
+---
+
 /end
