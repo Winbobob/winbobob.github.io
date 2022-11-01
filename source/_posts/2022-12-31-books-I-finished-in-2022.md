@@ -159,8 +159,8 @@ Several learnings and thoughts:
   - Politician mode: when we’re seeking to win over an audience, we campaign and lobby for the approval of our constituents.
 - If knowledge is power, knowing what we don't know is wisdom.
 - The sweet spot of confidence (neither overconfident nor underconfident)
- - You can be confident in your ability to achieve the goal in the future while maintaining the humility to question whether you have the right tools in the present.
-- Action items from the book that inspire me
+  - You can be confident in your ability to achieve the goal in the future while maintaining the humility to question whether you have the right tools in the present.
+- Action items that inspire me
   - Seek out information that goes against your views
   - Embrace the joy being wrong
   - Learn something new from each person you meet
