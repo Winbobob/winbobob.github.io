@@ -202,4 +202,22 @@ Several learnings and thoughts:
 
 ---
 
+<img src="https://m.media-amazon.com/images/I/51UTJF+D3dL._SL500_.jpg" alt="Fierce Conversations: Achieving Success at Work & in Life, One Conversation at a Time" style="width:40%;">
+# Fierce Conversations: Achieving Success at Work & in Life, One Conversation at a Time
+- Two people in a conversation amount of four people talking. The four are what one person says, what s/he really wanted to say, what her/his listener heard, and what s/he thought her/his lisnener heard.
+- If you really want to resolve the issue, go directly to the source and confront the person's behavior one to one in private.
+- After receiving the feedback, as a leader, you have one chance to get this right. If you push back or get defensive, chances are you may never get feedback again. Your job is to remain curious and grateful for whatever you get in order to pave the way for more meaningful feedback once the trust has been built.
+- As a leader, part of your job is to consistently let people know what they are doing well to reinforce those positive behaviors into build emotional capital.
+- There are 7 components to an opening statement:
+  - Name the issue
+  - Select the specific example that illustrates the bahavior or situation that you want to change
+  - Describe your emotions about this issue
+  - Clarify what is at the stake
+  - Identify your contribution to this problem
+  - Indicate your wish to resolve the issue
+  - Invite your partner to respond
+- Don't just tell people that you love them. Tell them why you love them, and what it is about them that you love specifically.
+- Fierce conversations require slience.
+- If you want your children to talk to you, make slience your primary skill. The author used to interrogate her daughters lovingly each day on the way home from school: what did you do at school today? did you have fun? what did you learn? Such questions rarely elicit the responses that we hoped for. Gradually, the author learned the more she allowed slience following her questions, the more her daughters would be willingly to fill with the works like: guess what my teacher said, or want to hear something really weird. When her daughters spoke, the author entice them to continue by simply saying "Uh-huh", "Wow”, "I see", "Really" or even "No way" or simply nod and smile.
+
 /end
