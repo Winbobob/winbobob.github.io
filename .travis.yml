@@ -2,7 +2,7 @@ language: ruby
 cache:
   bundler: true
 rvm:
-  - 2.4.2
+  - 2.6.0
 before_script:
   - chmod +x deploy.sh
   - git config credential.helper "store --file=.git/credentials"

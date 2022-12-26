@@ -2,7 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-ruby '2.4.2'
+ruby '2.6.0'
 
 group :development do
   gem 'jekyll'
