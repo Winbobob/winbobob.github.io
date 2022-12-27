@@ -209,13 +209,13 @@ Several learnings and thoughts:
 - After receiving the feedback, as a leader, you have one chance to get this right. If you push back or get defensive, chances are you may never get feedback again. Your job is to remain curious and grateful for whatever you get in order to pave the way for more meaningful feedback once the trust has been built.
 - As a leader, part of your job is to consistently let people know what they are doing well to reinforce those positive behaviors into build emotional capital.
 - There are 7 components to an opening statement:
-  - Name the issue
-  - Select the specific example that illustrates the bahavior or situation that you want to change
-  - Describe your emotions about this issue
-  - Clarify what is at the stake
-  - Identify your contribution to this problem
-  - Indicate your wish to resolve the issue
-  - Invite your partner to respond
+  1. Name the issue
+  2 Select the specific example that illustrates the bahavior or situation that you want to change
+  3. Describe your emotions about this issue
+  4. Clarify what is at the stake
+  5. Identify your contribution to this problem
+  6. Indicate your wish to resolve the issue
+  7. Invite your partner to respond
 - Don't just tell people that you love them. Tell them why you love them, and what it is about them that you love specifically.
 - Fierce conversations require slience.
 - If you want your children to talk to you, make slience your primary skill. The author used to interrogate her daughters lovingly each day on the way home from school: what did you do at school today? did you have fun? what did you learn? Such questions rarely elicit the responses that we hoped for. Gradually, the author learned the more she allowed slience following her questions, the more her daughters would be willingly to fill with the works like: guess what my teacher said, or want to hear something really weird. When her daughters spoke, the author entice them to continue by simply saying "Uh-huh", "Wow”, "I see", "Really" or even "No way" or simply nod and smile.
