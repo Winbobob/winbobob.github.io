@@ -210,7 +210,7 @@ Several learnings and thoughts:
 - As a leader, part of your job is to consistently let people know what they are doing well to reinforce those positive behaviors into build emotional capital.
 - There are 7 components to an opening statement:
   1. Name the issue
-  2 Select the specific example that illustrates the bahavior or situation that you want to change
+  2. Select the specific example that illustrates the bahavior or situation that you want to change
   3. Describe your emotions about this issue
   4. Clarify what is at the stake
   5. Identify your contribution to this problem
