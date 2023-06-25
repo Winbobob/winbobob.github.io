@@ -2,7 +2,7 @@
 layout: post
 title: "Books I Finished In 2022"
 permalink: /blog/books-i-finished-in-2022
-date: 2022-07-24 00:00:01
+date: 2022-12-31 23:59:59
 comments: true
 description: "Books I Finished In 2022"
 keywords: "Book, Audible"
@@ -16,7 +16,7 @@ tags:
 
 ---
 
-<img src="https://m.media-amazon.com/images/I/51KrBjE9ajL._SL300_.jpg" alt="Maybe You Should Talk To Someone: A Therapist, HER Therapist, and Our Lives Revealed" style="width:40%;">
+<img src="https://m.media-amazon.com/images/I/51KrBjE9ajL._SL500_.jpg" alt="Maybe You Should Talk To Someone: A Therapist, HER Therapist, and Our Lives Revealed" style="width:40%;">
 # Maybe You Should Talk To Someone: A Therapist, HER Therapist, and Our Lives Revealed
 - A therapists also needs to see another therapist just like us.
 
@@ -108,7 +108,7 @@ Strategies I think are helpful:
 
 ---
 
-<img src="https://m.media-amazon.com/images/I/51j1P236E3L._SL300_.jpg" alt="The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers" style="width:40%;">
+<img src="https://m.media-amazon.com/images/I/51j1P236E3L._SL500_.jpg" alt="The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers" style="width:40%;">
 # The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers
 - This book talks about how to become an excellent CEO including tips like how to recruit executives that fits the company under the current scale.
 - However, there are still some tips that are helpful to me as an individual contributor:

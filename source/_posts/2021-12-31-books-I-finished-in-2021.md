@@ -2,7 +2,7 @@
 layout: post
 title: "Books I Finished In 2021"
 permalink: /blog/books-i-finished-in-2021
-date: 2021-12-31 00:00:01
+date: 2021-12-31 23:59:59
 comments: true
 description: "Books I Finished In 2021"
 keywords: "Book, Audible"
