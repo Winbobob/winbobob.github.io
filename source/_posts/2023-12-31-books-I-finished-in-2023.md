@@ -43,6 +43,12 @@ tags:
 - Eternal student syndrome: someone who tries to avoid getting a job by taking more educational courses. It can also refer to a lack of prioritization.
 - Nothing can hurt me, no one can hurt me without my consent.
 - Anytime we think the problem is out that with others or in circumstances, that very thought itself is the problem. Because we empower what's out there to continue to control us.
+- Measure twice, cut once. Jayme Cox gave me this feedback after my ZooKeeper migrations caused serval high severity incidents.
+- Management is doing things right, leadership is doing the right things.
+- E.M. Gray, the author of "The Common Denominator of Success", found that the one denominator all successful people share wasn't hard work, good luck, or astute human relations, though those were all important. The one factor that seemed to transcend all the rest embodies the essence of Habit #3 - Putting First Things First. The successful person has the habit of doing the things failors don't like to do. They don't like doing them either, necessarily, but their disliking is subordinated to the strength of their purpose.
+- Time management matrix quadrant 2 - Not urgent, but important things. Like working out and reading, I've been working out for 8 years and reading for 2 years, I will keep doing them.
+- Pareto principle (80/20 rule): 80 percent of results flow out of 20 percent of activities.
+
 
 
 
