@@ -46,9 +46,17 @@ tags:
 - Measure twice, cut once. Jayme Cox gave me this feedback after my ZooKeeper migrations caused serval high severity incidents.
 - Management is doing things right, leadership is doing the right things.
 - E.M. Gray, the author of "The Common Denominator of Success", found that the one denominator all successful people share wasn't hard work, good luck, or astute human relations, though those were all important. The one factor that seemed to transcend all the rest embodies the essence of Habit #3 - Putting First Things First. The successful person has the habit of doing the things failors don't like to do. They don't like doing them either, necessarily, but their disliking is subordinated to the strength of their purpose.
-- Time management matrix quadrant 2 - Not urgent, but important things. Like working out and reading, I've been working out for 8 years and reading for 2 years, I will keep doing them.
+- Time management matrix quadrant 2 - Not urgent, but important things. Everyone of the 7 habits lies in quadrant 2. Everyone of the 7 habits deals with fundamentally important things that if done under regular basis would make a tremendous positive difference in our lives. Like working out and reading, I've been working out for 8 years and reading for 2 years, I will keep doing them.
 - Pareto principle (80/20 rule): 80 percent of results flow out of 20 percent of activities.
-
+- Stewardship delegation: Focus on results instead of methods. It gives people a choice of method and make them responsible for results. It takes more time in the beginning, but the time is well invested.
+- One of the most important way to manifest of integrity is to be loyal to those who are not present. In doing so, we build the trust of those who are present. When you defense those who are absent, you retain the trust of those present.
+- It is more noble to give yourself completely to one individual than to labor diligently for the salvation of the masses. You'd better have a deep meaningful relationship with your spouse, with your own kids, with your closest working associates, instead of devoting lots of time to the people and projects out there.
+- If you cannot reach a true win-win, you are very often better off to go for no deal. Win-win or no deal provides tremendous emotional freedom in the family relationship as well. If family members cannot agree on the video that everyone will enjoy, they can simply decide to so something else, no deal, rather than having someone enjoy the evening and expense others.
+- Seek first to understand, then to be understood. This principle is the key to effective inter-personal communication.
+- If you don't have confidence in the diagnosis, you won't have confidence in the prescription.
+- <a href="https://studylib.net/doc/8068473/four-autobiographical-responses" target="_blank">Four Autobiographical Responses.</a> Can't wait to have conversations with my daughtor with reflect feeling.
+- Whenever we deal with differences, value others perspectives, and try to understand.
+- Having a balanced program for self-renewal in the four areas of your life: physical, spritual, mental, and social/emotional.
 
 
 

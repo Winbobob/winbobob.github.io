@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SIGCSE 2019 Poster: Using Bots to Improve GitHub Pull-Request Feedback"
-permalink: sigcse-2019-poster-using-bots-to-improve-github-pull-request-feedback
+permalink: /blog/sigcse-2019-poster-using-bots-to-improve-github-pull-request-feedback
 date: 2019-03-10 11:11:11
 comments: true
 description: "SIGCSE 2019 poster"
