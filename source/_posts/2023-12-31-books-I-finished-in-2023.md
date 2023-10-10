@@ -2,7 +2,7 @@
 layout: post
 title: "Books I Finished In 2023"
 permalink: /blog/books-i-finished-in-2023
-date: 2023-12-31 23:59:59
+date: 2023-09-31 23:59:59
 comments: true
 description: "Books I Finished In 2023"
 keywords: "Book, Audible"
