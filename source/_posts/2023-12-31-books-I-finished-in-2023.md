@@ -58,6 +58,19 @@ tags:
 - Whenever we deal with differences, value others perspectives, and try to understand.
 - Having a balanced program for self-renewal in the four areas of your life: physical, spritual, mental, and social/emotional.
 
+---
+
+<img src="https://m.media-amazon.com/images/I/51XaRMmrBlL._SL500_.jpg" alt="No Hard Feelings: The Secret Power of Embracing Emotions at Work" style="width:40%;">
+# No Hard Feelings: The Secret Power of Embracing Emotions at Work
+- FOMO: Fear Of Missing Out.
+- Be less passion about your job does't mean stop caring about work. It means care *more* about yourself. It means carve out time for the people your love, for exercise, and for guilt-free vacation.
+- The physcial experience of stress or anxiety, a faster heart beat and higher levels of stress hormones, is almost identical to our body's response to excitement. People who take the advantage of this similarity by reframing their stress as excitement (for example, by saying "I am excited" out loud) perform better. The greatest weapon against stress is our ability to choose one thought over another.
+- When you're upset, it feels good to run to someone in your support network, the group of people who will immediately take your side. But if you talk to only these people, you sabotage your ability to learn from or fix the problem. Make sure you also confide in your [challenge network](http://zhewe.me/blog/books-i-finished-in-2022#:~:text=Build%20a%20challenge%20network%20(my%20wife%20in%20my%20case)%2C%20not%20just%20a%20support%20network), the people who will tell you the hard truths and push you to resolve the issue.
+- The easiest way to feel better is to complete the thing that is stressing you out. Nothing diminishes anxiety faster than action.
+- If you're asking for more money (either for your starting salary in a new job or for a raise at your existing job), try this magic line: "I don't want my salary to be a distraction to me while I'm in this role." By saying you don't want your salary to be a distraction (i.e., distractingly low), you are stating a fact that both you and the other person believe to be true. You are having empathy for both yourself and the other party. They also don't want you to be distracted.
+- BlackRock uses a number of icebreakers when starting conversations. One has employees split into pairs and answer the prompt, "When you think of your childhood, what meal comes to mind and why?" This disarming question sets the stage for more disclosure later. "No one just says pizza," explains managing director Jonathan McBride. "Instead, they give you a story about their family, their culture and upbringing, and weekly traditions with their parents or grandparents. Even though you're discussing food, you get a story about someone's life and family that you wouldn't normally get in five minutes."
+- If two men on the same job agree all the time, then one is useless. If they disagree all the time, both are useless.
+- Conduct premortems. Set aside half an hour at the outset of a project and have team members list everything they fear might go wrong. This allows the team to fully understand and address potential risks.
 
 
 /end
