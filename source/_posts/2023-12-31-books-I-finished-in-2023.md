@@ -72,5 +72,26 @@ tags:
 - If two men on the same job agree all the time, then one is useless. If they disagree all the time, both are useless.
 - Conduct premortems. Set aside half an hour at the outset of a project and have team members list everything they fear might go wrong. This allows the team to fully understand and address potential risks.
 
+---
+
+<img src="https://m.media-amazon.com/images/I/51PuVM3GW0L._SL500_.jpg" alt="Quiet: The Power of Introverts in a World That Can't Stop Talking" style="width:40%;">
+# Quiet: The Power of Introverts in a World That Can't Stop Talking
+- Extroverted leaders enhance group performance when employees are passive, but the introverted leaders are more effective with proactive employees.
+- Introverts are more likely to hear and implement suggestions because of their inclination to listen to others and lack of interest in dominating social situations.
+- The high-reactive infants are more likely to have developed serious careful personalities, the low-reactive infants, the quiet ones, are more likely to have become relaxed and confident types. High and low reactivity tend to be related to introversion and extroversion.
+- We can stretch our personalities, but only up to a point. Our inborn temperaments influence us, regardless of the lives we lead. A sizable part of who we are is all ordained by our genes, by our brains, by our nervous systems. Yet the elasticity that found in some high-reactive teens also suggests the converse: we have free will, and can use it to shape our personalities. These seem like contradictory principles, but they are not. Free will can take us far, but cannot carry us infinitely beyond our genetic limits. We might call this the "rubber band theory" of personality: we are like rubber bands at rest, we are elastic and can stretch ourselves, but only so much.
+- Introverts who are specially good at acting like extroverts (pseudo-extroversion skills) tend to score high for a trait that psychologists called "self monitoring". Self-monitors are highly skilled at modifying their behavior to the social demands of a situation. When in Rome, they do as what Romans do. As an introvert, I'd like to become an self-monitor.
+- If introverts and extroverts are the north and south of the temperament, opposite in a single spectrum, then how can they possibly get alone. Yet the two types are often drawn to each other, in friendship, business, and especially romance. These pairs can enjor great excitment and mutually admiration, a sense that each completes the other, one tends to listen, the other to talk. But it can also cause problems when members of these unions pull in opposite directions.
+- Some thoughts for parents: if you are lucky enough to have control over where your child goes to school, you can look for school that
+  - praises independent interests and ephamsizes autonomy
+  - conducts group activities in moderation in a small carefully-managed groups
+  - values kindness, caring, empathy, good citizenship
+  - insists on orderly classrooms and hallways is organized in a small quiet classes
+  - chooses teachers who seem to understand the shy series introverted sensitive temperment
+  - focuses its academic, atheletic, extracurricular activities on subjects that are particularily interesting to your child
+  - strongly enforces an anti-bulling program
+  - emphsizes a tolerant, down-to-earth culture
+  - attracts like-minded peers, for example, intellectual kids, or artist or atheletic ones, depending on your child's preferences
+- Rule of thumb for networking events: one new honest-to-goodness relationship is worth ten fistful of business cards. Respect your loved ones' need for socializing, and your own for solitude.
 
 /end
