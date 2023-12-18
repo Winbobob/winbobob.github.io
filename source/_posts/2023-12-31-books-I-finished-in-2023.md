@@ -94,4 +94,14 @@ tags:
   - attracts like-minded peers, for example, intellectual kids, or artist or atheletic ones, depending on your child's preferences
 - Rule of thumb for networking events: one new honest-to-goodness relationship is worth ten fistful of business cards. Respect your loved ones' need for socializing, and your own for solitude.
 
+
+---
+
+<img src="https://m.media-amazon.com/images/I/51KlO8qld4L._SL500_.jpg" alt="Make Your Bed: Little Things That Can Change Your Life...and Maybe the World" style="width:40%;">
+# Make Your Bed: Little Things That Can Change Your Life...and Maybe the World
+- If you make your bed every morning, you've have accomplished the first task in the day. It will give you a small sense of pride, and it will encourage you to do another task, and another, and another. By the end of the day, that one task completed will turn into many tasks completed. Making your bed will also reinforce the fact that little thing in life matter. If you can't do the little things right, you will never do the big things right. And if by any chance you have a miserable day, you will come home to a bed that is made, that you made. And a made bed gives you an encouragement that tomorrow will be better. If you want to change the world, start of by making your bed. It is the same idea as a Chinese ancient saying "一屋不扫，何以扫天下".
+- Prove me wrong. SEAL training is always about proving something. Proving that the size didn't matter. Proving that the color of your skin wasn't important. Proving that money didn't make you better. Proving that the determination and grit is always more important than talent.
+- A "sugar cookie" is a punishment given to Navy SEAL trainees who fail a uniform inspection. The punishment involves running into the water, getting wet from head to toe, and rolling around in the sand until covered in sand. The trainee must stay in their uniform the rest of the day, cold, wet, and sandy.
+- A circus is two hours of additional calisthenics designed to wear you down, to break your spirit, to force you to quit. Those students who did two hours of extra calisthenics got stronger and stronger. The paying of circuses built inner strength and physical resiliency. Life is filled of circuses. You will fail. You will likely fail often. It will be painful. It will be discouraging. At time it will test you to your very core. If you want to change the world, don't be afraid for circuses.
+
 /end
