@@ -103,5 +103,6 @@ tags:
 - Prove me wrong. SEAL training is always about proving something. Proving that the size didn't matter. Proving that the color of your skin wasn't important. Proving that money didn't make you better. Proving that the determination and grit is always more important than talent.
 - A "sugar cookie" is a punishment given to Navy SEAL trainees who fail a uniform inspection. The punishment involves running into the water, getting wet from head to toe, and rolling around in the sand until covered in sand. The trainee must stay in their uniform the rest of the day, cold, wet, and sandy.
 - A circus is two hours of additional calisthenics designed to wear you down, to break your spirit, to force you to quit. Those students who did two hours of extra calisthenics got stronger and stronger. The paying of circuses built inner strength and physical resiliency. Life is filled of circuses. You will fail. You will likely fail often. It will be painful. It will be discouraging. At time it will test you to your very core. If you want to change the world, don't be afraid for circuses.
+- Highly recommend this video: https://www.youtube.com/watch?v=pxBQLFLei70&ab_channel=TexasExes, which covers most of the content in the book. I promise you will not regret spending 20 minutes watching this video.
 
 /end
