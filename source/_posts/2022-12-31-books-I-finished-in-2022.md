@@ -12,7 +12,7 @@ tags:
 - audible
 ---
 
-> The book I finished in 2022 with notes.
+> Books I finished in 2022 with notes.
 
 ---
 
