@@ -1,0 +1,203 @@
+[
+  
+    {
+      "title"    : "Books I Finished In 2024",
+      "category" : "books",
+      "tags"     : "audible",
+      "url"      : "/blog/books-i-finished-in-2024",
+      "date"     : "25/12/2024"
+    } ,
+  
+    {
+      "title"    : "My First Week at Microsoft Azure",
+      "category" : "personal-thoughts",
+      "tags"     : "microsoft-azure",
+      "url"      : "/blog/my-first-week-at-microsoft-azure",
+      "date"     : "7/1/2024"
+    } ,
+  
+    {
+      "title"    : "Books I Finished In 2023",
+      "category" : "books",
+      "tags"     : "audible",
+      "url"      : "/blog/books-i-finished-in-2023",
+      "date"     : "1/10/2023"
+    } ,
+  
+    {
+      "title"    : "Books I Finished In 2022",
+      "category" : "books",
+      "tags"     : "audible",
+      "url"      : "/blog/books-i-finished-in-2022",
+      "date"     : "31/12/2022"
+    } ,
+  
+    {
+      "title"    : "Books I Finished In 2021",
+      "category" : "books",
+      "tags"     : "audible",
+      "url"      : "/blog/books-i-finished-in-2021",
+      "date"     : "31/12/2021"
+    } ,
+  
+    {
+      "title"    : "Danger Bot 2.0 Use Case",
+      "category" : "research",
+      "tags"     : "internet-bot",
+      "url"      : "/blog/danger-bot-2-use-case",
+      "date"     : "10/7/2021"
+    } ,
+  
+    {
+      "title"    : "Danger Bot 2.0 Tutorial Video",
+      "category" : "research",
+      "tags"     : "internet-bot",
+      "url"      : "/blog/danger-bot-2-tutorial-video",
+      "date"     : "10/7/2021"
+    } ,
+  
+    {
+      "title"    : "My First Week at Pinterest",
+      "category" : "personal-thoughts",
+      "tags"     : "pinterest",
+      "url"      : "/blog/my-first-week-at-pinterest",
+      "date"     : "23/8/2019"
+    } ,
+  
+    {
+      "title"    : "How to conquer the Object-Oriented Design and Development (OODD) course? — Part II",
+      "category" : "course-advice",
+      "tags"     : "oodd",
+      "url"      : "/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-II",
+      "date"     : "5/8/2019"
+    } ,
+  
+    {
+      "title"    : "How to conquer the Object-Oriented Design and Development (OODD) course? — Part I",
+      "category" : "course-advice",
+      "tags"     : "oodd",
+      "url"      : "/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-I",
+      "date"     : "5/8/2019"
+    } ,
+  
+    {
+      "title"    : "Ph.D. Dissertation: Helping Students Make Better Contributions to Open-Source Software Projects",
+      "category" : "research",
+      "tags"     : "phd-defense",
+      "url"      : "/blog/phd-defense",
+      "date"     : "14/5/2019"
+    } ,
+  
+    {
+      "title"    : "SIGCSE 2019 Poster: Using Bots to Improve GitHub Pull-Request Feedback",
+      "category" : "expertiza and research",
+      "tags"     : "sigcse, poster, bot, github, and pull-request",
+      "url"      : "/blog/sigcse-2019-poster-using-bots-to-improve-github-pull-request-feedback",
+      "date"     : "10/3/2019"
+    } ,
+  
+    {
+      "title"    : "Procore Summer Intern: ReactJS, Relay, GraphQL and Kubernetes Project",
+      "category" : "intern and devops",
+      "tags"     : "k8s",
+      "url"      : "/blog/procore-summer-intern-project-reactjs-relay-graphql-kubernetes",
+      "date"     : "10/8/2018"
+    } ,
+  
+    {
+      "title"    : "IBM Summer Intern: Chef and Kubernetes Projects",
+      "category" : "intern and devops",
+      "tags"     : "continuous-integration, continuous-deployment, chef, inspec, test-kitchen, k8s, cni, and container-orchestration",
+      "url"      : "/blog/ibm-summer-intern-projects-chef-kubernetes",
+      "date"     : "11/8/2017"
+    } ,
+  
+    {
+      "title"    : "DevOps Continuous Integration (CI) and Continuous Deployment (CD) Pipeline",
+      "category" : "devops",
+      "tags"     : "course-project, team-project, nodejs, continuous-integration, continuous-deployment, jenkins, and ansible",
+      "url"      : "/blog/devops-continuous-intergration-and-continuous-deployment-pipeline",
+      "date"     : "1/12/2016"
+    } ,
+  
+    {
+      "title"    : "Automated Program Repair in Expertiza",
+      "category" : "automated-program-repair and expertiza",
+      "tags"     : "ruby, rails, and course-project",
+      "url"      : "/blog/automated-program-repair-in-expertiza",
+      "date"     : "30/11/2016"
+    } ,
+  
+    {
+      "title"    : "Offers.com Summer Intern: KPI Report",
+      "category" : "intern",
+      "tags"     : "ruby and rails",
+      "url"      : "/blog/offers-com-summer-intern-kpi-report",
+      "date"     : "12/8/2016"
+    } ,
+  
+    {
+      "title"    : "Building Netflix Prize Prediction Model",
+      "category" : "data-mining",
+      "tags"     : "course-project, team-project, ruby, rails, and matlab",
+      "url"      : "/blog/building-netflix-prize-prediction-model",
+      "date"     : "1/1/2016"
+    } ,
+  
+    {
+      "title"    : "OpenMRS Security Evaluation",
+      "category" : "software-security",
+      "tags"     : "course-project and team-project",
+      "url"      : "/blog/openmrs-security-evaluation",
+      "date"     : "18/12/2015"
+    } ,
+  
+    {
+      "title"    : "Refactor staggered-deadline assignments in Expertiza",
+      "category" : "expertiza and software-development",
+      "tags"     : "course-project, team-project, ruby, and rails",
+      "url"      : "/blog/refactor-staggered-deadline-assignments-in-expertiza",
+      "date"     : "17/5/2015"
+    } ,
+  
+    {
+      "title"    : "Software Development Process Bad Smell Detection",
+      "category" : "software-development",
+      "tags"     : "course-project and team-project",
+      "url"      : "/blog/software-development-process-bad-smell-detection",
+      "date"     : "25/4/2015"
+    } ,
+  
+    {
+      "title"    : "Web Crawler Application – Scraping",
+      "category" : "data-mining and software-development",
+      "tags"     : "course-project, team-project, and python",
+      "url"      : "/blog/web-crawler-application-scraping",
+      "date"     : "2/4/2015"
+    } ,
+  
+    {
+      "title"    : "OSS Project: Users Controller Refactoring in Expertiza",
+      "category" : "expertiza and software-development",
+      "tags"     : "course-project, team-project, ruby, and rails",
+      "url"      : "/blog/oss-project-user-controller-refactoring-in-expertiza",
+      "date"     : "1/4/2015"
+    } ,
+  
+    {
+      "title"    : "Storyboards",
+      "category" : "software-development",
+      "tags"     : "course-project, team-project, ruby, and rails",
+      "url"      : "/blog/storyboards",
+      "date"     : "12/3/2015"
+    } ,
+  
+    {
+      "title"    : "3D Space Invader",
+      "category" : "computer-graphics",
+      "tags"     : "course-project, team-project, c, c++, and opengl",
+      "url"      : "/blog/3d-space-invader",
+      "date"     : "12/12/2014"
+    } 
+  
+]

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="zS1dSn20XtA4FJYEOQLXqI0boxZdMnJ2g3beje-cl20">
+    <title>OSS Project: Users Controller Refactoring in Expertiza • Zhewei Hu</title>
+    <meta name="description" content="OSS project: Users Controller Refactoring in Expertiza">
+    <meta name="keywords" content="Expertiza, users controller">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="theme-color" content="#333333">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="fb:admins" content="100003797913346">
+    <meta property="fb:app_id" content="585852118228520">
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="Zhewei Hu">
+    <meta property="article:section" content="expertiza, software-development">
+    <meta property="article:tag" content="Expertiza, users controller">
+    <meta property="article:published_time" content="2015-04-01 05:34:56 -0700">
+    <meta property="og:url" content="http://localhost:4000/blog/oss-project-user-controller-refactoring-in-expertiza">
+    <meta property="og:title" content="OSS Project: Users Controller Refactoring in Expertiza • Zhewei Hu">
+    <meta property="og:image" content="http://localhost:4000/assets/images/facebook.png">
+    <meta property="og:description" content="OSS project: Users Controller Refactoring in Expertiza">
+    <meta property="og:site_name" content="Zhewei Hu">
+    <meta property="og:locale" content="pt_BR">
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="OSS Project: Users Controller Refactoring in Expertiza • Zhewei Hu">
+    <meta itemprop="description" content="OSS project: Users Controller Refactoring in Expertiza">
+    <meta itemprop="image" content="http://localhost:4000/assets/images/facebook.png">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/ico/favicon-16x16.png">
+    <link rel="shortcut icon" href="/assets/images/ico/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- rel prev and next -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <script src="/assets/js/main.js"></script>
+    <!-- Canonical link tag -->
+    <link rel="canonical" href="http://localhost:4000/blog/oss-project-user-controller-refactoring-in-expertiza">
+    <link rel="alternate" type="application/rss+xml" title="Zhewei Hu" href="http://localhost:4000/feed.xml">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    <script type="text/javascript">
+      var disqus_shortname = '';
+    </script>
+</head>
+  <body class=" oss-project-user-controller-refactoring-in-expertiza">
+    <header class="header">
+  <div class="header-in">
+    <a href="/">
+      <img src="/assets/images/author.png" alt="author thumb" class="dot author-thumb">
+    </a>
+    <h1 itemscope itemtype="http://schema.org/Person">Hello, my name is <strong itemprop="name">Zhewei Hu</strong><br/>Software Engineer@Microsoft Azure<br/>Ph.D.@NC State</h1>
+    <nav class="nav" role="navigation">
+      <ul class="navbar" role="menu">
+        <li role="menuitem"><a href="/about" class="after">About</a></li>
+        <li role="menuitem"><a href="https://drive.google.com/file/d/1rjB-vXTay8Tus7VsFmHeecmE3am0ZVyY/view?usp=sharing" target="_blank" class="after">Resume</a></li>
+        <li role="menuitem"><a href="/blogs" class="after">Blogs</a></li>
+        <li role="menuitem"><a href="/publications" class="after">Publications</a></li>
+        <li role="menuitem"><a href="/work_experience" class="after">Work Experience</a></li>
+        <li role="menuitem" class="search">
+          <a href="#" data-modal-search="modalSearch" class="after"><i class="fa fa-search"></i> <span>Search</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="wrapper" role="main" itemprop="mainContentOfPage">
+      <article role="article" class="post" itemprop="articleBody">
+<div class="container">
+<header class="post-header">
+  <h1 class="post-title">OSS Project: Users Controller Refactoring in Expertiza</h1>
+  <div class="post-meta">
+    <time datetime="2015-04-01T05:34:56-07:00" itemprop="datePublished">
+      <meta itemprop="datePublished" content="2015-04-01T05:34:56-07:00"> April 01, 2015
+    </time>
+    <span> |
+       <a href="/category/expertiza/">Expertiza</a>, <a href="/category/software-development/">Software Development</a>
+    </span>
+  </div>
+</header>
+  <div class="post-content">
+    <blockquote>
+  <p>This project is related to make contributions to an open-source project named <a href="https://github.com/expertiza/expertiza" target="_blank">Expertiza</a>. I refactored the existing bad smells following <code>Ruby on Rails</code> best practises, implemented new features related to user model and writing <code>RSpec</code> tests with two team members.</p>
+</blockquote>
+<h2 id="description">Description</h2>
+<ul>
+  <li>Find the un-called methods if any and delete them.</li>
+  <li>Change the Rails 2 syntax to <code>Rails 4</code> style.</li>
+  <li>Refactor <code>users_controller.rb</code></li>
+  <li>Change the white space for the second half of this file, starts at “def edit”.</li>
+  <li>Separate the <code>paginate_list</code> method into two methods. The search method should be in model and the paginating method should be in the controller.</li>
+  <li><code>New feature</code>: delete users
+    <ul>
+      <li>A user can be deleted if (s)he has not participated in an assignment.</li>
+      <li>If the user is participating in an assignment, the system will ask, “User is participating in k assignments. Delete as a participant in these assignment(s)?”</li>
+      <li>If the user has submitted or reviewed in any of these assignments, the system will say the user cannot be deleted, but offer to rename the user account to <current_account_name>_hidden.
+</current_account_name>        <ul>
+          <li>rename (javascript calling update method in users_controller.rb)</li>
+          <li>different users have different delete methods.</li>
+        </ul>
+      </li>
+      <li>If the person trying to delete does not want to rename the account, the system will just say that the user can’t be deleted.</li>
+    </ul>
+  </li>
+  <li>Write <code>Rspec</code> unit test and increase the test coverage to <code>28</code>%.</li>
+</ul>
+<h2 id="related-material">Related Material</h2>
+<ul>
+  <li><u><a href="https://github.com/expertiza/expertiza/pull/505" target="_blank">Source code</a></u></li>
+  <li><u><a href="http://wiki.expertiza.ncsu.edu/index.php/CSC/ECE_517_Spring_2015/oss_E1506_SYZ" target="_blank">Wiki page</a></u></li>
+  <li>Demo video</li>
+</ul>
+<div class="video-responsive"><iframe width="850" height="850" src="http://www.youtube.com/embed/uY6OriHdxRA?color=white&amp;theme=light" allowfullscreen=""></iframe></div>
+<p>/end</p>
+  </div>
+</div>
+</article>
+    </main>
+<footer class="footer">
+  <ul class="social">
+  <li>
+    <a href="https://scholar.google.com/citations?user=NRbTY7EAAAAJ" class="icon-google-scholar" target="_blank">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+  <li>
+    <a href="http://github.com/Winbobob" class="icon-github" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  <li>
+    <a href="http://www.linkedin.com/in/zhewei-hu" class="icon-linkedin" target="_blank">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </li>
+  <li>
+    <a href="https://hub.docker.com/u/winbobob" class="icon-docker" target="_blank">
+      <i class="fab fa-docker"></i>
+    </a>
+  </li>
+  <!-- <li>
+    <a href="/feed.xml" target="_blank"><i class="fa fa-feed"></i></a>
+  </li> -->
+</ul>
+</footer>
+<a class="scroll-up fa fa-chevron-up bounce" href="#" data-position="0"></a>
+<div id="modalSearch" class="modal-search" ng-app="searchApp">
+  <div class="modal-search__overlay"></div>
+  <div class="modal-search__content">
+    <a href="#" class="modal-search-close" data-modal-close><img src="/assets/images/close.svg" alt="close search"></a>
+    <div class="modal-search-container" ng-controller="searchController">
+      <div class="form-group">
+        <input type="text" class="modal-search-input" ng-keyup="pesquisar(search)" ng-model="search" placeholder="ruby, rails, expertiza, software development, data mining..." autocomplete="off">
+        <i class="fa fa-search"></i>
+      </div>
+      <ul class="search-results" ng-show="posts.length > 0">
+        <li ng-repeat="post in posts | filter:search">
+          <a href="{( post.url )}">
+            <span>{( post.title )}</span> <small>{( post.category )}</small>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

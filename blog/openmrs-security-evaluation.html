@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="zS1dSn20XtA4FJYEOQLXqI0boxZdMnJ2g3beje-cl20">
+    <title>OpenMRS Security Evaluation • Zhewei Hu</title>
+    <meta name="description" content="Open Medical Record System (OpenMRS®) was created in 2004 as a open source medical record system platform for developing countries – a tide which rises all s...">
+    <meta name="keywords" content="OpenMRS, OWASP, CWE/SANS, MSTMT, attack tree">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="theme-color" content="#333333">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="fb:admins" content="100003797913346">
+    <meta property="fb:app_id" content="585852118228520">
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="Zhewei Hu">
+    <meta property="article:section" content="software-security">
+    <meta property="article:tag" content="OpenMRS, OWASP, CWE/SANS, MSTMT, attack tree">
+    <meta property="article:published_time" content="2015-12-18 04:34:56 -0800">
+    <meta property="og:url" content="http://localhost:4000/blog/openmrs-security-evaluation">
+    <meta property="og:title" content="OpenMRS Security Evaluation • Zhewei Hu">
+    <meta property="og:image" content="http://localhost:4000/assets/images/facebook.png">
+    <meta property="og:description" content="Open Medical Record System (OpenMRS®) was created in 2004 as a open source medical record system platform for developing countries – a tide which rises all s...">
+    <meta property="og:site_name" content="Zhewei Hu">
+    <meta property="og:locale" content="pt_BR">
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="OpenMRS Security Evaluation • Zhewei Hu">
+    <meta itemprop="description" content="Open Medical Record System (OpenMRS®) was created in 2004 as a open source medical record system platform for developing countries – a tide which rises all s...">
+    <meta itemprop="image" content="http://localhost:4000/assets/images/facebook.png">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/ico/favicon-16x16.png">
+    <link rel="shortcut icon" href="/assets/images/ico/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- rel prev and next -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <script src="/assets/js/main.js"></script>
+    <!-- Canonical link tag -->
+    <link rel="canonical" href="http://localhost:4000/blog/openmrs-security-evaluation">
+    <link rel="alternate" type="application/rss+xml" title="Zhewei Hu" href="http://localhost:4000/feed.xml">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    <script type="text/javascript">
+      var disqus_shortname = '';
+    </script>
+</head>
+  <body class=" openmrs-security-evaluation">
+    <header class="header">
+  <div class="header-in">
+    <a href="/">
+      <img src="/assets/images/author.png" alt="author thumb" class="dot author-thumb">
+    </a>
+    <h1 itemscope itemtype="http://schema.org/Person">Hello, my name is <strong itemprop="name">Zhewei Hu</strong><br/>Software Engineer@Microsoft Azure<br/>Ph.D.@NC State</h1>
+    <nav class="nav" role="navigation">
+      <ul class="navbar" role="menu">
+        <li role="menuitem"><a href="/about" class="after">About</a></li>
+        <li role="menuitem"><a href="https://drive.google.com/file/d/1rjB-vXTay8Tus7VsFmHeecmE3am0ZVyY/view?usp=sharing" target="_blank" class="after">Resume</a></li>
+        <li role="menuitem"><a href="/blogs" class="after">Blogs</a></li>
+        <li role="menuitem"><a href="/publications" class="after">Publications</a></li>
+        <li role="menuitem"><a href="/work_experience" class="after">Work Experience</a></li>
+        <li role="menuitem" class="search">
+          <a href="#" data-modal-search="modalSearch" class="after"><i class="fa fa-search"></i> <span>Search</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="wrapper" role="main" itemprop="mainContentOfPage">
+      <article role="article" class="post" itemprop="articleBody">
+<div class="container">
+<header class="post-header">
+  <h1 class="post-title">OpenMRS Security Evaluation</h1>
+  <div class="post-meta">
+    <time datetime="2015-12-18T04:34:56-08:00" itemprop="datePublished">
+      <meta itemprop="datePublished" content="2015-12-18T04:34:56-08:00"> December 18, 2015
+    </time>
+    <span> |
+       <a href="/category/software-security/">Software Security</a>
+    </span>
+  </div>
+</header>
+  <div class="post-content">
+    <blockquote>
+  <p>Open Medical Record System (OpenMRS®) was created in 2004 as a open source medical record system platform for developing countries – a tide which rises all ships. 
+<small>Read more at: <a href="http://openmrs.org/about/">About OpenMRS</a></small></p>
+</blockquote>
+<h2 id="description">Description</h2>
+<ol>
+  <li>Performed a security review based upon the <code>OWASP Top 10</code>, the <code>CWE/SANS Top 25</code>, and generated static analysis report.</li>
+  <li>Documented the findings and providing remediation suggestions to correct and adverse findings.</li>
+  <li>Drew a threat model using the <code>Microsoft Threat Modeling Tool (MSTMT)</code>.</li>
+  <li>Developed abuse/misuse diagram for one of the system modules.</li>
+  <li>Detailed misuse case description for one of the attacks in the abuse/misuse case diagram.</li>
+  <li>Made ten security requirements (either functional or non-functional) for OpenMRS.</li>
+  <li>Developed an <code>attack tree</code> for one module within OpenMRS.</li>
+  <li>Evaluated one of the system modules against <code>Jakob Nielson’s Ten Usability Heuristics</code>.</li>
+</ol>
+<p>/end</p>
+  </div>
+</div>
+</article>
+    </main>
+<footer class="footer">
+  <ul class="social">
+  <li>
+    <a href="https://scholar.google.com/citations?user=NRbTY7EAAAAJ" class="icon-google-scholar" target="_blank">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+  <li>
+    <a href="http://github.com/Winbobob" class="icon-github" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  <li>
+    <a href="http://www.linkedin.com/in/zhewei-hu" class="icon-linkedin" target="_blank">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </li>
+  <li>
+    <a href="https://hub.docker.com/u/winbobob" class="icon-docker" target="_blank">
+      <i class="fab fa-docker"></i>
+    </a>
+  </li>
+  <!-- <li>
+    <a href="/feed.xml" target="_blank"><i class="fa fa-feed"></i></a>
+  </li> -->
+</ul>
+</footer>
+<a class="scroll-up fa fa-chevron-up bounce" href="#" data-position="0"></a>
+<div id="modalSearch" class="modal-search" ng-app="searchApp">
+  <div class="modal-search__overlay"></div>
+  <div class="modal-search__content">
+    <a href="#" class="modal-search-close" data-modal-close><img src="/assets/images/close.svg" alt="close search"></a>
+    <div class="modal-search-container" ng-controller="searchController">
+      <div class="form-group">
+        <input type="text" class="modal-search-input" ng-keyup="pesquisar(search)" ng-model="search" placeholder="ruby, rails, expertiza, software development, data mining..." autocomplete="off">
+        <i class="fa fa-search"></i>
+      </div>
+      <ul class="search-results" ng-show="posts.length > 0">
+        <li ng-repeat="post in posts | filter:search">
+          <a href="{( post.url )}">
+            <span>{( post.title )}</span> <small>{( post.category )}</small>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
