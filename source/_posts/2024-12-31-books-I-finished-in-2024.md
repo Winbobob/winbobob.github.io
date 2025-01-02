@@ -95,13 +95,13 @@ tags:
 
 ---
 
-<img src="https://m.media-amazon.com/images/I/41PEHb5yXOL._SL500_.jpg" alt="Math Mind: The Simple Path to Loving Math" style="width:40%;">
-# Math Mind: The Simple Path to Loving Math
+<img src="https://m.media-amazon.com/images/I/41PEHb5yXOL._SL500_.jpg" alt="The Psychology of Money: The Simple Path to Loving Math" style="width:40%;">
+# The Psychology of Money: The Simple Path to Loving Math
 - I chose this books mainly because I always could not get a decent grades in math exams. And I don't want my daughter to be afraid of math.
 - Actually all kids are math kids.
 - "You may have heard someone assert that a smart phone possesses more power than the mainframe computer that helped astronauts land on the moon. This is an understatement. An iPhone 6, obsolete now, could guide 120,000,000 Apollo aerial spacecraft to the moon simultaneously." I am curious how the author get that number. Have we considered factors such as network bandwidth, latency, storage?
-- How will you calculate 35*18?
-    - When I first heard this question, my initial thought is 35*(20-2), which is 35*20-35*2, which is 700-70, which is 630.
+- How will you calculate 35x18?
+    - When I first heard this question, my initial thought is 35x(20-2), which is 35x20-35x2, which is 700-70, which is 630.
     - Any easier way?
 <br/>
 <br/>
@@ -123,6 +123,19 @@ tags:
 <br/>
 <br/>
 <br/>
-    - 35*18, which is 35*2*9, which is 70*9, which is 630.
+    - 35x18, which is 35x2x9, which is 70x9, which is 630.
+
+---
+
+<img src="https://m.media-amazon.com/images/I/51BDnlOHmvL._SL500_.jpg" alt="The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness" style="width:40%;">
+# The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness
+- Luck and Risk: We similarly think Mark Zuckerberg is a genius for turning down Yahoos’ 2006 $1 billion offer to buy his company. He saw the future and stuck to his guns. But people criticize Yahoo with its much passion for turning down its own big buyout offer from Microsoft. What is the lesson from entrepreneurs here? I have no idea because risk and luck are so hard to pin down. There's so many examples of this. The best and worst managers drive there employees as hard as they can. The customer is always right and customers don't know what they want are both excepted business wisdom. The line between “inspiringly bold” and “foolishly reckless” can be a millimeter thick, and only visible with hindsight. Risk and luck are doppelgängers. 
+This is not an easy problem to solve.
+- Not all success is due to hard-work, and not all poverty is due to laziness. Keep this in mind, when judging people, including yourself (responding to <a href="https://zhewe.me/blog/books-i-finished-in-2023#:~:text=A%20%E2%80%9C-,paradigm%20shift,-%E2%80%9D%20experience%3A">Paradigm Shift</a>). Therefore focus less on specific individuals and case studies and more on broad patterns.
+- Happiness, as it’s said, is just results minus expectations.
+- Getting money and keeping money are two different skills. Getting money requires taking risks, being optimistic and putting yourself out there. But keeping money requires the opposite of taking risk. It requires humility, and fear that what you've made can be taken away from you just as fast. It requires frugality and acceptance at least some of what you've made is attributable to luck. So past success can't be relied upon to repeat in definitely.
+- Psychologists call it reactance. Jonah Berger, a marketing professor at the University of Pennsylvania, summed it up well: People like to feel like they’re in control—in the drivers’ seat. When we try to get them to do something, they feel disempowered. Rather than feeling like they made the choice, they feel like we made it for them. So they say no or do something else, even when they might have originally been happy to go along.
+- TL;DR, the author echos the conclusion made in <a href="https://zhewe.me/blog/books-i-finished-in-2023#:~:text=The%20Simple%20Path%20to%20Wealth%3A%20Your%20Road%20Map%20to%20Financial%20Independence%20and%20a%20Rich%2C%20Free%20Life">The Simple Path to Wealth: Your Road Map to Financial Independence and a Rich, Free Life</a> investing index fund: VTSAX + VBTLX.
+
 
 /end
