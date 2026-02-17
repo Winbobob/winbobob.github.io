@@ -95,8 +95,8 @@ tags:
 
 ---
 
-<img src="https://m.media-amazon.com/images/I/41PEHb5yXOL._SL500_.jpg" alt="The Psychology of Money: The Simple Path to Loving Math" style="width:40%;">
-# The Psychology of Money: The Simple Path to Loving Math
+<img src="https://m.media-amazon.com/images/I/41PEHb5yXOL._SL500_.jpg" alt="Math Mind: The Simple Path to Loving Math" style="width:40%;">
+# Math Mind: The Simple Path to Loving Math
 - I chose this books mainly because I always could not get a decent grades in math exams. And I don't want my daughter to be afraid of math.
 - Actually all kids are math kids.
 - "You may have heard someone assert that a smart phone possesses more power than the mainframe computer that helped astronauts land on the moon. This is an understatement. An iPhone 6, obsolete now, could guide 120,000,000 Apollo aerial spacecraft to the moon simultaneously." I am curious how the author get that number. Have we considered factors such as network bandwidth, latency, storage?
