@@ -5,9 +5,23 @@
     <description>DevOps | Ruby on Rails</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Dec 2024 23:03:46 -0800</pubDate>
-    <lastBuildDate>Thu, 26 Dec 2024 23:03:46 -0800</lastBuildDate>
+    <pubDate>Mon, 16 Feb 2026 18:58:19 -0800</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2026 18:58:19 -0800</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Books I Finished In 2025</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Books I finished in 2025 with notes.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;img src=&quot;https://m.media-amazon.com/images/I/61DxEou6hFL._SL500_.jpg&quot; alt=&quot;Co-Intelligence: Living and Working with AI&quot; style=&quot;width:40%;&quot; /&gt;&lt;/p&gt; &lt;h1 id=&quot;co-intelligence-living-and-working-with-ai&quot;&gt;Co-Intelligence: Living and Working with AI&lt;/h1&gt; &lt;ul&gt; &lt;li&gt;AI is a co-intelligence that can emulate how we think and write, and potentially improve or replace our work.&lt;/li&gt; &lt;li&gt;Telling the system who it is changes results. Because that gives the system a perspective. Telling it to act like a teacher of MBA students will result in a different output than if you ask it to act like a circus clown. However, tshis isn’t magical. You can’t say act like Bill Gates and...</description>
+        <pubDate>Wed, 31 Dec 2025 15:59:59 -0800</pubDate>
+        <link>http://localhost:4000/blog/books-i-finished-in-2025</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/books-i-finished-in-2025</guid>
+        
+        <category>audible</category>
+        
+        
+        <category>books</category>
+        
+      </item>
     
       <item>
         <title>Books I Finished In 2024</title>
@@ -154,20 +168,6 @@
         <pubDate>Mon, 05 Aug 2019 17:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-II</link>
         <guid isPermaLink="true">http://localhost:4000/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-II</guid>
-        
-        <category>oodd</category>
-        
-        
-        <category>course-advice</category>
-        
-      </item>
-    
-      <item>
-        <title>How to conquer the Object-Oriented Design and Development (OODD) course? — Part I</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;Hello everyone, my name is Zhewei Hu. I am a site reliability engineer at Pinterest. Before that, I was a Ph.D. student under the direction of Dr. Ed Gehringer. I was the teaching assistant for the Object-Oriented Design and Development (OODD) course, aka. CSC/ECE 517 for more than 4 years. I’d like to share some of my experience to help you conquer this course and get A+ (There are 1000 regular credits with many extra credits. If you could get 970 credits or more, you will receive an A+.). I will discuss my experience based on the syllabus and...</description>
-        <pubDate>Mon, 05 Aug 2019 17:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-I</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/how-to-conquer-the-object-oriented-design-and-development-course-part-I</guid>
         
         <category>oodd</category>
         

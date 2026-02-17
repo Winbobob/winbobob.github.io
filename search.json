@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Books I Finished In 2025",
+      "category" : "books",
+      "tags"     : "audible",
+      "url"      : "/blog/books-i-finished-in-2025",
+      "date"     : "31/12/2025"
+    } ,
+  
+    {
       "title"    : "Books I Finished In 2024",
       "category" : "books",
       "tags"     : "audible",

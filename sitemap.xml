@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/blog/books-i-finished-in-2025</loc>
+      
+        <lastmod>2025-12-31T15:59:59-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/blog/books-i-finished-in-2024</loc>
       
         <lastmod>2024-12-25T15:59:59-08:00</lastmod>
@@ -385,7 +400,7 @@
     <url>
       <loc>http://localhost:4000404.html</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -403,7 +418,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -421,7 +436,7 @@
     <url>
       <loc>http://localhost:4000/category/automated-program-repair/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -439,7 +454,7 @@
     <url>
       <loc>http://localhost:4000/category/books/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -457,7 +472,7 @@
     <url>
       <loc>http://localhost:4000/category/computer-graphics/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -475,7 +490,7 @@
     <url>
       <loc>http://localhost:4000/category/course-advice/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -493,7 +508,7 @@
     <url>
       <loc>http://localhost:4000/category/data-mining/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -511,7 +526,7 @@
     <url>
       <loc>http://localhost:4000/category/devops/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -529,7 +544,7 @@
     <url>
       <loc>http://localhost:4000/category/expertiza/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -547,7 +562,7 @@
     <url>
       <loc>http://localhost:4000/category/intern/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -565,7 +580,7 @@
     <url>
       <loc>http://localhost:4000/category/personal-thoughts/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -583,7 +598,7 @@
     <url>
       <loc>http://localhost:4000/category/research/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -601,7 +616,7 @@
     <url>
       <loc>http://localhost:4000/category/software-development/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -619,7 +634,7 @@
     <url>
       <loc>http://localhost:4000/category/software-security/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -642,7 +657,7 @@
     <url>
       <loc>http://localhost:4000</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -660,7 +675,7 @@
     <url>
       <loc>http://localhost:4000</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -678,7 +693,7 @@
     <url>
       <loc>http://localhost:4000/publications/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -706,7 +721,7 @@
     <url>
       <loc>http://localhost:4000/tag/ansible/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -724,7 +739,7 @@
     <url>
       <loc>http://localhost:4000/tag/asp-net/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -742,7 +757,7 @@
     <url>
       <loc>http://localhost:4000/tag/audible/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -760,7 +775,7 @@
     <url>
       <loc>http://localhost:4000/tag/c#/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -778,7 +793,7 @@
     <url>
       <loc>http://localhost:4000/tag/c++/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -796,7 +811,7 @@
     <url>
       <loc>http://localhost:4000/tag/c/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -814,7 +829,7 @@
     <url>
       <loc>http://localhost:4000/tag/chef/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -832,7 +847,7 @@
     <url>
       <loc>http://localhost:4000/tag/cni/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -850,7 +865,7 @@
     <url>
       <loc>http://localhost:4000/tag/container-orchestration/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -868,7 +883,7 @@
     <url>
       <loc>http://localhost:4000/tag/continuous-deployment/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -886,7 +901,7 @@
     <url>
       <loc>http://localhost:4000/tag/continuous-integration/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -904,7 +919,7 @@
     <url>
       <loc>http://localhost:4000/tag/course-project/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -922,7 +937,7 @@
     <url>
       <loc>http://localhost:4000/tag/flash/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -940,7 +955,7 @@
     <url>
       <loc>http://localhost:4000/tag/github/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -958,7 +973,7 @@
     <url>
       <loc>http://localhost:4000/tag/inspec/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -976,7 +991,7 @@
     <url>
       <loc>http://localhost:4000/tag/bot/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -994,7 +1009,7 @@
     <url>
       <loc>http://localhost:4000/tag/jenkins/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1012,7 +1027,7 @@
     <url>
       <loc>http://localhost:4000/tag/k8s/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1030,7 +1045,7 @@
     <url>
       <loc>http://localhost:4000/tag/matlab/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1048,7 +1063,7 @@
     <url>
       <loc>http://localhost:4000/tag/microsoft-azure/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1066,7 +1081,7 @@
     <url>
       <loc>http://localhost:4000/tag/nodejs/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1084,7 +1099,7 @@
     <url>
       <loc>http://localhost:4000/tag/oodd/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1102,7 +1117,7 @@
     <url>
       <loc>http://localhost:4000/tag/phd-defense/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1120,7 +1135,7 @@
     <url>
       <loc>http://localhost:4000/tag/pinterest/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1138,7 +1153,7 @@
     <url>
       <loc>http://localhost:4000/tag/poster/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1156,7 +1171,7 @@
     <url>
       <loc>http://localhost:4000/tag/pull-request/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1174,7 +1189,7 @@
     <url>
       <loc>http://localhost:4000/tag/python/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1192,7 +1207,7 @@
     <url>
       <loc>http://localhost:4000/tag/rails/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1210,7 +1225,7 @@
     <url>
       <loc>http://localhost:4000/tag/ruby/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1228,7 +1243,7 @@
     <url>
       <loc>http://localhost:4000/tag/sigcse/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1246,7 +1261,7 @@
     <url>
       <loc>http://localhost:4000/tag/team-project/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1264,7 +1279,7 @@
     <url>
       <loc>http://localhost:4000/tag/test-kitchen/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1282,7 +1297,7 @@
     <url>
       <loc>http://localhost:4000/tag/xml/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1300,7 +1315,7 @@
     <url>
       <loc>http://localhost:4000/work_experience/</loc>
       
-        <lastmod>2024-12-26T23:03:46-08:00</lastmod>
+        <lastmod>2026-02-16T18:58:19-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
