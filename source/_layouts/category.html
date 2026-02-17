@@ -8,6 +8,15 @@ layout: default
     <h1>Category: {{ page.title }}</h1>
   </header>
 
+  {% assign trimmed_content = content | strip %}
+  {% if trimmed_content != "" %}
+    <article class="post">
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </article>
+  {% endif %}
+
   {% if site.categories[page.slug] %}
 
     {% for post in site.categories[page.slug] %}
